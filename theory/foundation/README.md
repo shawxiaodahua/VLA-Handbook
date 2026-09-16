@@ -2,7 +2,7 @@
 
 > 工具箱，不是教科书。当你在其他区域遇到「这是什么？」时，回来查。
 
-📊 **42 篇** = 2 篇主線/工具 + 40 篇深度 dissection
+📊 **41 篇** = 2 篇主線/工具 + 39 篇深度 dissection
 
 ## 🚀 從哪裡開始？
 
@@ -45,7 +45,7 @@
 - [Knowledge Distillation](./knowledge_distillation.md)
 - [Shallow Pi Knowledge Distillation Flow VLA 2026](./shallow_pi_knowledge_distillation_flow_vla_2026.md)
 
-### 🗃️ 其他深度文章 <code>31</code>
+### 🗃️ 其他深度文章 <code>30</code>
 
 - [Clamp Contrastive Learning For 3D Multi View Action Conditio](./clamp_contrastive_learning_for_3d_multi_view_action_conditio_dissection.md)
 - [Co Training](./co_training.md)
@@ -73,7 +73,6 @@
 - [Robogene Boosting VLA Pre Training Via Diversity Driven Agen](./robogene_boosting_vla_pre_training_via_diversity_driven_agen_dissection.md)
 - [Self Supervised Learning](./self_supervised_learning.md)
 - [Starvla Alpha Reducing Complexity In Vision Language Action](./starvla_alpha_reducing_complexity_in_vision_language_action_dissection.md)
-- [Towards Deploying VLA Without Fine Tuning Plug And Play Infe](./towards_deploying_vla_without_fine_tuning_plug_and_play_infe_dissection.md)
 - [Transfer Learning](./transfer_learning.md)
 - [Transformer Vs Cnn](./transformer_vs_cnn.md)
 - [Unified Camera Positional Encoding For Controlled Video Gene](./unified_camera_positional_encoding_for_controlled_video_gene_dissection.md)

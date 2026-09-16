@@ -2,7 +2,7 @@
 
 > 所有 VLA 模型的「解剖室」。VLA 的核心思想很简单：拿一个 VLM，给它装上「手」——一个动作生成头。但魔鬼在细节。
 
-📊 **51 篇** = 2 篇主線/工具 + 49 篇深度 dissection
+📊 **50 篇** = 2 篇主線/工具 + 48 篇深度 dissection
 
 ## 🚀 從哪裡開始？
 
@@ -44,9 +44,8 @@
 - [Act](./act.md)
 - [Unilact Depth Aware Rgb Latent Action Learning For Vision La](./unilact_depth_aware_rgb_latent_action_learning_for_vision_la_dissection.md)
 
-### 动作表示 / Tokenizer <code>3</code>
+### 动作表示 / Tokenizer <code>2</code>
 
-- [A Hierarchical Spatiotemporal Action Tokenizer For In Contex](./a_hierarchical_spatiotemporal_action_tokenizer_for_in_contex_dissection.md)
 - [Abot M0 Action Manifold Learning VLA Foundation 2026](./abot_m0_action_manifold_learning_vla_foundation_2026.md)
 - [From Action Labels To Sets Rethinking Action Supervision For](./from_action_labels_to_sets_rethinking_action_supervision_for_dissection.md)
 
