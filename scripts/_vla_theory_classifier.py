@@ -3,10 +3,27 @@
 _vla_theory_classifier.py
 Classifies VLA theory articles into 10 thematic directories.
 
-Uses two-pass strategy:
+Uses a three-pass strategy:
+  Pass 0: Pin to the directory the slug ALREADY lives in (stability guard)
   Pass 1: Specific article rules (named models, exact papers)
   Pass 2: Method family keywords (domain-expert taxonomy from 15 families)
   Fallback: frontier/
+
+Why Pass 0 exists (2026-09-16):
+  Passes 1/2 key off `filename + title`. The filename (slug) is stable, but the
+  title is the LLM-written Chinese headline, which is regenerated on every run
+  and therefore differs between runs for the same paper. Measured on the live
+  handbook, that alone put the same paper in two directories:
+    help_human_..._dissection.md  "基于轨迹分割的人类高效..."     -> frontier
+                                  "HELP：面向 VLA 后训练的..."    -> vla-core
+    unimpa_..._dissection.md      "用「可实现转移」打通..."        -> frontier
+                                  "統一記憶-預測-動作：UniMPA..." -> vla-core
+    rhinovla_technical_report     "RhinoVLA 技术报告"             -> frontier
+                                  "RhinoVLA 技术报告：面向端侧..." -> vla-core
+  The sweeper's duplicate guard only looks in the directory the classifier
+  returns, so a flipped verdict created a second copy instead of an update.
+  Pass 0 makes the mapping idempotent: the first placement wins forever, so a
+  re-written article always resolves back to its existing home.
 
 Usage:
     from _vla_theory_classifier import classify_theory_article
@@ -14,6 +31,7 @@ Usage:
     # Returns "vla-core"
 """
 
+import os
 import re
 
 # ── Method Family → Directory mapping (from pipeline's 15 families) ─────────
@@ -173,6 +191,59 @@ _SPECIFIC_RULES = [
 ]
 
 
+# ── Pass 0: existing-location lookup ───────────────────────────────────────
+
+# The ten canonical topic directories. Anything else (nested dirs, typos) is
+# ignored by Pass 0 so we never hand the sweeper a path it would refuse to use.
+VALID_DIRS = (
+    "vla-core", "diffusion-flow", "world-model", "rl", "tactile",
+    "perception", "planning", "foundation", "deployment", "frontier",
+)
+
+
+def _candidate_repo_roots(repo_root=None):
+    """Ordered list of directories that may contain a `theory/` tree."""
+    roots = []
+    if repo_root:
+        roots.append(repo_root)
+    env_root = os.environ.get("VLA_HANDBOOK_ROOT", "")
+    if env_root:
+        roots.append(env_root)
+    # Module lives in <repo>/scripts/ when embedded in the handbook checkout.
+    here = os.path.dirname(os.path.abspath(__file__))
+    roots.append(os.path.dirname(here))
+    # Sweeper imports the module from ~/maintenance but runs with cwd = checkout.
+    try:
+        roots.append(os.getcwd())
+    except Exception:
+        pass
+    roots.append("/home/claudeuser/vla-handbook-work")
+
+    seen = set()
+    out = []
+    for r in roots:
+        if r and r not in seen and os.path.isdir(os.path.join(r, "theory")):
+            seen.add(r)
+            out.append(r)
+    return out
+
+
+def find_existing_dir(filename, repo_root=None):
+    """
+    Return the topic directory `filename` already occupies, or None.
+
+    Only the ten canonical directories are considered, and only a local
+    checkout is consulted - if none is reachable the caller just falls through
+    to the keyword passes, i.e. the previous behaviour.
+    """
+    for root in _candidate_repo_roots(repo_root):
+        theory = os.path.join(root, "theory")
+        for sub in VALID_DIRS:
+            if os.path.exists(os.path.join(theory, sub, filename)):
+                return sub
+    return None
+
+
 def _classify_by_method_family(text):
     for _fam, spec in METHOD_FAMILY_KEYWORDS.items():
         for kw in spec["kw"]:
@@ -181,17 +252,26 @@ def _classify_by_method_family(text):
     return None
 
 
-def classify_theory_article(filename, title):
+def classify_theory_article(filename, title, repo_root=None, pin_existing=True):
     """
     Classify a VLA theory article into one of 10 directories.
 
     Args:
         filename: e.g. "pi0_5_dissection.md"
         title: e.g. "Pi 0.5 模型解剖 (Dissecting π0.5)"
+        repo_root: handbook checkout to consult for Pass 0 (auto-detected)
+        pin_existing: set False to get the pure keyword verdict (audits/tests)
 
     Returns:
         Directory name, e.g. "vla-core"
     """
+    # Pass 0: an article that already has a home keeps it. Keyword verdicts are
+    # title-sensitive and the title is regenerated per run; see module docstring.
+    if pin_existing:
+        existing = find_existing_dir(filename, repo_root)
+        if existing:
+            return existing
+
     text = "{} {}".format(filename, title).lower()
 
     # Pass 1: specific rules
