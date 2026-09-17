@@ -206,3 +206,5 @@
 | 2026-08-24 | Fourier | product | 傅利叶智能于2026年8月24日在WRC期间发布脑机数采技术、EGO数据采集头环Lume R1、光学六维力传感器、准直驱动行星关节模组及‘半人马’轮足复合机器人。 | 🔧 | news | http://finance.sina.com.cn/wm/2026-08-24/doc-inipkzxw2865816.shtml |
 | 2026-09-15 | Agility Robotics | product | Agility Robotics 发布 Digit 5 人形机器人，升级腿部、电池及安全架构。 | ⚡ | news | https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/ |
 | 2026-09-15 | Agility Robotics | product | Agility Robotics 宣布 Digit 5 可在无安全围栏情况下与人协作。 | ⚡ | news | https://the-decoder.com/agility-robotics-says-its-new-digit-5-robot-can-work-next-to-people-without-safety-fences/ |
+| 2026-09-15 | Agility Robotics | product | IEEE Spectrum 报道 Agility Robotics 的人形机器人 Digit 5 在安全性方面取得进展，被视为首个真正安全的人形机器人工人。 | 🔧 | news | https://spectrum.ieee.org/humanoid-robot-safety |
+| 2026-09-16 | Agility Robotics | product | The Robot Report 回顾 Agility Robotics 从 Cassie 到 Digit 5 的演变历程，展示其如何调整技术以适应工业任务。 | 🔧 | news | https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/ |
