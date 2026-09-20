@@ -50,8 +50,9 @@ jobs:
             echo "COUNT=$COUNT" >> "$GITHUB_ENV"
           fi
 
+      # 有新提交 → 发当日摘要；手动触发且无新提交 → 发测试消息（用于验证 webhook 配置）
       - name: Notify DingTalk with daily digest
-        if: env.SYNCED == 'true'
+        if: env.SYNCED == 'true' || github.event_name == 'workflow_dispatch'
         env:
           DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
@@ -68,19 +69,28 @@ jobs:
             DINGTALK_WEBHOOK="${DINGTALK_WEBHOOK}&timestamp=${ts}&sign=${sign}"
           fi
 
-          {
-            echo "## 📚 VLA-Handbook 每日更新"
-            echo ""
-            echo "**$(date +%F) · 新增 ${COUNT} 个提交**"
-            echo ""
-            git log "${OLD_SHA}"..upstream/main --no-merges --pretty=format:'- %s' | head -25
-            if [ "$COUNT" -gt 25 ]; then
+          if [ "${SYNCED:-false}" = "true" ]; then
+            {
+              echo "## 📚 VLA-Handbook 每日更新"
               echo ""
-              echo "……及其余 $((COUNT-25)) 条，见仓库"
-            fi
-            echo ""
-            echo "[查看仓库](https://github.com/shawxiaodahua/VLA-Handbook)"
-          } > body.md
+              echo "**$(date +%F) · 新增 ${COUNT} 个提交**"
+              echo ""
+              git log "${OLD_SHA}"..upstream/main --no-merges --pretty=format:'- %s' | head -25
+              if [ "$COUNT" -gt 25 ]; then
+                echo ""
+                echo "……及其余 $((COUNT-25)) 条，见仓库"
+              fi
+              echo ""
+              echo "[查看仓库](https://github.com/shawxiaodahua/VLA-Handbook)"
+            } > body.md
+          else
+            {
+              echo "## 📚 VLA-Handbook 同步测试"
+              echo ""
+              echo "当前与上游完全同步，暂无新提交。"
+              echo "此条为手动触发的测试消息 —— 收到它说明钉钉通知配置成功 ✅"
+            } > body.md
+          fi
 
           jq -n --rawfile text body.md \
             '{msgtype:"markdown",markdown:{title:"VLA-Handbook 每日更新",text:$text}}' \
