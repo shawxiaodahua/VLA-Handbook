@@ -1,0 +1,44 @@
+name: Sync upstream
+
+on:
+  schedule:
+    # 每天 10:23 北京时间（02:23 UTC），避开整点高峰
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout fork (full history)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Merge upstream and push
+        run: |
+          set -euo pipefail
+          git config user.name "sync-bot"
+          git config user.email "actions@github.com"
+          git remote add upstream https://github.com/sou350121/VLA-Handbook.git
+          git fetch upstream main
+
+          if ! git merge upstream/main --no-edit; then
+            echo "::error::merge conflict — fork main 与 upstream main 分叉，需要手动解决"
+            exit 1
+          fi
+
+          if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
+            echo "✅ Already up to date — upstream 没有新提交"
+          else
+            git push origin main
+            echo "✅ Synced: $(git log --oneline origin/main..HEAD | wc -l) commit(s) merged"
+          fi
