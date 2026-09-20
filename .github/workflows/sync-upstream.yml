@@ -31,14 +31,76 @@ jobs:
           git remote add upstream https://github.com/sou350121/VLA-Handbook.git
           git fetch upstream main
 
+          OLD_SHA=$(git rev-parse HEAD)
+
           if ! git merge upstream/main --no-edit; then
             echo "::error::merge conflict — fork main 与 upstream main 分叉，需要手动解决"
             exit 1
           fi
 
-          if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
+          if [ "$(git rev-parse HEAD)" = "$OLD_SHA" ]; then
             echo "✅ Already up to date — upstream 没有新提交"
+            echo "SYNCED=false" >> "$GITHUB_ENV"
           else
             git push origin main
-            echo "✅ Synced: $(git log --oneline origin/main..HEAD | wc -l) commit(s) merged"
+            COUNT=$(git rev-list --count "$OLD_SHA"..upstream/main --no-merges)
+            echo "✅ Synced: $COUNT new commit(s) merged"
+            echo "SYNCED=true" >> "$GITHUB_ENV"
+            echo "OLD_SHA=$OLD_SHA" >> "$GITHUB_ENV"
+            echo "COUNT=$COUNT" >> "$GITHUB_ENV"
           fi
+
+      - name: Notify DingTalk with daily digest
+        if: env.SYNCED == 'true'
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+        run: |
+          set -euo pipefail
+          : "${DINGTALK_WEBHOOK:?需要在仓库 Secrets 里配置 DINGTALK_WEBHOOK}"
+
+          # 钉钉机器人若开启「加签」，用 HMAC-SHA256 计算签名
+          if [ -n "${DINGTALK_SECRET:-}" ]; then
+            ts=$(date +%s%3N)
+            sign=$(printf '%s\n%s' "$ts" "$DINGTALK_SECRET" \
+                   | openssl dgst -sha256 -hmac "$DINGTALK_SECRET" -binary \
+                   | base64 | jq -sRr @uri)
+            DINGTALK_WEBHOOK="${DINGTALK_WEBHOOK}&timestamp=${ts}&sign=${sign}"
+          fi
+
+          {
+            echo "## 📚 VLA-Handbook 每日更新"
+            echo ""
+            echo "**$(date +%F) · 新增 ${COUNT} 个提交**"
+            echo ""
+            git log "${OLD_SHA}"..upstream/main --no-merges --pretty=format:'- %s' | head -25
+            if [ "$COUNT" -gt 25 ]; then
+              echo ""
+              echo "……及其余 $((COUNT-25)) 条，见仓库"
+            fi
+            echo ""
+            echo "[查看仓库](https://github.com/shawxiaodahua/VLA-Handbook)"
+          } > body.md
+
+          jq -n --rawfile text body.md \
+            '{msgtype:"markdown",markdown:{title:"VLA-Handbook 每日更新",text:$text}}' \
+            | curl -sf -X POST -H 'Content-Type: application/json' -d @- "$DINGTALK_WEBHOOK"
+          echo "✅ DingTalk notified"
+
+      - name: Notify DingTalk on failure
+        if: failure()
+        env:
+          DINGTALK_WEBHOOK: ${{ secrets.DINGTALK_WEBHOOK }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+        run: |
+          set -euo pipefail
+          : "${DINGTALK_WEBHOOK:-}" && [ -n "$DINGTALK_WEBHOOK" ] || { echo "no webhook, skip"; exit 0; }
+          if [ -n "${DINGTALK_SECRET:-}" ]; then
+            ts=$(date +%s%3N)
+            sign=$(printf '%s\n%s' "$ts" "$DINGTALK_SECRET" \
+                   | openssl dgst -sha256 -hmac "$DINGTALK_SECRET" -binary \
+                   | base64 | jq -sRr @uri)
+            DINGTALK_WEBHOOK="${DINGTALK_WEBHOOK}&timestamp=${ts}&sign=${sign}"
+          fi
+          jq -n '{msgtype:"text",text:{content:"❌ VLA-Handbook 同步 workflow 失败，请检查: https://github.com/shawxiaodahua/VLA-Handbook/actions"}}' \
+            | curl -sf -X POST -H 'Content-Type: application/json' -d @- "$DINGTALK_WEBHOOK"
