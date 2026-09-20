@@ -65,8 +65,11 @@ jobs:
             ts=$(date +%s%3N)
             sign=$(printf '%s\n%s' "$ts" "$DINGTALK_SECRET" \
                    | openssl dgst -sha256 -hmac "$DINGTALK_SECRET" -binary \
-                   | base64 | jq -sRr @uri)
+                   | base64 | tr -d '\n' | jq -Rr @uri)
             DINGTALK_WEBHOOK="${DINGTALK_WEBHOOK}&timestamp=${ts}&sign=${sign}"
+            # 诊断信息（不含密钥本体）：密钥是否 SEC 开头、长度是否正常
+            if [ "${DINGTALK_SECRET:0:3}" = "SEC" ]; then sec_prefix="yes"; else sec_prefix="NO"; fi
+            echo "sign debug: timestamp=${ts} secret_starts_with_SEC=${sec_prefix} secret_len=${#DINGTALK_SECRET} sign_prefix=${sign:0:12}..."
           fi
 
           if [ "${SYNCED:-false}" = "true" ]; then
@@ -118,7 +121,7 @@ jobs:
             ts=$(date +%s%3N)
             sign=$(printf '%s\n%s' "$ts" "$DINGTALK_SECRET" \
                    | openssl dgst -sha256 -hmac "$DINGTALK_SECRET" -binary \
-                   | base64 | jq -sRr @uri)
+                   | base64 | tr -d '\n' | jq -Rr @uri)
             DINGTALK_WEBHOOK="${DINGTALK_WEBHOOK}&timestamp=${ts}&sign=${sign}"
           fi
           jq -n '{msgtype:"text",text:{content:"❌ VLA-Handbook 同步 workflow 失败，请检查: https://github.com/shawxiaodahua/VLA-Handbook/actions"}}' \
