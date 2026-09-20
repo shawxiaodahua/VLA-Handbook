@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout fork (full history)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 0
@@ -94,7 +94,16 @@ jobs:
 
           jq -n --rawfile text body.md \
             '{msgtype:"markdown",markdown:{title:"VLA-Handbook 每日更新",text:$text}}' \
-            | curl -sf -X POST -H 'Content-Type: application/json' -d @- "$DINGTALK_WEBHOOK"
+            | curl -sS -w '\n%{http_code}' -X POST -H 'Content-Type: application/json' -d @- "$DINGTALK_WEBHOOK" > resp.txt
+
+          http_code=$(tail -1 resp.txt)
+          resp_body=$(head -n -1 resp.txt)
+          echo "DingTalk HTTP $http_code, response: $resp_body"
+
+          if [ "$http_code" != "200" ] || [ "$(echo "$resp_body" | jq -r '.errcode // 1')" != "0" ]; then
+            echo "::error::钉钉推送失败: $resp_body（常见: 310000=加签不匹配/关键词不在内容中, token 无效等）"
+            exit 1
+          fi
           echo "✅ DingTalk notified"
 
       - name: Notify DingTalk on failure
@@ -113,4 +122,4 @@ jobs:
             DINGTALK_WEBHOOK="${DINGTALK_WEBHOOK}&timestamp=${ts}&sign=${sign}"
           fi
           jq -n '{msgtype:"text",text:{content:"❌ VLA-Handbook 同步 workflow 失败，请检查: https://github.com/shawxiaodahua/VLA-Handbook/actions"}}' \
-            | curl -sf -X POST -H 'Content-Type: application/json' -d @- "$DINGTALK_WEBHOOK"
+            | curl -sS -X POST -H 'Content-Type: application/json' -d @- "$DINGTALK_WEBHOOK" | jq .
