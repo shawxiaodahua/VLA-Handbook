@@ -31,7 +31,11 @@ jobs:
           git remote add upstream https://github.com/sou350121/VLA-Handbook.git
           git fetch upstream main
 
-          OLD_SHA=$(git rev-parse HEAD)
+          # 摘要基准 = 昨天此刻对应的提交（reflog 日期），保证每天恰好汇总
+          # 「过去 24 小时」的内容；reflog 不可用时回退到当前 HEAD
+          OLD_SHA=$(git rev-parse "HEAD@{1 day ago}" 2>/dev/null || echo "")
+          if [ -z "$OLD_SHA" ]; then OLD_SHA=$(git rev-parse HEAD); fi
+          echo "digest base = $OLD_SHA ($(git log -1 --format=%cd --date=iso "$OLD_SHA"))"
 
           if ! git merge upstream/main --no-edit; then
             echo "::error::merge conflict — fork main 与 upstream main 分叉，需要手动解决"
@@ -73,19 +77,11 @@ jobs:
           fi
 
           if [ "${SYNCED:-false}" = "true" ]; then
-            {
-              echo "## 📚 VLA-Handbook 每日更新"
-              echo ""
-              echo "**$(date +%F) · 新增 ${COUNT} 个提交**"
-              echo ""
-              git log "${OLD_SHA}"..upstream/main --no-merges --pretty=format:'- %s' | head -25
-              if [ "$COUNT" -gt 25 ]; then
-                echo ""
-                echo "……及其余 $((COUNT-25)) 条，见仓库"
-              fi
-              echo ""
-              echo "[查看仓库](https://github.com/shawxiaodahua/VLA-Handbook)"
-            } > body.md
+            python3 .github/scripts/dingtalk_digest.py \
+              --old-sha "$OLD_SHA" --count "$COUNT" \
+              --repo-url https://github.com/shawxiaodahua/VLA-Handbook > body.md
+            echo "---- digest body ----"
+            cat body.md
           else
             {
               echo "## 📚 VLA-Handbook 同步测试"
