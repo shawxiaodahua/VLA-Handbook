@@ -209,3 +209,4 @@
 | 2026-09-15 | Agility Robotics | product | IEEE Spectrum 报道 Agility Robotics 的人形机器人 Digit 5 在安全性方面取得进展，被视为首个真正安全的人形机器人工人。 | 🔧 | news | https://spectrum.ieee.org/humanoid-robot-safety |
 | 2026-09-16 | Agility Robotics | product | The Robot Report 回顾 Agility Robotics 从 Cassie 到 Digit 5 的演变历程，展示其如何调整技术以适应工业任务。 | 🔧 | news | https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/ |
 | 2026-09-21 | Boston Dynamics | product | 波士顿动力在佐治亚州现代汽车 Metaplant 开设应用中心，用于训练 Atlas 人形机器人。 | ⚡ | news | https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/ |
+| 2026-09-25 | Agility Robotics | product | Agility Robotics 正在探索包括轮式机器人在内的多种机器人设计，以应对不同的操作环境。 | ⚡ | news | https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/ |
