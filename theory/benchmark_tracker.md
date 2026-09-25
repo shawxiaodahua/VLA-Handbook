@@ -1,6 +1,6 @@
 # Benchmark Tracker
 
-> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-09-18` · last_checked `2026-09-24` · 595 entries / 6 benchmarks
+> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-09-25` · last_checked `2026-09-25` · 615 entries / 6 benchmarks
 > 每日刷新（`maintenance/build-benchmark-tracker.py`）· 数据源 evosota + paper extraction。
 > 本文件为 JSON 的整体投影，非手工追加——勿手动编辑（改动会被下次重生覆盖）。
 
@@ -218,6 +218,13 @@
 | 2026-09-18 | NS-VLA | CALVIN/ABC-D | 4.56 | AtomicVLA +0.29 | 2603.09542 |
 | 2026-09-18 | HiMoE-VLA | CALVIN/D-D | 4.49 | Flower VLA +0.14 | 2512.05693 |
 | 2026-09-18 | MCIL | CALVIN/D-D | 1.82 | — | 2005.07648 |
+| 2026-09-25 | Xiaomi-Robotics-0 | CALVIN/ABCD-D | 4.8 | Flower VLA +0.13 | 2602.12684 |
+| 2026-09-25 | MMaDA-VLA | CALVIN/ABC-D | 4.78 | Xiaomi-Robotics-0 +0.03 | 2603.25406 |
+| 2026-09-25 | EDAR | CALVIN/ABCD-D | 4.75 | NIAF +0.09 | 2607.11427 |
+| 2026-09-25 | AVA-VLA | CALVIN/ABC-D | 4.65 | NIAF +0.18 | 2511.18960 |
+| 2026-09-25 | NS-VLA | CALVIN/ABC-D | 4.56 | AtomicVLA +0.29 | 2603.09542 |
+| 2026-09-25 | HiMoE-VLA | CALVIN/D-D | 4.49 | Flower VLA +0.14 | 2512.05693 |
+| 2026-09-25 | MCIL | CALVIN/D-D | 1.82 | — | 2005.07648 |
 
 ## LIBERO
 
@@ -320,6 +327,9 @@
 | 2026-09-18 | LaST-R1 | LIBERO/standard-opensource | 99.8 | Abot-M0.5 +0.40 | 2604.28192 |
 | 2026-09-18 | PLD | LIBERO/non-standard | 99.17 | NS-VLA +0.57 | 2511.00091 |
 | 2026-09-18 | PriorVLA | LIBERO/standard-closed | 99.1 | VLAFlow +0.00 | 2605.10925 |
+| 2026-09-25 | LaST-R1 | LIBERO/standard-opensource | 99.8 | Abot-M0.5 +0.40 | 2604.28192 |
+| 2026-09-25 | PLD | LIBERO/non-standard | 99.17 | NS-VLA +0.57 | 2511.00091 |
+| 2026-09-25 | PriorVLA | LIBERO/standard-closed | 99.1 | VLAFlow +0.00 | 2605.10925 |
 
 ## LIBERO Plus
 
@@ -419,6 +429,9 @@
 | 2026-09-18 | Qwen-RobotManip | LIBERO Plus/standard-closed | 91.4 | CAC-VLA +1.90 | 2606.17846 |
 | 2026-09-18 | FabriMAE | LIBERO Plus/standard-opensource | 86.8 | ACoT-VLA +0.20 | 2608.16697 |
 | 2026-09-18 | CorridorVLA | LIBERO Plus/non-standard | 83.21 | NS-VLA +3.81 | 2604.21241 |
+| 2026-09-25 | Qwen-RobotManip | LIBERO Plus/standard-closed | 91.4 | CAC-VLA +1.90 | 2606.17846 |
+| 2026-09-25 | FabriMAE | LIBERO Plus/standard-opensource | 86.8 | ACoT-VLA +0.20 | 2608.16697 |
+| 2026-09-25 | CorridorVLA | LIBERO Plus/non-standard | 83.21 | NS-VLA +3.81 | 2604.21241 |
 
 ## MetaWorld
 
@@ -501,6 +514,9 @@
 | 2026-09-18 | FabriVLA | MetaWorld/standard-opensource | 90.0 | SUREFlow +1.68 | 2607.08575 |
 | 2026-09-18 | MPI | MetaWorld/non-standard | 86.0 | iRe-VLA +3.00 | 2406.00439 |
 | 2026-09-18 | ALAM | MetaWorld/standard-closed | 85.0 | EDAR +4.50 | 2605.10819 |
+| 2026-09-25 | FabriVLA | MetaWorld/standard-opensource | 90.0 | SUREFlow +1.68 | 2607.08575 |
+| 2026-09-25 | MPI | MetaWorld/non-standard | 86.0 | iRe-VLA +3.00 | 2406.00439 |
+| 2026-09-25 | ALAM | MetaWorld/standard-closed | 85.0 | EDAR +4.50 | 2605.10819 |
 
 ## RoboCasa-GR1-Tabletop
 
@@ -571,6 +587,8 @@
 | 2026-09-11 | ACE-Ego-0 | RoboCasa-GR1-Tabletop/standard-closed | 72.8 | PhysBrain 1.0 +8.30 | 2606.17200 |
 | 2026-09-18 | WALA | RoboCasa-GR1-Tabletop/standard-opensource | 75.2 | DIAL +5.00 | 2607.11397 |
 | 2026-09-18 | ACE-Ego-0 | RoboCasa-GR1-Tabletop/standard-closed | 72.8 | PhysBrain 1.0 +8.30 | 2606.17200 |
+| 2026-09-25 | WALA | RoboCasa-GR1-Tabletop/standard-opensource | 75.2 | DIAL +5.00 | 2607.11397 |
+| 2026-09-25 | ACE-Ego-0 | RoboCasa-GR1-Tabletop/standard-closed | 72.8 | PhysBrain 1.0 +8.30 | 2606.17200 |
 
 ## RoboChallenge
 
@@ -628,3 +646,5 @@
 | 2026-09-11 | StarVLA-alpha | RoboChallenge/non-standard | 54.5 | — | 2604.11757 |
 | 2026-09-18 | DM0 | RoboChallenge/standard-opensource | 72.25 | Giga-Brain-0.1 +3.91 | DM0_Tech_Report |
 | 2026-09-18 | StarVLA-alpha | RoboChallenge/non-standard | 54.5 | — | 2604.11757 |
+| 2026-09-25 | DM0 | RoboChallenge/standard-opensource | 72.25 | Giga-Brain-0.1 +3.91 | DM0_Tech_Report |
+| 2026-09-25 | StarVLA-alpha | RoboChallenge/non-standard | 54.5 | — | 2604.11757 |
