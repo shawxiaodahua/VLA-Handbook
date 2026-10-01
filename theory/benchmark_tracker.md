@@ -1,6 +1,6 @@
 # Benchmark Tracker
 
-> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-09-25` · last_checked `2026-09-30` · 615 entries / 6 benchmarks
+> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-10-01` · last_checked `2026-10-01` · 617 entries / 6 benchmarks
 > 每日刷新（`maintenance/build-benchmark-tracker.py`）· 数据源 evosota + paper extraction。
 > 本文件为 JSON 的整体投影，非手工追加——勿手动编辑（改动会被下次重生覆盖）。
 
@@ -330,6 +330,7 @@
 | 2026-09-25 | LaST-R1 | LIBERO/standard-opensource | 99.8 | Abot-M0.5 +0.40 | 2604.28192 |
 | 2026-09-25 | PLD | LIBERO/non-standard | 99.17 | NS-VLA +0.57 | 2511.00091 |
 | 2026-09-25 | PriorVLA | LIBERO/standard-closed | 99.1 | VLAFlow +0.00 | 2605.10925 |
+| 2026-10-01 | FutureDuet | LIBERO/standard-closed | 99.2 | PriorVLA +0.10 | 2609.34362 |
 
 ## LIBERO Plus
 
@@ -589,6 +590,7 @@
 | 2026-09-18 | ACE-Ego-0 | RoboCasa-GR1-Tabletop/standard-closed | 72.8 | PhysBrain 1.0 +8.30 | 2606.17200 |
 | 2026-09-25 | WALA | RoboCasa-GR1-Tabletop/standard-opensource | 75.2 | DIAL +5.00 | 2607.11397 |
 | 2026-09-25 | ACE-Ego-0 | RoboCasa-GR1-Tabletop/standard-closed | 72.8 | PhysBrain 1.0 +8.30 | 2606.17200 |
+| 2026-10-01 | CF-WAM | RoboCasa-GR1-Tabletop/standard-closed | 82.5 | ACE-Ego-0 +9.70 | 2609.34414 |
 
 ## RoboChallenge
 
