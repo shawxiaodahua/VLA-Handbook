@@ -201,3 +201,5 @@ DYNA 的公开指标设计非常“部署导向”，值得当作你评估任何
 | 2026-09-16 | 🔧 | Agility Robotics | The Robot Report 回顾 Agility Robotics 从 Cassie 到 Digit 5 的演变历程，展示其如何调整技术以适应工业任务。 | 提供了人形机器人迭代开发的详细案例，有助于理解从实验室原型到工业产品的转化路径。 | [来源](https://www.therobotreport.com/the-evolution-of-digit-agility-robotics-journey-from-cassie-to-digit-5/) |
 | 2026-09-21 | ⚡ | Boston Dynamics | 波士顿动力在佐治亚州现代汽车 Metaplant 开设应用中心，用于训练 Atlas 人形机器人。 | 标志着波士顿动力 Atlas 从实验室走向真实工业环境部署的重要里程碑。 | [来源](https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/) |
 | 2026-09-25 | ⚡ | Agility Robotics | Agility Robotics 正在探索包括轮式机器人在内的多种机器人设计，以应对不同的操作环境。 | 表明头部人形机器人厂商正在调整产品形态策略，从单一双足向多形态（轮足/轮式）演进以加速商业落地。 | [来源](https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/) |
+| 2026-10-01 | ⚡ | Boston Dynamics | Boston Dynamics 宣布为 Atlas 机器人推出重新设计的手。 | 可能提升 Atlas 的灵巧操作能力与人形机器人硬件设计竞争力。 | [来源](https://spectrum.ieee.org/robust-robot-hand) |
+| 2026-10-01 | ⚡ | Boston Dynamics | Boston Dynamics 在新人形机器人手设计中移除小指。 | 显示其通过限制实验优化灵巧手结构，可能提升实用操作能力。 | [来源](https://www.therobotreport.com/boston-dynamics-drops-pinkie-on-new-humanoid-hand/) |
