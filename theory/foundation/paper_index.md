@@ -679,6 +679,7 @@
 | SAGE: Scalable Agentic 3D Scene Generation for Embodied AI | [link](https://arxiv.org/abs/2602.10116) | 🔧 daily 2026-03-26 \| repo: https://github.com/NVlabs/sage |
 | BayesFP: Posterior Estimation for Flow-Based Policies via Feynman-Kac Sampling | [link](https://arxiv.org/abs/2606.21014) | 📖 daily 2026-10-13 |
 | ARC: A Reasoning Recipe for Robot Foundation Models | [link](https://arxiv.org/abs/2610.12386v1) | 🔧 daily 2026-10-09 |
+| HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction | [link](https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/) | 📖 daily 2026-10-12 |
 
 ### 部署
 
