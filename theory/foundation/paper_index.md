@@ -627,6 +627,8 @@
 | FUTURE-VLA: Forecasting Unified Trajectories Under Real-time Execution | [link](https://arxiv.org/abs/2602.15882) | 📖 daily 2026-02-20 |
 | HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model | [link](https://arxiv.org/abs/2605.31234) | 📖 daily 2026-10-13 |
 | Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies? | [link](https://arxiv.org/abs/2610.09170v1) | 🔧 daily 2026-10-07 |
+| Juno: Taming Predictive Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.09940v1) | 🔧 daily 2026-10-08 |
+| Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.10526v1) | 🔧 daily 2026-10-08 |
 
 ### 動作生成
 
@@ -657,6 +659,7 @@
 | Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation | [link](https://arxiv.org/abs/2610.07949v1) | 🔧 daily 2026-10-07 |
 | EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning | [link](https://arxiv.org/abs/2610.08726v1) | 🔧 daily 2026-10-07 |
 | Co-Evolving Robot Orchestrators and Policies through Deployment | [link](https://arxiv.org/abs/2610.09228v1) | 🔧 daily 2026-10-07 |
+| Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization | [link](https://arxiv.org/abs/2610.09943v1) | [RL] 🔧 daily 2026-10-08 |
 
 ### 數據
 
@@ -696,6 +699,8 @@
 | TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment | [link](https://arxiv.org/abs/2602.13579) | 📖 daily 2026-02-18 |
 | Symmetry-Aware Fusion of Vision and Tactile Sensing via Bilateral Force Priors for Robotic Manipulation | [link](https://arxiv.org/abs/2602.13689) | 📖 daily 2026-02-18 |
 | PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation | [link](https://arxiv.org/abs/2610.08784v1) | 🎯 tactile \| 🔧 daily 2026-10-07 |
+| TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning | [link](https://arxiv.org/abs/2610.10288v2) | 🎯 tactile \| 🔧 daily 2026-10-08 |
+| OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework | [link](https://arxiv.org/abs/2610.10384v1) | 🎯 tactile \| 🔧 daily 2026-10-08 |
 
 ### 其他
 
