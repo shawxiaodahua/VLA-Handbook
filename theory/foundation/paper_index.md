@@ -663,6 +663,11 @@
 | Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization | [link](https://arxiv.org/abs/2610.09943v1) | [RL] 🔧 daily 2026-10-08 |
 | PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.12285v1) | [世界模型] 🔧 daily 2026-10-09 |
 | VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation | [link](https://arxiv.org/abs/2610.12451v1) | 🔧 daily 2026-10-09 |
+| VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding | [link](https://arxiv.org/abs/2610.12832v1) | 🔧 daily 2026-10-10 |
+| Forward Dynamics Models | [link](https://arxiv.org/abs/2610.13117v1) | [世界模型] 🔧 daily 2026-10-10 |
+| Dual-Stream Memory for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.13262v1) | 🔧 daily 2026-10-10 |
+| Noise Space Learning for VLA Adaptation | [link](https://arxiv.org/abs/2610.13943v1) | 🔧 daily 2026-10-10 |
+| Splat2Act: From Captured Scenes to Personalized VLA Manipulation | [link](https://arxiv.org/abs/2610.13945v1) | 🔧 daily 2026-10-10 |
 
 ### 數據
 
