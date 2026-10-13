@@ -626,6 +626,7 @@
 | Selective Perception for Robot: Task-Aware Attention in Multimodal VLA | [link](https://arxiv.org/abs/2602.15543) | 🔧 daily 2026-02-19 |
 | FUTURE-VLA: Forecasting Unified Trajectories Under Real-time Execution | [link](https://arxiv.org/abs/2602.15882) | 📖 daily 2026-02-20 |
 | HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model | [link](https://arxiv.org/abs/2605.31234) | 📖 daily 2026-10-13 |
+| Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies? | [link](https://arxiv.org/abs/2610.09170v1) | 🔧 daily 2026-10-07 |
 
 ### 動作生成
 
@@ -653,6 +654,9 @@
 | Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment | [link](https://arxiv.org/abs/2602.12281) | ⚡ daily 2026-02-20 |
 | BrickCraft: Visuomotor Skill Composition with Situated Manual Guidance for Long-Horizon Interlocking Brick Assembly | [link](https://arxiv.org/abs/2605.07605) | 📖 daily 2026-10-13 |
 | Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination | [link](https://arxiv.org/abs/2610.02626) | [世界模型] 📖 daily 2026-10-13 |
+| Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation | [link](https://arxiv.org/abs/2610.07949v1) | 🔧 daily 2026-10-07 |
+| EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning | [link](https://arxiv.org/abs/2610.08726v1) | 🔧 daily 2026-10-07 |
+| Co-Evolving Robot Orchestrators and Policies through Deployment | [link](https://arxiv.org/abs/2610.09228v1) | 🔧 daily 2026-10-07 |
 
 ### 數據
 
@@ -691,6 +695,7 @@
 | Semantic-Contact Fields for Category-Level Generalizable Tactile Tool Manipulation | [link](https://arxiv.org/abs/2602.13833) | 📖 daily 2026-02-18 |
 | TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment | [link](https://arxiv.org/abs/2602.13579) | 📖 daily 2026-02-18 |
 | Symmetry-Aware Fusion of Vision and Tactile Sensing via Bilateral Force Priors for Robotic Manipulation | [link](https://arxiv.org/abs/2602.13689) | 📖 daily 2026-02-18 |
+| PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation | [link](https://arxiv.org/abs/2610.08784v1) | 🎯 tactile \| 🔧 daily 2026-10-07 |
 
 ### 其他
 
