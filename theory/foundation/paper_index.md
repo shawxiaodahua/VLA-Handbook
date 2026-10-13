@@ -629,6 +629,7 @@
 | Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies? | [link](https://arxiv.org/abs/2610.09170v1) | 🔧 daily 2026-10-07 |
 | Juno: Taming Predictive Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.09940v1) | 🔧 daily 2026-10-08 |
 | Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.10526v1) | 🔧 daily 2026-10-08 |
+| REACT: Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA Models | [link](https://arxiv.org/abs/2610.12007v1) | 🔧 daily 2026-10-09 |
 
 ### 動作生成
 
@@ -660,6 +661,8 @@
 | EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning | [link](https://arxiv.org/abs/2610.08726v1) | 🔧 daily 2026-10-07 |
 | Co-Evolving Robot Orchestrators and Policies through Deployment | [link](https://arxiv.org/abs/2610.09228v1) | 🔧 daily 2026-10-07 |
 | Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization | [link](https://arxiv.org/abs/2610.09943v1) | [RL] 🔧 daily 2026-10-08 |
+| PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.12285v1) | [世界模型] 🔧 daily 2026-10-09 |
+| VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation | [link](https://arxiv.org/abs/2610.12451v1) | 🔧 daily 2026-10-09 |
 
 ### 數據
 
@@ -670,6 +673,7 @@
 | Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success | [link](https://tldr.takara.ai/p/2602.17101) | 🔧 daily 2026-02-21 |
 | SAGE: Scalable Agentic 3D Scene Generation for Embodied AI | [link](https://arxiv.org/abs/2602.10116) | 🔧 daily 2026-03-26 \| repo: https://github.com/NVlabs/sage |
 | BayesFP: Posterior Estimation for Flow-Based Policies via Feynman-Kac Sampling | [link](https://arxiv.org/abs/2606.21014) | 📖 daily 2026-10-13 |
+| ARC: A Reasoning Recipe for Robot Foundation Models | [link](https://arxiv.org/abs/2610.12386v1) | 🔧 daily 2026-10-09 |
 
 ### 部署
 
@@ -701,6 +705,7 @@
 | PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation | [link](https://arxiv.org/abs/2610.08784v1) | 🎯 tactile \| 🔧 daily 2026-10-07 |
 | TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning | [link](https://arxiv.org/abs/2610.10288v2) | 🎯 tactile \| 🔧 daily 2026-10-08 |
 | OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework | [link](https://arxiv.org/abs/2610.10384v1) | 🎯 tactile \| 🔧 daily 2026-10-08 |
+| TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning | [link](https://arxiv.org/abs/2610.11945v1) | 🎯 tactile \| 🔧 daily 2026-10-09 |
 
 ### 其他
 
