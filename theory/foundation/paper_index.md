@@ -625,6 +625,7 @@
 | BPP: Long-Context Robot Imitation Learning by Focusing on Key History Frames | [link](https://arxiv.org/abs/2602.15010) | 📖 daily 2026-02-18 |
 | Selective Perception for Robot: Task-Aware Attention in Multimodal VLA | [link](https://arxiv.org/abs/2602.15543) | 🔧 daily 2026-02-19 |
 | FUTURE-VLA: Forecasting Unified Trajectories Under Real-time Execution | [link](https://arxiv.org/abs/2602.15882) | 📖 daily 2026-02-20 |
+| HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model | [link](https://arxiv.org/abs/2605.31234) | 📖 daily 2026-10-13 |
 
 ### 動作生成
 
@@ -650,6 +651,8 @@
 | ActionCodec: What Makes for Good Action Tokenizers | [link](https://arxiv.org/abs/2602.15397) | ⚡ daily 2026-02-19 |
 | World Action Models are Zero-shot Policies | [link](https://arxiv.org/abs/2602.15922) | ⚡ daily 2026-02-20 |
 | Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment | [link](https://arxiv.org/abs/2602.12281) | ⚡ daily 2026-02-20 |
+| BrickCraft: Visuomotor Skill Composition with Situated Manual Guidance for Long-Horizon Interlocking Brick Assembly | [link](https://arxiv.org/abs/2605.07605) | 📖 daily 2026-10-13 |
+| Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination | [link](https://arxiv.org/abs/2610.02626) | [世界模型] 📖 daily 2026-10-13 |
 
 ### 數據
 
@@ -659,6 +662,7 @@
 | EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data | [link](https://arxiv.org/abs/2602.16710) | 🔧 daily 2026-02-20 |
 | Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success | [link](https://tldr.takara.ai/p/2602.17101) | 🔧 daily 2026-02-21 |
 | SAGE: Scalable Agentic 3D Scene Generation for Embodied AI | [link](https://arxiv.org/abs/2602.10116) | 🔧 daily 2026-03-26 \| repo: https://github.com/NVlabs/sage |
+| BayesFP: Posterior Estimation for Flow-Based Policies via Feynman-Kac Sampling | [link](https://arxiv.org/abs/2606.21014) | 📖 daily 2026-10-13 |
 
 ### 部署
 
@@ -708,3 +712,4 @@
 | Feasibility-aware Imitation Learning from Observation with Multimodal Feedback | [link](https://arxiv.org/abs/2602.15351) | 🔧 daily 2026-02-19 |
 | One Agent to Guide Them All: Empowering MLLMs for Vision-and-Language Navigation via Explicit World Representation | [link](https://arxiv.org/abs/2602.15400) | 📖 daily 2026-02-19 |
 | Continual uncertainty learning | [link](https://tldr.takara.ai/p/2602.17174) | 🔧 daily 2026-02-21 |
+| USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI | [link](https://arxiv.org/abs/2602.07837) | [世界模型] 📖 daily 2026-10-13 |
