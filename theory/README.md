@@ -1,7 +1,8 @@
 # 🗺️ VLA Theory — Explorer's Map
 
 > **VLA（Vision-Language-Action）** 让机器人"看懂世界、听懂指令、做出动作"。
-> 这里有 **588 篇深度解析**，是中文世界最完整的 VLA 理论库。
+> 这里有 **688 篇理论文档**，覆盖 10 个主题目录。
+> 计数包含主题目录内的综述与索引，不含各目录 README；统计日期：2026-10-12。
 >
 > 不知道从哪开始？先选你的角色 ↓
 
@@ -26,25 +27,25 @@
 
 ```mermaid
 graph TD
-    START["⚔️ START HERE"] --> CORE["🏛️ Central Keep<br/>VLA 核心架构<br/><b>123 篇</b>"]
+    START["⚔️ START HERE"] --> CORE["🏛️ Central Keep<br/>VLA 核心架构<br/><b>156 篇</b>"]
 
-    CORE --> FLOW["🌊 Flow River<br/>扩散 · Flow Matching<br/>43 篇"]
-    CORE --> WORLD["🌍 World Realm<br/>世界模型 · 仿真<br/>81 篇"]
-    CORE --> RL["🎮 Training Arena<br/>强化学习 · 奖励<br/>35 篇"]
+    CORE --> FLOW["🌊 Flow River<br/>扩散 · Flow Matching<br/>47 篇"]
+    CORE --> WORLD["🌍 World Realm<br/>世界模型 · 仿真<br/>93 篇"]
+    CORE --> RL["🎮 Training Arena<br/>强化学习 · 奖励<br/>39 篇"]
 
-    FLOW --> PLAN["🧠 Strategy Hall<br/>推理 · 安全 · 规划<br/>61 篇"]
+    FLOW --> PLAN["🧠 Strategy Hall<br/>推理 · 安全 · 规划<br/>67 篇"]
     WORLD --> PLAN
     RL --> PLAN
 
-    PLAN --> TOUCH["🤚 Touch Cavern<br/>触觉感知<br/>51 篇"]
+    PLAN --> TOUCH["🤚 Touch Cavern<br/>触觉感知<br/>58 篇"]
     PLAN --> EYE["👁️ Vision Tower<br/>3D · SLAM<br/>24 篇"]
 
-    TOUCH --> DEPLOY["🔧 Workshop<br/>部署 · 硬件<br/>35 篇"]
+    TOUCH --> DEPLOY["🔧 Workshop<br/>部署 · 硬件<br/>43 篇"]
     EYE --> DEPLOY
 
-    DEPLOY --> FRONTIER["🔬 Frontier Wilds<br/>跨域 · 神经科学<br/>52 篇"]
+    DEPLOY --> FRONTIER["🔬 Frontier Wilds<br/>跨域 · 神经科学<br/>75 篇"]
 
-    FOUND["🏗️ Foundation Mines<br/>基础理论 · 工具箱<br/>83 篇"] -.->|随时查阅| CORE
+    FOUND["🏗️ Foundation Mines<br/>基础理论 · 工具箱<br/>86 篇"] -.->|随时查阅| CORE
     FOUND -.-> FLOW
     FOUND -.-> RL
 
@@ -74,7 +75,7 @@ graph TD
 &nbsp;
 
 <details open>
-<summary><h3>🏛️ Central Keep — VLA 核心架构 &nbsp;<code>123 篇</code></h3></summary>
+<summary><h3>🏛️ Central Keep — VLA 核心架构 &nbsp;<code>156 篇</code></h3></summary>
 
 **一句话**：所有 VLA 模型的"解剖室"。
 
@@ -97,7 +98,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🌊 Flow River — 扩散策略与 Flow Matching &nbsp;<code>43 篇</code></h3></summary>
+<summary><h3>🌊 Flow River — 扩散策略与 Flow Matching &nbsp;<code>47 篇</code></h3></summary>
 
 **一句话**：机器人的动作是"画"出来的，不是"算"出来的。
 
@@ -117,7 +118,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🌍 World Realm — 世界模型与仿真 &nbsp;<code>81 篇</code></h3></summary>
+<summary><h3>🌍 World Realm — 世界模型与仿真 &nbsp;<code>93 篇</code></h3></summary>
 
 **一句话**：让机器人在"脑子里"先试一遍，再决定怎么做。
 
@@ -139,7 +140,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🎮 Training Arena — 强化学习 &nbsp;<code>35 篇</code></h3></summary>
+<summary><h3>🎮 Training Arena — 强化学习 &nbsp;<code>39 篇</code></h3></summary>
 
 **一句话**：模仿学习有天花板，RL 帮 VLA 突破它。
 
@@ -160,7 +161,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🤚 Touch Cavern — 触觉感知 &nbsp;<code>51 篇</code></h3></summary>
+<summary><h3>🤚 Touch Cavern — 触觉感知 &nbsp;<code>58 篇</code></h3></summary>
 
 **一句话**：闭上眼睛你也能系鞋带——因为手指在"看"。
 
@@ -198,7 +199,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🧠 Strategy Hall — 推理、规划与安全 &nbsp;<code>61 篇</code></h3></summary>
+<summary><h3>🧠 Strategy Hall — 推理、规划与安全 &nbsp;<code>67 篇</code></h3></summary>
 
 **一句话**：让机器人"先想再做"，而且不伤害人。
 
@@ -221,7 +222,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🏗️ Foundation Mines — 基础理论 &nbsp;<code>83 篇</code></h3></summary>
+<summary><h3>🏗️ Foundation Mines — 基础理论 &nbsp;<code>86 篇</code></h3></summary>
 
 **一句话**：不按顺序读——当你在其他区域遇到"这是什么？"时，回来查。
 
@@ -241,7 +242,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🔧 Workshop — 部署与硬件 &nbsp;<code>35 篇</code></h3></summary>
+<summary><h3>🔧 Workshop — 部署与硬件 &nbsp;<code>43 篇</code></h3></summary>
 
 **一句话**：仿真里成功率 95% 的模型，到真机上可能只有 30%。
 
@@ -261,7 +262,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🔬 Frontier Wilds — 前沿与跨域 &nbsp;<code>52 篇</code></h3></summary>
+<summary><h3>🔬 Frontier Wilds — 前沿与跨域 &nbsp;<code>75 篇</code></h3></summary>
 
 **一句话**：VLA 的下一步灵感，可能来自鸽子的内耳。
 
@@ -285,7 +286,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 
 ## ⚡ Speed Runs
 
-> *没时间读 203 篇？选一条最短路线。*
+> *没时间通读 688 篇？选一条最短路线。*
 
 &nbsp;
 

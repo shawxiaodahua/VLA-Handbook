@@ -29,7 +29,7 @@ Moltbot（自动化 AI agent）通过 GitHub Contents API 向本仓库写入内�
 
 | 文件/目录 | 允许的操作 | 禁止的操作 |
 |-----------|-----------|-----------|
-| `theory/paper_index.md` | 追加表格行 | 修改/删除已有行、改表头、改分类结构 |
+| `theory/foundation/paper_index.md` | 追加表格行 | 修改/删除已有行、改表头、改分类结构 |
 | `theory/benchmark_tracker.md` | 创建/整体重写（⚙️ 自动生成文件，每日投影自 pulsar-web `vla-sota-tracker.json`，由 `maintenance/build-benchmark-tracker.py` 重生） | — 该文件全程自动维护，勿手工编辑（改动会被下次重生覆盖） |
 | `deployment/release_tracker.md` | 追加表格行 | 修改/删除已有行、改表头、改表格结构 |
 | `theory/code-notes/{project}_analysis.md` | 创建新文件 | 修改已存在的文件 |
@@ -106,10 +106,11 @@ Moltbot（自动化 AI agent）通过 GitHub Contents API 向本仓库写入内�
 
 ### 失败处理
 
-- GitHub API 返回非 2xx：不重试，记录错误，不影响主任务（Telegram 推送）
-- 返回 409 conflict：放弃本次写入，推送告警
-- 返回 401/403：推送告警「GitHub Token 可能已过期」
-- 格式异常（表格列数不匹配等）：跳过写入，推送告警
+- Telegram 已于 2026-10-12 停用；不连接、不发送通知。资料更新和 GitHub 同步仍保留。
+- GitHub API 返回非 2xx：不重试，记录错误，保留已生成的本地资料。
+- 返回 409 conflict：放弃本次写入，在任务日志记录冲突。
+- 返回 401/403：在任务日志记录「GitHub Token 可能已过期」。
+- 格式异常（表格列数不匹配等）：跳过写入，在任务日志记录原因。
 
 ---
 
@@ -164,7 +165,7 @@ Moltbot（自动化 AI agent）通过 GitHub Contents API 向本仓库写入内�
 
 | 内容类型 | 存放路径 | 来源任务 | 操作类型 |
 |---------|---------|---------|---------|
-| 论文索引追加 | `theory/paper_index.md`（追加行） | Moltbot Task 2（每日热点） | 追加行 |
+| 论文索引追加 | `theory/foundation/paper_index.md`（追加行） | Moltbot Task 2（每日热点） | 追加行 |
 | Benchmark SOTA 追踪 | `theory/benchmark_tracker.md`（⚙️ 整体重生，投影自 vla-sota-tracker.json） | maintenance/build-benchmark-tracker.py（本机每日） | 整体重生 |
 | Release 追踪（平台/硬件） | `deployment/release_tracker.md`（追加行） | VLA Release Tracker | 追加行 |
 | 双周前沿报告 | `reports/biweekly/{YYYY-MM-DD}.md` | Moltbot Task 4（双周推理） | 创建新文件 / 同日重跑允许覆盖 |
@@ -298,7 +299,7 @@ Moltbot（自动化 AI agent）通过 GitHub Contents API 向本仓库写入内�
 
 ## 索引维护（必须同步）
 - theory/ 新增或改名：更新 `theory/README.md`（必要时 `theory/README_FUN.md`）。
-- 新论文/综述：更新 `theory/paper_index.md` 与 `theory/literature_review.md`。
+- 新论文/综述：更新 `theory/foundation/paper_index.md` 与 `theory/foundation/literature_review.md`。
 - deployment/ 新增：更新 `deployment/README.md`。
 - question-bank/ 新增：更新 `question-bank/README.md`。
 - cheat-sheet/ 新增：更新 `cheat-sheet/README.md`。

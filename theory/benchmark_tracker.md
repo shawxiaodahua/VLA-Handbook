@@ -1,6 +1,6 @@
 # Benchmark Tracker
 
-> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-10-04` · last_checked `2026-10-06` · 638 entries / 6 benchmarks
+> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-10-12` · last_checked `2026-10-13` · 639 entries / 6 benchmarks
 > 每日刷新（`maintenance/build-benchmark-tracker.py`）· 数据源 evosota + paper extraction。
 > 本文件为 JSON 的整体投影，非手工追加——勿手动编辑（改动会被下次重生覆盖）。
 
@@ -534,6 +534,7 @@
 | 2026-10-02 | FabriVLA | MetaWorld/standard-opensource | 90.0 | SUREFlow +1.68 | 2607.08575 |
 | 2026-10-02 | MPI | MetaWorld/non-standard | 86.0 | iRe-VLA +3.00 | 2406.00439 |
 | 2026-10-02 | ALAM | MetaWorld/standard-closed | 85.0 | EDAR +4.50 | 2605.10819 |
+| 2026-10-12 | Evo-World | MetaWorld/standard-opensource | 91.1 | FabriVLA +1.10 | 2610.12936 |
 
 ## RoboCasa-GR1-Tabletop
 

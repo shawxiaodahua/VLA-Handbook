@@ -33,7 +33,9 @@
 VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue 和论文附录里。
 这个 Handbook 做一件事：**把"看懂论文"和"跑通代码"之间的坑，全部填平。**
 
-> 525 篇理论文档（10 个主题目录，每日自动新增 2-3 篇深度解析） · 165 篇英文社区实战笔记 · 300+ 条中文社区蒸馏 · 47 条 GitHub Issues 工程经验 · 24 期双周推理报告 · **行业情报雷达**（公司动态 · 融资 · IPO 每日追踪） · 每日自动 pipeline（⚡ 论文评分 · 深度拆解 · 社交情报）
+> 688 篇理论文档（10 个主题目录，每日自动新增 2-3 篇深度解析） · 165 篇英文社区实战笔记 · 300+ 条中文社区蒸馏 · 47 条 GitHub Issues 工程经验 · 16 份前沿报告 + 14 份反思 · **行业情报雷达**（公司动态 · 融资 · IPO 每日追踪） · 每日自动 pipeline（⚡ 论文评分 · 深度拆解 · 社交情报）
+>
+> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-12。
 
 ---
 
@@ -156,9 +158,9 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 
 | 目录 | 内容 |
 |------|------|
-| [`theory/`](theory/) | 525 篇理论文档：vla-core 105 · foundation 78 · world-model 72 · planning 60 · tactile 43 · frontier 38 · diffusion-flow 37 · deployment 35 · rl 31 · perception 24 |
+| [`theory/`](theory/) | 688 篇理论文档：vla-core 156 · foundation 86 · world-model 93 · planning 67 · tactile 58 · frontier 75 · diffusion-flow 47 · deployment 43 · rl 39 · perception 24 |
 | [`deployment/`](deployment/) | 真机部署：硬件选型 · 多模态同步 · Sim-to-Real + 三份社区实战笔记 |
-| [`reports/biweekly/`](reports/biweekly/) | 24 期双周推理报告（含预测回顾 ✅/❌ 打分）|
+| [`reports/biweekly/`](reports/biweekly/) | 16 份前沿报告 + 14 份反思（含预测回顾 ✅/❌ 打分）|
 | [`reports/weekly/`](reports/weekly/) | 29 期周报 + 每日 digest + SOTA + 风向洞察 |
 | [`memory/blog/archives/`](memory/blog/archives/) | 30 期 VLA 社交情报 + 小红书原始数据 |
 | [`scripts/`](scripts/) | 自动化 pipeline（SCRIPTS.md 含完整 DAG）|
@@ -174,7 +176,7 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 | 目标 | 入口 | 说明 |
 |---|---|---|
 | 补理论 / 刷面试 | [`theory/README.md`](theory/README.md) | 路线图 + 核心概念索引 |
-| 找论文 / 做综述 | [`theory/paper_index.md`](theory/foundation/paper_index.md) | 多维索引 + 发展史全景图 |
+| 找论文 / 做综述 | [`theory/foundation/paper_index.md`](theory/foundation/paper_index.md) | 多维索引 + 发展史全景图 |
 | 真机落地 | [`deployment/README.md`](deployment/README.md) | 硬件选型 · 多模态同步 · Sim-to-Real |
 | 社区踩坑（中文） | [`deployment/community_field_notes_xiaohongshu.md`](deployment/community_field_notes_xiaohongshu.md) | 🔥 300+ 条中文社区蒸馏 · 帖1-200 + 索引 + 黑话辞典 |
 | 社区踩坑（英文） | [`deployment/community_field_notes_english.md`](deployment/community_field_notes_english.md) | 🔥 165 条可追溯条目 · HF Blog + Discord + 厂商博客 |
@@ -246,7 +248,7 @@ VLA Handbook 的每日内容由 [照见 Pulsar](https://github.com/sou350121/Pul
 
 ## 🤖 让 AI 编程助手变成 VLA 专家
 
-想让你的 AI 助手直接拥有本 Handbook 525 篇理论文档的知识？
+想让你的 AI 助手直接拥有本 Handbook 688 篇理论文档的知识？
 
 **[VLA Expert Skill](https://github.com/sou350121/VLA-expert-skill)** 把 Handbook 的知识压缩成一个即插即用的 AI Skill，支持多个平台：
 

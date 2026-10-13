@@ -625,6 +625,11 @@
 | BPP: Long-Context Robot Imitation Learning by Focusing on Key History Frames | [link](https://arxiv.org/abs/2602.15010) | 📖 daily 2026-02-18 |
 | Selective Perception for Robot: Task-Aware Attention in Multimodal VLA | [link](https://arxiv.org/abs/2602.15543) | 🔧 daily 2026-02-19 |
 | FUTURE-VLA: Forecasting Unified Trajectories Under Real-time Execution | [link](https://arxiv.org/abs/2602.15882) | 📖 daily 2026-02-20 |
+| HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model | [link](https://arxiv.org/abs/2605.31234) | 📖 daily 2026-10-13 |
+| Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies? | [link](https://arxiv.org/abs/2610.09170v1) | 🔧 daily 2026-10-07 |
+| Juno: Taming Predictive Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.09940v1) | 🔧 daily 2026-10-08 |
+| Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.10526v1) | 🔧 daily 2026-10-08 |
+| REACT: Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA Models | [link](https://arxiv.org/abs/2610.12007v1) | 🔧 daily 2026-10-09 |
 
 ### 動作生成
 
@@ -650,6 +655,19 @@
 | ActionCodec: What Makes for Good Action Tokenizers | [link](https://arxiv.org/abs/2602.15397) | ⚡ daily 2026-02-19 |
 | World Action Models are Zero-shot Policies | [link](https://arxiv.org/abs/2602.15922) | ⚡ daily 2026-02-20 |
 | Scaling Verification Can Be More Effective than Scaling Policy Learning for Vision-Language-Action Alignment | [link](https://arxiv.org/abs/2602.12281) | ⚡ daily 2026-02-20 |
+| BrickCraft: Visuomotor Skill Composition with Situated Manual Guidance for Long-Horizon Interlocking Brick Assembly | [link](https://arxiv.org/abs/2605.07605) | 📖 daily 2026-10-13 |
+| Imagine the Future, Internalize the Gist: Efficient VLA Reasoning via Internalized Spatiotemporal Imagination | [link](https://arxiv.org/abs/2610.02626) | [世界模型] 📖 daily 2026-10-13 |
+| Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation | [link](https://arxiv.org/abs/2610.07949v1) | 🔧 daily 2026-10-07 |
+| EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning | [link](https://arxiv.org/abs/2610.08726v1) | 🔧 daily 2026-10-07 |
+| Co-Evolving Robot Orchestrators and Policies through Deployment | [link](https://arxiv.org/abs/2610.09228v1) | 🔧 daily 2026-10-07 |
+| Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization | [link](https://arxiv.org/abs/2610.09943v1) | [RL] 🔧 daily 2026-10-08 |
+| PLaW-VLA: Predictive Latent World Modeling for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.12285v1) | [世界模型] 🔧 daily 2026-10-09 |
+| VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation | [link](https://arxiv.org/abs/2610.12451v1) | 🔧 daily 2026-10-09 |
+| VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding | [link](https://arxiv.org/abs/2610.12832v1) | 🔧 daily 2026-10-10 |
+| Forward Dynamics Models | [link](https://arxiv.org/abs/2610.13117v1) | [世界模型] 🔧 daily 2026-10-10 |
+| Dual-Stream Memory for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.13262v1) | 🔧 daily 2026-10-10 |
+| Noise Space Learning for VLA Adaptation | [link](https://arxiv.org/abs/2610.13943v1) | 🔧 daily 2026-10-10 |
+| Splat2Act: From Captured Scenes to Personalized VLA Manipulation | [link](https://arxiv.org/abs/2610.13945v1) | 🔧 daily 2026-10-10 |
 
 ### 數據
 
@@ -659,6 +677,9 @@
 | EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data | [link](https://arxiv.org/abs/2602.16710) | 🔧 daily 2026-02-20 |
 | Benchmarking the Effects of Object Pose Estimation and Reconstruction on Robotic Grasping Success | [link](https://tldr.takara.ai/p/2602.17101) | 🔧 daily 2026-02-21 |
 | SAGE: Scalable Agentic 3D Scene Generation for Embodied AI | [link](https://arxiv.org/abs/2602.10116) | 🔧 daily 2026-03-26 \| repo: https://github.com/NVlabs/sage |
+| BayesFP: Posterior Estimation for Flow-Based Policies via Feynman-Kac Sampling | [link](https://arxiv.org/abs/2606.21014) | 📖 daily 2026-10-13 |
+| ARC: A Reasoning Recipe for Robot Foundation Models | [link](https://arxiv.org/abs/2610.12386v1) | 🔧 daily 2026-10-09 |
+| HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction | [link](https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/) | 📖 daily 2026-10-12 |
 
 ### 部署
 
@@ -687,6 +708,10 @@
 | Semantic-Contact Fields for Category-Level Generalizable Tactile Tool Manipulation | [link](https://arxiv.org/abs/2602.13833) | 📖 daily 2026-02-18 |
 | TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment | [link](https://arxiv.org/abs/2602.13579) | 📖 daily 2026-02-18 |
 | Symmetry-Aware Fusion of Vision and Tactile Sensing via Bilateral Force Priors for Robotic Manipulation | [link](https://arxiv.org/abs/2602.13689) | 📖 daily 2026-02-18 |
+| PEARS: Physical-Prior-Guided Efficient Adaptation via Failure Reasoning and Diffusion Steering for Tactile Manipulation | [link](https://arxiv.org/abs/2610.08784v1) | 🎯 tactile \| 🔧 daily 2026-10-07 |
+| TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning | [link](https://arxiv.org/abs/2610.10288v2) | 🎯 tactile \| 🔧 daily 2026-10-08 |
+| OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework | [link](https://arxiv.org/abs/2610.10384v1) | 🎯 tactile \| 🔧 daily 2026-10-08 |
+| TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning | [link](https://arxiv.org/abs/2610.11945v1) | 🎯 tactile \| 🔧 daily 2026-10-09 |
 
 ### 其他
 
@@ -708,3 +733,4 @@
 | Feasibility-aware Imitation Learning from Observation with Multimodal Feedback | [link](https://arxiv.org/abs/2602.15351) | 🔧 daily 2026-02-19 |
 | One Agent to Guide Them All: Empowering MLLMs for Vision-and-Language Navigation via Explicit World Representation | [link](https://arxiv.org/abs/2602.15400) | 📖 daily 2026-02-19 |
 | Continual uncertainty learning | [link](https://tldr.takara.ai/p/2602.17174) | 🔧 daily 2026-02-21 |
+| USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI | [link](https://arxiv.org/abs/2602.07837) | [世界模型] 📖 daily 2026-10-13 |
