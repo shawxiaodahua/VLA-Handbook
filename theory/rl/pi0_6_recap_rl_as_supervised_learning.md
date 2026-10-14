@@ -54,9 +54,9 @@
 
 ## 相关导读（仓库内）
 
-- π0.6 结构/训练流程解剖：[`../pi0_6_dissection.md`](../pi0_6_dissection.md)
-- RL 基础与 Offline RL 概览：[`../reinforcement_learning.md`](../reinforcement_learning.md)
-- VLA 主线（含“后训练 / on-policy 数据”）：[`../vla_research_mainline.md`](../vla_research_mainline.md)
+- π0.6 结构/训练流程解剖：[`../pi0_6_dissection.md`](../vla-core/pi0_6_dissection.md)
+- RL 基础与 Offline RL 概览：[`../reinforcement_learning.md`](reinforcement_learning.md)
+- VLA 主线（含“后训练 / on-policy 数据”）：[`../vla_research_mainline.md`](../vla-core/vla_research_mainline.md)
 
 ---
 

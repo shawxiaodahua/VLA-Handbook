@@ -1009,7 +1009,7 @@ A: 这是多模态 VLA 的核心优势之一，有以下几种机制：
 1. **语义接地 (Grounding)**: 语言指令必须与视觉检测结果绑定，而非独立处理
 2. **置信度输出**: 视觉模块输出检测置信度，低置信度时触发纠错机制
 3. **多轮对话**: VLA 需要支持多轮交互，而非单次指令执行
-4. **CoT 推理**: 显式输出推理过程，便于发现矛盾 (参见 [chain_of_thought.md](./chain_of_thought.md))
+4. **CoT 推理**: 显式输出推理过程，便于发现矛盾 (参见 [chain_of_thought.md](../planning/chain_of_thought.md))
 
 ## 9. 参考资源 (References)
 

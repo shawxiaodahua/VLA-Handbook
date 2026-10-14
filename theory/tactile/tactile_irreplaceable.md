@@ -91,7 +91,7 @@
 ---
 
 ## 🔗 相关手册章节
-- 触觉与 VLA 主线：[`../tactile_vla.md`](../tactile_vla.md)
+- 触觉与 VLA 主线：[`../tactile_vla.md`](tactile_vla.md)
 
 ## 🔗 参考（文中提到的 4 篇代表性工作）
 - **VLA-Touch**: `https://arxiv.org/pdf/2507.17294`

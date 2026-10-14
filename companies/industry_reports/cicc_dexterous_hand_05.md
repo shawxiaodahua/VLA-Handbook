@@ -2,7 +2,7 @@
 
 > **定位**：偏产业/工程化落地的整理：技术路线怎么分工、瓶颈在哪里、为什么“量产/散热/一致性”会决定商业化速度。  
 > **来源状态**：依据用户粘贴的报告摘录整理，尚缺原文链接/页码；本页不写图表数字与可核验市场预测细节（待补链接后再完善）。  
-> **理论侧抽象**：若你想把这些要点映射成可计算约束（热/惯量/可观测性），见 [`../../theory/frontier/dexterous_hand_industry_cicc_05.md`](../../theory/frontier/dexterous_hand_industry_cicc_05.md)。
+> **理论侧抽象**：若你想把这些要点映射成可计算约束（热/惯量/可观测性），见 [`../../theory/frontier/dexterous_hand_industry_cicc_05.md`](../../theory/deployment/dexterous_hand_industry_cicc_05.md)。
 
 ---
 

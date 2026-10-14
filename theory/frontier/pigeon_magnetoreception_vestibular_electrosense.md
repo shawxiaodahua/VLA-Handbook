@@ -122,7 +122,7 @@ Navigation / heading estimation (long-range homing)
 - **把“场/方向/姿态”这类信号放进 observation**：例如重力方向、磁场方向、航向（heading）、姿态/角速度等，作为 policy 的稳定先验输入，而不是只让模型从 RGB 学一切。
 - **把它们当作“状态估计层”的产物**：先做滤波/融合，再喂给 policy（不要让 policy 自己去“发明滤波器”）。
 
-对应阅读：[`../state_estimation.md`](../state_estimation.md)、[`../spatial_math.md`](../spatial_math.md)
+对应阅读：[`../state_estimation.md`](../perception/state_estimation.md)、[`../spatial_math.md`](../perception/spatial_math.md)
 
 ### 7.2 “三轴分解”= 结构先验：把可观测量设计成坐标友好的形式
 
@@ -139,7 +139,7 @@ Navigation / heading estimation (long-range homing)
 - **显式输出 uncertainty/confidence**：例如磁场强度异常、方向跳变、IMU 饱和、视觉遮挡等都要映射到一个可用的置信度。
 - **门控（gating）策略**：当某通道置信度下降时，policy 触发“重观测/换视角/减速/重初始化”，而不是继续硬控。
 
-这点与 VLA 主线里的“感知增强（提供 uncertainty）”一致：[`../vla_research_mainline.md`](../vla_research_mainline.md)
+这点与 VLA 主线里的“感知增强（提供 uncertainty）”一致：[`../vla_research_mainline.md`](../vla-core/vla_research_mainline.md)
 
 ### 7.4 “黑暗中仍成立”给 VLA 的启示：别只押单一模态（尤其是纯视觉）
 
@@ -147,7 +147,7 @@ Navigation / heading estimation (long-range homing)
 
 - **长任务不要只押 RGB**：视觉会遮挡/模糊/跑偏；你需要至少一条“物理稳定通道”（惯导/力/触觉/场向量）提供下限。
 - **这也解释了为什么 implicit grounding 很重要**：当视觉输入不可避免含噪时，模型必须学会把“注意力”对准任务相关区域，否则误差会在长时程里累积。  
-  对应阅读：ReconVLA 的“隐式接地”路线 [`./reconvla_implicit_grounding_by_reconstruction.md`](./reconvla_implicit_grounding_by_reconstruction.md)
+  对应阅读：ReconVLA 的“隐式接地”路线 [`./reconvla_implicit_grounding_by_reconstruction.md`](../vla-core/reconvla_implicit_grounding_by_reconstruction.md)
 
 ### 7.5 把“场感知”落到 VLA 数据：时间对齐与元数据是硬约束
 
@@ -156,7 +156,7 @@ Navigation / heading estimation (long-range homing)
 - **强制统一时间轴**：每帧图像要能对齐到 IMU/状态估计输出（同一 timestamp 或可插值到同一时间）。
 - **记录元数据**：相机帧率、IMU 频率、延迟、是否有磁干扰环境、传感器饱和标志位等必须写进 schema。
 
-对应阅读：部署侧多模态同步 [`../deployment/multimodal_data_synchronization.md`](../deployment/multimodal_data_synchronization.md)
+对应阅读：部署侧多模态同步 [`../deployment/multimodal_data_synchronization.md`](../../deployment/multimodal_data_synchronization.md)
 
 ### 7.6 评测启示：用“长时程漂移指标”衡量 VLA，而不是只看短任务成功率
 

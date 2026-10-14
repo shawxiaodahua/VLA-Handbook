@@ -91,8 +91,8 @@ RoboParty 把项目定位成“从 0 到跑”的工业级开源范式，强调�
 
 ## 5) 延伸阅读（仓库内）
 
-- π*0.6 / RECAP 的“偏好调节监督”视角：[`pi0_6_recap_rl_as_supervised_learning.md`](./pi0_6_recap_rl_as_supervised_learning.md)
-- VLA 研究主线（数据×感知×后训练）：[`../vla_research_mainline.md`](../vla_research_mainline.md)
+- π*0.6 / RECAP 的“偏好调节监督”视角：[`pi0_6_recap_rl_as_supervised_learning.md`](../rl/pi0_6_recap_rl_as_supervised_learning.md)
+- VLA 研究主线（数据×感知×后训练）：[`../vla_research_mainline.md`](../vla-core/vla_research_mainline.md)
 
 ---
 

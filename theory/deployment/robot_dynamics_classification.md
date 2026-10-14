@@ -101,7 +101,7 @@ $$
 
 ## 🔗 参考索引
 *   **所属路径**: 理论基础 / 机器人动力学
-*   **相关内容**: [空间数学基础](./spatial_math.md) | [机器人控制方法](./robot_control.md)
+*   **相关内容**: [空间数学基础](../perception/spatial_math.md) | [机器人控制方法](./robot_control.md)
 
 ---
 [← 返回理论索引](./README.md)

@@ -79,8 +79,8 @@
 
 建议结合本仓库两篇一起读：
 
-- 多传感融合与时间尺度：[`../state_estimation.md`](../state_estimation.md)
-- 动作/控制视角：[`../robot_control.md`](../robot_control.md)
+- 多传感融合与时间尺度：[`../state_estimation.md`](../perception/state_estimation.md)
+- 动作/控制视角：[`../robot_control.md`](../deployment/robot_control.md)
 
 ---
 

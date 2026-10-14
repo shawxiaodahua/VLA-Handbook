@@ -1101,10 +1101,10 @@ for _ in range(100):
 
 ## 🔗 相关资源
 
-- [VLA 十大挑战](./vla_challenges.md) - 包含"资源效率"挑战
-- [量化理论](./quantization_theory.md) - 量化技术详解
-- [PEFT & LoRA](./peft_lora.md) - 参数高效微调
-- [知识蒸馏](./knowledge_distillation.md) - 蒸馏技术详解
+- [VLA 十大挑战](../planning/vla_challenges.md) - 包含"资源效率"挑战
+- [量化理论](../foundation/quantization_theory.md) - 量化技术详解
+- [PEFT & LoRA](../foundation/peft_lora.md) - 参数高效微调
+- [知识蒸馏](../foundation/knowledge_distillation.md) - 蒸馏技术详解
 
 ---
 

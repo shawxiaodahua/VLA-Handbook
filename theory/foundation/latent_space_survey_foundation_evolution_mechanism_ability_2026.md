@@ -31,7 +31,7 @@ VLM/VLA 表面上在"生成 token"，但内部计算其实发生在**连续的�
 | **语言冗余** | 自然语言有大量语法结构冗余 | CoT 推理步骤中 80% 的 token 是语法填充，不是有效信息 |
 | **离散化瓶颈** | 有限词表量化连续信号 | 动作 token 化（RT-2 的 256 bins）丢失精细控制信息 |
 | **顺序低效** | 每个 token 需要完整 forward pass | 一个 8 步动作块 = 8 次 VLM 推理（如果用 token 方式） |
-| **语义损失** | 连续激活→离散符号的映射压缩/扭曲信息 | VLM 的 3D 理解被"挤过"离散词表时丢失（[VGA 论文](../vla-core/vga_vision_geometry_action_over_language_video_2026.md)的"3D→2D→3D 瓶颈"） |
+| **语义损失** | 连续激活→离散符号的映射压缩/扭曲信息 | VLM 的 3D 理解被"挤过"离散词表时丢失（[VGA 论文](../perception/vga_vision_geometry_action_over_language_video_2026.md)的"3D→2D→3D 瓶颈"） |
 
 > **核心洞察**：Token 是人类的语言，不是机器的语言。模型的"母语"是连续向量——强制用 token 做中间表示是在让模型"用外语思考"。
 

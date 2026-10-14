@@ -152,7 +152,7 @@ VLA 比较不能只看算法，还要看：
 | "语言条件控制强" | "做过语言消融吗？mask 语言后成功率多少？" |
 | "扩散政策 95% 成功" | "失败情况下恢复能力？F6 动作偏斜测试？" |
 | "跨形态泛化" | "embodiment gap 量化值？哪些形态？" |
-| "完全开源" | "fully open / weight-only / inference-only？"（参考 [open-source-audit](./open-source-audit.md)） |
+| "完全开源" | "fully open / weight-only / inference-only？"（参考 open-source-audit（文件未收录）） |
 
 ---
 

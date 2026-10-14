@@ -52,7 +52,7 @@
 - **底层：人类视频**
   - 覆盖物体与场景多样性，但缺少力与精确动作映射
 
-对应的任务拆解与注意事项见：[`../theory/frontier/dexterous_hands_open_can_cards_data_pyramid.md`](../theory/frontier/dexterous_hands_open_can_cards_data_pyramid.md)
+对应的任务拆解与注意事项见：[`../theory/frontier/dexterous_hands_open_can_cards_data_pyramid.md`](../theory/deployment/dexterous_hands_open_can_cards_data_pyramid.md)
 
 ## 3. 核心技术点
 

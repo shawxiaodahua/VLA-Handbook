@@ -2998,7 +2998,7 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 
 #### 14. 2026-04 新增（帖201-232）
 
-> 2026-04-17 + 2026-04-28 双轮自动采集，10 个关键词共 32 篇新帖。**全部带 xiaohongshu.com/explore/<id> 直链**，正文/作者/日期/评论/IP 经 DOM 实时抓取。原始档案：[2026-04-17-auto.md](../../memory/blog/archives/xiaohongshu-community/2026-04-17-auto.md) + [2026-04-28-auto.md](../../memory/blog/archives/xiaohongshu-community/2026-04-28-auto.md)。
+> 2026-04-17 + 2026-04-28 双轮自动采集，10 个关键词共 32 篇新帖。**全部带 xiaohongshu.com/explore/<id> 直链**，正文/作者/日期/评论/IP 经 DOM 实时抓取。原始档案：[2026-04-17-auto.md](../memory/blog/archives/xiaohongshu-community/2026-04-17-auto.md) + 2026-04-28-auto.md（文件未收录）。
 
 #### 15. 2026-05 三轮采集（帖233-276，44 篇新帖）
 

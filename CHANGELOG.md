@@ -30,15 +30,15 @@ All notable changes to the **VLA Handbook** project are documented here, derived
 
 ## 2026-02-15 to 2026-02-27 🆕
 ### Added (Theory Deep Dives - Auto Pipeline)
-- **Agent World Model & Infinity Env**: [`theory/agent_world_model_infinity_synthetic_environments_for_agenti_dissection.md`](./theory/agent_world_model_infinity_synthetic_environments_for_agenti_dissection.md) — 無限合成環境對 VLA 泛化的影響
-- **CausalGDP**: [`theory/causalgdp_causality_guided_diffusion_policies_for_reinforcem_dissection.md`](./theory/causalgdp_causality_guided_diffusion_policies_for_reinforcem_dissection.md) — 因果引導的擴散策略 for RL
-- **MIND Benchmark**: [`theory/mind_benchmarking_memory_consistency_and_action_control_in_w_dissection.md`](./theory/mind_benchmarking_memory_consistency_and_action_control_in_w_dissection.md) — 記憶一致性與動作控制基準
-- **OLAF**: [`theory/olaf_world_orienting_latent_actions_for_video_world_modeling_dissection.md`](./theory/olaf_world_orienting_latent_actions_for_video_world_modeling_dissection.md) — 潛在動作定向的視頻世界模型
-- **RoboGene**: [`theory/robogene_boosting_vla_pre_training_via_diversity_driven_agen_dissection.md`](./theory/robogene_boosting_vla_pre_training_via_diversity_driven_agen_dissection.md) — 多樣性驅動的 VLA 預訓練增強
-- **TACO Benchmark**: [`theory/taco_a_benchmark_for_lossless_and_lossy_codecs_of_heterogene_dissection.md`](./theory/taco_a_benchmark_for_lossless_and_lossy_codecs_of_heterogene_dissection.md) — 異構感知器編解碼基準
-- **TwinVLA**: [`theory/twinvla_data_efficient_bimanual_manipulation_with_twin_singl_dissection.md`](./theory/twinvla_data_efficient_bimanual_manipulation_with_twin_singl_dissection.md) — 數據高效的雙臂操作
-- **World Action Models**: [`theory/world_action_models_are_zero_shot_policies_dissection.md`](./theory/world_action_models_are_zero_shot_policies_dissection.md) — 世界模型即零樣本策略
-- **Scaling Verification**: [`theory/scaling_verification_can_be_more_effective_than_scaling_poli_dissection.md`](./theory/scaling_verification_can_be_more_effective_than_scaling_poli_dissection.md) — 驗證擴展 vs 策略擴展
+- **Agent World Model & Infinity Env**: [`theory/agent_world_model_infinity_synthetic_environments_for_agenti_dissection.md`](theory/world-model/agent_world_model_infinity_synthetic_environments_for_agenti_dissection.md) — 無限合成環境對 VLA 泛化的影響
+- **CausalGDP**: [`theory/causalgdp_causality_guided_diffusion_policies_for_reinforcem_dissection.md`](theory/rl/causalgdp_causality_guided_diffusion_policies_for_reinforcem_dissection.md) — 因果引導的擴散策略 for RL
+- **MIND Benchmark**: [`theory/mind_benchmarking_memory_consistency_and_action_control_in_w_dissection.md`](theory/world-model/mind_benchmarking_memory_consistency_and_action_control_in_w_dissection.md) — 記憶一致性與動作控制基準
+- **OLAF**: [`theory/olaf_world_orienting_latent_actions_for_video_world_modeling_dissection.md`](theory/world-model/olaf_world_orienting_latent_actions_for_video_world_modeling_dissection.md) — 潛在動作定向的視頻世界模型
+- **RoboGene**: [`theory/robogene_boosting_vla_pre_training_via_diversity_driven_agen_dissection.md`](theory/foundation/robogene_boosting_vla_pre_training_via_diversity_driven_agen_dissection.md) — 多樣性驅動的 VLA 預訓練增強
+- **TACO Benchmark**: [`theory/taco_a_benchmark_for_lossless_and_lossy_codecs_of_heterogene_dissection.md`](theory/tactile/taco_a_benchmark_for_lossless_and_lossy_codecs_of_heterogene_dissection.md) — 異構感知器編解碼基準
+- **TwinVLA**: [`theory/twinvla_data_efficient_bimanual_manipulation_with_twin_singl_dissection.md`](theory/vla-core/twinvla_data_efficient_bimanual_manipulation_with_twin_singl_dissection.md) — 數據高效的雙臂操作
+- **World Action Models**: [`theory/world_action_models_are_zero_shot_policies_dissection.md`](theory/world-model/world_action_models_are_zero_shot_policies_dissection.md) — 世界模型即零樣本策略
+- **Scaling Verification**: [`theory/scaling_verification_can_be_more_effective_than_scaling_poli_dissection.md`](theory/rl/scaling_verification_can_be_more_effective_than_scaling_poli_dissection.md) — 驗證擴展 vs 策略擴展
 
 ### Added (Reports)
 - **Biweekly 2026-02-26**: [`reports/biweekly/2026-02-26.md`](./reports/biweekly/2026-02-26.md) + [`reflection`](./reports/biweekly/reflection_2026-02-26.md) — VLA 雙周研究報告與預測回顧
@@ -62,11 +62,11 @@ All notable changes to the **VLA Handbook** project are documented here, derived
 
 ## 2026-01-11 to 2026-01-12 🆕
 ### Added
-- **Spirit-v1.5 深度拆解**: 新增 [`theory/spirit_v1_5_dissection.md`](./theory/spirit_v1_5_dissection.md)，包含：
+- **Spirit-v1.5 深度拆解**: 新增 [`theory/spirit_v1_5_dissection.md`](theory/vla-core/spirit_v1_5_dissection.md)，包含：
     - **核心架构**：Qwen3-VL (大脑) + DiT (小脑) + ODE Euler 积分 (执行)。
     - **多样化数据采集 (Diverse Collection)**：深度解析 Spirit AI 为什么认为“干净数据是伟大模型的敌人”。
     - **RoboChallenge Table30**：首个超越 π0.5 登顶榜单的代码级复现指南与数据对齐细节（包含不同机器人型号的后处理逻辑）。
-- **灵巧手机械学深度专题**: 新增 [`theory/dexterous_hand_mechanics.md`](./theory/dexterous_hand_mechanics.md)：
+- **灵巧手机械学深度专题**: 新增 [`theory/dexterous_hand_mechanics.md`](theory/deployment/dexterous_hand_mechanics.md)：
     - 机构学基础 (Grubler's Criterion)、四连杆机构、行星减速器、锥齿轮分析。
     - 传动学对比 (直驱 vs 线驱 vs 液压/Sanctuary AI Phoenix)。
     - 运动学 Jacobian 矩阵与动力学阻抗控制数学表达。
@@ -89,9 +89,9 @@ All notable changes to the **VLA Handbook** project are documented here, derived
 
 ## 2026-01-09 to 2026-01-10
 ### Added
-- **VLA 必备数学基础**: 新增 [`theory/math_for_vla.md`](./theory/math_for_vla.md)，系统整理了从线性代数、空间表示 (SE3) 到扩散模型、流匹配的完整数学链条。
-- **VLA 损失函数手册**: 新增 [`theory/vla_loss_functions_handbook.md`](./theory/vla_loss_functions_handbook.md)，包含 NLL、KL 散度、ELBO 等公式大白话翻译与 PyTorch 实现。
-- **前馈与反馈控制**: 在 [`theory/robot_control.md`](./theory/robot_control.md) 中增加 Feedforward vs Feedback 专题，辅以“抓取透明水瓶”的工程案例。
+- **VLA 必备数学基础**: 新增 [`theory/math_for_vla.md`](theory/foundation/math_for_vla.md)，系统整理了从线性代数、空间表示 (SE3) 到扩散模型、流匹配的完整数学链条。
+- **VLA 损失函数手册**: 新增 [`theory/vla_loss_functions_handbook.md`](theory/foundation/vla_loss_functions_handbook.md)，包含 NLL、KL 散度、ELBO 等公式大白话翻译与 PyTorch 实现。
+- **前馈与反馈控制**: 在 [`theory/robot_control.md`](theory/deployment/robot_control.md) 中增加 Feedforward vs Feedback 专题，辅以“抓取透明水瓶”的工程案例。
 - **灵巧手实战案例集**: 将 VisionOS (Webcam 遥操作) 与 Wuji 手的 retargeting 实战整合至 [`deployment/dexterous_hand_applications.md`](./deployment/dexterous_hand_applications.md)。
 
 ---
@@ -104,9 +104,9 @@ All notable changes to the **VLA Handbook** project are documented here, derived
     - **面试 Q&A 模拟**：针对实时控制、延迟优化、多维映射等核心问题的专业话术建议。
 - **Jim Fan 2025 年度复盘**: 新增 [`theory/frontier/jim_fan_2025_robotics_lessons.md`](./theory/frontier/jim_fan_2025_robotics_lessons.md)。
 - **触觉不可替代性与视触觉前沿**: 
-    - 新增 [`theory/frontier/tactile_irreplaceable.md`](./theory/frontier/tactile_irreplaceable.md)。
-    - 新增 [`theory/frontier/unitachhand.md`](./theory/frontier/unitachhand.md)（人手→机器人灵巧手策略零样本迁移）。
-    - 更新 [`theory/tactile_vla.md`](./theory/tactile_vla.md) 的 Q&A 部分，增加「Demo 为何翻车」与「工程 Checklist」。
+    - 新增 [`theory/frontier/tactile_irreplaceable.md`](theory/tactile/tactile_irreplaceable.md)。
+    - 新增 [`theory/frontier/unitachhand.md`](theory/tactile/unitachhand.md)（人手→机器人灵巧手策略零样本迁移）。
+    - 更新 [`theory/tactile_vla.md`](theory/tactile/tactile_vla.md) 的 Q&A 部分，增加「Demo 为何翻车」与「工程 Checklist」。
 
 ### Changed
 - **理论索引更新**: 在 [`theory/README.md`](./theory/README.md) 中新增「Part 7: 实战案例与部署」板块。
@@ -120,12 +120,12 @@ All notable changes to the **VLA Handbook** project are documented here, derived
   - MCP (Model Context Protocol) architecture and tool discovery.
   - SubAgent implementation and context isolation.
   - Spec-driven development (OpenSpec interpretation).
-- **Data Flywheel & Cross-modal Transfer**: New document [`theory/frontier/data_flywheel_and_cross_modal.md`](./theory/frontier/data_flywheel_and_cross_modal.md) analyzing:
+- **Data Flywheel & Cross-modal Transfer**: New document [`theory/frontier/data_flywheel_and_cross_modal.md`](theory/foundation/data_flywheel_and_cross_modal.md) analyzing:
   - Data scarcity solutions in robotics.
   - Humanoid foundation models using internet video data.
   - Boundless Intelligence (智在无界) case study.
 - **Robot Startup Category**: Added [`companies/startups.md`](./companies/startups.md) featuring Boundless Intelligence (智在无界) and CEO Zongqing Lu's team.
-- **Nature Communications Reward Discovery**: Added [`theory/frontier/reward_discovery_rl.md`](./theory/frontier/reward_discovery_rl.md).
+- **Nature Communications Reward Discovery**: Added [`theory/frontier/reward_discovery_rl.md`](theory/rl/reward_discovery_rl.md).
 
 ### Changed
 - **ROS2 Section Reinforcement**: Major updates to [`deployment/ros_and_optimization.md`](./deployment/ros_and_optimization.md):
@@ -133,7 +133,7 @@ All notable changes to the **VLA Handbook** project are documented here, derived
   - Added Component Containers and WaitSet real-time executor models.
   - Added Unicast/Peers-list discovery for distributed deployment.
   - Added safety certification (Apex.OS) content.
-- **Robot Dynamics Classification Refinement**: Updated [`theory/robot_dynamics_classification.md`](./theory/robot_dynamics_classification.md) with English terms and algorithm-friendly analogies.
+- **Robot Dynamics Classification Refinement**: Updated [`theory/robot_dynamics_classification.md`](theory/deployment/robot_dynamics_classification.md) with English terms and algorithm-friendly analogies.
 
 ---
 

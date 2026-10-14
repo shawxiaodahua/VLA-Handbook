@@ -493,7 +493,7 @@ L_CQL = α × E_{s ~ D}[ log Σ_a exp(Q(s,a)) - E_{a ~ D}[Q(s,a)] ] + L_TD
 
 #### 4.3.3 Recap (π*0.6 的核心算法)
 
-+**思想**: 从成功和失败的轨迹中学习（详细机制可参考 [pi0_6_dissection.md](./pi0_6_dissection.md) 中的 Recap 解析）。
++**思想**: 从成功和失败的轨迹中学习（详细机制可参考 [pi0_6_dissection.md](../vla-core/pi0_6_dissection.md) 中的 Recap 解析）。
 
 ```python
 class RecapAlgorithm:

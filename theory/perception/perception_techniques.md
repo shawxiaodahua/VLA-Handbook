@@ -675,7 +675,7 @@ depth_colored = cv2.applyColorMap(
 *   **核心原理**: 利用**视频扩散基础模型**（如 WAN）内部蕴含的物理先验（物体的遮挡关系、空间布局）来“脑补”透明区域的深度。
 *   **优势**: 支持任意长度视频，具备极强的时空一致性，在“野外”非约束环境下鲁棒性极高。
 *   **应用**: 实验室自动化抓取透明仪器、家庭服务机器人处理玻璃餐具。
-*   **详细解析**: 参见 [`./frontier/dkt_transparency_perception.md`](./frontier/dkt_transparency_perception.md)
+*   **详细解析**: 参见 [`./frontier/dkt_transparency_perception.md`](dkt_transparency_perception.md)
 
 ---
 

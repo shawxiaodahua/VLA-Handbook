@@ -279,5 +279,5 @@ def fast_fk_solver(q, dh_a, dh_d, dh_alpha):
 ---
 
 ## 🔗 参考索引
-*   **相关内容**: [UR5 控制实战](./ur5_control_guide.md) | [具身导航 DualVLN](../theory/vln_dualvln.md)
+*   **相关内容**: [UR5 控制实战](./ur5_control_guide.md) | [具身导航 DualVLN](../theory/vla-core/vln_dualvln.md)
 

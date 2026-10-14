@@ -69,7 +69,7 @@ DKT 的发布直接补齐了 VLA 模型（如 π0, OpenVLA）在感知侧的短�
 ## 🔗 参考索引
 *   **代码/项目**: [Daniellli/DKT](https://github.com/Daniellli/DKT)
 *   **权重**: [Hugging Face Space](https://huggingface.co/spaces/Daniellli/DKT)
-*   **相关算法**: [WAN (Video Diffusion Model)](../multimodal_models.md)
+*   **相关算法**: [WAN (Video Diffusion Model)](multimodal_models.md)
 *   **所属路径**: 研究前沿 / 视觉感知
 
 ---

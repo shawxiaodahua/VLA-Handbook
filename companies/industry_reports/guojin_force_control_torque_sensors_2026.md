@@ -104,7 +104,7 @@
 
 ## 8) 与手册内容的关联
 
-- 控制侧：[`../../theory/robot_control.md`](../../theory/robot_control.md)  
+- 控制侧：[`../../theory/robot_control.md`](../../theory/deployment/robot_control.md)  
 - 硬件成本/选型侧：[`../../deployment/robot_hardware_selection_pricing.md`](../../deployment/robot_hardware_selection_pricing.md)
 
 ---
