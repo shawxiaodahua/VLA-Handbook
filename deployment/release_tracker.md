@@ -262,3 +262,4 @@
 | 2026-10-05 | MuJoCo | sim | 3.15.0 released |  | github_release | https://github.com/google-deepmind/mujoco/releases/tag/3.15.0 |
 | 2026-10-07 | OmniGibson | sim | v3.9.3-post2 released |  | github_release | https://github.com/StanfordVL/BEHAVIOR-1K/releases/tag/v3.9.3-post2 |
 | 2026-10-11 | Genesis | sim | v1.4.4 released |  | github_release | https://github.com/Genesis-Embodied-AI/genesis-world/releases/tag/v1.4.4 |
+| 2026-10-14 | MuJoCo | sim | 3.16.0 released |  | github_release | https://github.com/google-deepmind/mujoco/releases/tag/3.16.0 |
