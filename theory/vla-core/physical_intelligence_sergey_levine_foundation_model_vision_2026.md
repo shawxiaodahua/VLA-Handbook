@@ -45,7 +45,7 @@ Levine 对"通用性"的定义很独特——不是"能做多少任务"，而是
 > "我做出很多决策，本质上都是围绕这一点展开的。"
 
 **VLA-Handbook 解读**：这解释了为什么 PI 如此强调 RL 后训练（π\*0.6 Recap）——它让系统具备了从自身经验中自我改进的能力，而不是永远依赖人类遥操示范。
-→ 详见 [π\*0.6 / RECAP](pi0_6_recap_rl_as_supervised_learning.md) · [VLA+RL 实战](../rl/vla_rl_practical_guide.md)
+→ 详见 [π\*0.6 / RECAP](../rl/pi0_6_recap_rl_as_supervised_learning.md) · [VLA+RL 实战](../rl/vla_rl_practical_guide.md)
 
 ---
 

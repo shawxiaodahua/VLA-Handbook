@@ -293,7 +293,7 @@ In-distribution 上 VGA 和 π₀.₅ 接近（75% vs 77%）——3D 先验在�
 
 ### 这篇论文证实了"赌注 1"
 
-在 [VLA 研究主线](vla_research_mainline.md)中，赌注 1 说"动作的语言还没找到"。VGA 给出了一个具体答案：**动作的"语言"是几何，不是自然语言**。
+在 [VLA 研究主线](../vla-core/vla_research_mainline.md)中，赌注 1 说"动作的语言还没找到"。VGA 给出了一个具体答案：**动作的"语言"是几何，不是自然语言**。
 
 ### 与 Spark 2.0 / OmniMap 的互补
 
@@ -301,11 +301,11 @@ In-distribution 上 VGA 和 π₀.₅ 接近（75% vs 77%）——3D 先验在�
 
 ### 对"双系统架构"的新解读
 
-[GR00T-N1.6](gr00t_n1_6.md) 和 [Helix 02](figure_helix_02_full_body_autonomy_2026.md) 用双系统分离语义（慢）和运动（快）。VGA 暗示了另一种分法：**几何系统（3D backbone）+ 语义系统（语言条件）**，而不是按速度分。
+[GR00T-N1.6](../vla-core/gr00t_n1_6.md) 和 [Helix 02](../vla-core/figure_helix_02_full_body_autonomy_2026.md) 用双系统分离语义（慢）和运动（快）。VGA 暗示了另一种分法：**几何系统（3D backbone）+ 语义系统（语言条件）**，而不是按速度分。
 
 ### 反驳了"Scaling 是全部"的观点
 
-在 [Sergey Levine 访谈](physical_intelligence_sergey_levine_foundation_model_vision_2026.md)中讨论的 Q1（理解 vs 模仿），VGA 站在了"Structure 派"一边——不是数据越多越好，而是**正确的表征空间更重要**。3B 参数的 VGA 打败了用更多数据训练的 π₀.₅。
+在 [Sergey Levine 访谈](../vla-core/physical_intelligence_sergey_levine_foundation_model_vision_2026.md)中讨论的 Q1（理解 vs 模仿），VGA 站在了"Structure 派"一边——不是数据越多越好，而是**正确的表征空间更重要**。3B 参数的 VGA 打败了用更多数据训练的 π₀.₅。
 
 ---
 
@@ -337,7 +337,7 @@ In-distribution 上 VGA 和 π₀.₅ 接近（75% vs 77%）——3D 先验在�
 
 random init → 6.4% 是本文最惊人的数字。这意味着 VGGT 的 3D 预训练几乎是 VGA 全部能力的来源——模型从 LIBERO 的 400 demos 中学到的主要是"如何把 3D 先验映射到动作"，而不是"3D 场景长什么样"。
 
-**延伸**：这暗示了机器人操作的核心困难不在"理解场景"——3D 基础模型已经可以做到了。困难在"把理解转化为精准动作"。这和 [PI 访谈](physical_intelligence_sergey_levine_foundation_model_vision_2026.md)中说的"瓶颈从手移到了脑的中间层"异曲同工。
+**延伸**：这暗示了机器人操作的核心困难不在"理解场景"——3D 基础模型已经可以做到了。困难在"把理解转化为精准动作"。这和 [PI 访谈](../vla-core/physical_intelligence_sergey_levine_foundation_model_vision_2026.md)中说的"瓶颈从手移到了脑的中间层"异曲同工。
 
 ### 🔮 "几何 backbone + 语义条件"可能是最优架构
 
@@ -353,12 +353,12 @@ VGA 用 3D backbone + 语言作为条件输入。这比两个极端都好：
 
 | 方向 | 推荐 |
 |------|------|
-| VLA 研究主线 | [研究主线梳理](vla_research_mainline.md)（赌注 1：动作的语言） |
+| VLA 研究主线 | [研究主线梳理](../vla-core/vla_research_mainline.md)（赌注 1：动作的语言） |
 | 3D 感知工具 | [点云与 SLAM](../perception/pointcloud_slam.md)（60+ 工具 + 原理分类） |
 | 3DGS 渲染 | [Spark 2.0](../perception/spark_2_0_3dgs_web_renderer_world_labs_2026.md) |
-| 双系统架构 | [GR00T-N1.6](gr00t_n1_6.md) · [Helix 02](figure_helix_02_full_body_autonomy_2026.md) |
-| Flow Matching | [π0 代码解析](pi0_code_analysis.md) · [Diffusion Policy](../diffusion-flow/diffusion_policy.md) |
-| PI 访谈 | [Sergey Levine](physical_intelligence_sergey_levine_foundation_model_vision_2026.md)（中间层瓶颈） |
+| 双系统架构 | [GR00T-N1.6](../vla-core/gr00t_n1_6.md) · [Helix 02](../vla-core/figure_helix_02_full_body_autonomy_2026.md) |
+| Flow Matching | [π0 代码解析](../vla-core/pi0_code_analysis.md) · [Diffusion Policy](../diffusion-flow/diffusion_policy.md) |
+| PI 访谈 | [Sergey Levine](../vla-core/physical_intelligence_sergey_levine_foundation_model_vision_2026.md)（中间层瓶颈） |
 | 3D 点云 VLA | [PointVLA](../perception/pointcloud_slam.md) · [PointWorld](../perception/pointcloud_slam.md) |
 
 ---

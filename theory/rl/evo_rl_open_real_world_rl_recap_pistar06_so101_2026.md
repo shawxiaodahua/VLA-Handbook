@@ -307,9 +307,9 @@ Evo-RL 当前最值得看的不是“某个基准上 +x%”，而是这几个维
 ---
 
 ## 相关笔记
-- π0.6 结构/训练主线：[`../pi0_6_dissection.md`](../pi0_6_dissection.md)
+- π0.6 结构/训练主线：[`../pi0_6_dissection.md`](../vla-core/pi0_6_dissection.md)
 - RECAP 范式解读：[`./pi0_6_recap_rl_as_supervised_learning.md`](./pi0_6_recap_rl_as_supervised_learning.md)
-- VLA + RL 工程教程：[`../vla_rl_practical_guide.md`](../vla_rl_practical_guide.md)
+- VLA + RL 工程教程：[`../vla_rl_practical_guide.md`](vla_rl_practical_guide.md)
 
 ## 参考链接
 - Evo-RL GitHub：[`MINT-SJTU/Evo-RL`](https://github.com/MINT-SJTU/Evo-RL)

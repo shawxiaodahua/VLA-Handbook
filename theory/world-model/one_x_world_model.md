@@ -86,6 +86,6 @@
 
 ## 6) 和 VLA Handbook 里的其它路线怎么对齐
 
-- **和“视频世界模型”趋势一致**：Jim Fan 的行业复盘也提到“更合理的方向：视频世界模型”（见 [`jim_fan_2025_robotics_lessons.md`](./jim_fan_2025_robotics_lessons.md)）。
-- **和“产业路线图”对齐**：这更接近“生态平台/标准化 + 预训练规模化”的路线（见 [`industry_paths_to_generalization.md`](./industry_paths_to_generalization.md)）。
+- **和“视频世界模型”趋势一致**：Jim Fan 的行业复盘也提到“更合理的方向：视频世界模型”（见 [`jim_fan_2025_robotics_lessons.md`](../frontier/jim_fan_2025_robotics_lessons.md)）。
+- **和“产业路线图”对齐**：这更接近“生态平台/标准化 + 预训练规模化”的路线（见 [`industry_paths_to_generalization.md`](../deployment/industry_paths_to_generalization.md)）。
 

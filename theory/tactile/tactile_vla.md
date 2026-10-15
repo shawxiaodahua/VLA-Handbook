@@ -7,7 +7,7 @@
 ## 1. 为什么需要触觉? (Why Tactile?)
 
 > 如果你只记一句：视觉给你“全局坐标”，语言给你“任务意图”，**触觉给你“接触相位的闭环真反馈”**。
-> - 行业盘点（可面试复述）：[`./frontier/tactile_irreplaceable.md`](./frontier/tactile_irreplaceable.md)
+> - 行业盘点（可面试复述）：[`./frontier/tactile_irreplaceable.md`](tactile_irreplaceable.md)
 
 - **视觉遮挡 (Occlusion)**: 当机械手抓取物体时，手掌会挡住摄像头视线。此时只有触觉能提供反馈。
 - **物理属性感知**: 视觉无法直接判断物体的软硬、摩擦力、重量。
@@ -23,7 +23,7 @@
   - 需要稳定的切向力/扭矩输出（摩擦与滑移是决定性因素）
   - 失败模式多且代价高（拉断、捏爆、散牌）
 
-更完整的工程拆解见：[`./frontier/dexterous_hands_open_can_cards_data_pyramid.md`](./frontier/dexterous_hands_open_can_cards_data_pyramid.md)
+更完整的工程拆解见：[`./frontier/dexterous_hands_open_can_cards_data_pyramid.md`](../deployment/dexterous_hands_open_can_cards_data_pyramid.md)
 
 ### 1.1 触觉在控制中的角色：前馈与反馈
 
@@ -61,19 +61,19 @@
 - **发现**: 大脑中存在对齐的**视网膜拓扑**与**身体拓扑**地图。
 - **意义**: 这种“跨模态地形图”允许大脑将视觉信号直接翻译为触觉模拟。这解释了为什么我们可以通过观察他人的动作来学习触觉技能。
 - **VLA 启示**: 模型设计应强化视觉与触觉 Token 在空间维度的**拓扑对齐**，而非简单的向量拼接。
-- **详细解读**: 参见 [`./frontier/vicarious_body_maps.md`](./frontier/vicarious_body_maps.md)
+- **详细解读**: 参见 [`./frontier/vicarious_body_maps.md`](vicarious_body_maps.md)
 
 ## 2. 核心传感器技术
 
 这一节更偏“产品/工程选型”。为了避免与 `deployment/perception/` 与 `product/` 下的传感器资料重复维护，本手册在 theory 侧只保留**最小地图**：
 
-- **传感器与产品清单（长期维护入口）**：[`../product/sensors.md`](../product/sensors.md)  
+- **传感器与产品清单（长期维护入口）**：[`../product/sensors.md`](../../product/sensors.md)  
   - 适合：选型/对比/采购/集成（含工业传感器与开源方案）。
-- **触觉工程主入口（感知工程）**：[`../deployment/perception/README.md`](../deployment/perception/README.md)  
+- **触觉工程主入口（感知工程）**：[`../deployment/perception/README.md`](../../deployment/perception/README.md)  
   - 适合：标定/同步/数据质量/失败模式/监控与验收。
-- **触觉阵列算法口径（落地）**：[`../deployment/perception/tactile_array_algorithms_capacitive_piezoresistive.md`](../deployment/perception/tactile_array_algorithms_capacitive_piezoresistive.md)
-- **触觉集成常见坑（布线/空间/时延/维护）**：[`../deployment/tactile_sensor_integration_challenges.md`](../deployment/tactile_sensor_integration_challenges.md)
-- **SuperTac + DOVE（主文档在 Perception）**：[`../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md`](../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md)
+- **触觉阵列算法口径（落地）**：[`../deployment/perception/tactile_array_algorithms_capacitive_piezoresistive.md`](../../deployment/perception/tactile_array_algorithms_capacitive_piezoresistive.md)
+- **触觉集成常见坑（布线/空间/时延/维护）**：[`../deployment/tactile_sensor_integration_challenges.md`](../../deployment/tactile_sensor_integration_challenges.md)
+- **SuperTac + DOVE（主文档在 Perception）**：[`../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md`](../../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md)
 
 ## 3. 最新模型进展 (2024-2025)
 
@@ -238,12 +238,12 @@ loss = CrossEntropy(decoder(tactile_emb, vision_emb), text_tokens)
 ### 3.5 🆕 UniTacHand: 人手→机器人灵巧手触觉技能迁移 (2025)
 > **论文**: [UniTacHand: Unified Spatio-Tactile Representation for Human to Robotic Hand Skill Transfer](https://arxiv.org/html/2512.21233v2)
 > **核心思想**: 先把人类触觉手套与机器人触觉传感器的信号投影到统一的 **MANO UV Map**（2D 规范表面），再用对比学习把两域对齐到同一潜空间，实现 **zero-shot** 策略迁移。
-> **手册解读**: 参见 [`./frontier/unitachhand.md`](./frontier/unitachhand.md)
+> **手册解读**: 参见 [`./frontier/unitachhand.md`](unitachhand.md)
 
 ### 3.6 🆕 GenForce：跨触觉传感器的可迁移力感知 (Nature Communications 2026)
 > **论文**: Training tactile sensors to learn force sensing from each other (Nat Commun 2026) `https://doi.org/10.1038/s41467-026-68753-1`
 > **核心思想**: 用统一 marker 表示 + 条件扩散做 M2M（marker-to-marker）翻译，把“旧传感器的力标签”迁移到新传感器；再用时序力回归 + 材料补偿把误差压到可用范围。
-> **深度笔记**: [`./tactile/genforce_tactile_force_transfer_2026.md`](./tactile/genforce_tactile_force_transfer_2026.md)
+> **深度笔记**: [`./tactile/genforce_tactile_force_transfer_2026.md`](genforce_tactile_force_transfer_2026.md)
 
 
 > **论文**: [SaTA: Spatially-anchored Tactile Awareness for Dexterous Manipulation](https://arxiv.org/abs/2510.14647)

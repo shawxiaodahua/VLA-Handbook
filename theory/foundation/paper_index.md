@@ -668,6 +668,10 @@
 | Dual-Stream Memory for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.13262v1) | 🔧 daily 2026-10-10 |
 | Noise Space Learning for VLA Adaptation | [link](https://arxiv.org/abs/2610.13943v1) | 🔧 daily 2026-10-10 |
 | Splat2Act: From Captured Scenes to Personalized VLA Manipulation | [link](https://arxiv.org/abs/2610.13945v1) | 🔧 daily 2026-10-10 |
+| PRISM: Precision Forcing for Generalist Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.14704) | 🔧 daily 2026-10-15 |
+| RAIN: Robotic Task Generalization with Region-Aware Interaction Networks | [link](https://arxiv.org/abs/2610.14039) | 🔧 daily 2026-10-15 |
+| Box-WAM: Box Trajectories as Compact State Representations for World Action Models | [link](https://tldr.takara.ai/p/2610.17526) | [世界模型] 🔧 daily 2026-10-15 |
+| ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models | [link](https://tldr.takara.ai/p/2610.18596) | [RL] 🔧 daily 2026-10-15 |
 
 ### 數據
 
@@ -712,6 +716,7 @@
 | TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning | [link](https://arxiv.org/abs/2610.10288v2) | 🎯 tactile \| 🔧 daily 2026-10-08 |
 | OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework | [link](https://arxiv.org/abs/2610.10384v1) | 🎯 tactile \| 🔧 daily 2026-10-08 |
 | TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning | [link](https://arxiv.org/abs/2610.11945v1) | 🎯 tactile \| 🔧 daily 2026-10-09 |
+| DEFT-VLA: Stage-Localized Force Specialization for Contact-Rich Robotic Manipulation | [link](https://arxiv.org/abs/2610.14854) | 🎯 tactile \| 🔧 daily 2026-10-15 |
 
 ### 其他
 

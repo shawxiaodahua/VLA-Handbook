@@ -2,7 +2,7 @@
 
 > 模仿学习有天花板，RL 帮 VLA 突破它。
 
-📊 **19 篇** = 2 篇主線/工具 + 17 篇深度 dissection
+📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
 ## 🚀 從哪裡開始？
 
@@ -60,3 +60,55 @@
 [← Back to Theory Index](../README.md) · [↑ VLA-Handbook 主頁](../../README.md)
 
 [🏛️](../vla-core/README.md) · [🌍](../world-model/README.md) · [🧠](../planning/README.md) · [🤚](../tactile/README.md) · [👁️](../perception/README.md) · [🏗️](../foundation/README.md) · [🌊](../diffusion-flow/README.md) · [🔧](../deployment/README.md) · [🔬](../frontier/README.md)
+
+---
+
+<!-- VLA:THEORY-NAV:BEGIN -->
+<a id="theory-complete-index"></a>
+## 完整目录（自动更新）
+
+> 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
+
+**共 39 份文档。**
+
+- [从噪声引导到双隐空间：给冻结生成式策略加一条「内部表征」控制通道 (Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy)](./beyond_noise_steering_dual_latent_space_reinforcement_learni_dissection.md)
+- [CausalGDP：因果引导的扩散策略用于强化学习 (CausalGDP: Causality-Guided Diffusion Policies for Reinforcement Learning)](./causalgdp_causality_guided_diffusion_policies_for_reinforcem_dissection.md)
+- [D-VLA：高并发分布式异步强化学习框架 (D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models)](./d_vla_a_high_concurrency_distributed_asynchronous_reinforcem_dissection.md)
+- [DenseReward：通过失败合成实现密集奖励学习 (DenseReward: Dense Reward Learning via Failure Synthesis for Robotic Manipulation)](./densereward_dense_reward_learning_via_failure_synthesis_for_dissection.md)
+- [基于漂移的策略优化：面向在线机器人控制的单步原生策略学习 (Drift-Based Policy Optimization: Native One-Step Policy Learning for Online Robot Control)](./drift_based_policy_optimization_native_one_step_policy_learn_dissection.md)
+- [Evo-RL：在低成本机械臂上把 π\*0.6 / RECAP 真机 RL 跑成可复现工程 (Evo-RL for Open Real-World RL on SO101 and Beyond)](./evo_rl_open_real_world_rl_recap_pistar06_so101_2026.md)
+- [ForceRFT：以力引导残差强化学习精修 VLA 动作 (ForceRFT: Refining VLA Actions through Force-Guided Residual Reinforcement Learning)](./forcerft_refining_vla_actions_through_force_guided_residual_dissection.md)
+- [GR-RL 模型解剖 (Dissecting GR-RL)](./gr_rl_dissection.md)
+- [复用 VLA 表征做内在奖励 (Intrinsic Robot Rewarding: Reusing VLA Representations for Autonomous Evaluation and Policy Improvement)](./intrinsic_robot_rewarding_reusing_vla_representations_for_au_dissection.md)
+- [学习结果发散之处：通过概率分块掩码加速 VLA RL 后训练 (Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking)](./learn_where_outcomes_diverge_efficient_vla_rl_via_probabilis_dissection.md)
+- [从失败中学更多：VLA 后训练的事后强化学习 (Learning More from Less: Reinforcement Learning from Hindsight)](./learning_more_from_less_reinforcement_learning_from_hindsigh_dissection.md)
+- [MPCoT：奖励引导多路径潜在推理实现 VLA 测试时扩展 (MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action)](./mpcot_reward_guided_multi_path_latent_reasoning_for_test_tim_dissection.md)
+- [即时 VLA 自适应 via 测试时强化学习 (On-the-Fly VLA Adaptation via Test-Time Reinforcement Learning)](./on_the_fly_vla_adaptation_via_test_time_reinforcement_learni_dissection.md)
+- [π\*0.6 / RECAP：披着 RL 外衣的 Supervised Learning？——从 Offline RL 的“监督化”到 VLA Post-training 的新范式](./pi0_6_recap_rl_as_supervised_learning.md)
+- [$\\pi$-StepNFT：更宽探索空间需要更细粒度步级监督 (Wider Space Needs Finer Steps in Online RL for Flow-based VLAs)](./pi_stepnft_wider_space_needs_finer_steps_in_online_rl_for_fl_dissection.md)
+- [好的具身奖励模型需要坏行为数据 (Good Embodied Reward Models Need Bad Behavior Data)](./position_good_embodied_reward_models_need_bad_behavior_data_dissection.md)
+- [后验优化与裁剪目标：生成式策略学习中的效率 - 稳定性桥梁 (Posterior Optimization with Clipped Objective for Bridging Efficiency and Stability in Generative Policy Learning)](./posterior_optimization_with_clipped_objective_for_bridging_e_dissection.md)
+- [PGR：用条件扩散“生成式回放”替代 PER 的稀有样本过拟合 (Prioritized Generative Replay, ICLR 2025)](./prioritized_generative_replay_pgr_2025.md)
+- [Q-VGM: 基于 Q 值梯度匹配的 Flow-Matching VLA 离线强化学习 (Q-VGM: Q-Value-Gradient Matching for Off-Policy Reinforcement Learning of Flow-Matching VLA)](./q_vgm_q_value_gradient_matching_for_off_policy_reinforcement_dissection.md)
+- [强化学习 (Reinforcement Learning)](./reinforcement_learning.md)
+- [具身智能体的奖励函数自主发现 (Discovery of Reward Function for Embodied RL)](./reward_discovery_rl.md)
+- [🎮 强化学习 — VLA 后训练主线总纲](./rl_mainline.md)
+- [RL Token：用紧表示层启动 VLA 在线强化学习 (RL Token: Bootstrapping Online RL with Vision-Language-Action Models)](./rl_token_bootstrapping_online_rl_with_vision_language_action_dissection.md)
+- [RL-VLA³：面向 VLA 训练的灵活异步强化学习框架 (RL-VLA³: A Flexible and Asynchronous Reinforcement Learning Framework for VLA Training)](./rl_vla3_a_flexible_and_asynchronous_reinforcement_learning_f_dissection.md)
+- [RLinf-VLA：VLA 强化学习的统一高效框架 (RLinf-VLA: A Unified and Efficient Framework for Reinforcement Learning of Vision-Language-Action Models)](./rlinf_vla_a_unified_and_efficient_framework_for_reinforcemen_dissection.md)
+- [RLinf：面向 Embodied / Agentic AI 的 RL 训练基础设施（以及它对 VLA+RL 的意义）](./rlinf_vla_rl_training.md)
+- [學習「何時」與「由哪個」RL 專家接管 VLA 策略 (RouteRLT: Learning When and Which RL Specialist Should Control a Vision-Language-Action Policy)](./routerlt_learning_when_and_which_rl_specialist_should_contro_dissection.md)
+- [SARM：阶段感知奖励建模用于长视界机器人操作 (SARM: Stage-Aware Reward Modeling for Long Horizon Robot Manipulation)](./sarm_stage_aware_reward_modeling_for_long_horizon_robot_mani_dissection.md)
+- [扩展验证比扩展策略学习更有效：VLA 对齐的测试时验证框架 (Scaling Verification Can Be More Effective than Scaling Policy Learning for VLA Alignment)](./scaling_verification_can_be_more_effective_than_scaling_poli_dissection.md)
+- [並行仿真中的視覺語言獎勵學習規模化 (Scaling Vision-Language Reward Learning for Robot Manipulation in Parallel Simulation)](./scaling_vision_language_reward_learning_for_robot_manipulati_dissection.md)
+- [SEAR：样本高效动作分块强化学习 (Sample Efficient Action Chunking Reinforcement Learning)](./sear_sample_efficient_action_chunking_reinforcement_learning_dissection.md)
+- [SOLE-R1：视频语言推理作为机器人在线强化学习的唯一奖励信号 (SOLE-R1: Video-Language Reasoning as the Sole Reward for On-Robot Reinforcement Learning)](./sole_r1_video_language_reasoning_as_the_sole_reward_for_on_r_dissection.md)
+- [TEMPO：语义-动作解耦的 RL 后训练框架 (TEMPO: Semantic-Action Decoupled RL Post-Training for Vision-Language-Action Models)](./tempo_semantic_action_decoupled_rl_post_training_for_vision_dissection.md)
+- [用 VLM 词元概率做零样本机器人奖励 (TOPReward: Token Probabilities as Hidden Zero-Shot Rewards for Robotics)](./topreward_token_probabilities_as_hidden_zero_shot_rewards_fo_dissection.md)
+- [U2O RL：用无监督离线技能预训练替代“任务奖励离线预训练” (Unsupervised-to-Online Reinforcement Learning, 2024)](./unsupervised_to_online_reinforcement_learning_u2o_2024.md)
+- [VLA-OPD：用反向 KL 桥接 SFT 与 RL 的 VLA 后训练范式 (VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation)](./vla_opd_bridging_offline_sft_and_online_rl_for_vision_langua_dissection.md)
+- [VLA+RL 实战教程：架构、算法与工具链 (Practical VLA+RL Guide)](./vla_rl_practical_guide.md)
+- [VLGOR：视觉 - 语言知识引导的离线强化学习用于通用智能体 (VLGOR: Visual-Language Knowledge Guided Offline Reinforcement Learning for Generalizable Agents)](./vlgor_visual_language_knowledge_guided_offline_reinforcement_dissection.md)
+- [世界评论家模型：用世界建模赋能 VLA 强化学习 (WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning)](./wcm_a_world_critic_model_for_vision_language_action_reinforc_dissection.md)
+
+<!-- VLA:THEORY-NAV:END -->

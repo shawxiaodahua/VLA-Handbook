@@ -490,7 +490,7 @@ $$
 - **维护成本**：腱绳蠕变/松弛、弹性体磨损、减速器背隙与齿损都会带来长期漂移。
 - **一致性**：同一“策略”在不同手之间能否复现，往往取决于传动链和传感链的一致性。
 
-相关工程视角可参考：[`./frontier/dexterous_hands_open_can_cards_data_pyramid.md`](./frontier/dexterous_hands_open_can_cards_data_pyramid.md)
+相关工程视角可参考：[`./frontier/dexterous_hands_open_can_cards_data_pyramid.md`](dexterous_hands_open_can_cards_data_pyramid.md)
 
 ### 2.4 腱绳工程细节：走线、张紧、材料、滑轮（决定长期一致性）
 
@@ -765,7 +765,7 @@ flowchart TD
 ## 7. 产业视角补充：中金《人机系列05（灵巧手）》的工程化要点（摘录整理）
 
 > **来源状态**：下述要点基于用户粘贴的报告文字摘录整理，未附原文链接/页码，默认作为“行业观点”参考。  
-> 详细整理见：理论侧抽象 [`./frontier/dexterous_hand_industry_cicc_05.md`](./frontier/dexterous_hand_industry_cicc_05.md)，产业侧 digest [`../companies/industry_reports/cicc_dexterous_hand_05.md`](../companies/industry_reports/cicc_dexterous_hand_05.md)
+> 详细整理见：理论侧抽象 [`./frontier/dexterous_hand_industry_cicc_05.md`](dexterous_hand_industry_cicc_05.md)，产业侧 digest [`../companies/industry_reports/cicc_dexterous_hand_05.md`](../../companies/industry_reports/cicc_dexterous_hand_05.md)
 
 - **传动**：复合传动成为主流；旋转传动多路线并行（齿轮/连杆/腱绳/链条），直线传动中 **微型滚珠丝杠**渗透加速。
 - **驱动**：电驱为主，多电机方案并存（BLDC/空心杯/无框力矩）；功率密度提升会迅速引出 **重量与散热** 瓶颈。

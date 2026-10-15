@@ -98,8 +98,8 @@ Goldberg 的态度是：这些“很不性感”的系统工程，才是行业�
 
 与本 handbook 内部内容的映射：
 
-- 多模态同步：[`deployment/multimodal_data_synchronization.md`](../deployment/multimodal_data_synchronization.md)
-- 具身数据采集概览：[`deployment/embodied_data_collection_overview.md`](../deployment/embodied_data_collection_overview.md)
+- 多模态同步：[`deployment/multimodal_data_synchronization.md`](../../deployment/multimodal_data_synchronization.md)
+- 具身数据采集概览：[`deployment/embodied_data_collection_overview.md`](../../deployment/embodied_data_collection_overview.md)
 
 ---
 

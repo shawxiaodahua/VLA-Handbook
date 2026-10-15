@@ -321,7 +321,7 @@ OmniMap 是 observation → map。但如果反过来呢？
 
 想象：你说"帮我布置一个生日派对"。系统先用 LLM 生成场景描述 → 用 3D 生成模型在 OmniMap 格式中"渲染"出目标场景（气球在这、蛋糕在那、椅子这么摆）→ 计算当前地图和目标地图的 diff → 生成操作计划。
 
-这是 [Goal-VLA](goal_vla_image_generative_vlms_as_object_centric_world_model_dissection.md) 的 3D 升级版——Goal-VLA 生成目标图像（2D），这里生成目标 OmniMap（3D 语义地图）。3D 目标比 2D 目标精确得多，因为不存在视角歧义。
+这是 [Goal-VLA](../world-model/goal_vla_image_generative_vlms_as_object_centric_world_model_dissection.md) 的 3D 升级版——Goal-VLA 生成目标图像（2D），这里生成目标 OmniMap（3D 语义地图）。3D 目标比 2D 目标精确得多，因为不存在视角歧义。
 
 **具体工作**：训练一个"语言→OmniMap diff"模型，输入是当前地图+指令，输出是目标地图中哪些体素需要改变（物体位移/增删）。
 

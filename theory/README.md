@@ -1,8 +1,7 @@
 # 🗺️ VLA Theory — Explorer's Map
 
 > **VLA（Vision-Language-Action）** 让机器人"看懂世界、听懂指令、做出动作"。
-> 这里有 **688 篇理论文档**，覆盖 10 个主题目录。
-> 计数包含主题目录内的综述与索引，不含各目录 README；统计日期：2026-10-12。
+> 覆盖 10 个主题目录。[完整目录与当前统计](#theory-complete-index)见文末。
 >
 > 不知道从哪开始？先选你的角色 ↓
 
@@ -27,25 +26,25 @@
 
 ```mermaid
 graph TD
-    START["⚔️ START HERE"] --> CORE["🏛️ Central Keep<br/>VLA 核心架构<br/><b>156 篇</b>"]
+    START["⚔️ START HERE"] --> CORE["🏛️ Central Keep<br/>VLA 核心架构"]
 
-    CORE --> FLOW["🌊 Flow River<br/>扩散 · Flow Matching<br/>47 篇"]
-    CORE --> WORLD["🌍 World Realm<br/>世界模型 · 仿真<br/>93 篇"]
-    CORE --> RL["🎮 Training Arena<br/>强化学习 · 奖励<br/>39 篇"]
+    CORE --> FLOW["🌊 Flow River<br/>扩散 · Flow Matching"]
+    CORE --> WORLD["🌍 World Realm<br/>世界模型 · 仿真"]
+    CORE --> RL["🎮 Training Arena<br/>强化学习 · 奖励"]
 
-    FLOW --> PLAN["🧠 Strategy Hall<br/>推理 · 安全 · 规划<br/>67 篇"]
+    FLOW --> PLAN["🧠 Strategy Hall<br/>推理 · 安全 · 规划"]
     WORLD --> PLAN
     RL --> PLAN
 
-    PLAN --> TOUCH["🤚 Touch Cavern<br/>触觉感知<br/>58 篇"]
-    PLAN --> EYE["👁️ Vision Tower<br/>3D · SLAM<br/>24 篇"]
+    PLAN --> TOUCH["🤚 Touch Cavern<br/>触觉感知"]
+    PLAN --> EYE["👁️ Vision Tower<br/>3D · SLAM"]
 
-    TOUCH --> DEPLOY["🔧 Workshop<br/>部署 · 硬件<br/>43 篇"]
+    TOUCH --> DEPLOY["🔧 Workshop<br/>部署 · 硬件"]
     EYE --> DEPLOY
 
-    DEPLOY --> FRONTIER["🔬 Frontier Wilds<br/>跨域 · 神经科学<br/>75 篇"]
+    DEPLOY --> FRONTIER["🔬 Frontier Wilds<br/>跨域 · 神经科学"]
 
-    FOUND["🏗️ Foundation Mines<br/>基础理论 · 工具箱<br/>86 篇"] -.->|随时查阅| CORE
+    FOUND["🏗️ Foundation Mines<br/>基础理论 · 工具箱"] -.->|随时查阅| CORE
     FOUND -.-> FLOW
     FOUND -.-> RL
 
@@ -75,7 +74,7 @@ graph TD
 &nbsp;
 
 <details open>
-<summary><h3>🏛️ Central Keep — VLA 核心架构 &nbsp;<code>156 篇</code></h3></summary>
+<summary><h3>🏛️ Central Keep — VLA 核心架构</h3></summary>
 
 **一句话**：所有 VLA 模型的"解剖室"。
 
@@ -98,7 +97,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🌊 Flow River — 扩散策略与 Flow Matching &nbsp;<code>47 篇</code></h3></summary>
+<summary><h3>🌊 Flow River — 扩散策略与 Flow Matching</h3></summary>
 
 **一句话**：机器人的动作是"画"出来的，不是"算"出来的。
 
@@ -118,7 +117,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🌍 World Realm — 世界模型与仿真 &nbsp;<code>93 篇</code></h3></summary>
+<summary><h3>🌍 World Realm — 世界模型与仿真</h3></summary>
 
 **一句话**：让机器人在"脑子里"先试一遍，再决定怎么做。
 
@@ -140,7 +139,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🎮 Training Arena — 强化学习 &nbsp;<code>39 篇</code></h3></summary>
+<summary><h3>🎮 Training Arena — 强化学习</h3></summary>
 
 **一句话**：模仿学习有天花板，RL 帮 VLA 突破它。
 
@@ -161,7 +160,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>🤚 Touch Cavern — 触觉感知 &nbsp;<code>58 篇</code></h3></summary>
+<summary><h3>🤚 Touch Cavern — 触觉感知</h3></summary>
 
 **一句话**：闭上眼睛你也能系鞋带——因为手指在"看"。
 
@@ -180,7 +179,7 @@ VLA 的核心思想很简单：拿一个视觉语言模型（VLM），给它装�
 &nbsp;
 
 <details>
-<summary><h3>👁️ Vision Tower — 视觉与 3D 感知 &nbsp;<code>24 篇</code></h3></summary>
+<summary><h3>👁️ Vision Tower — 视觉与 3D 感知</h3></summary>
 
 **一句话**：机器人的"眼睛"不只是拍照——要理解深度、空间和运动。
 
@@ -199,7 +198,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🧠 Strategy Hall — 推理、规划与安全 &nbsp;<code>67 篇</code></h3></summary>
+<summary><h3>🧠 Strategy Hall — 推理、规划与安全</h3></summary>
 
 **一句话**：让机器人"先想再做"，而且不伤害人。
 
@@ -222,7 +221,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🏗️ Foundation Mines — 基础理论 &nbsp;<code>86 篇</code></h3></summary>
+<summary><h3>🏗️ Foundation Mines — 基础理论</h3></summary>
 
 **一句话**：不按顺序读——当你在其他区域遇到"这是什么？"时，回来查。
 
@@ -242,7 +241,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🔧 Workshop — 部署与硬件 &nbsp;<code>43 篇</code></h3></summary>
+<summary><h3>🔧 Workshop — 部署与硬件</h3></summary>
 
 **一句话**：仿真里成功率 95% 的模型，到真机上可能只有 30%。
 
@@ -262,7 +261,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 &nbsp;
 
 <details>
-<summary><h3>🔬 Frontier Wilds — 前沿与跨域 &nbsp;<code>75 篇</code></h3></summary>
+<summary><h3>🔬 Frontier Wilds — 前沿与跨域</h3></summary>
 
 **一句话**：VLA 的下一步灵感，可能来自鸽子的内耳。
 
@@ -286,7 +285,7 @@ VLA 的 V 代表 Vision，但机器人视觉远不止图像分类。需要从 2D
 
 ## ⚡ Speed Runs
 
-> *没时间通读 688 篇？选一条最短路线。*
+> *没时间通读所有文档？选一条最短路线。*
 
 &nbsp;
 
@@ -376,8 +375,33 @@ VLA 数学 → Loss Functions → World Model 总纲 → 思维链 → VLA 十�
 
 &nbsp;
 
-**588** articles · **10** zones · Auto-classified by [Pulsar](https://github.com/sou350121/Pulsar-KenVersion) using 15 method-family keywords
+[当前文档数与十个主题完整目录](#theory-complete-index)。上方保留人工导读。
 
 New articles added daily. Explore with sparklines and trends at [VLA Deep Dive](https://sou350121.github.io/pulsar-web/vla-deepdive/).
 
 </details>
+
+---
+
+<!-- VLA:THEORY-NAV:BEGIN -->
+<a id="theory-complete-index"></a>
+## 完整目录与当前统计
+
+> 本节由固定程序生成。统计 Git 已追踪的十个主题目录内 Markdown 文件，包含综述与索引，不含各目录 README；数量不代表内容质量。
+
+**共 701 份文档，10 个主题。**
+
+| 主题 | 文档数 | 完整目录 |
+|---|---:|---|
+| vla-core | 160 | [浏览全部](./vla-core/README.md#theory-complete-index) |
+| foundation | 86 | [浏览全部](./foundation/README.md#theory-complete-index) |
+| planning | 69 | [浏览全部](./planning/README.md#theory-complete-index) |
+| world-model | 95 | [浏览全部](./world-model/README.md#theory-complete-index) |
+| tactile | 59 | [浏览全部](./tactile/README.md#theory-complete-index) |
+| deployment | 44 | [浏览全部](./deployment/README.md#theory-complete-index) |
+| rl | 39 | [浏览全部](./rl/README.md#theory-complete-index) |
+| perception | 24 | [浏览全部](./perception/README.md#theory-complete-index) |
+| diffusion-flow | 47 | [浏览全部](./diffusion-flow/README.md#theory-complete-index) |
+| frontier | 78 | [浏览全部](./frontier/README.md#theory-complete-index) |
+
+<!-- VLA:THEORY-NAV:END -->

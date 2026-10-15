@@ -59,5 +59,5 @@
 ---
 
 ## 🔗 参考索引
-*   **相关内容**: [Reward Discovery RL](../frontier/reward_discovery_rl.md) | [π0.6 Recap 详解](../pi0_6_dissection.md)
+*   **相关内容**: [Reward Discovery RL](../rl/reward_discovery_rl.md) | [π0.6 Recap 详解](../vla-core/pi0_6_dissection.md)
 

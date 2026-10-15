@@ -47,7 +47,7 @@
 
 ## 1. 核心架构升级 (Architecture Upgrades)
 
-> **观点延伸（范式层）**：如果你关心“RECAP 到底是不是 RL，还是偏好调节监督学习”，见：[`frontier/pi0_6_recap_rl_as_supervised_learning.md`](./frontier/pi0_6_recap_rl_as_supervised_learning.md)
+> **观点延伸（范式层）**：如果你关心“RECAP 到底是不是 RL，还是偏好调节监督学习”，见：[`frontier/pi0_6_recap_rl_as_supervised_learning.md`](../rl/pi0_6_recap_rl_as_supervised_learning.md)
 
 ### 1.1 5B VLM Backbone
 - **规模**: 从 $\pi_0$ 的 3B 升级到 **5B 参数**。

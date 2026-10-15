@@ -3,7 +3,7 @@
 > **定位**：这不是“产业报告复述”，而是把报告里的工程化约束抽象成 **可计算变量**，方便你在 VLA 系统设计/控制/数据策略里直接使用。  
 > **来源状态**：依据用户粘贴的报告摘录整理，尚缺原文链接/页码；本文只做“约束抽象”，不引入图表数字与额外推断。  
 > **产业版笔记**：更偏行业叙事的 digest 放在 `companies/`，见 [`../../companies/industry_reports/cicc_dexterous_hand_05.md`](../../companies/industry_reports/cicc_dexterous_hand_05.md)。  
-> **硬件基础**：见 [`../dexterous_hand_mechanics.md`](../dexterous_hand_mechanics.md)。
+> **硬件基础**：见 [`../dexterous_hand_mechanics.md`](dexterous_hand_mechanics.md)。
 
 ---
 

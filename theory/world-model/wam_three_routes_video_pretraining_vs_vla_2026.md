@@ -299,8 +299,8 @@ WAM 的真正价值在于把视频动力学变成控制主监督，
 ---
 
 ## 相关笔记
-- DreamZero 深拆：[`../dreamzero_world_action_models_zero_shot_policies_2026.md`](../dreamzero_world_action_models_zero_shot_policies_2026.md)
-- 早期 WAM / DreamZero 旧稿：[`../world_action_models_are_zero_shot_policies_dissection.md`](../world_action_models_are_zero_shot_policies_dissection.md)
+- DreamZero 深拆：[`../dreamzero_world_action_models_zero_shot_policies_2026.md`](dreamzero_world_action_models_zero_shot_policies_2026.md)
+- 早期 WAM / DreamZero 旧稿：[`../world_action_models_are_zero_shot_policies_dissection.md`](world_action_models_are_zero_shot_policies_dissection.md)
 - 视频世界模型机器人综述：[`./video_generation_models_in_robotics_survey_2026.md`](./video_generation_models_in_robotics_survey_2026.md)
 
 ## 参考链接

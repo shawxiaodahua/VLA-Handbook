@@ -26,7 +26,7 @@
 > 说明：这类工作不是 VLA 论文，但它们定义了很多今天机器人仍在用的基本口径：什么叫任务相关误差、为什么不该死盯一条理想轨迹、以及 synergy 为什么可能是最优解自然出现的结果。
 
 - Todorov & Jordan (2002)：Optimal feedback control as a theory of motor coordination  
-  - 手册解读：[`./classics/todorov_optimal_feedback_control_motor_coordination_2002.md`](./classics/todorov_optimal_feedback_control_motor_coordination_2002.md)  
+  - 手册解读：`./classics/todorov_optimal_feedback_control_motor_coordination_2002.md`（文件未收录）  
   - 论文 DOI：`https://doi.org/10.1038/nn963`
 
 ### -0.5 经典真机数据与闭环抓取（Hand‑Eye Coordination / Grasping）
@@ -34,15 +34,15 @@
 > 说明：这类工作是“VLA 之前的真机学习底座”：它用可规模化的成功/失败信号，把抓取做成“候选动作评分 + 闭环伺服纠错”的系统工程范式。
 
 - Levine et al. (2016)：Learning Hand‑Eye Coordination for Robotic Grasping with Deep Learning and Large‑Scale Data Collection  
-  - 手册解读：[`./classics/levine_hand_eye_coordination_grasping_2016.md`](./classics/levine_hand_eye_coordination_grasping_2016.md)  
+  - 手册解读：`./classics/levine_hand_eye_coordination_grasping_2016.md`（文件未收录）  
   - arXiv：`https://arxiv.org/abs/1603.02199`
 
 - Levine et al. (2016)：End-to-End Training of Deep Visuomotor Policies（像素→扭矩，GPS 把 RL 变成监督学习）  
-  - 手册解读：[`./classics/levine_end_to_end_visuomotor_policies_2016.md`](./classics/levine_end_to_end_visuomotor_policies_2016.md)  
+  - 手册解读：`./classics/levine_end_to_end_visuomotor_policies_2016.md`（文件未收录）  
   - arXiv：`https://arxiv.org/abs/1504.00702`
 
 - Levine & Abbeel (2014)：Learning Neural Network Policies with Guided Policy Search under Unknown Dynamics（未知动力学 + KL trust region）  
-  - 手册解读：[`./classics/levine_gps_unknown_dynamics_2014.md`](./classics/levine_gps_unknown_dynamics_2014.md)  
+  - 手册解读：`./classics/levine_gps_unknown_dynamics_2014.md`（文件未收录）  
   - NeurIPS PDF：`https://proceedings.neurips.cc/paper_files/paper/2014/file/6766aa2750c19aad2fa1b32f36ed4aee-Paper.pdf`
 
 ### -0.4 基础模型能力注入：具身推理与可提示表征（Embodied CoT / Promptable Representations）
@@ -51,11 +51,11 @@
 > (1) **把推理链变成 policy 的显式中间变量（ECoT）**；(2) **把世界知识变成 state representation（PR2L）**。
 
 - Zawalski et al. (2024/2025)：Robotic Control via Embodied Chain-of-Thought Reasoning（ECoT：先推理再出动作，含 bbox/gripper grounding）  
-  - 手册解读：[`./llm_reasoning/embodied_chain_of_thought_robotic_control_2024.md`](./llm_reasoning/embodied_chain_of_thought_robotic_control_2024.md)  
+  - 手册解读：[`./llm_reasoning/embodied_chain_of_thought_robotic_control_2024.md`](../planning/embodied_chain_of_thought_robotic_control_2024.md)  
   - arXiv：`https://arxiv.org/abs/2407.08693`
 
 - Chen et al. (2024 arXiv / 2025 TMLR)：Vision-Language Models Provide Promptable Representations for Reinforcement Learning（PR2L：promptable state embedding + RL/BC grounding）  
-  - 手册解读：[`./llm_reasoning/vlm_promptable_representations_for_rl_pr2l_2025.md`](./llm_reasoning/vlm_promptable_representations_for_rl_pr2l_2025.md)  
+  - 手册解读：[`./llm_reasoning/vlm_promptable_representations_for_rl_pr2l_2025.md`](../planning/vlm_promptable_representations_for_rl_pr2l_2025.md)  
   - arXiv：`https://arxiv.org/abs/2402.02651`
 
 ### -0.3 在线适配：无监督技能预训练与生成式回放（U2O RL / PGR）
@@ -65,35 +65,35 @@
 > (2) **PGR**：把 replay buffer 从“重采样”升级为“条件生成”，提升在线样本效率并降低过拟合。
 
 - Kim et al. (2024)：Unsupervised-to-Online Reinforcement Learning（U2O RL：无监督离线技能预训练 + bridging + online fine-tuning）  
-  - 手册解读：[`./frontier/unsupervised_to_online_reinforcement_learning_u2o_2024.md`](./frontier/unsupervised_to_online_reinforcement_learning_u2o_2024.md)  
+  - 手册解读：[`./frontier/unsupervised_to_online_reinforcement_learning_u2o_2024.md`](../rl/unsupervised_to_online_reinforcement_learning_u2o_2024.md)  
   - arXiv：`https://arxiv.org/abs/2408.14785`
 
 - Wang et al. (2024 arXiv / 2025 ICLR)：Prioritized Generative Replay（PGR：条件扩散生成式回放 + relevance guidance，curiosity 是强默认项）  
-  - 手册解读：[`./frontier/prioritized_generative_replay_pgr_2025.md`](./frontier/prioritized_generative_replay_pgr_2025.md)  
+  - 手册解读：[`./frontier/prioritized_generative_replay_pgr_2025.md`](../rl/prioritized_generative_replay_pgr_2025.md)  
   - arXiv：`https://arxiv.org/abs/2410.18082`
 
 ### 0. 触觉 / 视触觉（Tactile）
 
 > 说明：本综述以 VLA 动作生成与训练范式为主，但在灵巧操作中，“接触相位”的可观测性往往决定系统上限，因此建议把触觉相关工作作为必备补充阅读。
 
-- 触觉为何不可替代（工程盘点）：[`./frontier/tactile_irreplaceable.md`](./frontier/tactile_irreplaceable.md)
+- 触觉为何不可替代（工程盘点）：[`./frontier/tactile_irreplaceable.md`](../tactile/tactile_irreplaceable.md)
 - Brain 2004：Nowak et al. 证明在完全缺失 somatosensory feedback 时，受试者虽仍可借视觉维持大致 arm kinematics，但 predictive grip-force control 会退化为高力、滞后、低精度兜底  
-  - 手册笔记：[`./classics/nowak_predictive_grip_force_without_somatosensory_feedback_2004.md`](./classics/nowak_predictive_grip_force_without_somatosensory_feedback_2004.md)  
+  - 手册笔记：`./classics/nowak_predictive_grip_force_without_somatosensory_feedback_2004.md`（文件未收录）  
   - 论文 DOI：`https://doi.org/10.1093/brain/awh016`
 - SciRobotics 2026：Visual-tactile pretraining + online multitask learning（单目 + 二值触觉，统一策略覆盖多任务）  
-  - 手册笔记：[`./frontier/visual_tactile_pretraining_online_multitask_learning_2026.md`](./frontier/visual_tactile_pretraining_online_multitask_learning_2026.md)  
+  - 手册笔记：[`./frontier/visual_tactile_pretraining_online_multitask_learning_2026.md`](../tactile/visual_tactile_pretraining_online_multitask_learning_2026.md)  
   - 论文 DOI：`https://doi.org/10.1126/scirobotics.ady2869`  
   - Focus：`https://doi.org/10.1126/scirobotics.aee5782`
 - SuperTac + DOVE（Nature Sensors, 2025）：多模态电子皮肤 + 触觉语言模型（把触觉升级为可解释的语义状态）  
   - 论文页：`https://www.nature.com/articles/s44460-025-00006-y`  
-  - 手册笔记：[`../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md`](../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md)
+  - 手册笔记：[`../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md`](../../deployment/perception/supertac_dove_biomimetic_multimodal_tactile_sensing.md)
 - UniTacHand（2025）：人手→机器人触觉表征统一与技能迁移（MANO UV Map）  
-  - 手册解读：[`./frontier/unitachhand.md`](./frontier/unitachhand.md)
+  - 手册解读：[`./frontier/unitachhand.md`](../tactile/unitachhand.md)
 - GenForce（Nat Commun 2026）：跨触觉传感器的可迁移力感知（统一 marker 表示 + M2M 条件扩散 + 时序力回归 + 材料补偿）  
-  - 深度笔记：[`./tactile/genforce_tactile_force_transfer_2026.md`](./tactile/genforce_tactile_force_transfer_2026.md)  
+  - 深度笔记：[`./tactile/genforce_tactile_force_transfer_2026.md`](../tactile/genforce_tactile_force_transfer_2026.md)  
   - 论文 DOI：`https://doi.org/10.1038/s41467-026-68753-1`
 - TouchGuide（arXiv 2026）：不重训 base policy，在动作采样后段用 Contact Physical Model 做触觉引导；TacUMI 同时回答了 contact-rich 任务的数据采集问题  
-  - 手册解读：[`./frontier/touchguide_inference_time_steering_touch_guidance_2026.md`](./frontier/touchguide_inference_time_steering_touch_guidance_2026.md)  
+  - 手册解读：[`./frontier/touchguide_inference_time_steering_touch_guidance_2026.md`](../tactile/touchguide_inference_time_steering_touch_guidance_2026.md)  
   - 论文 HTML：`https://arxiv.org/html/2601.20239v3`
 
 ### 0.2 多模态融合与策略共识（Policy Consensus）
@@ -101,7 +101,7 @@
 > 说明：当触觉是“稀疏但关键”的模态时，特征拼接会把它当噪声；策略共识让每个模态拥有独立专家策略，再在动作层面组合。
 
 - Multi-Modal Manipulation via Policy Consensus (2025)  
-  - 手册解读：[`./frontier/policy_consensus_multimodal_manipulation_2025.md`](./frontier/policy_consensus_multimodal_manipulation_2025.md)  
+  - 手册解读：[`./frontier/policy_consensus_multimodal_manipulation_2025.md`](../tactile/policy_consensus_multimodal_manipulation_2025.md)  
   - arXiv：`https://arxiv.org/pdf/2509.23468`  
   - 项目主页：`https://policyconsensus.github.io/`
 
@@ -110,7 +110,7 @@
 > 说明：用物理方程刻画“特征传播”，为视觉骨干提供可解释的建模偏置。
 
 - WaveFormer: Frequency-Time Decoupled Vision Modeling with Wave Equation (2026)  
-  - 手册解读：[`./frontier/waveformer_wave_equation_vision_2026.md`](./frontier/waveformer_wave_equation_vision_2026.md)  
+  - 手册解读：[`./frontier/waveformer_wave_equation_vision_2026.md`](../perception/waveformer_wave_equation_vision_2026.md)  
   - arXiv：`https://arxiv.org/abs/2601.08602`
 
 ### 0.4 推理范式与测试时扩展（DAC-RL）
@@ -118,7 +118,7 @@
 > 说明：当 CoT 达到上限时，DAC-RL 通过“分解 + 征服”的训练对齐，提升 test-time scalability。
 
 - Training LLMs for Divide-and-Conquer Reasoning Elevates Test-Time Scalability (2026)  
-  - 手册解读：[`./llm_reasoning/dac_rl_divide_conquer_reasoning_2026.md`](./llm_reasoning/dac_rl_divide_conquer_reasoning_2026.md)  
+  - 手册解读：[`./llm_reasoning/dac_rl_divide_conquer_reasoning_2026.md`](../planning/dac_rl_divide_conquer_reasoning_2026.md)  
   - arXiv：`https://arxiv.org/pdf/2602.02477`
 
 ### 0.5 世界模型 / 视频世界模型（World Models / Video）
@@ -127,12 +127,12 @@
 > 注意：落地的第一性约束往往不是画质，而是**物理一致性、可控性、成本与安全**。
 
 - 视频世界模型综述（arXiv 2026）：Video Generation Models in Robotics - Applications, Research Challenges, Future Directions  
-  - [手册笔记](./frontier/video_generation_models_in_robotics_survey_2026.md)  
+  - [手册笔记](../world-model/video_generation_models_in_robotics_survey_2026.md)  
   - 论文：`https://arxiv.org/abs/2601.07823`
 - 1X World Model（视频世界模型 + 逆动力学 IDM）：先“想象”再“执行”（公司路线复盘）  
-  - [手册笔记](./frontier/one_x_world_model.md)
+  - [手册笔记](../world-model/one_x_world_model.md)
 - AtomVLA（arXiv 2026）：原子子任务分解 + predictive latent world model + offline GRPO；不是在线真机试错，而是在 latent space 里评估候选动作并做离线后训练  
-  - [手册笔记](./frontier/atomvla_offline_post_training_predictive_latent_world_models_2026.md)  
+  - [手册笔记](../world-model/atomvla_offline_post_training_predictive_latent_world_models_2026.md)  
   - 论文：`https://arxiv.org/abs/2603.08519`
 
 ### 0.6 图学习基线与评测（Classic GNNs）
@@ -140,7 +140,7 @@
 > 说明：这类工作虽非 VLA 直系，但对“基线公平性/超参敏感性/评测可复现”很有借鉴价值。
 
 - Classic GNNs are Strong Baselines: Reassessing GNNs for Node Classification (NeurIPS 2024)  
-  - 手册解读：[`./frontier/classic_gnns_strong_baselines_node_classification_2024.md`](./frontier/classic_gnns_strong_baselines_node_classification_2024.md)  
+  - 手册解读：[`./frontier/classic_gnns_strong_baselines_node_classification_2024.md`](../frontier/classic_gnns_strong_baselines_node_classification_2024.md)  
   - 论文 PDF：`https://proceedings.neurips.cc/paper_files/paper/2024/file/b10ed15ff1aa864f1be3a75f1ffc021b-Paper-Datasets_and_Benchmarks_Track.pdf`  
   - 代码实现：`https://github.com/LUOyk1999/tunedGNN`  
   - 关键结论：经典 GNN 调参后可与/超过多种 GT，归一化/残差/层深显著影响性能（论文口径）。
@@ -150,7 +150,7 @@
 > 说明：该方向强调用 2D 大模型的几何先验弥补 3D 标注缺口，对机器人视觉的“视角扩增/空间先验”很有借鉴意义。
 
 - Zero-1-to-3: Zero-shot One Image to 3D Object (arXiv 2023)  
-  - 手册解读：[`./frontier/zero_1_to_3_zero_shot_one_image_to_3d_object_2023.md`](./frontier/zero_1_to_3_zero_shot_one_image_to_3d_object_2023.md)  
+  - 手册解读：[`./frontier/zero_1_to_3_zero_shot_one_image_to_3d_object_2023.md`](../perception/zero_1_to_3_zero_shot_one_image_to_3d_object_2023.md)  
   - 论文 PDF：`https://arxiv.org/pdf/2303.11328`  
   - 项目主页：`https://zero123.cs.columbia.edu/`  
   - 关键结论：视角条件扩散可零样本合成新视角，并作为 3D 重建先验（论文口径）。
@@ -160,25 +160,25 @@
 > 说明：用世界模型替代真机评测，将“策略评估”转化为“生成式 rollout + 指标统计”。
 
 - WorldEval: World Model as Real-World Robot Policies Evaluator (arXiv 2025)  
-  - 手册解读：[`./frontier/benchmarks/worldeval_world_model_policy_evaluator_2025.md`](./frontier/benchmarks/worldeval_world_model_policy_evaluator_2025.md)  
+  - 手册解读：[`./frontier/benchmarks/worldeval_world_model_policy_evaluator_2025.md`](../world-model/worldeval_world_model_policy_evaluator_2025.md)  
   - 论文：`https://arxiv.org/abs/2505.19017`  
   - 代码仓库：`https://github.com/liyaxuanliyaxuan/Worldeval`  
   - 关键结论：用世界模型低成本评估策略，但仍需真机校准（论文口径）。
 
 - ENACT: Evaluating Embodied Cognition with World Modeling of Egocentric Interaction (arXiv 2025 / ICLR 2026)  
-  - 手册解读：[`./frontier/benchmarks/enact_embodied_cognition_world_modeling_egocentric_interaction_2025.md`](./frontier/benchmarks/enact_embodied_cognition_world_modeling_egocentric_interaction_2025.md)  
+  - 手册解读：[`./frontier/benchmarks/enact_embodied_cognition_world_modeling_egocentric_interaction_2025.md`](../planning/enact_embodied_cognition_world_modeling_egocentric_interaction_2025.md)  
   - 论文：`https://arxiv.org/abs/2511.20937`  
   - 项目页：`https://enact-embodied-cognition.github.io/`  
   - 关键结论：它不是测任务是否完成，而是测 VLM 是否真的理解长时程 ego-view 交互中的动作-状态-观察演化，并揭示 inverse > forward、长时程退化、人类视角偏置等问题（论文口径）。
 
 - Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge (arXiv 2025)  
-  - 手册解读：[`./frontier/benchmarks/behavior_challenge_2025_first_place_solution_task_adaptation_vla_2025.md`](./frontier/benchmarks/behavior_challenge_2025_first_place_solution_task_adaptation_vla_2025.md)  
+  - 手册解读：[`./frontier/benchmarks/behavior_challenge_2025_first_place_solution_task_adaptation_vla_2025.md`](../planning/behavior_challenge_2025_first_place_solution_task_adaptation_vla_2025.md)  
   - 论文：`https://arxiv.org/abs/2512.06951`  
   - 代码：`https://github.com/IliaLarchenko/behavior-1k-solution`  
   - 关键结论：这篇不是再发明一个通用 VLA，而是在长时程 household leaderboard 压力下，总结出一套真正能换分的 system recipe：Pi0.5 adaptation + stage tracking + correlation-aware inpainting + correction rules（论文口径）。
 
 - IS-Bench: Evaluating Interactive Safety of VLM-Driven Embodied Agents in Daily Household Tasks (arXiv 2025 / AAAI 2026)  
-  - 手册解读：[`./frontier/benchmarks/is_bench_interactive_safety_vlm_embodied_agents_household_tasks_2025.md`](./frontier/benchmarks/is_bench_interactive_safety_vlm_embodied_agents_household_tasks_2025.md)  
+  - 手册解读：[`./frontier/benchmarks/is_bench_interactive_safety_vlm_embodied_agents_household_tasks_2025.md`](../planning/is_bench_interactive_safety_vlm_embodied_agents_household_tasks_2025.md)  
   - 论文：`https://arxiv.org/abs/2506.16402`  
   - 项目页：`https://ursulalujun.github.io/isbench.github.io/`  
   - 代码：`https://github.com/AI45Lab/IS-Bench`  
@@ -189,7 +189,7 @@
 > 说明：VLA 的量化目标应对齐“动作空间保真”，而不是单纯的特征重建。
 
 - QVLA: Not All Channels Are Equal in VLA Quantization (arXiv 2026)  
-  - 手册解读：[`./frontier/qvla_action_centric_quantization_2026.md`](./frontier/qvla_action_centric_quantization_2026.md)  
+  - 手册解读：[`./frontier/qvla_action_centric_quantization_2026.md`](qvla_action_centric_quantization_2026.md)  
   - 论文（HTML）：`https://arxiv.org/html/2602.03782v1`  
   - 代码仓库：`https://github.com/AutoLab-SAI-SJTU/QVLA`  
   - 关键结论：动作空间敏感度驱动通道级混精度与剪枝（论文口径）。
@@ -199,7 +199,7 @@
 > 说明：将触觉对齐物理力表征，补齐 VLA 接触阶段的“力盲区”。
 
 - Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation (arXiv 2026)  
-  - 手册解读：[`./frontier/taf_vla_tactile_force_alignment_2026.md`](./frontier/taf_vla_tactile_force_alignment_2026.md)  
+  - 手册解读：[`./frontier/taf_vla_tactile_force_alignment_2026.md`](../tactile/taf_vla_tactile_force_alignment_2026.md)  
   - 论文 PDF：`https://arxiv.org/pdf/2601.20321`  
   - 关键结论：触觉-力对齐提升接触密集任务稳定性（论文口径）。
 
@@ -208,7 +208,7 @@
 > 说明：极低参数预算下，RL 的结果监督能更有效激活推理模式。
 
 - Learning to Reason in 13 Parameters (arXiv 2026)  
-  - 手册解读：[`./llm_reasoning/tiny_lora_13_params_reasoning_2026.md`](./llm_reasoning/tiny_lora_13_params_reasoning_2026.md)  
+  - 手册解读：[`./llm_reasoning/tiny_lora_13_params_reasoning_2026.md`](../planning/tiny_lora_13_params_reasoning_2026.md)  
   - 论文 PDF：`https://arxiv.org/pdf/2602.04118`  
   - 关键结论：TinyLoRA 用共享向量极限微调，RL 信号优于 SFT（论文口径）。
 
@@ -217,7 +217,7 @@
 > 说明：很多通用 VLM 在机器人视频上会出现两类“低级但致命”的错误：第一视角/第三视角混淆，以及忽略视频末端状态。Thinker 用 ego-view 定制数据 + “关键帧（末帧）+ 全视频”联合输入，作为一个强 baseline 来修正这两类问题。
 
 - Thinker: A vision-language foundation model for embodied intelligence (arXiv 2026)  
-  - 手册解读：[`./frontier/thinker_vlm_embodied_intelligence_2026.md`](./frontier/thinker_vlm_embodied_intelligence_2026.md)  
+  - 手册解读：[`./frontier/thinker_vlm_embodied_intelligence_2026.md`](../planning/thinker_vlm_embodied_intelligence_2026.md)  
   - 论文：`https://arxiv.org/abs/2601.21199`  
   - 代码：`https://github.com/UBTECH-Robot/Thinker`  
   - 权重：`https://huggingface.co/UBTECH-Robotics/Thinker-4B`  
@@ -228,7 +228,7 @@
 > 说明：IntelliFold 2 是生成式科学智能方向的一个重要案例：它在 AlphaFold3-like 路线内做“架构细化 + 结构一致性 + 采样稳定性 + 难例优化”，并用 v2-Flash / v2 / Pro 三个变体覆盖“开源可用→开源最强精度→server 极致精度”的不同需求。
 
 - IntelliFold 2: Surpassing AlphaFold 3 via Architectural Refinement and Structural Consistency (Release Note 2026)  
-  - 手册解读：[`./frontier/intellifold_2_surpassing_alphafold3_structural_consistency_2026.md`](./frontier/intellifold_2_surpassing_alphafold3_structural_consistency_2026.md)  
+  - 手册解读：[`./frontier/intellifold_2_surpassing_alphafold3_structural_consistency_2026.md`](../frontier/intellifold_2_surpassing_alphafold3_structural_consistency_2026.md)  
   - Release Note（PDF）：`https://github.com/IntelliGen-AI/IntelliFold/raw/main/assets/Intellifold_v2_release_note.pdf`  
   - 代码仓库：`https://github.com/IntelliGen-AI/IntelliFold`  
   - 关键结论：在 FoldBench 上 Ab-Ag / Protein-Ligand 两类关键任务超过 AlphaFold 3（发布口径）；Pro 版进一步引入 PPO 稳采样与难例损失加权。
@@ -237,7 +237,7 @@
 
 > 说明：RynnBrain 把“具身理解”从被动观测升级为**自我中心认知 + 时空定位 + 空间指向/轨迹 + 规划**的一体化接口，并同时给出 **RynnBrain-Bench** 把 object/spatial/grounding/pointing 四类能力做成可回归评测（GitHub + bench README 口径）。
 
-- 深度笔记：[`./frontier/rynnbrain_open_embodied_foundation_models_2026.md`](./frontier/rynnbrain_open_embodied_foundation_models_2026.md)（含接口形态、bench 指标口径与可复现入口）
+- 深度笔记：[`./frontier/rynnbrain_open_embodied_foundation_models_2026.md`](../vla-core/rynnbrain_open_embodied_foundation_models_2026.md)（含接口形态、bench 指标口径与可复现入口）
 - GitHub：`https://github.com/alibaba-damo-academy/RynnBrain`（模型结构、Model Zoo、cookbooks）
 - 项目主页：`https://alibaba-damo-academy.github.io/RynnBrain.github.io/`（概览、BibTeX、演示）
 - RynnBrain-Bench：`https://raw.githubusercontent.com/alibaba-damo-academy/RynnBrain/main/rynnbrain-bench/README.md`（评测维度、指标与 leaderboard）
@@ -247,7 +247,7 @@
 
 > 说明：TacRefineNet 聚焦抓取执行阶段的“最后一公里误差”，把位姿微调建模为目标触觉条件化的 6DoF 增量回归；输入为多指 `current/target tactile` 与本体状态，输出 wrist 增量并在 regrasp 循环中迭代收敛（arXiv 口径）。
 
-- 深度笔记：[`./frontier/tacrefinenet_tactile_only_grasp_refinement_2026.md`](./frontier/tacrefinenet_tactile_only_grasp_refinement_2026.md)（方法结构、指标定义、工程启示）
+- 深度笔记：[`./frontier/tacrefinenet_tactile_only_grasp_refinement_2026.md`](../tactile/tacrefinenet_tactile_only_grasp_refinement_2026.md)（方法结构、指标定义、工程启示）
 - arXiv：`https://arxiv.org/pdf/2509.25746`（Eq.(1)(2)、阈值定义、Table II）
 - 项目页：`https://sites.google.com/view/tacrefinenet`（演示视频与任务说明）
 - 关键结论（论文实验）：sim 预训练 + 小规模 real 微调（Policy B）优于 sim-only（Policy A）；在分组实验中可达到 1.1mm / 0.016rad 与 100% 成功率（Table II 口径）。
@@ -276,7 +276,7 @@
 ##### RDT-1B (Liu et al., 2024)
 > **论文**: [RDT-1B: a Diffusion Foundation Model for Bimanual Manipulation](https://arxiv.org/abs/2410.07864)
 > **机构**: 清华大学 MARS Lab & ByteDance
-> **详细解析**: [rdt.md](./rdt.md)
+> **详细解析**: [rdt.md](../vla-core/rdt.md)
 
 - **核心问题**: 证明机器人学习也存在 Scaling Law，大模型+大数据有效。
 - **核心技术**: **DiT (Diffusion Transformer)**，十亿参数级扩散模型。
@@ -287,7 +287,7 @@
 ##### RDT2 (RDT Team, 2026)
 > **论文**: [RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization](https://arxiv.org/abs/2602.03310)  
 > **项目主页**: `https://rdt-robotics.github.io/rdt2/`  
-> **手册解读**: [`./frontier/rdt2_umi_zero_shot_cross_embodiment_2026.md`](./frontier/rdt2_umi_zero_shot_cross_embodiment_2026.md)
+> **手册解读**: [`./frontier/rdt2_umi_zero_shot_cross_embodiment_2026.md`](rdt2_umi_zero_shot_cross_embodiment_2026.md)
 
 - **核心问题**: 跨本体零样本部署与大规模真机数据成本瓶颈。  
 - **核心技术**: **Residual VQ 动作 tokenization + Flow Matching 动作专家 + 单步蒸馏**。  
@@ -297,7 +297,7 @@
 ##### RoboPocket (SJTU / Shanghai Innovation Institute / Noematrix, 2026)
 > **论文**: [RoboPocket: Improve Robot Policies Instantly with Your Phone](https://arxiv.org/abs/2603.05504)  
 > **项目主页**: `https://robo-pocket.github.io`  
-> **手册解读**: [`./frontier/robopocket_robot_free_instant_policy_iteration_phone_2026.md`](./frontier/robopocket_robot_free_instant_policy_iteration_phone_2026.md)
+> **手册解读**: [`./frontier/robopocket_robot_free_instant_policy_iteration_phone_2026.md`](../deployment/robopocket_robot_free_instant_policy_iteration_phone_2026.md)
 
 - **核心问题**: 便携手持采集可 scale，但大多开环；DAgger 能纠正 covariate shift，却依赖真机执行。  
 - **核心技术**: **AR Visual Foresight + Remote Inference + Robot-Free Instant Policy Iteration**。  
@@ -310,7 +310,7 @@
 
 ##### π0 (Physical Intelligence, 2024)
 > **论文**: [π0: A Generalist Robot Foundation Model](https://www.physicalintelligence.company/blog/pi0)
-> **详细解析**: [pi0_flow_matching.md](./pi0_flow_matching.md) | [代码解析](./pi0_code_analysis.md)
+> **详细解析**: [pi0_flow_matching.md](../diffusion-flow/pi0_flow_matching.md) | [代码解析](../vla-core/pi0_code_analysis.md)
 
 - **核心问题**: 解决 VLM 推理速度慢、难以进行高频 (50Hz) 连续控制的问题。
 - **核心技术**: **Flow Matching (流匹配)**。
@@ -325,7 +325,7 @@
 
 ##### π0.5 (Physical Intelligence, 2025)
 > **核心定位**: **Open-World Explorer (开放世界探险家)**
-> **详细解析**: [pi0_5_dissection.md](./pi0_5_dissection.md)
+> **详细解析**: [pi0_5_dissection.md](../vla-core/pi0_5_dissection.md)
 
 - **核心问题**: 解决机器人无法在从未见过的环境 (Open World) 中泛化的问题。
 - **核心技术**: **Unified Model with Hierarchical Inference**。
@@ -337,7 +337,7 @@
 
 ##### π0.6 (Physical Intelligence, 2025)
 > **核心定位**: **Self-Improving Master (自我进化大师)**
-> **详细解析**: [pi0_6_dissection.md](./pi0_6_dissection.md)
+> **详细解析**: [pi0_6_dissection.md](../vla-core/pi0_6_dissection.md)
 
 - **核心问题**: 如何超越人类示教的上限，实现极致的熟练度 (Proficiency)。
 - **核心技术**: **Recap Algorithm (Offline RL)**。
@@ -352,7 +352,7 @@
 ##### Shallow-π (Samsung Research, 2026)
 > **论文**: [Shallow-π: Knowledge Distillation for Flow-based VLAs](https://arxiv.org/pdf/2601.20262)  
 > **项目主页**: `https://icsl-jeon.github.io/shallow-pi/`  
-> **手册解读**: [`./frontier/shallow_pi_knowledge_distillation_flow_vla_2026.md`](./frontier/shallow_pi_knowledge_distillation_flow_vla_2026.md)
+> **手册解读**: [`./frontier/shallow_pi_knowledge_distillation_flow_vla_2026.md`](shallow_pi_knowledge_distillation_flow_vla_2026.md)
 
 - **核心问题**: 解决 flow-based VLA 的端侧推理延迟。  
 - **核心技术**: 通过知识蒸馏 **同时压缩 VLM backbone 与 action head 层深**（18→6）。  
@@ -362,7 +362,7 @@
 ##### LingBot-VLA (Robbyant, 2026)
 > **论文**: `https://arxiv.org/abs/2601.18692`  
 > **代码**: `https://github.com/robbyant/lingbot-vla`  
-> **深度解析（手册）**: [lingbot_vla_pragmatic_vla_foundation_model_2026.md](./lingbot_vla_pragmatic_vla_foundation_model_2026.md)
+> **深度解析（手册）**: [lingbot_vla_pragmatic_vla_foundation_model_2026.md](../vla-core/lingbot_vla_pragmatic_vla_foundation_model_2026.md)
 
 - **核心问题**: 把 VLA 从“能讲清楚”推到“能训得动/能复现吞吐/能部署”，强调真实大规模双臂数据下的工程可训练性。
 - **核心技术**: **Flow Matching (流匹配)** + **VLM + Action Expert 融合**（共享 attention 的 token 拼接式融合）。
@@ -404,7 +404,7 @@
 
 ##### FAST (Physical Intelligence, 2025)
 > **论文**: [FAST: Efficient Action Tokenization for VLA Models (arXiv:2501.09747)](https://arxiv.org/abs/2501.09747)
-> **详细解析**: [fast.md](./fast.md)
+> **详细解析**: [fast.md](../vla-core/fast.md)
 
 - **核心问题**: 传统动作 token 化方法（简单分桶）无法处理高频、灵巧的机器人操作。
 - **核心技术**: **Frequency-space Action Sequence Tokenization (DCT + BPE)**。
@@ -421,7 +421,7 @@
 
 ##### ACT (Zeng et al., 2023)
 > **论文**: [ACT: Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/abs/2304.13705)
-> **详细解析**: [act.md](./act.md)
+> **详细解析**: [act.md](../vla-core/act.md)
 
 - **核心问题**: 如何用低成本硬件实现精细双臂操作。
 - **核心技术**: **CVAE (Conditional Variational Autoencoder)** + **Action Chunking**。
@@ -528,7 +528,7 @@
 #### 2.2 RL (Reinforcement Learning)
 
 ##### GR-RL (ByteDance Seed, 2025)
-> **详细解析**: [gr_rl_dissection.md](./gr_rl_dissection.md)
+> **详细解析**: [gr_rl_dissection.md](../rl/gr_rl_dissection.md)
 
 - **核心技术**: **Offline RL + Online RL** 三阶段训练
 - **阶段 1**: Critic 筛选高质量演示数据
@@ -537,7 +537,7 @@
 - **Key Contribution**: 首个完成真机穿鞋带任务的 VLA，78% 成功率
 
 ##### π*0.6 Recap (Physical Intelligence, 2025)
-> **详细解析**: [pi0_6_dissection.md](./pi0_6_dissection.md#recap)
+> **详细解析**: [pi0_6_dissection.md](../vla-core/pi0_6_dissection.md#recap)
 
 - **核心技术**: **Recap Algorithm (Offline RL)**
 - **机制**: 从成功和失败轨迹中学习，抑制错误动作，奖励成功动作
@@ -567,7 +567,7 @@
 
 ##### Galaxea G0 (星海图智能, 2024)
 > **论文**: [Galaxea Open-World Dataset and G0 Dual-System VLA Model (arXiv:2509.00576)](https://arxiv.org/abs/2509.00576)
-> **详细解析**: [galaxea_g0.md](./galaxea_g0.md)
+> **详细解析**: [galaxea_g0.md](../vla-core/galaxea_g0.md)
 
 - **核心问题**: 单一 VLA 模型难以同时处理长时域任务的高层规划和低层控制。
 - **核心技术**: **Dual-System Architecture (双系统架构)**。
@@ -584,14 +584,14 @@
 ##### π0.6 - VLM + Action Expert
 - **VLM (大脑)**: 5B 参数，负责语义理解
 - **Action Expert (小脑)**: 轻量级 Transformer，负责高频精细控制
-- **详细解析**: [pi0_6_dissection.md](./pi0_6_dissection.md#action-expert)
+- **详细解析**: [pi0_6_dissection.md](../vla-core/pi0_6_dissection.md#action-expert)
 
 ---
 
 #### 3.3 层级架构
 
 ##### WALL-OSS (X², 2025)
-> **详细解析**: [wall_oss.md](./wall_oss.md)
+> **详细解析**: [wall_oss.md](../vla-core/wall_oss.md)
 
 - **核心技术**: **Uni-CoT (统一思维链)** + **Dual Heads (Flow + FAST)**
 - **架构**: 统一模型内部生成 CoT，双头输出连续和离散动作
@@ -676,15 +676,15 @@
 
 #### π0 (2024.10)
 - Flow Matching + VLM
-- [深度解析](./pi0_flow_matching.md)
+- [深度解析](../diffusion-flow/pi0_flow_matching.md)
 
 #### RDT-1B (2024.10)
 - 十亿参数扩散模型
-- [详细解析](./rdt.md)
+- [详细解析](../vla-core/rdt.md)
 
 #### Galaxea G0 (2024.09)
 - 双系统架构
-- [详细解析](./galaxea_g0.md)
+- [详细解析](../vla-core/galaxea_g0.md)
 
 #### Knowledge Insulation (2024)
 - 梯度隔离防遗忘
@@ -696,27 +696,27 @@
 
 #### π0.5 (2025.01)
 - 开放世界泛化
-- [深度解析](./pi0_5_dissection.md)
+- [深度解析](../vla-core/pi0_5_dissection.md)
 
 #### π0.6 (2025.11)
 - 自我进化 (Recap)
-- [深度解析](./pi0_6_dissection.md)
+- [深度解析](../vla-core/pi0_6_dissection.md)
 
 #### FAST (2025.01)
 - DCT + BPE Tokenization
-- [详细解析](./fast.md)
+- [详细解析](../vla-core/fast.md)
 
 #### GR-RL (2025)
 - 三阶段 RL 训练
-- [深度解析](./gr_rl_dissection.md)
+- [深度解析](../rl/gr_rl_dissection.md)
 
 #### WALL-OSS (2025)
 - Uni-CoT + 双头架构
-- [详细解析](./wall_oss.md)
+- [详细解析](../vla-core/wall_oss.md)
 
 #### Policy Consensus (2025)
 - 多模态专家策略共识，避免特征拼接稀疏噪声化
-- [深度解读](./frontier/policy_consensus_multimodal_manipulation_2025.md)
+- [深度解读](../tactile/policy_consensus_multimodal_manipulation_2025.md)
 
 ---
 
@@ -724,19 +724,19 @@
 
 #### DAC-RL (2026.02)
 - 分治推理训练提升测试时可扩展性  
-- [深度解读](./llm_reasoning/dac_rl_divide_conquer_reasoning_2026.md)
+- [深度解读](../planning/dac_rl_divide_conquer_reasoning_2026.md)
 
 #### Shallow-π (2026.01)
 - Flow-based VLA 层深蒸馏（18→6）  
-- [深度解读](./frontier/shallow_pi_knowledge_distillation_flow_vla_2026.md)
+- [深度解读](shallow_pi_knowledge_distillation_flow_vla_2026.md)
 
 #### RDT2 (2026.02)
 - UMI 数据规模化 + 跨本体零样本部署  
-- [深度解读](./frontier/rdt2_umi_zero_shot_cross_embodiment_2026.md)
+- [深度解读](rdt2_umi_zero_shot_cross_embodiment_2026.md)
 
 #### WaveFormer (2026.01)
 - 波动方程视觉建模，频率-时间解耦，保留高频细节
-- [深度解读](./frontier/waveformer_wave_equation_vision_2026.md)
+- [深度解读](../perception/waveformer_wave_equation_vision_2026.md)
 
 ---
 

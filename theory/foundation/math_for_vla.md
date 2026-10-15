@@ -326,7 +326,7 @@ $$
 **vs Diffusion**：Flow Matching 的路径是直线（不是弯曲的扩散路径），所以只需要 1-5 步就能生成，比 Diffusion 快 10x+。
 
 **VLA 里怎么用**：**π0 系列的核心**。π0 用 Flow Matching 作为 Action Head，实现 30Hz 的实时动作生成。
-→ 详见 [Diffusion Policy](../diffusion-flow/diffusion_policy.md) · [π0 Flow Matching](../vla-core/pi0_flow_matching.md) · [Compression Gap](../diffusion-flow/the_compression_gap_why_discrete_tokenization_limits_vision_dissection.md)
+→ 详见 [Diffusion Policy](../diffusion-flow/diffusion_policy.md) · [π0 Flow Matching](../diffusion-flow/pi0_flow_matching.md) · [Compression Gap](../diffusion-flow/the_compression_gap_why_discrete_tokenization_limits_vision_dissection.md)
 
 ---
 

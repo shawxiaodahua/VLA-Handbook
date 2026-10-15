@@ -32,7 +32,7 @@
 - ViT 中每个 Patch 都能"看到"图像中的所有其他 Patch
 - VLA 中语言 Token 可以关注到所有视觉 Token
 
-**详细解答**: [transformer_vs_cnn.md](../theory/transformer_vs_cnn.md#6-自注意力机制详解-self-attention-deep-dive)
+**详细解答**: [transformer_vs_cnn.md](../theory/foundation/transformer_vs_cnn.md#6-自注意力机制详解-self-attention-deep-dive)
 
 ---
 
@@ -54,7 +54,7 @@
 - 抓取任务：模型一次性预测"伸手→张开夹爪→闭合→抬起"的完整序列
 - 相比逐帧预测，轨迹更平滑，成功率更高
 
-**详细解答**: [act.md](../theory/act.md#21-动作分块-action-chunking)
+**详细解答**: [act.md](../theory/vla-core/act.md#21-动作分块-action-chunking)
 
 ---
 
@@ -75,7 +75,7 @@
 - 第 1 步预测 [t0-t100]，第 2 步预测 [t1-t101]
 - 在 t1 时刻，使用两个预测的加权平均，新预测权重更高
 
-**详细解答**: [act.md](../theory/act.md#22-时间集成-temporal-ensemble)
+**详细解答**: [act.md](../theory/vla-core/act.md#22-时间集成-temporal-ensemble)
 
 ---
 
@@ -96,7 +96,7 @@
 - 抓取任务：模型预测"向前移动 5cm"，而非"移动到 (1.2, 0.5, 0.8)"
 - 即使机器人位置改变，指令依然有效
 
-**详细解答**: [spatial_math.md](../theory/spatial_math.md#6-面试高频考点)
+**详细解答**: [spatial_math.md](../theory/perception/spatial_math.md#6-面试高频考点)
 
 ---
 
@@ -118,7 +118,7 @@
 - Diffusion Policy 和 π0 都使用 6D Rotation
 - 相比四元数，训练 Loss 更稳定，收敛更快
 
-**详细解答**: [spatial_math.md](../theory/spatial_math.md#33-6d-旋转表示)
+**详细解答**: [spatial_math.md](../theory/perception/spatial_math.md#33-6d-旋转表示)
 
 ---
 
@@ -141,7 +141,7 @@
 - 抓取任务：从左边抓和从右边抓都是合理的
 - Diffusion 可以随机采样出其中一种，而非两者的平均（无效动作）
 
-**详细解答**: [diffusion_policy.md](../theory/diffusion_policy.md#11-多模态分布问题-the-multimodality-problem)
+**详细解答**: [diffusion_policy.md](../theory/diffusion-flow/diffusion_policy.md#11-多模态分布问题-the-multimodality-problem)
 
 ---
 
@@ -161,7 +161,7 @@
 - Diffusion Policy 推理：DDPM 需要 100 步（~2 秒），DDIM 只需 10 步（~0.2 秒）
 - 实时性要求高的场景必须用 DDIM
 
-**详细解答**: [diffusion_policy.md](../theory/diffusion_policy.md#41-ddim)
+**详细解答**: [diffusion_policy.md](../theory/diffusion-flow/diffusion_policy.md#41-ddim)
 
 ---
 
@@ -183,7 +183,7 @@
 - FAST 将 10 步动作序列压缩为 4 个 DCT 系数
 - 类似 JPEG 压缩图像，利用频域稀疏性
 
-**详细解答**: [fast.md](../theory/fast.md#313-为什么-dct-而不是-fft)
+**详细解答**: [fast.md](../theory/vla-core/fast.md#313-为什么-dct-而不是-fft)
 
 ---
 
@@ -205,7 +205,7 @@
 - BPE 后: `[token_256, 3, 1]` (3 tokens)，其中 `token_256 = [42, 15]`
 - 压缩比 2.3:1
 
-**详细解答**: [fast.md](../theory/fast.md#32-字节对编码-bpe)
+**详细解答**: [fast.md](../theory/vla-core/fast.md#32-字节对编码-bpe)
 
 ---
 
@@ -227,7 +227,7 @@
 - π0 使用 Flow Matching，推理速度比 Diffusion Policy 快 10x
 - 动作更平滑，适合精细控制
 
-**详细解答**: [pi0_flow_matching.md](../theory/pi0_flow_matching.md#12-为什么比-diffusion-好)
+**详细解答**: [pi0_flow_matching.md](../theory/diffusion-flow/pi0_flow_matching.md#12-为什么比-diffusion-好)
 
 ---
 
@@ -248,7 +248,7 @@
 - 训练时：给定真实动作 $x_0$ 和噪声 $x_1$，模型学习预测速度方向
 - 推理时：从噪声开始，沿着预测的速度场积分得到动作
 
-**详细解答**: [pi0_flow_matching.md](../theory/pi0_flow_matching.md#23-损失函数)
+**详细解答**: [pi0_flow_matching.md](../theory/diffusion-flow/pi0_flow_matching.md#23-损失函数)
 
 ---
 
@@ -268,7 +268,7 @@
 - RT-2 / OpenVLA 使用 Tokenization，可以处理多解情况
 - 某些精细操作任务使用 Regression，精度更高
 
-**详细解答**: [action_representations.md](../theory/action_representations.md)
+**详细解答**: [action_representations.md](../theory/diffusion-flow/action_representations.md)
 
 ---
 
@@ -294,7 +294,7 @@
 - 7B 模型全量微调需要 112GB 显存，LoRA 只需 5GB
 - OpenVLA 使用 LoRA 微调，可以在消费级显卡上训练
 
-**详细解答**: [peft_lora.md](../theory/peft_lora.md#4-peft-方法对比-comparison)
+**详细解答**: [peft_lora.md](../theory/foundation/peft_lora.md#4-peft-方法对比-comparison)
 
 ---
 
@@ -317,7 +317,7 @@
 - ChatGPT 使用 RLHF 对齐，需要 4 个模型（SFT、Reward、Actor、Critic）
 - DPO 只需 2 个模型（Actor、Reference），更易部署
 
-**详细解答**: [reinforcement_learning.md](../theory/reinforcement_learning.md#61-rlhf-完整流程-rlhf-pipeline)
+**详细解答**: [reinforcement_learning.md](../theory/rl/reinforcement_learning.md#61-rlhf-完整流程-rlhf-pipeline)
 
 ---
 
@@ -359,7 +359,7 @@
 - ViT 序列长度 196，标准 Attention 需要 38K 个浮点数
 - Flash Attention 只需存储最终输出，内存减少 100x
 
-**详细解答**: [flash_attention.md](../theory/flash_attention.md#6-面试常见问题)
+**详细解答**: [flash_attention.md](../theory/foundation/flash_attention.md#6-面试常见问题)
 
 ---
 
@@ -379,7 +379,7 @@
 - GPT 生成 1000 Token：无 Cache 需要 1000 次 $O(N^2)$ 计算
 - 有 Cache：只需 1000 次 $O(N)$ 计算，加速 1000x
 
-**详细解答**: [flash_attention.md](../theory/flash_attention.md#5-kv-cache-推理加速-kv-cache-for-inference)
+**详细解答**: [flash_attention.md](../theory/foundation/flash_attention.md#5-kv-cache-推理加速-kv-cache-for-inference)
 
 ---
 
@@ -403,7 +403,7 @@
 - $T=1$: 学生学到"猫是 0.7"
 - $T=5$: 学生学到"猫是 0.7，但狗也有 0.2，说明猫和狗相似"
 
-**详细解答**: [knowledge_distillation.md](../theory/knowledge_distillation.md#22-软标签)
+**详细解答**: [knowledge_distillation.md](../theory/foundation/knowledge_distillation.md#22-软标签)
 
 ---
 
@@ -423,7 +423,7 @@
 - 硬标签只告诉学生"这是猫"
 - 软标签告诉学生"这是猫，但和狗也有相似之处"，学到更泛化的特征
 
-**详细解答**: [knowledge_distillation.md](../theory/knowledge_distillation.md)
+**详细解答**: [knowledge_distillation.md](../theory/foundation/knowledge_distillation.md)
 
 ---
 
@@ -445,7 +445,7 @@
 - SimCLR：同一张图的两个数据增强视图是正样本对
 - 模型学习将同一物体的不同视图映射到相近的表示
 
-**详细解答**: [self_supervised_learning.md](../theory/self_supervised_learning.md#211-infonce-损失)
+**详细解答**: [self_supervised_learning.md](../theory/foundation/self_supervised_learning.md#211-infonce-损失)
 
 ---
 
@@ -465,7 +465,7 @@
 - MAE：掩码大部分图像，模型学习重建，学到语义特征
 - SimCLR：同一张图的两个视图，模型学习相似表示
 
-**详细解答**: [self_supervised_learning.md](../theory/self_supervised_learning.md)
+**详细解答**: [self_supervised_learning.md](../theory/foundation/self_supervised_learning.md)
 
 ---
 
@@ -486,7 +486,7 @@
 - RT-2 Co-fine-tuning：混合 Web VQA 和机器人数据
 - 模型既能理解"抓恐龙"（语义），又能输出动作（控制）
 
-**详细解答**: [co_training.md](../theory/co_training.md#11-防止灾难性遗忘)
+**详细解答**: [co_training.md](../theory/foundation/co_training.md#11-防止灾难性遗忘)
 
 ---
 
@@ -507,7 +507,7 @@
 - RT-2：机器人数据学习动作 Token，Web 数据学习 VQA
 - 两者共享 Transformer Backbone，但 Loss 分开计算
 
-**详细解答**: [co_training.md](../theory/co_training.md#22-loss-计算)
+**详细解答**: [co_training.md](../theory/foundation/co_training.md#22-loss-计算)
 
 ---
 
@@ -528,7 +528,7 @@
 - 抓取任务：随机化光照、物体颜色、桌面纹理
 - 模型学会对这些变化鲁棒，迁移到真机时效果更好
 
-**详细解答**: [transfer_learning.md](../theory/transfer_learning.md)
+**详细解答**: [transfer_learning.md](../theory/foundation/transfer_learning.md)
 
 ---
 
@@ -548,7 +548,7 @@
 - 数据 <50：Feature Extraction（防止过拟合）
 - 数据 >500：Fine-tuning（效果更好）
 
-**详细解答**: [transfer_learning.md](../theory/transfer_learning.md#22-冻结特征提取)
+**详细解答**: [transfer_learning.md](../theory/foundation/transfer_learning.md#22-冻结特征提取)
 
 ---
 
@@ -568,7 +568,7 @@
 - 7B 模型 INT8 量化：Per-Tensor 精度下降 2%，Per-Channel 精度下降 0.5%
 - 但 Per-Channel 需要存储更多 scale/zero
 
-**详细解答**: [quantization_theory.md](../theory/quantization_theory.md)
+**详细解答**: [quantization_theory.md](../theory/foundation/quantization_theory.md)
 
 ---
 
@@ -589,7 +589,7 @@
 - 7B 模型：AWQ 对 10% 的通道保持 FP16，其他 INT8
 - 精度接近 FP16，速度接近 INT8
 
-**详细解答**: [quantization_theory.md](../theory/quantization_theory.md)
+**详细解答**: [quantization_theory.md](../theory/foundation/quantization_theory.md)
 
 ---
 
@@ -611,7 +611,7 @@
 - 100 条抓取数据：先用 OXE 数据集 Co-training，再用 100 条数据 Fine-tuning
 - 效果接近全量数据训练
 
-**详细解答**: [transfer_learning.md](../theory/transfer_learning.md)
+**详细解答**: [transfer_learning.md](../theory/foundation/transfer_learning.md)
 
 ---
 
@@ -638,7 +638,7 @@
 - 用户："不对，是红色的那个"
 - VLA：重新定位 → 修正目标
 
-**详细解答**: [multimodal_models.md](../theory/multimodal_models.md#q6-如果视觉模块误判如何通过语言纠错)
+**详细解答**: [multimodal_models.md](../theory/perception/multimodal_models.md#q6-如果视觉模块误判如何通过语言纠错)
 
 ---
 
@@ -661,7 +661,7 @@
 - 训练 100 个 Epoch，每个 Epoch 后自动评估
 - 选择 SR 最高的 Checkpoint 部署
 
-**详细解答**: [evaluation.md](../theory/evaluation.md#5-evaluation-pipeline-构建-building-evaluation-pipeline)
+**详细解答**: [evaluation.md](../theory/foundation/evaluation.md#5-evaluation-pipeline-构建-building-evaluation-pipeline)
 
 ---
 
@@ -681,7 +681,7 @@
 - Model-Free：PPO、SAC，需要大量交互
 - Model-Based：MCTS、MPC，样本效率高但需要模型
 
-**详细解答**: [reinforcement_learning.md](../theory/reinforcement_learning.md#31-model-free-vs-model-based)
+**详细解答**: [reinforcement_learning.md](../theory/rl/reinforcement_learning.md#31-model-free-vs-model-based)
 
 ---
 
@@ -701,7 +701,7 @@
 - 机器人状态包含位置+速度，满足马尔可夫性
 - 若只有位置，则不满足（需要历史速度信息）
 
-**详细解答**: [reinforcement_learning.md](../theory/reinforcement_learning.md#22-马尔可夫性-markov-property)
+**详细解答**: [reinforcement_learning.md](../theory/rl/reinforcement_learning.md#22-马尔可夫性-markov-property)
 
 ---
 
@@ -722,7 +722,7 @@
 - Q-Learning：学习 $Q^*$，然后贪心选择动作
 - 这就是最优策略
 
-**详细解答**: [reinforcement_learning.md](../theory/reinforcement_learning.md#25-最优价值函数与最优策略)
+**详细解答**: [reinforcement_learning.md](../theory/rl/reinforcement_learning.md#25-最优价值函数与最优策略)
 
 ---
 
@@ -742,7 +742,7 @@
 - 小状态空间：策略迭代更快
 - 大状态空间：值迭代更实用
 
-**详细解答**: [reinforcement_learning.md](../theory/reinforcement_learning.md#32-策略迭代-vs-值迭代-policy-iteration-vs-value-iteration)
+**详细解答**: [reinforcement_learning.md](../theory/rl/reinforcement_learning.md#32-策略迭代-vs-值迭代-policy-iteration-vs-value-iteration)
 
 ---
 
@@ -765,7 +765,7 @@
 - RT-2 / OpenVLA：Mid Fusion（Cross-Attention）
 - 视觉 Token 和语言 Token 可以互相关注
 
-**详细解答**: [multimodal_models.md](../theory/multimodal_models.md#q3-多模态融合中-early--mid--late-fusion-如何选择)
+**详细解答**: [multimodal_models.md](../theory/perception/multimodal_models.md#q3-多模态融合中-early--mid--late-fusion-如何选择)
 
 ---
 
@@ -786,7 +786,7 @@
 - RT-1：语言指令生成 $\gamma, \beta$，调制视觉特征
 - Diffusion Policy：时间步生成 $\gamma, \beta$，调制动作特征
 
-**详细解答**: [multimodal_models.md](../theory/multimodal_models.md#34-vla-中的主流方案film-调制)
+**详细解答**: [multimodal_models.md](../theory/perception/multimodal_models.md#34-vla-中的主流方案film-调制)
 
 ---
 
@@ -806,7 +806,7 @@
 - CLIP：需要 All-Reduce 同步所有 GPU 的负样本
 - SigLIP：每对独立计算，无需同步
 
-**详细解答**: [transformer_vs_cnn.md](../theory/transformer_vs_cnn.md#52-siglip)
+**详细解答**: [transformer_vs_cnn.md](../theory/foundation/transformer_vs_cnn.md#52-siglip)
 
 ---
 
@@ -827,7 +827,7 @@
 - RT-2：输出推理步骤 "我看到一个红色杯子，用户要求抓取，我将执行抓取动作"
 - 提高可解释性和成功率
 
-**详细解答**: [chain_of_thought.md](../theory/chain_of_thought.md#12-cot-的价值)
+**详细解答**: [chain_of_thought.md](../theory/planning/chain_of_thought.md#12-cot-的价值)
 
 ---
 
@@ -847,7 +847,7 @@
 - RT-2：显式 CoT，输出语言推理
 - π0.5：隐式 CoT，在 Latent 空间推理，更快
 
-**详细解答**: [chain_of_thought.md](../theory/chain_of_thought.md)
+**详细解答**: [chain_of_thought.md](../theory/planning/chain_of_thought.md)
 
 ---
 
@@ -867,7 +867,7 @@
 - RT-2 能理解 "pick up the extinct animal" → 抓恐龙玩具
 - 这得益于 Web 数据的语义理解能力
 
-**详细解答**: [vla_arch.md](../theory/vla_arch.md#2-rt-2)
+**详细解答**: [vla_arch.md](../theory/vla-core/vla_arch.md#2-rt-2)
 
 ---
 
@@ -887,7 +887,7 @@
 - OpenVLA：Action Head 输出 7 个 Token（x, y, z, roll, pitch, yaw, gripper）
 - 每个 Token 对应 256 个 bin，Detokenization 还原为连续值
 
-**详细解答**: [vla_arch.md](../theory/vla_arch.md#openvla)
+**详细解答**: [vla_arch.md](../theory/vla-core/vla_arch.md#openvla)
 
 ---
 
@@ -907,7 +907,7 @@
 - π0.5：高层输出 "Step 1: 抓取杯子, Step 2: 移动到水壶上方"
 - 低层根据每个子任务生成动作序列
 
-**详细解答**: [pi0_5_dissection.md](../theory/pi0_5_dissection.md)
+**详细解答**: [pi0_5_dissection.md](../theory/vla-core/pi0_5_dissection.md)
 
 ---
 
@@ -926,7 +926,7 @@
 **实际例子**: 
 - WALL-OSS：视觉输入 → 语言推理 "我看到一个红色杯子" → 动作生成 "抓取动作"
 
-**详细解答**: [wall_oss.md](../theory/wall_oss.md)
+**详细解答**: [wall_oss.md](../theory/vla-core/wall_oss.md)
 
 ---
 
@@ -945,7 +945,7 @@
 **实际例子**: 
 - Galaxea G0：大脑规划 "倒水任务"，小脑执行 "抓杯子→移动到水壶→倒水"
 
-**详细解答**: [galaxea_g0.md](../theory/galaxea_g0.md)
+**详细解答**: [galaxea_g0.md](../theory/vla-core/galaxea_g0.md)
 
 ---
 
@@ -965,7 +965,7 @@
 - RT-2 / OpenVLA：ViT（多模态统一）
 - RT-1：ResNet（小数据友好）
 
-**详细解答**: [transformer_vs_cnn.md](../theory/transformer_vs_cnn.md)
+**详细解答**: [transformer_vs_cnn.md](../theory/foundation/transformer_vs_cnn.md)
 
 ---
 
@@ -986,7 +986,7 @@
 - 抓取透明物体：视觉可能看不准，触觉传感器能感知接触
 - 判断材质：视觉无法判断软硬，触觉传感器能感知
 
-**详细解答**: [tactile_vla.md](../theory/tactile_vla.md)
+**详细解答**: [tactile_vla.md](../theory/tactile/tactile_vla.md)
 
 ---
 
@@ -1006,7 +1006,7 @@
 - VLA-Touch：无需重训整个 VLA，即插即用
 - OmniVTLA：能执行跨模态推理（"Pick up the softest object"）
 
-**详细解答**: [tactile_vla.md](../theory/tactile_vla.md)
+**详细解答**: [tactile_vla.md](../theory/tactile/tactile_vla.md)
 
 ---
 
@@ -1026,7 +1026,7 @@
 - RGB-D 相机：深度光在透明物体上失效
 - 解决方案：使用触觉传感器，摸到了就知道位置
 
-**详细解答**: [perception_techniques.md](../theory/perception_techniques.md)
+**详细解答**: [perception_techniques.md](../theory/perception/perception_techniques.md)
 
 ---
 
