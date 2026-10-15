@@ -39,6 +39,7 @@ Moltbot（自动化 AI agent）通过 GitHub Contents API 向本仓库写入内�
 | `deployment/robot_hardware_selection_pricing.md` / `product/*.md` / `companies/*.md`（条件触发） | 仅在文末“自动追踪区”追加（见下） | 修改/删除既有正文、在非自动区写入 |
 | `memory/blog/archives/industry-radar/{YYYY-MM-DD}.md` | 创建新文件（同日重跑允许覆盖，仅自动生成内容） | 修改人工内容、改目录结构 |
 | `companies/industry_mainline.md` | 创建/整体重写（⚙️ 自动生成文件，每周 upsert） | — 该文件全程自动维护，无人工内容 |
+| `theory/README.md` 与十个主题的 `README.md`（vla-core、foundation、planning、world-model、tactile、deployment、rl、perception、diffusion-flow、frontier） | 仅固定目录程序更新已存在的 `<!-- VLA:THEORY-NAV:BEGIN -->` 至 `<!-- VLA:THEORY-NAV:END -->` 标记区；内容来自 Git 已追踪文件路径和标题 | 修改标记区外的人工内容；缺少/重复标记时自行创建或修复；让模型执行写入；改动其他 README 或文章 |
 | **其他所有文件** | **❌ 默认不可触碰** | 包括 theory/ 主目录深度笔记、deployment/ 其他文件、README.md 等 |
 
 **核心原则：Moltbot 默认只做“追加行/创建新文件”。仅在权限矩阵明确允许时，才可对“自动生成文件”做同日 upsert（用于重跑修复）；永远不修改、不删除人工内容。**
