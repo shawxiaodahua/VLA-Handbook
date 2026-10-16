@@ -630,6 +630,9 @@
 | Juno: Taming Predictive Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.09940v1) | 🔧 daily 2026-10-08 |
 | Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.10526v1) | 🔧 daily 2026-10-08 |
 | REACT: Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA Models | [link](https://arxiv.org/abs/2610.12007v1) | 🔧 daily 2026-10-09 |
+| REKI: Registering Knowledge in VLAs | [link](https://arxiv.org/abs/2610.22178) | 🔧 daily 2026-10-16 |
+| LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.21362) | [VLA后训] 🔧 daily 2026-10-16 |
+| Human Demonstrations as Post-Training Data for Any Robot Body: Retargeting the Object, Not the Hand | [link](https://tldr.takara.ai/p/2610.20351) | [VLA后训] 🔧 daily 2026-10-16 |
 
 ### 動作生成
 
@@ -672,6 +675,7 @@
 | RAIN: Robotic Task Generalization with Region-Aware Interaction Networks | [link](https://arxiv.org/abs/2610.14039) | 🔧 daily 2026-10-15 |
 | Box-WAM: Box Trajectories as Compact State Representations for World Action Models | [link](https://tldr.takara.ai/p/2610.17526) | [世界模型] 🔧 daily 2026-10-15 |
 | ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models | [link](https://tldr.takara.ai/p/2610.18596) | [RL] 🔧 daily 2026-10-15 |
+| Fast-VLA: You Only Think Once for Robot Manipulation | [link](https://arxiv.org/abs/2610.21389) | 🔧 daily 2026-10-16 |
 
 ### 數據
 
@@ -717,6 +721,7 @@
 | OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework | [link](https://arxiv.org/abs/2610.10384v1) | 🎯 tactile \| 🔧 daily 2026-10-08 |
 | TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning | [link](https://arxiv.org/abs/2610.11945v1) | 🎯 tactile \| 🔧 daily 2026-10-09 |
 | DEFT-VLA: Stage-Localized Force Specialization for Contact-Rich Robotic Manipulation | [link](https://arxiv.org/abs/2610.14854) | 🎯 tactile \| 🔧 daily 2026-10-15 |
+| Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation | [link](https://arxiv.org/abs/2610.22342) | 🎯 tactile \| 🔧 daily 2026-10-16 |
 
 ### 其他
 
