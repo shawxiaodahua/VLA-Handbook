@@ -88,7 +88,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 96 份文档。**
+**共 97 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -166,6 +166,7 @@
 - [机器人"照镜子"学会模拟自己：从单目视频到运动学自模型](./teaching_robots_build_simulations_of_themselves_self_model_dissection.md)
 - [潛在世界模型的規劃極限 (The Planning Limits of Latent World Models)](./the_planning_limits_of_latent_world_models_dissection.md)
 - [迈向统一机器人学习：桥接表示、VLA 与世界模型 (Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models)](./toward_unified_robot_learning_bridging_representation_vision_dissection.md)
+- [TS-WAM：时间潜在动作与世界-动作耦合的视觉语言机器人控制 (TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control)](./ts_wam_temporal_latent_actions_and_world_action_coupling_for_dissection.md)
 - [统一世界-动作模型：把「懂物理」和「会推理」焊进同一条 Transformer (UniWAM: Unified World-Action Model)](./uniwam_unified_world_action_model_dissection.md)
 - [VeriVLA：基于潜世界模型的自适应测试时验证，用于流式 VLA (VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models)](./verivla_adaptive_test_time_verification_for_flow_based_vlas_dissection.md)
 - [视频生成模型在机器人中的应用：近 300 篇体系化综述提炼（2026）(Video Generation Models in Robotics, 2026 Survey)](./video_generation_models_in_robotics_survey_2026.md)
