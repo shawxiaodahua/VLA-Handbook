@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 163 份文档。**
+**共 164 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -222,6 +222,7 @@
 - [基于反思的任务适应：自改进 VLA 框架 (Reflection-Based Task Adaptation for Self-Improving VLA)](./reflection_based_task_adaptation_for_self_improving_vla_dissection.md)
 - [Reflex: 面向反应关键型操作的快速预测 VLA (Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation)](./reflex_enabling_fast_and_predictive_vision_language_action_m_dissection.md)
 - [记住你做过什么：动作历史记忆 + 双专家去噪的长时序 VLA 策略 (Remember What You Did: Action-History Memory with Dual-Expert Denoising for Long-Horizon VLA Policies)](./remember_what_you_did_action_history_memory_with_dual_expert_dissection.md)
+- [改写先行：刻画并缓解 VLA 的语言敏感性 (Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models)](./rephrase_before_you_act_characterizing_and_mitigating_langua_dissection.md)
 - [通过免训练注意力重校准恢复 VLA 模型的语言 grounding (Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration)](./restoring_linguistic_grounding_in_vla_models_via_train_free_dissection.md)
 - [检索替代微调：测试时扩展 VLA 至新任务 (Retrieve, Don't Retrain: Extending Vision Language Action Models to New Tasks at Test Time)](./retrieve_dont_retrain_extending_vision_language_action_model_dissection.md)
 - [按时检索，频域校正：冻结 VLA 的免训练测试时修正框架 (Retrieve in Time, Correct in Frequency)](./retrieve_in_time_correct_in_frequency_dissection.md)
