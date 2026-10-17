@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 44 份文档。**
+**共 45 份文档。**
 
 - [AEGIS：物理 AI 的備份反射機制 (A Backup Reflex for Physical AI)](./aegis_a_backup_reflex_for_physical_ai_dissection.md)
 - [AnyViewDex：純 RGB 觀測下的視角不變靈巧操作 (AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations)](./anyviewdex_view_invariant_dexterous_manipulation_from_rgb_ob_dissection.md)
@@ -95,6 +95,7 @@
 - [HANDFUL：资源感知的序列灵巧操作 (Sequential Grasp-Conditioned Dexterous Manipulation with Resource Awareness)](./handful_sequential_grasp_conditioned_dexterous_manipulation_dissection.md)
 - [人类-机器人对齐表征学习：用配对桥接把人类视频变成 VLA 监督 (HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model)](./harp_vla_human_robot_aligned_representation_learning_for_vis_dissection.md)
 - [House of Dextra: 灵巧手机器人形态 - 控制协同设计 (House of Dextra: Cross-embodied Co-design for Dexterous Hands)](./house_of_dextra_cross_embodied_co_design_for_dexterous_hands_dissection.md)
+- [以腕部视角人类演示构建跨灵巧手可复用数据接口 (Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations)](./human2dex_dexterous_robot_learning_from_wrist_centric_human_dissection.md)
 - [产业视角：通用性与“元学习”路径（从一张路线图说起）](./industry_paths_to_generalization.md)
 - [Isaac Lab: GPU 加速的多模态机器人学习仿真框架](./isaac_lab.md)
 - [迭代组合式数据生成用于机器人控制 (Iterative Compositional Data Generation for Robot Control)](./iterative_compositional_data_generation_for_robot_control_dissection.md)
