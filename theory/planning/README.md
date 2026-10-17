@@ -94,7 +94,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 69 份文档。**
+**共 70 份文档。**
 
 - [分层时空动作分词器：上下文模仿学习的新范式 (HiST-AT: A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning)](./a_hierarchical_spatiotemporal_action_tokenizer_for_in_contex_dissection.md)
 - [弹性视觉智能体的架构模式语言 (A Pattern Language for Resilient Visual Agents)](./a_pattern_language_for_resilient_visual_agents_dissection.md)
@@ -118,6 +118,7 @@
 - [别掉棒：基于代理子任务探索与过渡感知记忆的长视界机器人操作 (Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory)](./dont_drop_the_baton_long_horizon_robot_manipulation_via_agen_dissection.md)
 - [双路径动态操作：DualManip 用几何自适应绕开 VLM 延迟瓶颈 (DualManip: Agentic Dynamic Manipulation via Dual-Path Semantic Reasoning and Geometric Adaptation)](./dualmanip_agentic_dynamic_manipulation_via_dual_path_semanti_dissection.md)
 - [dWorldEval：基于离散扩散世界模型的-scalable 机器人策略评估 (Scalable Robotic Policy Evaluation via Discrete Diffusion World Model)](./dworldeval_scalable_robotic_policy_evaluation_via_discrete_d_dissection.md)
+- [EgoLAP：用语言-动作推理从第一视角人类数据中学习 (EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning)](./egolap_learning_from_egocentric_human_data_through_language_dissection.md)
 - [具身思维链：让 VLA 先“想清楚再动手” (Robotic Control via Embodied Chain-of-Thought Reasoning, 2024)](./embodied_chain_of_thought_robotic_control_2024.md)
 - [ENACT：它不是再做一个 benchmark，而是在追问 VLM 有没有“具身认知”？ (ENACT: Evaluating Embodied Cognition with World Modeling of Egocentric Interaction)](./enact_embodied_cognition_world_modeling_egocentric_interaction_2025.md)
 - [FailSafe：VLA 模型的失败推理与恢复系统 (FailSafe: Reasoning and Recovery from Failures in Vision-Language-Action Models)](./failsafe_reasoning_and_recovery_from_failures_in_vision_lang_dissection.md)
