@@ -64,7 +64,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 47 份文档。**
+**共 48 份文档。**
 
 - [动作生成范式详解 (Action Representations &amp; Generation)](./action_representations.md)
 - [动作到动作流匹配 (Action-to-Action Flow Matching)](./action_to_action_flow_matching_dissection.md)
@@ -92,6 +92,7 @@
 - [IMLE-VLA：用条件隐式最大似然估计实现单步动作生成 (IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies)](./imle_vla_fast_single_step_action_generation_for_vision_langu_dissection.md)
 - [Lie 群 B 样条扩散策略：让扩散策略的轨迹真正平滑 (LieSpline-DP: Lie-Group B-Spline Diffusion Policy for Smooth Robot Manipulation)](./liespline_dp_lie_group_b_spline_diffusion_policy_for_smooth_dissection.md)
 - [LTLf 约束引导的多智能体扩散策略 (LTLDiff: Finite Linear Temporal Logic-Guided Data Generation and Diffusion Policies for Multi-agent Robotic Manipulation)](./ltldiff_finite_linear_temporal_logic_guided_data_generation_dissection.md)
+- [MOSS：面向机器人流匹配策略的模式导向源分布塑造 (Mode-Oriented Source Shaping for Robot Flow Matching Policies)](./moss_mode_oriented_source_shaping_for_robot_flow_matching_po_dissection.md)
 - [神经隐式动作场：从离散路点到连续函数 (Neural Implicit Action Fields: From Discrete Waypoints to Continuous Functions for Vision-Language-Action Models)](./neural_implicit_action_fields_from_discrete_waypoints_to_con_dissection.md)
 - [噪声空间归因与分块边界伪影控制 (Noise-Space Attribution and Control of Chunk-Boundary Artifact)](./noise_space_attribution_and_control_of_chunk_boundary_artifa_dissection.md)
 - [OMP：单步均值流策略与方向对齐 (One-step MeanFlow Policy with Directional Alignment)](./omp_one_step_meanflow_policy_with_directional_alignment_dissection.md)

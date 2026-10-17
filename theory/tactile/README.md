@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 59 份文档。**
+**共 62 份文档。**
 
 - [主动触觉探索用于刚体姿态与形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_for_rigid_body_pose_and_shape_est_dissection.md)
 - [Active Tactile Exploration：仅触觉的刚体位姿+形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_rigid_body_pose_shape_eig_2026.md)
@@ -80,6 +80,7 @@
 - [Bench2Dex：跨 12 种灵巧手的双臂视觉-触觉操作基准 (Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands)](./bench2dex_benchmarking_visuo_tactile_bimanual_dexterous_mani_dissection.md)
 - [DEFT-VLA：面向接触丰富操作的分阶段力觉专精 (DEFT-VLA: Stage-Localized Force Specialization for Contact-Rich Robotic Manipulation)](./deft_vla_stage_localized_force_specialization_for_contact_ri_dissection.md)
 - [人類觸覺澆灌機器人世界模型 (DexTouch-WM: Learning Action-Conditioned Tactile World Models from Human Touch for Dexterous Robot Manipulation)](./dextouch_wm_learning_action_conditioned_tactile_world_models_dissection.md)
+- [工作空间级等变视觉-触觉扩散策略：VISTA (Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation)](./equivariant_visual_tactile_diffusion_policy_for_contact_rich_dissection.md)
 - [ETac：轻量高效的触觉仿真框架，赋能灵巧操作学习 (ETac: A Lightweight and Efficient Tactile Simulation Framework for Learning Dexterous Manipulation)](./etac_a_lightweight_and_efficient_tactile_simulation_framewor_dissection.md)
 - [Event-VLA：动作条件化事件融合实现光照鲁棒 VLA (Event-VLA: Action-Conditioned Event Fusion for Robust Vision-Language-Action Model)](./event_vla_action_conditioned_event_fusion_for_robust_vision_dissection.md)
 - [FAVLA：力自适应快慢 VLA 模型用于接触丰富操作 (FAVLA: A Force-Adaptive Fast-Slow VLA model for Contact-Rich Robotic Manipulation)](./favla_a_force_adaptive_fast_slow_vla_model_for_contact_rich_dissection.md)
@@ -103,6 +104,7 @@
 - [语义接触场：类别级通用触觉工具操作 (Semantic-Contact Fields for Category-Level Generalizable Tactile Tool Manipulation)](./semantic_contact_fields_for_category_level_generalizable_tac_dissection.md)
 - [软体机器人“本体觉醒”：GVS 应变建模 + 灵敏度椭球，让形状与 3D 外力可估计 (Soft Robot Proprioception with GVS + Sensitivity Ellipsoids)](./soft_robot_proprioception_gvs_sensitivity_ellipsoid.md)
 - [安全感知视触觉基准：面向可变形物体的物理约束机器人操作 (SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects)](./softvtbench_a_safety_aware_visuo_tactile_benchmark_for_physi_dissection.md)
+- [Spark-0：面向机器人灵巧操作的空间对齐触觉预训练 (Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation)](./spark_0_scaling_spatially_aligned_tactile_pretraining_for_ro_dissection.md)
 - [STAR：視-觸-語言-動作模型中的稀疏觸覺表徵學習（面向靈巧手操作）](./star_sparse_tactile_representation_learning_in_vision_tactil_dissection.md)
 - [SuperTac：多模态“电子皮肤” + 触觉语言模型 DOVE（Nature Sensors 2025）](./supertac_dove_multimodal_tactile_sensor.md)
 - [TacForcing：执行时触觉反馈的流式动作生成 (TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback)](./tacforcing_streaming_action_generation_with_execution_time_t_dissection.md)
@@ -121,6 +123,7 @@
 - [τ: 从未来视觉监督学习触觉增强 VLA 模型 (Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision)](./tau_learning_touch_augmented_vision_language_action_models_f_dissection.md)
 - [TouchGuide: 推理时触觉引导视觉运动策略 (TouchGuide: Inference-Time Steering of Visuomotor Policies via Touch Guidance)](./touchguide_inference_time_steering_of_visuomotor_policies_vi_dissection.md)
 - [让策略先“看见”，再“摸准”：TouchGuide 触觉推理引导 (TouchGuide: Inference-Time Steering of Visuomotor Policies via Touch Guidance)](./touchguide_inference_time_steering_touch_guidance_2026.md)
+- [TouchScale：500 小时人类视觉-触觉数据 (TouchScale: 500 Hours of Human Vision and Touch for Visual-Tactile Learning)](./touchscale_500_hours_of_human_vision_and_touch_for_visual_ta_dissection.md)
 - [追踪能量流：用触觉学习抓取力控制以抑制动态交互中的滑移 (Tracing Energy Flow: Learning Tactile-based Grasping Force Control to Reduce Slippage in Dynamic Object Interaction)](./tracing_energy_flow_learning_tactile_based_grasping_force_co_dissection.md)
 - [TransDex：基于点云重建预训练的视触觉灵巧操作策略 (Pre-training Visuo-Tactile Policy with Point Cloud Reconstruction for Dexterous Manipulation of Transparent Objects)](./transdex_pre_training_visuo_tactile_policy_with_point_cloud_dissection.md)
 - [UniTacHand：用 MANO UV Map 统一触觉，实现人手→机器人零样本技能迁移 (Unified Spatio-Tactile Representation)](./unitachhand.md)

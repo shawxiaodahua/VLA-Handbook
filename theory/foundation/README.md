@@ -94,7 +94,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 86 份文档。**
+**共 88 份文档。**
 
 - [动作-效应记忆预训练用于机器人操作 (Action-Effect Memory Pretraining for Robot Manipulation)](./action_effect_memory_pretraining_for_robot_manipulation_dissection.md)
 - [动作 QFormer：动作监督下的结构化表征塑造 (Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models)](./action_qformer_structured_representation_shaping_under_actio_dissection.md)
@@ -109,6 +109,7 @@
 - [DCP：凸性检测规则与 CVX/CVXPY 建模心法 (Disciplined Convex Programming)](./dcp_convexity_rules.md)
 - [DeMaVLA：面向可变形物体操作的通用 VLA 基础模型 (DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation)](./demavla_a_vision_language_action_foundation_model_for_genera_dissection.md)
 - [Dexterity-BEV: 对齐3D世界与动作以增强策略泛化 (Dexterity-BEV: Aligning 3D World and Actions for Generalizable Robot Policies Learning)](./dexterity_bev_aligning_3d_world_and_actions_for_generalizabl_dissection.md)
+- [VLA 真的在“听话”吗？How-level 指令跟随诊断 (Do VLAs Really Follow Instructions? Diagnosing How-Level Instruction Following in Vision-Language-Action Models)](./do_vlas_really_follow_instructions_diagnosing_how_level_inst_dissection.md)
 - [DoRA：权重分解的低秩适配 (DoRA: Weight-Decomposed Low-Rank Adaptation)](./dora_weight_decomposed_low_rank_adaptation.md)
 - [Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models (Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models)](./embodied_r15_evolving_physical_intelligence_via_embodied_fou_disction.md)
 - [Embodied-R1.5：通过具身基础模型进化物理智能 (Embodied-R1.5: Evolving Physical Intelligence via Embodied Foundation Models)](./embodied_r15_evolving_physical_intelligence_via_embodied_fou_dissection.md)
@@ -141,6 +142,7 @@
 - [VLA 数学必备：从直觉到实作](./math_for_vla.md)
 - [Mix-QVLA：任务证据感知的 VLA 混合精度量化 (Mix-QVLA: Task-Evidence-Aware Mixed-Precision Quantization of Vision-Language-Action Models)](./mix_qvla_task_evidence_aware_mixed_precision_quantization_of_dissection.md)
 - [弹性模组化架构 Table 生成器（VLA Modular Pipelines）](./modular_pipeline_table_generator.md)
+- [多教师在线策略蒸馏：把域专用 Flow-Based VLA 合并进共享学生 (Multi-Teacher On-Policy Distillation for Flow-Based Vision-Language-Action Models)](./multi_teacher_on_policy_distillation_for_flow_based_vision_l_dissection.md)
 - [NeurIPS 2025 最佳论文：具身智能视角解读](./neurips_2025_insights.md)
 - [离线语义引导的 VLA 策略高效蒸馏 (Offline Semantic Guidance for Efficient Vision-Language-Action Policy Distillation)](./offline_semantic_guidance_for_efficient_vision_language_acti_dissection.md)
 - [OxyGen：面向多任务并行的 VLA 统一 KV Cache 管理 (Unified KV Cache Management for VLA Inference under Multi-Task Parallelism)](./oxygen_unified_kv_cache_management_for_vla_inference_under_m_dissection.md)

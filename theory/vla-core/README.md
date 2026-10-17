@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 160 份文档。**
+**共 164 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -143,6 +143,7 @@
 - [CommitFlow：长程 VLA 执行的语义承诺验证与局部纠偏 (CommitFlow: Semantic Commitment Verification and Local Correction for Long-Horizon Robot Manipulation VLA Execution)](./commitflow_semantic_commitment_verification_and_local_correc_dissection.md)
 - [持续演化 VLA 技能知识 (Continually Evolving Skill Knowledge in Vision Language Action Model)](./continually_evolving_skill_knowledge_in_vision_language_acti_dissection.md)
 - [用 EMG 与视觉标注做连续任务条件化：VLA 可以不止靠语言 (Continuous Conditioning of VLAs with Augmenting EMG and Visual Task Descriptors)](./continuous_conditioning_of_vlas_with_augmenting_emg_and_visu_dissection.md)
+- [从人类视频到机器人操作的跨本体因果迁移 (Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation)](./cross_embodiment_causal_transfer_from_human_videos_to_robot_dissection.md)
 - [CycleVLA：通过子任务回溯与最小贝叶斯风险解码实现 VLA 主动自我修正 (CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding)](./cyclevla_proactive_self_correcting_vision_language_action_mo_dissection.md)
 - [从 VLA 表征中解码任务进度 (Decoding Task Progress from VLA Representations)](./decoding_task_progress_from_vla_representations_dissection.md)
 - [解耦视觉、语言与动作：高效多任务机器人策略 (Decoupling Vision, Language, and Action for Efficient Multi-Task Robot Policies)](./decoupling_vision_language_and_action_for_efficient_multi_ta_dissection.md)
@@ -181,6 +182,7 @@
 - [INSIGHT: 推理时序列自省生成人工辅助触发器 (INference-time Sequence Introspection for Generating Help Triggers in VLA Models)](./insight_inference_time_sequence_introspection_for_generating_dissection.md)
 - [InstructVLA：从理解到操作的视觉 - 语言 - 动作指令微调 (InstructVLA: Vision-Language-Action Instruction Tuning from Understanding to Manipulation)](./instructvla_vision_language_action_instruction_tuning_from_u_dissection.md)
 - [成功率就够了么？输入扰动如何改变 VLA 在桌面操作中的行为 (Is Success All You Need? Investigating the Impact of Input Perturbations on VLA Behaviour in Tabletop Manipulation Tasks)](./is_success_all_you_need_investigating_the_impact_of_input_pe_dissection.md)
+- [Juno：驯服预测隐变量用于 VLA 模型 (Juno: Taming Predictive Latents for Vision-Language-Action Models)](./juno_taming_predictive_latents_for_vision_language_action_mo_dissection.md)
 - [最小可觉差建模用于 VLA Token 压缩 (Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models)](./just_noticeable_difference_modeling_for_token_compression_in_dissection.md)
 - [知道何时停止：基于 VLA 内部交叉注意力动态的自适应动作分块 (Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs)](./knowing_when_to_stop_adaptive_action_chunking_via_internal_c_dissection.md)
 - [LACY：基于视觉语言模型的双向语言-动作循环，实现机器人自我改进操作 (LACY: A Vision-Language Model-based Language-Action Cycle for Self-Improving Robotic Manipulation)](./lacy_a_vision_language_model_based_language_action_cycle_for_dissection.md)
@@ -220,6 +222,7 @@
 - [基于反思的任务适应：自改进 VLA 框架 (Reflection-Based Task Adaptation for Self-Improving VLA)](./reflection_based_task_adaptation_for_self_improving_vla_dissection.md)
 - [Reflex: 面向反应关键型操作的快速预测 VLA (Reflex: Enabling Fast and Predictive Vision-Language-Action Models for Reaction-Critical Manipulation)](./reflex_enabling_fast_and_predictive_vision_language_action_m_dissection.md)
 - [记住你做过什么：动作历史记忆 + 双专家去噪的长时序 VLA 策略 (Remember What You Did: Action-History Memory with Dual-Expert Denoising for Long-Horizon VLA Policies)](./remember_what_you_did_action_history_memory_with_dual_expert_dissection.md)
+- [改写先行：刻画并缓解 VLA 的语言敏感性 (Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models)](./rephrase_before_you_act_characterizing_and_mitigating_langua_dissection.md)
 - [通过免训练注意力重校准恢复 VLA 模型的语言 grounding (Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration)](./restoring_linguistic_grounding_in_vla_models_via_train_free_dissection.md)
 - [检索替代微调：测试时扩展 VLA 至新任务 (Retrieve, Don't Retrain: Extending Vision Language Action Models to New Tasks at Test Time)](./retrieve_dont_retrain_extending_vision_language_action_model_dissection.md)
 - [按时检索，频域校正：冻结 VLA 的免训练测试时修正框架 (Retrieve in Time, Correct in Frequency)](./retrieve_in_time_correct_in_frequency_dissection.md)
@@ -272,6 +275,7 @@
 - [DualVLN：Ground Slow, Move Fast —— VLN 的“快慢系统”基础模型](./vln_dualvln.md)
 - [VQActFlow：向量量化動作流的多任務機器人操控 (VQActFlow: Vector-Quantized Action Mode Steering for Multi-Task Robot Manipulation)](./vqactflow_vector_quantized_action_mode_steering_for_multi_ta_dissection.md)
 - [WALL-OSS: 点燃 VLM 走向具身空间](./wall_oss.md)
+- [机器人策略该学什么预测？重审 VLA 学习的监督目标 (What Should Robot Policies Learn to Predict? Rethinking Supervision Targets in Vision-Language-Action Learning)](./what_should_robot_policies_learn_to_predict_rethinking_super_dissection.md)
 - [World Pilot：用世界-动作先验引导 VLA 决策 (World Pilot: Steering Vision-Language-Action Models with World-Action Priors)](./world_pilot_steering_vision_language_action_models_with_worl_dissection.md)
 - [Xiaomi-Robotics-0：用 RoPE 偏移 + $\\Lambda$-mask + 動態 loss 三件套破解 Action Prefix 的「shortcut」 (An Open-Sourced VLA Model with Real-Time Execution)](./xiaomi_robotics_0_dissection.md)
 

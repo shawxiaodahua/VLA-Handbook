@@ -633,6 +633,7 @@
 | REKI: Registering Knowledge in VLAs | [link](https://arxiv.org/abs/2610.22178) | 🔧 daily 2026-10-16 |
 | LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.21362) | [VLA后训] 🔧 daily 2026-10-16 |
 | Human Demonstrations as Post-Training Data for Any Robot Body: Retargeting the Object, Not the Hand | [link](https://tldr.takara.ai/p/2610.20351) | [VLA后训] 🔧 daily 2026-10-16 |
+| EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training | [link](https://arxiv.org/abs/2604.20012) | 🔧 daily 2026-10-17 |
 
 ### 動作生成
 
@@ -688,6 +689,9 @@
 | BayesFP: Posterior Estimation for Flow-Based Policies via Feynman-Kac Sampling | [link](https://arxiv.org/abs/2606.21014) | 📖 daily 2026-10-13 |
 | ARC: A Reasoning Recipe for Robot Foundation Models | [link](https://arxiv.org/abs/2610.12386v1) | 🔧 daily 2026-10-09 |
 | HiPHI: A Large-Scale Benchmark for High-Precision Human Motion and Object Interaction | [link](https://content.knowledgehub.wiley.com/hiphi-a-large-scale-benchmark-for-high-precision-human-motion-and-object-interaction/) | 📖 daily 2026-10-12 |
+| Test-Time Compute for Humanoid Behavior Foundation Models | [link](https://arxiv.org/abs/2610.14896v1) | 历史补收；公开日期未核定 \| 🔧 daily 2026-10-17 |
+| Design and Evaluation of a Collaborative Teleoperation Interface for Multi-Operator Multi-Robot Systems in Challenging Environments | [link](https://arxiv.org/abs/2610.15001v1) | 历史补收；公开日期未核定 \| 📖 daily 2026-10-17 |
+| Remembering What Matters for Long-Horizon Robotic World Models | [link](https://arxiv.org/abs/2610.14583v1) | 历史补收；公开日期未核定 \| 🔧 daily 2026-10-17 |
 
 ### 部署
 
