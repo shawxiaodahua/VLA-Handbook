@@ -633,6 +633,7 @@
 | REKI: Registering Knowledge in VLAs | [link](https://arxiv.org/abs/2610.22178) | 🔧 daily 2026-10-16 |
 | LTM: Latent Transition Based In-Context Memory for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.21362) | [VLA后训] 🔧 daily 2026-10-16 |
 | Human Demonstrations as Post-Training Data for Any Robot Body: Retargeting the Object, Not the Hand | [link](https://tldr.takara.ai/p/2610.20351) | [VLA后训] 🔧 daily 2026-10-16 |
+| EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training | [link](https://arxiv.org/abs/2604.20012) | 🔧 daily 2026-10-17 |
 
 ### 動作生成
 
