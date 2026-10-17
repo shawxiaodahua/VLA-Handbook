@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 62 份文档。**
+**共 63 份文档。**
 
 - [主动触觉探索用于刚体姿态与形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_for_rigid_body_pose_and_shape_est_dissection.md)
 - [Active Tactile Exploration：仅触觉的刚体位姿+形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_rigid_body_pose_shape_eig_2026.md)
@@ -112,6 +112,7 @@
 - [TaCo：异构触觉数据的无损与有损编解码基准 (TaCo: A Benchmark for Lossless and Lossy Codecs of Heterogeneous Tactile Data)](./taco_a_benchmark_for_lossless_and_lossy_codecs_of_heterogene_dissection.md)
 - [TacPAC：世界-动作模型中的触觉预测与实时动作修正 (Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation)](./tacpac_tactile_prediction_and_real_time_action_correction_in_dissection.md)
 - [TacRefineNet：触觉驱动的机器人精细抓取微调模型 (TacRefineNet: Tactile-Only Grasp Refinement)](./tacrefinenet_tactile_only_grasp_refinement_2026.md)
+- [TACROSS：跨异构触觉传感器的高效低成本人体触觉采集系统 (TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning)](./tacross_an_efficient_and_low_cost_scalable_human_touch_syste_dissection.md)
 - [触觉：为什么看起来最“低级”的感官，在具身智能里最不可替代？(Tactile, the Irreplaceable Modality)](./tactile_irreplaceable.md)
 - [🤚 触觉感知 — 多模态触觉主线总纲](./tactile_mainline.md)
 - [通过瓶颈潜重构实现无需触觉仿真的 Sim2Real (Tactile Sim2Real without Tactile Simulation via Bottlenecked Latent Reconstruction)](./tactile_sim2real_without_tactile_simulation_via_bottlenecked_dissection.md)
