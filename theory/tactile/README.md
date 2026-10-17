@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 59 份文档。**
+**共 60 份文档。**
 
 - [主动触觉探索用于刚体姿态与形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_for_rigid_body_pose_and_shape_est_dissection.md)
 - [Active Tactile Exploration：仅触觉的刚体位姿+形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_rigid_body_pose_shape_eig_2026.md)
@@ -103,6 +103,7 @@
 - [语义接触场：类别级通用触觉工具操作 (Semantic-Contact Fields for Category-Level Generalizable Tactile Tool Manipulation)](./semantic_contact_fields_for_category_level_generalizable_tac_dissection.md)
 - [软体机器人“本体觉醒”：GVS 应变建模 + 灵敏度椭球，让形状与 3D 外力可估计 (Soft Robot Proprioception with GVS + Sensitivity Ellipsoids)](./soft_robot_proprioception_gvs_sensitivity_ellipsoid.md)
 - [安全感知视触觉基准：面向可变形物体的物理约束机器人操作 (SoftVTBench: A Safety-Aware Visuo-Tactile Benchmark for Physically Constrained Robotic Manipulation of Deformable Objects)](./softvtbench_a_safety_aware_visuo_tactile_benchmark_for_physi_dissection.md)
+- [Spark-0：面向机器人灵巧操作的空间对齐触觉预训练 (Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation)](./spark_0_scaling_spatially_aligned_tactile_pretraining_for_ro_dissection.md)
 - [STAR：視-觸-語言-動作模型中的稀疏觸覺表徵學習（面向靈巧手操作）](./star_sparse_tactile_representation_learning_in_vision_tactil_dissection.md)
 - [SuperTac：多模态“电子皮肤” + 触觉语言模型 DOVE（Nature Sensors 2025）](./supertac_dove_multimodal_tactile_sensor.md)
 - [TacForcing：执行时触觉反馈的流式动作生成 (TacForcing: Streaming Action Generation with Execution-Time Tactile Feedback)](./tacforcing_streaming_action_generation_with_execution_time_t_dissection.md)
