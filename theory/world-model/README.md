@@ -88,7 +88,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 98 份文档。**
+**共 99 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -160,6 +160,7 @@
 - [RopeDreamer：基于运动学递归状态空间模型的柔性线性物体动力学预测 (RopeDreamer: A Kinematic Recurrent State Space Model for Dynamics of Flexible Deformable Linear Objects)](./ropedreamer_a_kinematic_recurrent_state_space_model_for_dyna_dissection.md)
 - [Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation](./simulation_distillation_pretraining_world_models_in_simulati_dissection.md)
 - [SkeleWAM：骨架世界-動作建模 — 用稀疏 3D 骨架做高效機器人操作 (Skeleton World-Action Modeling for Efficient Robotic Manipulation)](./skelewam_skeleton_world_action_modeling_for_efficient_roboti_dissection.md)
+- [SmolWAM：面向边缘设备的隐空间世界-动作模型（SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices）](./smolwam_a_latent_world_action_model_for_robotic_manipulation_dissection.md)
 - [SoMA：面向软体机器人操作的 Real-to-Sim 神经模拟器 (SoMA: A Real-to-Sim Neural Simulator for Robotic Soft-body Manipulation)](./soma_a_real_to_sim_neural_simulator_for_robotic_soft_body_ma_dissection.md)
 - [StageWAM：联合嵌入阶段预测的世界-动作模型 (StageWAM: Joint-Embedding Stage Prediction for World-Action Models in Robot Manipulation)](./stagewam_joint_embedding_stage_prediction_for_world_action_m_dissection.md)
 - [SWEET：用图像编辑做稀疏世界模型 (SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution)](./sweet_sparse_world_modeling_with_image_editing_for_embodied_dissection.md)
