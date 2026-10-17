@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 45 份文档。**
+**共 46 份文档。**
 
 - [AEGIS：物理 AI 的備份反射機制 (A Backup Reflex for Physical AI)](./aegis_a_backup_reflex_for_physical_ai_dissection.md)
 - [AnyViewDex：純 RGB 觀測下的視角不變靈巧操作 (AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations)](./anyviewdex_view_invariant_dexterous_manipulation_from_rgb_ob_dissection.md)
@@ -99,6 +99,7 @@
 - [产业视角：通用性与“元学习”路径（从一张路线图说起）](./industry_paths_to_generalization.md)
 - [Isaac Lab: GPU 加速的多模态机器人学习仿真框架](./isaac_lab.md)
 - [迭代组合式数据生成用于机器人控制 (Iterative Compositional Data Generation for Robot Control)](./iterative_compositional_data_generation_for_robot_control_dissection.md)
+- [JitterVLA：面向 VLA 驱动机器人操作运动质量的回放基准 (JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation)](./jittervla_a_replay_benchmark_for_motion_quality_in_vla_drive_dissection.md)
 - [学习真实杂乱场景中的接触表示以实现通用机器人抓取 (Learning Contact Representations in Real-World Clutter for Universal Robotic Grasping)](./learning_contact_representations_in_real_world_clutter_for_u_dissection.md)
 - [仅凭本体感知实现灵巧手内操作：本体感知 Transformer (Learning Robust Dexterous In-Hand Manipulation from Joint Sensors with Proprioceptive Transformer)](./learning_robust_dexterous_in_hand_manipulation_from_joint_se_dissection.md)
 - [Lightning Grasp：Contact Field 驱动的超高速灵巧手抓取合成 (Lightning Grasp: Procedural Grasp Synthesis with Contact Fields)](./lightning_grasp_contact_fields_procedural_dexterous_grasp_synthesis_2025.md)
