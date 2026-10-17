@@ -52,7 +52,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 82 份文档。**
+**共 83 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -84,6 +84,7 @@
 - [FailBench：VLM 判断机器人任务成败有多可靠？(FailBench: How Reliable are VLMs at Judging Robot Task Success?)](./failbench_how_reliable_are_vlms_at_judging_robot_task_succes_dissection.md)
 - [在动作流形上用黎曼 MeanFlow 加速视觉运动策略 (Faster Visuomotor Policy Learning on Action Manifolds via Riemannian MeanFlow)](./faster_visuomotor_policy_learning_on_action_manifolds_via_ri_dissection.md)
 - [更少 Token，更好动作：PyRUA-Lean 用代码执行接口让机器人智能体成功率 +14%、输入 Token −65% (Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens)](./fewer_tokens_better_action_gpt_6_astra_robot_agents_with_14_dissection.md)
+- [前向动力学模型：把世界模型变成动作特征的后置监督 (Forward Dynamics Models)](./forward_dynamics_models_dissection.md)
 - [从数字到物理：数字智能体作为物理智能的自主教练 (From Digital to Physical: Digital Agents as Autonomous Coaches for Physical Intelligence)](./from_digital_to_physical_digital_agents_as_autonomous_coache_dissection.md)
 - [从恢复到崩塌：动作后训练如何削弱 VLM 的深层深度可解码性 (From Recovery to Drop-off: How Action Post-training Reduces a VLM's Late-Layer Depth Decodability)](./from_recovery_to_drop_off_how_action_post_training_reduces_a_dissection.md)
 - [🔬 前沿跨域 — 灵感之源主线总纲](./frontier_mainline.md)
