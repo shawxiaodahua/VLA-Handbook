@@ -52,7 +52,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 81 份文档。**
+**共 82 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -61,6 +61,7 @@
 - [AutoResearch：把 AI Agent 变成“小型研究组织”的最小实验框架 (AutoResearch: A Minimal Autonomous Research Org on a Single GPU)](./autoresearch_agentic_research_org_single_gpu_llm_training_2026.md)
 - [用 Feynman–Kac 后验采样给预训练策略上约束 (BayesFP: Posterior Estimation for Flow-Based Policies via Feynman-Kac Sampling)](./bayesfp_posterior_estimation_for_flow_based_policies_via_fey_dissection.md)
 - [行为提示策略：用单条演示作为操作任务的 Prompt (Behavior Prompting Policy: Demonstrations as Prompts for Manipulation)](./behavior_prompting_policy_demonstrations_as_prompts_for_mani_dissection.md)
+- [Beyond Reconstruction：动作 Tokenization 到底需要什么？(Beyond Reconstruction: What Matters in Action Tokenization for Robot Policies?)](./beyond_reconstruction_what_matters_in_action_tokenization_fo_dissection.md)
 - [超越视角泛化：多视角演示为机器人操作提供了什么，以及如何合成它们 (Beyond Viewpoint Generalization: What Multi-View Demonstrations Offer and How to Synthesize Them for Robot Manipulation?)](./beyond_viewpoint_generalization_what_multi_view_demonstratio_dissection.md)
 - [经典 GNN 仍然很强：节点分类基线再评估 (Classic GNNs are Strong Baselines for Node Classification)](./classic_gnns_strong_baselines_node_classification_2024.md)
 - [Claude Code Memory 系統 → VLA 機器人記憶：跨領域架構遷移分析](./claude_code_memory_architecture_applied_to_vla_2026.md)
