@@ -72,10 +72,11 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 46 份文档。**
+**共 47 份文档。**
 
 - [AEGIS：物理 AI 的備份反射機制 (A Backup Reflex for Physical AI)](./aegis_a_backup_reflex_for_physical_ai_dissection.md)
 - [AnyViewDex：純 RGB 觀測下的視角不變靈巧操作 (AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations)](./anyviewdex_view_invariant_dexterous_manipulation_from_rgb_ob_dissection.md)
+- [AutoBio+：真实生物实验室中动态实验现象的灵巧操作基准 (AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories)](./autobio_benchmarking_dexterous_manipulation_with_dynamic_exp_dissection.md)
 - [BLaDA：在 3DGS 场中桥接语言与功能性灵巧动作 (BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields)](./blada_bridging_language_to_functional_dexterous_actions_with_dissection.md)
 - [免费的柔顺：用双边遥操作学习可辨识阻抗 (Compliance for Free: Learning Identifiable Impedance via Bilateral Teleoperation)](./compliance_for_free_learning_identifiable_impedance_via_bila_dissection.md)
 - [🔧 部署与硬件 — 实战落地主线总纲](./deployment_mainline.md)
