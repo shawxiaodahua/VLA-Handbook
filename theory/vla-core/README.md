@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 165 份文档。**
+**共 166 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -264,6 +264,7 @@
 - [UniSteer：统一噪声引导的高效人类指导 VLA 自适应 (UniSteer: Unified Noise Steering for Efficient Human-Guided VLA Adaptation)](./unisteer_unified_noise_steering_for_efficient_human_guided_v_dissection.md)
 - [UniTexture：跨任务通用对抗纹理攻击 VLA 模型 (UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models)](./unitexture_cross_task_universal_adversarial_textures_for_vis_dissection.md)
 - [USIM and U0：面向通用水下机器人的 VLA 数据集与模型 (USIM and U0: A Vision-Language-Action Dataset and Model for General Underwater Robots)](./usim_and_u0_a_vision_language_action_dataset_and_model_for_g_dissection.md)
+- [ValueFormer：阶段感知价值标签，让 VLA 的「静默失败」可被在线读出 (ValueFormer: Stage-Aware Value Labels for Online Failure Detection and VLA Post-Training)](./valueformer_stage_aware_value_labels_for_online_failure_dete_dissection.md)
 - [把测试时计算蒸馏进策略：Verify, Act, Distill (Turning Test-Time Compute into Test-Time Adaptation for Vision-Language-Action Models)](./verify_act_distill_turning_test_time_compute_into_test_time_dissection.md)
 - [VGAS：价值引导的动作块选择用于少样本 VLA 适配 (Value-Guided Action-Chunk Selection for Few-Shot Vision-Language-Action Adaptation)](./vgas_value_guided_action_chunk_selection_for_few_shot_vision_dissection.md)
 - [VITRA：用真实人类手部视频做可扩展 VLA 预训练 (Scalable Vision-Language-Action Model Pretraining with Real-Life Human Activity Videos)](./vitra_scalable_vla_pretraining_human_activity_videos_2026.md)
