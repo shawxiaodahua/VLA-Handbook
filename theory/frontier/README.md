@@ -52,7 +52,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 83 份文档。**
+**共 84 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -81,6 +81,7 @@
 - [EgoSpeedUp：把人类操作节奏迁移给机器人策略 (EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies)](./egospeedup_transferring_human_manipulation_tempo_to_robot_po_dissection.md)
 - [人工三元智能：生物启发的物理 AI 传感器优先架构 (Artificial Tripartite Intelligence: A Bio-Inspired, Sensor-First Architecture for Physical AI)](./emerging_ideas_artificial_tripartite_intelligence_a_bio_insp_dissection.md)
 - [ENPIRE：真实世界中的具身智能体策略自进化 (ENPIRE: Agentic Robot Policy Self-Improvement in the Real World)](./enpire_agentic_robot_policy_self_improvement_in_the_real_wor_dissection.md)
+- [证据引导的反事实学习：长尾机器人策略的头部动作偏置诊断与缓解 (Evidence-Guided Counterfactual Learning for Long-Tailed Robotic Policies)](./evidence_guided_counterfactual_learning_for_long_tailed_robo_dissection.md)
 - [FailBench：VLM 判断机器人任务成败有多可靠？(FailBench: How Reliable are VLMs at Judging Robot Task Success?)](./failbench_how_reliable_are_vlms_at_judging_robot_task_succes_dissection.md)
 - [在动作流形上用黎曼 MeanFlow 加速视觉运动策略 (Faster Visuomotor Policy Learning on Action Manifolds via Riemannian MeanFlow)](./faster_visuomotor_policy_learning_on_action_manifolds_via_ri_dissection.md)
 - [更少 Token，更好动作：PyRUA-Lean 用代码执行接口让机器人智能体成功率 +14%、输入 Token −65% (Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens)](./fewer_tokens_better_action_gpt_6_astra_robot_agents_with_14_dissection.md)
