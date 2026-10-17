@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 168 份文档。**
+**共 169 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -243,6 +243,7 @@
 - [小模型 VLA 研究方向深度分析](./small_vla_models.md)
 - [紧凑 VLA 的持久循环记忆：SmoLSTM (SmoLSTM: A Compact Vision-Language-Action Model with Recurrent Memory that Persists)](./smolstm_a_compact_vision_language_action_model_with_recurren_dissection.md)
 - [Spirit-v1.5 模型解剖（Dissecting Spirit-v1.5）](./spirit_v1_5_dissection.md)
+- [Splat2Act：从捕获场景到个性化 VLA 操作（Splat2Act: From Captured Scenes to Personalized VLA Manipulation）](./splat2act_from_captured_scenes_to_personalized_vla_manipulat_dissection.md)
 - [异步回放锚定的在线 VLA 后训练 (Stable and Efficient Real-World Online VLA Post-Training via Asynchronous Replay-Anchored Policy Improvement)](./stable_and_efficient_real_world_online_vla_post_training_via_dissection.md)
 - [StageCraft：執行期干擾物與阻塞失效的緩解 (StageCraft: Execution Aware Mitigation of Distractor and Obstruction Failures in VLA Models)](./stagecraft_execution_aware_mitigation_of_distractor_and_obst_dissection.md)
 - [StarVLA：Lego-like 的 VLA 研发代码库 (StarVLA: A Lego-like Codebase for VLA)](./starvla_lego_like_vla_codebase_2026.md)
