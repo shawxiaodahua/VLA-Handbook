@@ -69,7 +69,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 39 份文档。**
+**共 40 份文档。**
 
 - [从噪声引导到双隐空间：给冻结生成式策略加一条「内部表征」控制通道 (Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy)](./beyond_noise_steering_dual_latent_space_reinforcement_learni_dissection.md)
 - [CausalGDP：因果引导的扩散策略用于强化学习 (CausalGDP: Causality-Guided Diffusion Policies for Reinforcement Learning)](./causalgdp_causality_guided_diffusion_policies_for_reinforcem_dissection.md)
@@ -82,6 +82,7 @@
 - [复用 VLA 表征做内在奖励 (Intrinsic Robot Rewarding: Reusing VLA Representations for Autonomous Evaluation and Policy Improvement)](./intrinsic_robot_rewarding_reusing_vla_representations_for_au_dissection.md)
 - [学习结果发散之处：通过概率分块掩码加速 VLA RL 后训练 (Learn Where Outcomes Diverge: Efficient VLA RL via Probabilistic Chunk Masking)](./learn_where_outcomes_diverge_efficient_vla_rl_via_probabilis_dissection.md)
 - [从失败中学更多：VLA 后训练的事后强化学习 (Learning More from Less: Reinforcement Learning from Hindsight)](./learning_more_from_less_reinforcement_learning_from_hindsigh_dissection.md)
+- [多种成功路径：面向 VLA 泛化的多样性驱动 RL 微调 (Many Ways to Succeed: Diversity-Driven RL Fine-Tuning for VLA Generalization)](./many_ways_to_succeed_diversity_driven_rl_fine_tuning_for_vla_dissection.md)
 - [MPCoT：奖励引导多路径潜在推理实现 VLA 测试时扩展 (MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action)](./mpcot_reward_guided_multi_path_latent_reasoning_for_test_tim_dissection.md)
 - [即时 VLA 自适应 via 测试时强化学习 (On-the-Fly VLA Adaptation via Test-Time Reinforcement Learning)](./on_the_fly_vla_adaptation_via_test_time_reinforcement_learni_dissection.md)
 - [π\*0.6 / RECAP：披着 RL 外衣的 Supervised Learning？——从 Offline RL 的“监督化”到 VLA Post-training 的新范式](./pi0_6_recap_rl_as_supervised_learning.md)
