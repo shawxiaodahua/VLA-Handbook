@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 161 份文档。**
+**共 162 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -143,6 +143,7 @@
 - [CommitFlow：长程 VLA 执行的语义承诺验证与局部纠偏 (CommitFlow: Semantic Commitment Verification and Local Correction for Long-Horizon Robot Manipulation VLA Execution)](./commitflow_semantic_commitment_verification_and_local_correc_dissection.md)
 - [持续演化 VLA 技能知识 (Continually Evolving Skill Knowledge in Vision Language Action Model)](./continually_evolving_skill_knowledge_in_vision_language_acti_dissection.md)
 - [用 EMG 与视觉标注做连续任务条件化：VLA 可以不止靠语言 (Continuous Conditioning of VLAs with Augmenting EMG and Visual Task Descriptors)](./continuous_conditioning_of_vlas_with_augmenting_emg_and_visu_dissection.md)
+- [从人类视频到机器人操作的跨本体因果迁移 (Cross-Embodiment Causal Transfer from Human Videos to Robot Manipulation)](./cross_embodiment_causal_transfer_from_human_videos_to_robot_dissection.md)
 - [CycleVLA：通过子任务回溯与最小贝叶斯风险解码实现 VLA 主动自我修正 (CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding)](./cyclevla_proactive_self_correcting_vision_language_action_mo_dissection.md)
 - [从 VLA 表征中解码任务进度 (Decoding Task Progress from VLA Representations)](./decoding_task_progress_from_vla_representations_dissection.md)
 - [解耦视觉、语言与动作：高效多任务机器人策略 (Decoupling Vision, Language, and Action for Efficient Multi-Task Robot Policies)](./decoupling_vision_language_and_action_for_efficient_multi_ta_dissection.md)
