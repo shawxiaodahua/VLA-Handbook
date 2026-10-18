@@ -94,7 +94,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 72 份文档。**
+**共 73 份文档。**
 
 - [分层时空动作分词器：上下文模仿学习的新范式 (HiST-AT: A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning)](./a_hierarchical_spatiotemporal_action_tokenizer_for_in_contex_dissection.md)
 - [弹性视觉智能体的架构模式语言 (A Pattern Language for Resilient Visual Agents)](./a_pattern_language_for_resilient_visual_agents_dissection.md)
@@ -137,6 +137,7 @@
 - [长视界操作：轨迹条件化 VLA 规划 (Long-Horizon Manipulation via Trace-Conditioned VLA Planning)](./long_horizon_manipulation_via_trace_conditioned_vla_planning_dissection.md)
 - [长程记忆赋能 VLA 智能体在开放世界任务执行 (Long-Term Memory for VLA-based Agents in Open-World Task Execution)](./long_term_memory_for_vla_based_agents_in_open_world_task_exe_dissection.md)
 - [ManiDreams：把「預測模糊」顯式建模的不確定性感知操縱規劃框架 (Dream it. Predict it. Constrain it.)](./manidreams_dissection.md)
+- [Mem4Act：为长时程机器人操作学习有效潜记忆（Mem4Act: Learning Effective Latent Memory for Long-Horizon Robotic Manipulation）](./mem4act_learning_effective_latent_memory_for_long_horizon_ro_dissection.md)
 - [MolmoAct2：面向真实世界部署的动作推理模型 (MolmoAct2: Action Reasoning Models for Real-world Deployment)](./molmoact2_action_reasoning_models_for_real_world_deployment_dissection.md)
 - [运动规划 (Motion Planning)](./motion_planning.md)
 - [MotionForge：动态物体长时程操作的域偏移评测基准与数据生成管线 (MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts)](./motionforge_a_data_generation_pipeline_and_large_scale_bench_dissection.md)
