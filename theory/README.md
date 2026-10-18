@@ -389,7 +389,7 @@ New articles added daily. Explore with sparklines and trends at [VLA Deep Dive](
 
 > 本节由固定程序生成。统计 Git 已追踪的十个主题目录内 Markdown 文件，包含综述与索引，不含各目录 README；数量不代表内容质量。
 
-**共 742 份文档，10 个主题。**
+**共 743 份文档，10 个主题。**
 
 | 主题 | 文档数 | 完整目录 |
 |---|---:|---|
@@ -402,6 +402,6 @@ New articles added daily. Explore with sparklines and trends at [VLA Deep Dive](
 | rl | 41 | [浏览全部](./rl/README.md#theory-complete-index) |
 | perception | 24 | [浏览全部](./perception/README.md#theory-complete-index) |
 | diffusion-flow | 48 | [浏览全部](./diffusion-flow/README.md#theory-complete-index) |
-| frontier | 84 | [浏览全部](./frontier/README.md#theory-complete-index) |
+| frontier | 85 | [浏览全部](./frontier/README.md#theory-complete-index) |
 
 <!-- VLA:THEORY-NAV:END -->
