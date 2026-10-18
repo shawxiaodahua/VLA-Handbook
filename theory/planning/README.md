@@ -94,11 +94,12 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 70 份文档。**
+**共 73 份文档。**
 
 - [分层时空动作分词器：上下文模仿学习的新范式 (HiST-AT: A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning)](./a_hierarchical_spatiotemporal_action_tokenizer_for_in_contex_dissection.md)
 - [弹性视觉智能体的架构模式语言 (A Pattern Language for Resilient Visual Agents)](./a_pattern_language_for_resilient_visual_agents_dissection.md)
 - [VLA 的安全、对齐与约束决策 (Safety &amp; Alignment for VLA)](./alignment_vla.md)
+- [ARC：面向机器人基础模型的推理后训练配方（Arc: A Reasoning Recipe for Robot Foundation Models）](./arc_a_reasoning_recipe_for_robot_foundation_models_dissection.md)
 - [BEHAVIOR-1K：为什么它不是“任务更多的 benchmark”，而是对通用机器人提出了更真实的要求？ (BEHAVIOR-1K: A Human-Centered Embodied AI Benchmark with OmniGibson)](./behavior_1k_human_centered_embodied_ai_benchmark_omnigibson_2024.md)
 - [2025 BEHAVIOR Challenge 冠军方案：当 benchmark 足够难时，VLA 最后靠什么赢？ (Task adaptation of Vision-Language-Action model: 1st Place Solution for the 2025 BEHAVIOR Challenge)](./behavior_challenge_2025_first_place_solution_task_adaptation_vla_2025.md)
 - [Benchmark 主线总纲：从任务世界到安全约束，再到世界模型评测器 (Benchmark Mainline Overview)](./benchmark_mainline.md)
@@ -136,6 +137,7 @@
 - [长视界操作：轨迹条件化 VLA 规划 (Long-Horizon Manipulation via Trace-Conditioned VLA Planning)](./long_horizon_manipulation_via_trace_conditioned_vla_planning_dissection.md)
 - [长程记忆赋能 VLA 智能体在开放世界任务执行 (Long-Term Memory for VLA-based Agents in Open-World Task Execution)](./long_term_memory_for_vla_based_agents_in_open_world_task_exe_dissection.md)
 - [ManiDreams：把「預測模糊」顯式建模的不確定性感知操縱規劃框架 (Dream it. Predict it. Constrain it.)](./manidreams_dissection.md)
+- [Mem4Act：为长时程机器人操作学习有效潜记忆（Mem4Act: Learning Effective Latent Memory for Long-Horizon Robotic Manipulation）](./mem4act_learning_effective_latent_memory_for_long_horizon_ro_dissection.md)
 - [MolmoAct2：面向真实世界部署的动作推理模型 (MolmoAct2: Action Reasoning Models for Real-world Deployment)](./molmoact2_action_reasoning_models_for_real_world_deployment_dissection.md)
 - [运动规划 (Motion Planning)](./motion_planning.md)
 - [MotionForge：动态物体长时程操作的域偏移评测基准与数据生成管线 (MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts)](./motionforge_a_data_generation_pipeline_and_large_scale_bench_dissection.md)
@@ -144,6 +146,7 @@
 - [PRTS：基于对比表示的基元推理与任务系统 (PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations)](./prts_a_primitive_reasoning_and_tasking_system_via_contrastiv_dissection.md)
 - [RACaP：把「写代码」搬到演化期，运行时只调冻结的 Policy API (RACaP: Agentic Reasoning, Acting, and Coding as Policies for Evolvable Robot Learning)](./racap_agentic_reasoning_acting_and_coding_as_policies_for_ev_dissection.md)
 - [RAM：給 VLM 外掛一本可檢索的「三維物體知識庫」 (Retrieval-Augmented Manipulation: VLM Spatial Awareness for Object-Centric Robot Manipulation)](./ram_dissection.md)
+- [检索锚定的鲁棒策略微调：RARA 把“相关预训练经验”变成表征锚点 (RARA: Robust Policy Fine-Tuning through Retrieval-Anchored Representation Alignment for Robotic Manipulation)](./rara_robust_policy_fine_tuning_through_retrieval_anchored_re_dissection.md)
 - [REMAC：自反思与自进化的多智能体协作长程机器人操作 (Self-Reflective and Self-Evolving Multi-Agent Collaboration for Long-Horizon Robot Manipulation)](./remac_self_reflective_and_self_evolving_multi_agent_collabor_dissection.md)
 - [RoboClaw：长程机器人操作的智能体框架 (RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks)](./roboclaw_an_agentic_framework_for_scalable_long_horizon_robo_dissection.md)
 - [RoboStream：在视觉语言模型中编织时空推理与记忆 (RoboStream: Weaving Spatio-Temporal Reasoning with Memory in Vision-Language Models for Robotics)](./robostream_weaving_spatio_temporal_reasoning_with_memory_in_dissection.md)

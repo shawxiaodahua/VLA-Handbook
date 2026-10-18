@@ -88,7 +88,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 97 份文档。**
+**共 99 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -149,6 +149,7 @@
 - [克服动作可控世界模型中的统计偏差 (Overcoming Statistical Bias in Action-Controllable World Models)](./overcoming_statistical_bias_in_action_controllable_world_mod_dissection.md)
 - [PhyLatent：为 JEPA 世界模型学习动力学相关表示 (PhyLatent: Learning Dynamics-Relevant Representations for JEPA World Models)](./phylatent_learning_dynamics_relevant_representations_for_jep_dissection.md)
 - [PhysMem: 测试时物理记忆扩展 (Scaling Test-time Physical Memory for Robot Manipulation)](./physmem_scaling_test_time_physical_memory_for_robot_manipula_dissection.md)
+- [PLaW-VLA：面向视觉-语言-动作策略的预测性潜在世界建模 (Predictive Latent World Modeling for Vision-Language-Action Policies)](./plaw_vla_predictive_latent_world_modeling_for_vision_languag_dissection.md)
 - [Q-WAM：面向世界动作模型的 4-bit 量化与动作子空间保护 (Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection)](./q_wam_4_bit_quantization_of_world_action_models_with_action_dissection.md)
 - [QuantWAMs：在世界动作模型上以正确粒度校准 (QuantWAMs: Calibrating at the Right Granularity for World Action Models)](./quantwams_calibrating_at_the_right_granularity_for_world_act_dissection.md)
 - [在表征空间里直接规划：Representation World Model (Learning States, Transition and Executable Plans in Representation)](./representation_world_model_learning_states_transition_and_ex_dissection.md)
@@ -159,6 +160,7 @@
 - [RopeDreamer：基于运动学递归状态空间模型的柔性线性物体动力学预测 (RopeDreamer: A Kinematic Recurrent State Space Model for Dynamics of Flexible Deformable Linear Objects)](./ropedreamer_a_kinematic_recurrent_state_space_model_for_dyna_dissection.md)
 - [Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation](./simulation_distillation_pretraining_world_models_in_simulati_dissection.md)
 - [SkeleWAM：骨架世界-動作建模 — 用稀疏 3D 骨架做高效機器人操作 (Skeleton World-Action Modeling for Efficient Robotic Manipulation)](./skelewam_skeleton_world_action_modeling_for_efficient_roboti_dissection.md)
+- [SmolWAM：面向边缘设备的隐空间世界-动作模型（SmolWAM: A Latent World-Action Model for Robotic Manipulation on Edge Devices）](./smolwam_a_latent_world_action_model_for_robotic_manipulation_dissection.md)
 - [SoMA：面向软体机器人操作的 Real-to-Sim 神经模拟器 (SoMA: A Real-to-Sim Neural Simulator for Robotic Soft-body Manipulation)](./soma_a_real_to_sim_neural_simulator_for_robotic_soft_body_ma_dissection.md)
 - [StageWAM：联合嵌入阶段预测的世界-动作模型 (StageWAM: Joint-Embedding Stage Prediction for World-Action Models in Robot Manipulation)](./stagewam_joint_embedding_stage_prediction_for_world_action_m_dissection.md)
 - [SWEET：用图像编辑做稀疏世界模型 (SWEET: Sparse World Modeling with Image Editing for Embodied Task Execution)](./sweet_sparse_world_modeling_with_image_editing_for_embodied_dissection.md)

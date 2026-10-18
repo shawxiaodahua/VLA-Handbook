@@ -94,7 +94,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 88 份文档。**
+**共 89 份文档。**
 
 - [动作-效应记忆预训练用于机器人操作 (Action-Effect Memory Pretraining for Robot Manipulation)](./action_effect_memory_pretraining_for_robot_manipulation_dissection.md)
 - [动作 QFormer：动作监督下的结构化表征塑造 (Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models)](./action_qformer_structured_representation_shaping_under_actio_dissection.md)
@@ -134,6 +134,7 @@
 - [Knowledge Insulation: 防止灾难性遗忘](./knowledge_insulation.md)
 - [当我们谈论 AI 推理的 KV Cache，我们在说什么？ (KV Cache in LLM Inference)](./kv_cache_llm_inference.md)
 - [LA4VLA：看不见也能行动——通过语言-动作预训练解耦VLA中的视觉依赖 (Learning to Act without Seeing via Language-Action Pretraining)](./la4vla_learning_to_act_without_seeing_via_language_action_pr_dissection.md)
+- [LAPT-Scale：用人类视频连续隐动作预训练扩展具身策略 (LAPT-Scale: Scaling Embodied Policies with Latent Action Pre-Training on Human Videos)](./lapt_scale_scaling_embodied_policies_with_latent_action_pre_dissection.md)
 - [潜空间综述：语言模型的"原生思维空间"与具身智能的统一接口](./latent_space_survey_foundation_evolution_mechanism_ability_2026.md)
 - [部署中学习：面向通用机器人策略的车队级强化学习 (Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies)](./learning_while_deploying_fleet_scale_reinforcement_learning_dissection.md)
 - [LEGS：在高斯泼溅世界微调免遥操作 VLA 实现人形机器人全身操作 (LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World)](./legs_fine_tuning_teleop_free_vlas_for_humanoid_loco_manipula_dissection.md)

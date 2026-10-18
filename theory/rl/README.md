@@ -69,8 +69,9 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 40 份文档。**
+**共 41 份文档。**
 
+- [AlphaNIST：从二值任务奖励中涌现的装配技能 (AlphaNIST: Emergent Assembly Skills from Binary Task Rewards)](./alphanist_emergent_assembly_skills_from_binary_task_rewards_dissection.md)
 - [从噪声引导到双隐空间：给冻结生成式策略加一条「内部表征」控制通道 (Beyond Noise Steering: Dual-Latent Space Reinforcement Learning for Generative Robot Policy)](./beyond_noise_steering_dual_latent_space_reinforcement_learni_dissection.md)
 - [CausalGDP：因果引导的扩散策略用于强化学习 (CausalGDP: Causality-Guided Diffusion Policies for Reinforcement Learning)](./causalgdp_causality_guided_diffusion_policies_for_reinforcem_dissection.md)
 - [D-VLA：高并发分布式异步强化学习框架 (D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models)](./d_vla_a_high_concurrency_distributed_asynchronous_reinforcem_dissection.md)

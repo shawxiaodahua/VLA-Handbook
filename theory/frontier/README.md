@@ -52,7 +52,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 82 份文档。**
+**共 86 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -81,9 +81,11 @@
 - [EgoSpeedUp：把人类操作节奏迁移给机器人策略 (EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies)](./egospeedup_transferring_human_manipulation_tempo_to_robot_po_dissection.md)
 - [人工三元智能：生物启发的物理 AI 传感器优先架构 (Artificial Tripartite Intelligence: A Bio-Inspired, Sensor-First Architecture for Physical AI)](./emerging_ideas_artificial_tripartite_intelligence_a_bio_insp_dissection.md)
 - [ENPIRE：真实世界中的具身智能体策略自进化 (ENPIRE: Agentic Robot Policy Self-Improvement in the Real World)](./enpire_agentic_robot_policy_self_improvement_in_the_real_wor_dissection.md)
+- [证据引导的反事实学习：长尾机器人策略的头部动作偏置诊断与缓解 (Evidence-Guided Counterfactual Learning for Long-Tailed Robotic Policies)](./evidence_guided_counterfactual_learning_for_long_tailed_robo_dissection.md)
 - [FailBench：VLM 判断机器人任务成败有多可靠？(FailBench: How Reliable are VLMs at Judging Robot Task Success?)](./failbench_how_reliable_are_vlms_at_judging_robot_task_succes_dissection.md)
 - [在动作流形上用黎曼 MeanFlow 加速视觉运动策略 (Faster Visuomotor Policy Learning on Action Manifolds via Riemannian MeanFlow)](./faster_visuomotor_policy_learning_on_action_manifolds_via_ri_dissection.md)
 - [更少 Token，更好动作：PyRUA-Lean 用代码执行接口让机器人智能体成功率 +14%、输入 Token −65% (Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens)](./fewer_tokens_better_action_gpt_6_astra_robot_agents_with_14_dissection.md)
+- [前向动力学模型：把世界模型变成动作特征的后置监督 (Forward Dynamics Models)](./forward_dynamics_models_dissection.md)
 - [从数字到物理：数字智能体作为物理智能的自主教练 (From Digital to Physical: Digital Agents as Autonomous Coaches for Physical Intelligence)](./from_digital_to_physical_digital_agents_as_autonomous_coache_dissection.md)
 - [从恢复到崩塌：动作后训练如何削弱 VLM 的深层深度可解码性 (From Recovery to Drop-off: How Action Post-training Reduces a VLM's Late-Layer Depth Decodability)](./from_recovery_to_drop_off_how_action_post_training_reduces_a_dissection.md)
 - [🔬 前沿跨域 — 灵感之源主线总纲](./frontier_mainline.md)
@@ -104,6 +106,7 @@
 - [LIFD：以锚定扩散构建 3D 感知场景记忆的操作策略 (LIFD: Anchored Diffusion for 3D-Aware Scene Memory in Robotic Manipulation)](./lifd_anchored_diffusion_for_3d_aware_scene_memory_in_robotic_dissection.md)
 - [LiteReality-Agent：把 3D 重建变成一个「写代码」的 Agentic 系统 (LiteReality-Agent: An Agentic System for Interactable 3D Indoor Scene Reconstruction)](./litereality_agent_an_agentic_system_for_interactable_3d_indo_dissection.md)
 - [通过聚焦池化实现视觉运动策略的局部视觉特征聚合 (Localized Visual Feature Aggregation via Focus Pooling for Visuomotor Policies)](./localized_visual_feature_aggregation_via_focus_pooling_for_v_dissection.md)
+- [把历史写进权重：流式视频的长期记忆内化 (Memory as Weights: Internalizing Long-Term History for Streaming Videos)](./memory_as_weights_internalizing_long_term_history_for_stream_dissection.md)
 - [免整理记忆：为机器人策略学习多流潜在记忆 (Memory Without Curation: Learning Multi-Stream Latent Memory for Robot Policies)](./memory_without_curation_learning_multi_stream_latent_memory_dissection.md)
 - [分階段操作：以行為相位解耦實現類人機器人操作 (Move-Then-Operate: Behavioral Phasing for Human-Like Robotic Manipulation)](./move_then_operate_behavioral_phasing_for_human_like_robotic_dissection.md)
 - [一只手注视另一只手：动态环境下的多智能体协作双臂操作 (One Hand Watches The Other: Dynamic Multi-Agent Cooperation for Sample-Efficient Bimanual Manipulation in Dynamic Environments)](./one_hand_watches_the_other_dynamic_multi_agent_cooperation_f_dissection.md)
@@ -122,6 +125,7 @@
 - [StaMo：从紧凑状态表示中涌现通用机器人运动 (StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation)](./stamo_unsupervised_learning_of_generalizable_robot_motion.md)
 - [StaMo：从紧凑状态表示中涌现通用机器人运动 (StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation)](./stamo_unsupervised_learning_of_generalizable_robot_motion_fr_dissection.md)
 - [砍掉皮层也能“打架求偶”：皮层下才是行为与状态调控的主战场（Ann Kennedy 对谈要点）](./subcortical_control_knobs_neuropeptides_temporality.md)
+- [测试时计算重塑人形行为基座模型 (Test-Time Compute for Humanoid Behavior Foundation Models)](./test_time_compute_for_humanoid_behavior_foundation_models_dissection.md)
 - [离散时间高斯过程混合物在机器人策略学习中的不合理有效性 (The Unreasonable Effectiveness of Discrete-Time Gaussian Process Mixtures for Robot Policy Learning)](./the_unreasonable_effectiveness_of_discrete_time_gaussian_pro_dissection.md)
 - [時頻幾何交叉注意力：把動作塊當多變量軌跡建模 (Time–Frequency Geometric Cross-Attention for Chunked Vision–Language–Action Models)](./time_frequency_geometric_cross_attention_for_chunked_vision_dissection.md)
 - [轨迹优先：发现多样化策略的课程学习 (Trajectory First: A Curriculum for Discovering Diverse Policies)](./trajectory_first_a_curriculum_for_discovering_diverse_polici_dissection.md)

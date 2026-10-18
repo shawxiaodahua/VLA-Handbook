@@ -72,10 +72,11 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 44 份文档。**
+**共 47 份文档。**
 
 - [AEGIS：物理 AI 的備份反射機制 (A Backup Reflex for Physical AI)](./aegis_a_backup_reflex_for_physical_ai_dissection.md)
 - [AnyViewDex：純 RGB 觀測下的視角不變靈巧操作 (AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations)](./anyviewdex_view_invariant_dexterous_manipulation_from_rgb_ob_dissection.md)
+- [AutoBio+：真实生物实验室中动态实验现象的灵巧操作基准 (AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories)](./autobio_benchmarking_dexterous_manipulation_with_dynamic_exp_dissection.md)
 - [BLaDA：在 3DGS 场中桥接语言与功能性灵巧动作 (BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields)](./blada_bridging_language_to_functional_dexterous_actions_with_dissection.md)
 - [免费的柔顺：用双边遥操作学习可辨识阻抗 (Compliance for Free: Learning Identifiable Impedance via Bilateral Teleoperation)](./compliance_for_free_learning_identifiable_impedance_via_bila_dissection.md)
 - [🔧 部署与硬件 — 实战落地主线总纲](./deployment_mainline.md)
@@ -95,9 +96,11 @@
 - [HANDFUL：资源感知的序列灵巧操作 (Sequential Grasp-Conditioned Dexterous Manipulation with Resource Awareness)](./handful_sequential_grasp_conditioned_dexterous_manipulation_dissection.md)
 - [人类-机器人对齐表征学习：用配对桥接把人类视频变成 VLA 监督 (HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model)](./harp_vla_human_robot_aligned_representation_learning_for_vis_dissection.md)
 - [House of Dextra: 灵巧手机器人形态 - 控制协同设计 (House of Dextra: Cross-embodied Co-design for Dexterous Hands)](./house_of_dextra_cross_embodied_co_design_for_dexterous_hands_dissection.md)
+- [以腕部视角人类演示构建跨灵巧手可复用数据接口 (Human2Dex: Dexterous Robot Learning from Wrist-Centric Human Demonstrations)](./human2dex_dexterous_robot_learning_from_wrist_centric_human_dissection.md)
 - [产业视角：通用性与“元学习”路径（从一张路线图说起）](./industry_paths_to_generalization.md)
 - [Isaac Lab: GPU 加速的多模态机器人学习仿真框架](./isaac_lab.md)
 - [迭代组合式数据生成用于机器人控制 (Iterative Compositional Data Generation for Robot Control)](./iterative_compositional_data_generation_for_robot_control_dissection.md)
+- [JitterVLA：面向 VLA 驱动机器人操作运动质量的回放基准 (JitterVLA: A Replay Benchmark for Motion Quality in VLA-Driven Human-Robot Manipulation)](./jittervla_a_replay_benchmark_for_motion_quality_in_vla_drive_dissection.md)
 - [学习真实杂乱场景中的接触表示以实现通用机器人抓取 (Learning Contact Representations in Real-World Clutter for Universal Robotic Grasping)](./learning_contact_representations_in_real_world_clutter_for_u_dissection.md)
 - [仅凭本体感知实现灵巧手内操作：本体感知 Transformer (Learning Robust Dexterous In-Hand Manipulation from Joint Sensors with Proprioceptive Transformer)](./learning_robust_dexterous_in_hand_manipulation_from_joint_se_dissection.md)
 - [Lightning Grasp：Contact Field 驱动的超高速灵巧手抓取合成 (Lightning Grasp: Procedural Grasp Synthesis with Contact Fields)](./lightning_grasp_contact_fields_procedural_dexterous_grasp_synthesis_2025.md)

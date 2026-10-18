@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 62 份文档。**
+**共 64 份文档。**
 
 - [主动触觉探索用于刚体姿态与形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_for_rigid_body_pose_and_shape_est_dissection.md)
 - [Active Tactile Exploration：仅触觉的刚体位姿+形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_rigid_body_pose_shape_eig_2026.md)
@@ -97,6 +97,7 @@
 - [多视图统一相机场：面向几何感知动作表征的 RGB -only 多相机 VLA 策略 (Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies)](./multi_view_unified_camera_fields_geometry_shaped_action_faci_dissection.md)
 - [OmniUMI: 面向物理具身机器人学习的多模态交互接口 (Towards Physically Grounded Robot Learning via Human-Aligned Multimodal Interaction)](./omniumi_towards_physically_grounded_robot_learning_via_human_dissection.md)
 - [OmniVTA: 大规模视触世界模型用于接触丰富操作 (OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation)](./omnivta_visuo_tactile_world_modeling_for_contact_rich_roboti_dissection.md)
+- [OpenViTac：统一仿真-真实框架下的视触觉策略学习与基准评测 (OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework)](./openvitac_learning_and_benchmarking_visuo_tactile_policies_i_dissection.md)
 - [多模态操控的策略共识：让“触觉不再拖后腿” (Multi-Modal Manipulation via Policy Consensus)](./policy_consensus_multimodal_manipulation_2025.md)
 - [势场即动作：接触密集操作中 RL 的策略—运动解耦 (Potential-Field Action Representation for Reinforcement Learning in Contact-Rich Manipulation)](./potential_field_action_representation_for_reinforcement_lear_dissection.md)
 - [ReTouch: 在线精炼触觉预测赋能接触密集型灵巧操作 (Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction)](./retouch_empowering_contact_rich_dexterous_manipulation_with_dissection.md)
@@ -112,6 +113,7 @@
 - [TaCo：异构触觉数据的无损与有损编解码基准 (TaCo: A Benchmark for Lossless and Lossy Codecs of Heterogeneous Tactile Data)](./taco_a_benchmark_for_lossless_and_lossy_codecs_of_heterogene_dissection.md)
 - [TacPAC：世界-动作模型中的触觉预测与实时动作修正 (Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation)](./tacpac_tactile_prediction_and_real_time_action_correction_in_dissection.md)
 - [TacRefineNet：触觉驱动的机器人精细抓取微调模型 (TacRefineNet: Tactile-Only Grasp Refinement)](./tacrefinenet_tactile_only_grasp_refinement_2026.md)
+- [TACROSS：跨异构触觉传感器的高效低成本人体触觉采集系统 (TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning)](./tacross_an_efficient_and_low_cost_scalable_human_touch_syste_dissection.md)
 - [触觉：为什么看起来最“低级”的感官，在具身智能里最不可替代？(Tactile, the Irreplaceable Modality)](./tactile_irreplaceable.md)
 - [🤚 触觉感知 — 多模态触觉主线总纲](./tactile_mainline.md)
 - [通过瓶颈潜重构实现无需触觉仿真的 Sim2Real (Tactile Sim2Real without Tactile Simulation via Bottlenecked Latent Reconstruction)](./tactile_sim2real_without_tactile_simulation_via_bottlenecked_dissection.md)
