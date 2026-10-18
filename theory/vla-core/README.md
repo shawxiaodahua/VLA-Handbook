@@ -175,7 +175,7 @@
 - [Genie Sim PanoRecon：从单张全景图快速生成沉浸式 3D 场景 (Genie Sim PanoRecon: Fast Immersive Scene Generation from Single-View Panorama)](./genie_sim_panorecon_fast_immersive_scene_generation_from_sin_dissection.md)
 - [用去噪轨迹的几何自适应切分动作块 (GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies)](./geoaac_geometry_based_adaptive_action_chunking_from_denoisin_dissection.md)
 - [GeoPredict：利用预测运动学与 3D 高斯几何实现精确 VLA 操作 (GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for Precise VLA Manipulation)](./geopredict_leveraging_predictive_kinematics_and_3d_gaussian_dissection.md)
-- [GR00T-N1.6 模型解剖 (Dissecting GR00T-N1.6)](./gr00t_n1_6.md)
+- [GR00T-N1.6 手册篇 / GR00T-N1.6 Handbook Entry](./gr00t_n1_6.md)
 - [GR00T-N1.7：NVIDIA 的开源通用机器人基础模型——从人形到任意形态](./groot_n1_7_nvidia_open_foundation_model_2026.md)
 - [GS-VLA：即插即用视点规范化 (GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting)](./gs_vla_plug_and_play_viewpoint_canonicalization_for_frozen_v_dissection.md)
 - [HAMLET：将视觉 - 语言 - 动作模型转换为历史感知策略 (HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy)](./hamlet_switch_your_vision_language_action_model_into_a_histo_dissection.md)

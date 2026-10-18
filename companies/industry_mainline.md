@@ -1,33 +1,33 @@
 # 🏭 行业判断地图
+> ⚙️ 本文由 industry-radar 自动生成 | 2026-10-18 | 本次为有界官方来源补录与更正，非完整每日覆盖。
 
-> ⚙️ 本文由 industry-radar 每周自动生成 | 2026-10-16 | archive_dates: 2026-10-15, 2026-10-14, 2026-10-13 | 历史回填：已提供截取上下文
-> 来源链接限本次资料上下文或上一版；历史判断与待核验说法不代表已独立核验。
+**口径**：只依据公开官方来源；事件日期与补录日期分开标注。官方自报不等于独立验证；原文没有的数字不补，不把媒体转述当官方事实。
 
-## 融资格局（谁在拿钱、估值节奏、轮次信号）
+## 融资格局
+- Agility Robotics / Churchill Capital Corp XI（2026-10-13）：公司公告称 SEC 已宣布拟议合并的 S-4 生效，股东会定于11月2日；交割仍须股东批准及其他条件。**S-4生效不是完成上市或完成交割**，公司预计11月完成也不是已完成。本批不展开融资额、估值或订单金额，避免把合同里程碑写成收入。来源：https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination
+- 其余6项不是融资事件；本批无新增可核融资数据。
 
-- 来源陈述：据财经杂志和MoneyDJ报道，智元创新近期启动新一轮融资，融资额约10亿元至15亿元，本轮融资已接近收尾，最新估值约500亿元；报道提到，港交所要求上市申请公司若在递表后、上市前完成新融资，除非获特殊豁免，需等融资完成后满120日才可挂牌，投资人称这意味着智元今年内无法完成IPO [来源](https://m.21jingji.com/article/20261014/herald/f622988ee346e22a13abb8e2ad5c875a.html) [来源](http://210.17.21.214/KMDJ/News/NewsViewer.aspx?a=91b1997b-2a7a-4386-ac02-4a73df1dc22f)。判断/待核问题：若该融资与港交所规则适用且未获特殊豁免，智元挂牌时间可能被融资完成日推后；但“今年内无法IPO”目前只是投资人预计和媒体报道，规则也含特殊豁免条件，不能视为确定结论。
-- 来源陈述：据36氪报道，Physical Intelligence（π）于2026年二季度获得10亿美元融资，用于继续推进面向不同机器人本体的通用模型 [来源](https://www.36kr.com/p/4022522991480963)。判断/待核问题：这是二季度融资的二手报道，不能据此判断当前周融资节奏或估值水平；影响列提到的与Anduril、NEURA Robotics合计及占比属分析推测，不能作为报道事实引用。
-- 来源陈述：据KMDJ报道，Agility Robotics与SPAC Churchill Capital Corp XI合并案S-4注册声明获SEC宣布生效，预计11月完成合并并以AGLT挂牌；本次合并预计带来逾6.2亿美元总资金，包括SPAC信托帐户约4.24亿美元，以及由鸿海领投、约2亿美元的PIPE；Churchill XI订于11月2日召开股东会表决合并案 [来源](http://210.66.210.14/kmdj/news/newsviewer.aspx?a=19e813b3-4424-410f-928c-14f5ae993f99)。判断/待核问题：若股东批准并满足交割条件，Agility可能获得公开市场融资渠道；但SEC宣布生效不等于上市确定，PIPE和信托资金也不等于已到账收入。
+## 产品节奏
+**近期查核窗口（2026-10-07—10-17）**
+- AWS / NVIDIA（2026-10-07）：公布 Physical AI Toolchain，公开参考架构、基础设施代码和部署自动化，整合 NVIDIA 机器人软件栈。它是工程入口，不是成品机器人行为；27个UR3示教为workshop样例，不是通用能力证明；本次未部署、未独立验证成本/速度/生产可靠性。https://aws.amazon.com/blogs/physical-ai/introducing-aws-physical-ai-toolchain/
+- Google DeepMind / Apptronik（2026-10-13）：开放 Gemini 4 Argon，并披露 Video-to-Sim-to-Real 内部研究示例。ERQA 87%为官方自报，与真机成功率不同；Apollo 七次连续投中是内部单项演示，不等于广泛可靠性；4500回合、56→75%等本批未核，不纳入。https://blog.google/intl/en-in/products/introducing-gemini-4-argon/
+- Agility Robotics / Nyobolt（2026-10-15）：宣布 Nyobolt 为 Digit 5 超快充电电池技术供应方；装配该电池的早期使用预计2027上半年，后续6至9个月逐步扩展，**不是10月已供货**。90分钟运行/9分钟充电/每日20小时以上为公司宣称或设计，未独立测试。https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5
 
-## 产品节奏（发布/开源/降价/量产信号）
+**历史补录（补录日期2026-10-18，不作为本周趋势）**
+- Hugging Face / Pollen Robotics（2025-07-09）：发布面向人机交互与AI实验的 Reachy Mini，提供 Python SDK 与仿真开发路径。可作桌面多模态交互原型，不视为具备抓取操作能力的VLA机械臂。https://huggingface.co/blog/reachy-mini
+- Google DeepMind（2025-09-25）：公布 Gemini Robotics 1.5 与 Robotics-ER 1.5；发布时ER经Gemini API开放，VLA仅向选定合作伙伴提供。选型须区分空间推理API与直接机器人控制模型，不能把ER可访问等同VLA可部署。https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
+- Figure AI（2026-08-25）：公布 Figure 专用 Index 人类行为数据采集管线，披露过滤、反作弊审查、去重、重平衡与标注五阶段。公司专用管线不等于可下载公开数据集；未独立验证规模或泛化收益。https://www.figure.ai/news/introducing-index
 
-- 来源陈述：据新浪财经报道，新剑传动在创业板上市审核问询函回复中表示，特斯拉机器人设计方案接近定型，即将进入量产周期；据moomoo报道，新剑传动披露，目前Optimus V3机器人的设计已经可以展示，计划在2026年年底前开启量产，特斯拉已将弗里蒙特工厂原Model S/Model X生产线改造用于量产Optimus V3，长期产能目标为100万台/年；特斯拉相关负责人回应称现在没有任何官方消息可以分享，以官方消息为准 [来源](https://finance.sina.com.cn/roll/2026-10-14/doc-inivezmk4531372.shtml) [来源](https://www.moomoocn.com/hant/news/post/1001110345?level=1&data_ticket=1791966554859794)。判断/待核问题：若供应商披露属实，该计划指向2026年底前量产；但特斯拉没有官方确认，供应商文件不能当作已量产证据，长期产能目标也需同一口径核验。
-- 来源陈述：据KMDJ报道，Agility表示最近推出的Digit 5已取得超过3亿美元承诺订单，但仍须达成特定合约条件，预计2027年初开始提供早期客户使用；Agility位于俄勒冈州的RoboFab工厂设计年产能达1万台，并计划2027年底前将客户部署据点由目前9处扩增至最多25处 [来源](http://210.66.210.14/kmdj/news/newsviewer.aspx?a=19e813b3-4424-410f-928c-14f5ae993f99)。判断/待核问题：承诺订单须达成合约条件，不等于已确认收入；产能与部署扩展为计划，需后续核验。
-- 来源陈述：据korthosrobotics报道，Google DeepMind于2026年10月13日发布Gemini 4 Argon，并演示其通过视频到仿真管线在Apptronik Apollo人形机器人上完成连续七次沙包投掷；Google报告Argon可从单张工作区照片生成超过4500段仿真训练回合，使后续真实机器人任务成功率从56%提升至75%，平均完成时间从35秒降至24秒；据Yahoo Tech报道，Gemini 4 Argon于2026年10月13日通过付费Gemini API、Google AI Studio和Google AI Ultra订阅提供 [来源](https://korthosrobotics.com/research/google-gemini-4-argon-apptronik-apollo-robotics#intel-post-linked-entities) [来源](https://tech.yahoo.com/ai/gemini/articles/gemini-4-argon-teaches-robots-184625860.html)。判断/待核问题：这些为Google自报单项实验结果，并非通用性能保证；待核问题是能否独立复现并迁移到其他本体和任务，API订阅提供与完整机器人部署能力是不同口径。
-- 来源陈述：据qifukexue报道，星动纪元宣布其研发的具身智能模型在全球权威评测榜单中登顶第一，超越GPT-6及英伟达等机构提交的模型方案，且未借助外挂模块或额外数据；据myzaker报道，星动纪元开放了VPP2的两套视频模型权重，VPP2将机器人学习一项操作的过程分成三段，此次开放的是前两段（预测任务发展和压缩为视觉规划） [来源](https://qifukexue.com/?p=40225) [来源](http://app.myzaker.com/news/article.php?pk=6acf05eeb15ec0324b37d7f9&f=normal)。判断/待核问题：若评测可复现，可能降低对大规模动作标注数据的依赖；但“全球权威榜单第一”待核，开放权重只覆盖前两段，不覆盖具体控制，不能推断端到端机器人能力领先。
-- 来源陈述：据dailyaiworld报道，Hugging Face发布LeRobot 2.0，提供开源物理AI模型、遥操作数据集与跨硬件机器人部署能力 [来源](https://dailyaiworld.com/blogs/hugging-face-ships-lerobot-20-open-physical-ai-robotics-framework)。判断/待核问题：影响列提到的94%成功率与低于300美元机械臂为分析推测或特定任务/配置指标，不能推广为行业平均水平；若第三方复现，开源栈才可能降低低门槛物理AI部署成本。
+## 玩家动态
+- Google DeepMind：近期窗口释放通用模型到仿真/现实工具链信号；Argon 公告列出付费 API 与指定订阅入口，历史补录中的 Gemini Robotics 1.5 则区分 ER API 与 VLA 合作伙伴访问。
+- AWS/NVIDIA：以参考架构和基础设施代码切入VLA训练、仿真验证、边缘部署，偏工程底座。
+- Agility Robotics：资本程序与供应链并行推进；S-4生效只是程序节点，Nyobolt合作处于宣布与早期使用规划阶段。
+- Figure AI：补录重点是数据治理管线，而非公开数据集或已验证规模。
+- Hugging Face/Pollen：Reachy Mini面向桌面HRI与AI实验，不承担抓取操作VLA叙事。
 
-## 玩家动态（关键公司的战略动作与卡位）
-
-- 来源陈述：据21经济报道，9月24日智元第2万台具身智能机器人宣布下线，来源称刷新全球量产纪录；据Counterpoint Research报告，2026年上半年全球人形机器人出货量突破2.2万台，同比增长近300%，智元AGIBOT以9700台出货量位居全球第一，市场份额超43% [来源](https://m.21jingji.com/article/20261014/herald/f622988ee346e22a13abb8e2ad5c875a.html)。判断/待核问题：若Counterpoint口径可核，智元在2026年上半年人形机器人出货份额领先；但“第2万台下线”是企业节点，出货排名不能直接推断盈利、技术壁垒或单台均价；影响列称前五名均为中国厂商、合计86%，属分析推测，需另核。
-- 来源陈述：据新浪财经报道，新剑传动在回复文件中表示，特斯拉自2021年提出人形机器人业务规划后，机器人硬件版本从原型机持续迭代至V1、V2、V3，自由度与感知能力全方位升级；报道称今年9月中旬前后，市场传出特斯拉机器人团队在长三角审厂，9月16日落地宁波，9月17日开启新一轮针对机器人业务的量产审厂；有零部件上市公司人员表示特斯拉机器人团队此前确曾来该公司审厂，但并非近日；据moomoo报道，马斯克在近期访谈中直言灵巧手是Optimus量产的最大瓶颈，V3版本灵巧手拥有22个自由度，采用腱绳传动方案并加装触觉传感器，单个价值量占整机两成，装配难度为全机之最 [来源](https://finance.sina.com.cn/roll/2026-10-14/doc-inivezmk4531372.shtml) [来源](https://www.moomoocn.com/hant/news/post/1001110345?level=1&data_ticket=1791966554859794)。判断/待核问题：供应商披露和审厂传闻可作为供应链进度线索，但特斯拉官方未确认量产信息，审厂传闻有时间差，不能合并为已确定的量产节奏；灵巧手瓶颈为访谈说法，需独立核验其装配与良率约束。
-- 来源陈述：据videoland报道，AWS宣布推出Physical AI Toolchain on AWS，整合AWS云端服务与NVIDIA机器人相关技术，协助企业缩短机器人从开发、测试到实际部署的流程 [来源](https://news.videoland.com.tw/article/c6cabf20-263a-464b-a017-8dc42e25768d.html)。判断/待核问题：若企业采用，可能降低机器人开发基础设施门槛；但影响列称基于Amazon部署超过100万台机器人经验、NVIDIA提供Isaac GR00T等工具及“目前已开放使用”属分析推测，工具链是否形成训练到部署闭环仍需独立验证。
-- 来源陈述：据KMDJ报道，Agility与SPAC Churchill Capital Corp XI合并案S-4注册声明获SEC宣布生效，预计11月完成合并并以AGLT挂牌；Agility表示Digit 5已取得超过3亿美元承诺订单，仍须达成特定合约条件，预计2027年初开始提供早期客户使用；RoboFab设计年产能达1万台，计划2027年底前将客户部署据点由9处扩增至最多25处 [来源](http://210.66.210.14/kmdj/news/newsviewer.aspx?a=19e813b3-4424-410f-928c-14f5ae993f99)。判断/待核问题：若股东批准并完成交割，Agility可能成为美国一家上市且已有商业部署的人形机器人公司；但交易仍须股东批准和交割条件，承诺订单也须达成合约条件，SEC生效不等于上市确定。
-
-## 张力记录（与过去判断的冲突、悬而未决的问题；格式「· 旧判断X → 本周信号Y」）
-
-- · 旧判断“IPO已从融资终点升级为全球产能信用锚点” → 本周信号：来源陈述：据财经杂志和MoneyDJ报道，智元新一轮融资约10亿元至15亿元、估值约500亿元，投资人称港交所相关规则可能使智元今年内无法完成IPO；据Counterpoint Research报告，2026年上半年全球人形机器人出货突破2.2万台，智元以9700台出货居首 [来源](https://m.21jingji.com/article/20261014/herald/f622988ee346e22a13abb8e2ad5c875a.html)。判断/待核问题：若融资和出货口径可核，IPO时间与产能信用并非同步指标，融资完成日可能推迟挂牌，且港交所规则含特殊豁免；历史回填中的宇树IPO审核事项未在本周日档重新核验，不能用其数字或事件更新该全行业结论，[历史引用](https://www.163.com/dy/article/KUCHIJGL051481US.html)不表示认可。
-- · 旧判断“Tesla Optimus量产节奏为行业基准线” → 本周信号：来源陈述：据新浪财经和moomoo报道，新剑传动称Optimus V3设计已可展示、计划2026年底前量产，弗里蒙特工厂原Model S/Model X产线已改造用于量产，长期产能目标100万台/年；特斯拉负责人回应称无官方消息可分享；马斯克称灵巧手是Optimus量产最大瓶颈 [来源](https://finance.sina.com.cn/roll/2026-10-14/doc-inivezmk4531372.shtml) [来源](https://www.moomoocn.com/hant/news/post/1001110345?level=1&data_ticket=1791966554859794)。判断/待核问题：若供应商披露属实，Optimus接近量产仍受灵巧手等约束；但特斯拉官方未确认，不能把供应商计划当作已确定的行业基准线，也无法据此更新全行业量产成熟度框架。
-- · 旧判断“宇树科技以差异化架构规避同质化风险” → 本周信号：来源陈述：本周日档未包含宇树科技的新产品、出货或财务信号；历史回填曾记录其IPO审核相关事项，但未在本周日档重新出现 [历史引用](https://www.163.com/dy/article/KUCHIJGL051481US.html)。判断/待核问题：本周证据不足，无法更新宇树差异化架构是否规避同质化风险；需要宇树官方或一手产品、出货、财务材料，历史回填不能作为本周事实。
-- · 旧判断“中国公司主攻成本与量产，海外玩家聚焦高壁垒技术” → 本周信号：来源陈述：本周日档中，智元被Counterpoint列为2026年上半年人形机器人出货第一，星动纪元称其具身智能模型在全球评测登顶并开放VPP2前两段视频模型权重；海外有Physical Intelligence二季度10亿美元融资、Agility Digit 5承诺订单与SPAC进程、Google Gemini 4 Argon在Apptronik Apollo上的仿真演示、Hugging Face LeRobot 2.0开源 [来源](https://m.21jingji.com/article/20261014/herald/f622988ee346e22a13abb8e2ad5c875a.html) [来源](https://qifukexue.com/?p=40225) [来源](https://www.36kr.com/p/4022522991480963) [来源](http://210.66.210.14/kmdj/news/newsviewer.aspx?a=19e813b3-4424-410f-928c-14f5ae993f99) [来源](https://korthosrobotics.com/research/google-gemini-4-argon-apptronik-apollo-robotics#intel-post-linked-entities) [来源](https://dailyaiworld.com/blogs/hugging-face-ships-lerobot-20-open-physical-ai-robotics-framework)。判断/待核问题：本周两组信号不足以支持旧二分法更新，需按具体任务、硬件和合同条件比较；不能把单一公司事件概括为全行业已转向，也不能把来源中的不同企业都归为基础模型公司。
-- · 撤回错误推导 → 本周信号：来源陈述：本周日档未提供同一期间、同一产品口径的销售收入与交付数量；上一版曾出现用市值与出货或交付量关系推算单台均价或价差的风险 [历史引用](https://caifuhao.eastmoney.com/news/20260816230632706141230)。判断/待核问题：明确撤回用市值除以出货或交付量推算单台均价的做法；均价必须有同一期间、同一产品口径的销售收入与交付数量，当前无法更新相关判断。
+## 张力记录
+- **上市口径**：Agility S-4生效 ≠ 完成上市；既有“8月已上市”强断言应按本批官方公告追加更正，不写成已完成交割。
+- **自报与独立验证**：Argon的ERQA 87%、Apollo七连投、Nyobolt续航/充电指标、Figure Index规模与泛化收益均为官方自报或设计宣称，本批未独立验证。
+- **撤回确定事实**：LeRobot 2.0、通用94%成功率、低于300美元在本批没有官方支持，撤回其作为确定行业事实；同时不断言其不存在。Optimus量产旧行未获本批Tesla官方确认，不能当既成事实。
+- **边界**：AWS工具链是参考基础设施，不是成品行为；Reachy Mini不是抓取VLA臂；ER API可访问不等于VLA可部署；Nyobolt不是10月已供货。
+- **未纳入**：本批不补原文没有的数字，不把媒体日期包装为新官方事件；融资额、估值、订单金额不展开。

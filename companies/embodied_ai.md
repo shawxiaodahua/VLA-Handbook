@@ -59,3 +59,7 @@
 | 2026-07-17 | 🔧 | MagicLab | 2026年7月17日，MagicLab宣布其工业轮式人形机器人MagicBot D1已在追觅智能制造工厂进入常态化实战验证阶段。 | 标志该机型从实验室走向真实产线闭环验证，加速工业场景商业化进程。 | [来源](http://h5.ifeng.com/c/vivo/v0021OFuxhIvnZB7-_aYCC3TGc3HxQLy5owceeGWdKHMa9Rk__) |
 | 2026-07-22 | ⚡ | MagicLab | 魔法原子（MagicLab）于2026年7月22日与阿里巴巴旗下跨境零售平台速卖通达成独家战略合作，正式加入‘速卖通品牌出海计划’。 | 标志着MagicLab加速国际化布局，依托速卖通全球渠道拓展海外市场。 | [来源](https://www.tianyancha.com/steam/3306585497-eb2f) |
 | 2026-09-10 | ⚡ | Skild AI | Skild AI 利用 NVIDIA 的物理 AI 技术，实现让机器人通过单个视频学习新任务。 | 展示了大模型与硬件厂商合作在降低机器人编程门槛方面的突破，加速具身智能技术迭代。 | [来源](https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/) |
+| 2025-07-09 | 🔧 | Hugging Face / Pollen Robotics | 发布面向人机交互与AI实验的Reachy Mini，提供Python SDK与仿真开发路径（补录：2026-10-18）。 | 可用作桌面多模态交互原型；不将其视为具备抓取操作能力的VLA机械臂。 | [官方来源](https://huggingface.co/blog/reachy-mini) |
+| 2025-09-25 | 🔧 | Google DeepMind | 公布Gemini Robotics 1.5与Robotics-ER 1.5；发布时ER经Gemini API开放，VLA仅向选定合作伙伴提供（补录：2026-10-18）。 | 选型需区分空间推理API与直接机器人控制模型，不能将ER可访问等同VLA可部署。 | [官方来源](https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/) |
+| 2026-10-07 | 🔧 | AWS / NVIDIA | AWS公布Physical AI Toolchain，公開參考架構、基礎設施代碼和部署自動化，整合NVIDIA機器人軟體棧。（补录：2026-10-18） | 可作为训练、仿真与部署参考；实际运行需云端账户和资源，会产生费用，本次未部署。 | [官方来源](https://aws.amazon.com/blogs/physical-ai/introducing-aws-physical-ai-toolchain/) |
+| 2026-10-13 | ⚡ | Google DeepMind / Apptronik | Google開放Gemini4 Argon並披露Video-to-Sim-to-Real內部研究示例。（补录：2026-10-18） | 属于官方内部研究披露；API入口不等于Apollo控制策略或机器人权重开放。 | [官方来源](https://blog.google/intl/en-in/products/introducing-gemini-4-argon/) |
