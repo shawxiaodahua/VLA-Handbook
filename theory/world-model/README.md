@@ -88,7 +88,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 99 份文档。**
+**共 100 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -152,6 +152,7 @@
 - [PLaW-VLA：面向视觉-语言-动作策略的预测性潜在世界建模 (Predictive Latent World Modeling for Vision-Language-Action Policies)](./plaw_vla_predictive_latent_world_modeling_for_vision_languag_dissection.md)
 - [Q-WAM：面向世界动作模型的 4-bit 量化与动作子空间保护 (Q-WAM: 4-Bit Quantization of World Action Models with Action-Subspace Protection)](./q_wam_4_bit_quantization_of_world_action_models_with_action_dissection.md)
 - [QuantWAMs：在世界动作模型上以正确粒度校准 (QuantWAMs: Calibrating at the Right Granularity for World Action Models)](./quantwams_calibrating_at_the_right_granularity_for_world_act_dissection.md)
+- [记住该记住的：长程机器人世界模型的上下文调度 (Remembering What Matters for Long-Horizon Robotic World Models)](./remembering_what_matters_for_long_horizon_robotic_world_mode_dissection.md)
 - [在表征空间里直接规划：Representation World Model (Learning States, Transition and Executable Plans in Representation)](./representation_world_model_learning_states_transition_and_ex_dissection.md)
 - [Riemann-1.0：面向物理 AI 的具身世界动作模型 (Riemann-1.0: An Embodied World Action Model for Physical AI)](./riemann_10_an_embodied_world_action_model_for_physical_ai_dissection.md)
 - [RISE: 用组合世界模型实现 VLA 策略自改进 (Self-Improving Robot Policy with Compositional World Model)](./rise_self_improving_robot_policy_with_compositional_world_mo_dissection.md)
