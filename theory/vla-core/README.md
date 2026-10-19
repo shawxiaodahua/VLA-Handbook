@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 175 份文档。**
+**共 176 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -201,6 +201,7 @@
 - [LingBot-VLA：20,000 小时真实数据预训练的实用主义 VLA](./lingbot_vla_pragmatic_foundation_model_2026.md)
 - [LingBot-VLA：实用主义 VLA 基座模型与高吞吐训练栈 (LingBot-VLA: A Pragmatic VLA Foundation Model)](./lingbot_vla_pragmatic_vla_foundation_model_2026.md)
 - [看哪里才重要：VLA 自适应视觉细化 (Look Where It Matters: Adaptive Visual Refinement for Vision-Language-Action Models)](./look_where_it_matters_adaptive_visual_refinement_for_vision_dissection.md)
+- [LTM：面向 VLA 的潜转移上下文记忆（Latent Transition Based In-Context Memory for Vision-Language-Action Models）](./ltm_latent_transition_based_in_context_memory_for_vision_lan_dissection.md)
 - [多臂协作的VLA：原子动作分配与组合泛化 (MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization)](./ma_vla_multi_arm_vision_language_action_model_for_collaborat_dissection.md)
 - [压碎、涂抹、切片！通过视觉空间进展学习物体状态操作 (Mash, Spread, Slice! Learning to Manipulate Object States via Visual Spatial Progress)](./mash_spread_slice_learning_to_manipulate_object_states_via_v_dissection.md)
 - [评估 VLA 的「记忆」：MIKASA-Robo-VLA 长时序操作基准 (MIKASA-Robo-VLA: Benchmarking Memory in VLA Models for Long-Horizon Manipulation)](./mikasa_robo_vla_benchmarking_memory_in_vla_models_for_long_h_dissection.md)
