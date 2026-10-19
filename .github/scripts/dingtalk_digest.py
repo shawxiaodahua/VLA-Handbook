@@ -419,8 +419,27 @@ def shorten_taglines(sections):
     return changed
 
 
+def use_utf8_streams():
+    """Force UTF-8 on stdout/stderr.
+
+    Windows consoles default to a legacy code page (e.g. GBK), so the emoji
+    section headers abort the final write with UnicodeEncodeError and a local
+    dry-run dies where CI (UTF-8 locale) succeeds. Pinning UTF-8 keeps both
+    paths byte-identical.
+    """
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if reconfigure is None:
+            continue
+        try:
+            reconfigure(encoding="utf-8", errors="replace")
+        except (ValueError, OSError):
+            pass
+
+
 def main():
     global REPO_URL, PER_SECTION
+    use_utf8_streams()
     ap = argparse.ArgumentParser()
     ap.add_argument("--old-sha", required=True)
     ap.add_argument("--count", default="0")
