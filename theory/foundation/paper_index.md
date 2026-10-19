@@ -726,6 +726,7 @@
 | TACROSS: An Efficient and Low-Cost Scalable Human Touch System Across Heterogeneous Tactile Sensors for Dexterous Robot Learning | [link](https://arxiv.org/abs/2610.11945v1) | 🎯 tactile \| 🔧 daily 2026-10-09 |
 | DEFT-VLA: Stage-Localized Force Specialization for Contact-Rich Robotic Manipulation | [link](https://arxiv.org/abs/2610.14854) | 🎯 tactile \| 🔧 daily 2026-10-15 |
 | Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation | [link](https://arxiv.org/abs/2610.22342) | 🎯 tactile \| 🔧 daily 2026-10-16 |
+| N0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens | [论文 v1](https://arxiv.org/abs/2607.23782v1) | 🎯 tactile \| 🔧 补录 2026-10-18 \| [深度解读](../tactile/n0_vtla_latent_tactile_tokens_2026.md) |
 
 ### 其他
 

@@ -31,7 +31,6 @@
 - [Physics Of Ai Liuziming](./physics_of_ai_liuziming.md)
 - [Pigeon Magnetoreception Vestibular Electrosense](./pigeon_magnetoreception_vestibular_electrosense.md)
 - [Roshi A Versatile Robot Oriented Suit For Human Data In The](./roshi_a_versatile_robot_oriented_suit_for_human_data_in_the_dissection.md)
-- [Stamo Unsupervised Learning Of Generalizable Robot Motion](./stamo_unsupervised_learning_of_generalizable_robot_motion.md)
 - [Stamo Unsupervised Learning Of Generalizable Robot Motion Fr](./stamo_unsupervised_learning_of_generalizable_robot_motion_fr_dissection.md)
 - [Subcortical Control Knobs Neuropeptides Temporality](./subcortical_control_knobs_neuropeptides_temporality.md)
 - [Youve Got A Golden Ticket Improving Generative Robot Policie](./youve_got_a_golden_ticket_improving_generative_robot_policie_dissection.md)
@@ -52,7 +51,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 86 份文档。**
+**共 85 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -122,8 +121,7 @@
 - [策略性扩展数据：通过偏差感知评估与数据采集学习机器人操作的组合泛化 (Scale Up Strategically: Learning Compositional Generalization via Bias-Aware Evaluation and Data Collection for Robotic Manipulation)](./scale_up_strategically_learning_compositional_generalization_dissection.md)
 - [SlotVLA：用物体-关系槽位替代稠密 Token 的机器人操作表征 (SlotVLA: Towards Modeling of Object-Relation Representations in Robotic Manipulation)](./slotvla_towards_modeling_of_object_relation_representations_dissection.md)
 - [SpatialVAM: 空间感知多视图视频扩散作为数据高效的机器人策略 (Spatial-Aware Multi-View Video Diffusion as a Data-Efficient Robot Policy)](./spatialvamspatial_aware_multi_view_video_diffusion_as_a_data_dissection.md)
-- [StaMo：从紧凑状态表示中涌现通用机器人运动 (StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation)](./stamo_unsupervised_learning_of_generalizable_robot_motion.md)
-- [StaMo：从紧凑状态表示中涌现通用机器人运动 (StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation)](./stamo_unsupervised_learning_of_generalizable_robot_motion_fr_dissection.md)
+- [StaMo：从紧凑状态表示无监督学习可泛化机器人运动 / StaMo: Unsupervised Learning of Generalizable Robot Motion from Compact State Representation](./stamo_unsupervised_learning_of_generalizable_robot_motion_fr_dissection.md)
 - [砍掉皮层也能“打架求偶”：皮层下才是行为与状态调控的主战场（Ann Kennedy 对谈要点）](./subcortical_control_knobs_neuropeptides_temporality.md)
 - [测试时计算重塑人形行为基座模型 (Test-Time Compute for Humanoid Behavior Foundation Models)](./test_time_compute_for_humanoid_behavior_foundation_models_dissection.md)
 - [离散时间高斯过程混合物在机器人策略学习中的不合理有效性 (The Unreasonable Effectiveness of Discrete-Time Gaussian Process Mixtures for Robot Policy Learning)](./the_unreasonable_effectiveness_of_discrete_time_gaussian_pro_dissection.md)

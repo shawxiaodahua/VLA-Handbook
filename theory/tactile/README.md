@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 64 份文档。**
+**共 66 份文档。**
 
 - [主动触觉探索用于刚体姿态与形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_for_rigid_body_pose_and_shape_est_dissection.md)
 - [Active Tactile Exploration：仅触觉的刚体位姿+形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_rigid_body_pose_shape_eig_2026.md)
@@ -95,6 +95,7 @@
 - [接触丰富操作的 I/O 设计：命令-执行失配作为隐式力线索 (Mind the Gap: Rethinking I/O Design for Contact-Rich Visuomotor Policy Learning)](./mind_the_gap_rethinking_io_design_for_contact_rich_visuomoto_dissection.md)
 - [多模态操作 via 多模态策略共识 (Multi-Modal Manipulation via Multi-Modal Policy Consensus)](./multi_modal_manipulation_via_multi_modal_policy_consensus_dissection.md)
 - [多视图统一相机场：面向几何感知动作表征的 RGB -only 多相机 VLA 策略 (Multi-View Unified Camera Fields: Geometry-Shaped Action-Facing Representations for RGB-Only Multi-Camera VLA Policies)](./multi_view_unified_camera_fields_geometry_shaped_action_faci_dissection.md)
+- [N₀-VTLA：把触觉变成“未来接触”的 latent 条件](./n0_vtla_latent_tactile_tokens_2026.md)
 - [OmniUMI: 面向物理具身机器人学习的多模态交互接口 (Towards Physically Grounded Robot Learning via Human-Aligned Multimodal Interaction)](./omniumi_towards_physically_grounded_robot_learning_via_human_dissection.md)
 - [OmniVTA: 大规模视触世界模型用于接触丰富操作 (OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation)](./omnivta_visuo_tactile_world_modeling_for_contact_rich_roboti_dissection.md)
 - [OpenViTac：统一仿真-真实框架下的视触觉策略学习与基准评测 (OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework)](./openvitac_learning_and_benchmarking_visuo_tactile_policies_i_dissection.md)
@@ -133,6 +134,7 @@
 - [视触觉“感同身受”的神经基础 (Vicarious Body Maps)](./vicarious_body_maps.md)
 - [视触觉预训练 + 在线多任务学习：用单目 + 二值触觉解锁“类人灵巧操作” (Visual-Tactile Pretraining + Online Multitask Learning)](./visual_tactile_pretraining_online_multitask_learning_2026.md)
 - [ViTacWorld：可扩展视触觉世界模型用于接触丰富操作 (ViTacWorld: Scaling Visuo-Tactile World Models for Contact-Rich Robot Manipulation)](./vitacworld_scaling_visuo_tactile_world_models_for_contact_ri_dissection.md)
+- [VLA-Touch：用双层触觉反馈增强 VLA / Enhancing Vision-Language-Action Models with Dual-Level Tactile Feedback](./vla_touch_dual_level_tactile_feedback_2025.md)
 - [VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory (VPWEM: Non-Markovian Visuomotor Policy with Working and Episodic Memory)](./vpwem_non_markovian_visuomotor_policy_with_working_and_episo_dissection.md)
 - [VT-MUSE：多模态统一序列视觉触觉表征学习 (VT-MUSE: Multimodal Unified Sequential Visuotactile Representation Learning for Manipulation)](./vt_muse_multimodal_unified_sequential_visuotactile_represent_dissection.md)
 - [唤醒触觉！MLLM 中的掩码隔离触觉对齐学习 (Wake up for Touch! Mask-isolated Tactile Alignment Learning in MLLMs)](./wake_up_for_touch_mask_isolated_tactile_alignment_learning_i_dissection.md)

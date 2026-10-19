@@ -12,7 +12,7 @@
 [![Daily Pulse](https://img.shields.io/badge/📊_Daily_Pulse-15方法族趋势-D4910A.svg)](PULSE.md)
 [![Spatial-Intelligence-Handbook](https://img.shields.io/badge/姊妹仓库-Spatial_Intelligence_Handbook-6B8AFE.svg?logo=github&logoColor=white)](https://github.com/sou350121/Spatial-Intelligence-Handbook)
 
-📊 **[PULSAR 照见](https://sou350121.github.io/pulsar-web/)** · 每日北京时间 12:00 更新，减少信息焦虑 — `sou350121.github.io/pulsar-web`
+📊 **[PULSAR 照见](https://sou350121.github.io/pulsar-web/)** · 汇集各主题更新；网站固定同步时间为北京时间 18:00，内容以实际来源日期为准 — `sou350121.github.io/pulsar-web`
 
 📈 **[Daily Pulse](PULSE.md)** · 15 个 VLA 方法族的论文流量 + 加速度 + 30 日趋势图 · 每日自动生成
 
@@ -22,38 +22,44 @@
 
 🛰️ **[Spatial-Intelligence-Handbook](https://github.com/sou350121/Spatial-Intelligence-Handbook)** · 姊妹仓库 — VLA 管 action policy，Spatial 管 world representation（3DGS / VGGT / depth foundation + 跨 embodiment 横向对比）。两者交集是 3D-aware VLA。
 
-🏭 **[行业情报雷达](companies/industry_mainline.md)** · 🆕 每日扫描机器人/具身公司动态（融资 · 产品 · IPO · 合作）→ qwen 联网搜索 + 机械核验后追加到公司档案；周五出[行业判断地图](companies/industry_mainline.md)，原始记录见 [`memory/blog/archives/industry-radar/`](memory/blog/archives/industry-radar)。
+🏭 **[行业情报雷达](companies/industry_mainline.md)** · 🆕 每日扫描机器人/具身公司动态（融资 · 产品 · IPO · 合作）→ 现有 DeepSeek 原生搜索、来源审计与官方页面核验后追加到公司档案；周五出[行业判断地图](companies/industry_mainline.md)，原始记录见 [`memory/blog/archives/industry-radar/`](memory/blog/archives/industry-radar)。
 
-> **🆕 2026-06-11 重大更新**
+## 2026-10-18 内容更新
+
+- **触觉 VLA**：[VLA-Touch](theory/tactile/vla_touch_dual_level_tactile_feedback_2025.md) 与 [N0-VTLA](theory/tactile/n0_vtla_latent_tactile_tokens_2026.md) 补入深度解读；训练范围、实验口径及论文／仓库版本差异分别说明。
+- **旧文校正与去重**：[StaMo](theory/frontier/stamo_unsupervised_learning_of_generalizable_robot_motion_fr_dissection.md)、[Embodied-R1.5](theory/foundation/embodied_r15_evolving_physical_intelligence_via_embodied_fou_dissection.md) 合并同论文重复稿；[GR00T-N1.6](theory/vla-core/gr00t_n1_6.md) 按固定官方模型卡重建，未获支持的频率和参数不再作为事实。
+- **行业补录**：[近期四项官方事件](memory/blog/archives/industry-radar/2026-10-18.md) 与 [三项历史事件](memory/blog/archives/industry-radar/backfill-2026-10-18.md) 分开归档；历史补录不冒充本周新增。全部入口见 [理论目录](theory/README.md) 与 [行业判断地图](companies/industry_mainline.md)。
+
+> **历史更新 · 2026-06-11**
 > - **理论总纲两个月来首次全面同步**：10 个主题 `*_mainline.md` 综合了 4-6 月新进的 ~109 篇深度解析（保留旧判断并显式记录张力），71 篇散落文章归位，200+ 失效内链修复，全库 254 → **380 篇**。
 > - **行业情报层上线**：`companies/*.md` 不再静态——新增自动雷达每日补充融资/产品/IPO 动态（已回填过去 2 个月积压），周度生成行业判断地图。
 
 ### 全中文 · 工程实战导向的 VLA 知识库
 
 VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue 和论文附录里。
-这个 Handbook 做一件事：**把"看懂论文"和"跑通代码"之间的坑，全部填平。**
+这个 Handbook 做一件事：**整理从论文到复现的入口、参数口径与部署经验，并标出来源、未验证项和适用边界。**
 
-> 688 篇理论文档（10 个主题目录，每日自动新增 2-3 篇深度解析） · 165 篇英文社区实战笔记 · 300+ 条中文社区蒸馏 · 47 条 GitHub Issues 工程经验 · 16 份前沿报告 + 14 份反思 · **行业情报雷达**（公司动态 · 融资 · IPO 每日追踪） · 每日自动 pipeline（⚡ 论文评分 · 深度拆解 · 社交情报）
+> **747 篇理论文档**（10 个主题目录） · 中英文社区实战笔记 · GitHub Issues 工程经验 · **18 份双周前沿报告 + 15 份反思** · 行业情报雷达 · 固定排程采集、评分与深度解析
 >
-> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-12。
+> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-18；双周报告与反思按各自文件计数，不表示每期均已配对。
 
 ---
 
 ## 三句话说清楚这个 Handbook 的价值
 
-1. **不只是摘要**：每篇给出入口脚本、关键超参、shape 口径的 sanity-check——"看懂"和"跑通"之间的坑，都标出来了。
+1. **不只是摘要**：重点整理入口脚本、关键超参与 shape 口径的 sanity-check；复现状态和未验证项以具体文章标注为准。
 2. **Robotics 的脏活写清楚**：多模态同步、Sim2Real 断点、动作空间对齐、触觉/灵巧手硬件选型——这些在其他地方要么没有，要么藏在论文附录里。
 3. **活的知识库**：自动 pipeline 每天抓最新 VLA 论文（⚡/🔧/📖 评级），精选后生成深度解析写入仓库，不是六个月没人维护的静态文档。
 
 ### 🔥 社区实战笔记 — 论文不会告诉你的事
 
-这三份笔记是 Handbook 最独特的部分：**中英文社区 + GitHub Issues 的一手踩坑经验，自动采集、人工蒸馏，每周持续更新。**
+这三份笔记是 Handbook 最独特的部分：**中英文社区与 GitHub Issues 的部署经验，按条目保留来源和时间。**
 
 | | 来源 | 内容 | 更新 |
 |---|---|---|---|
-| **[📕 中文社区（小红书）](deployment/community_field_notes_xiaohongshu.md)** | 300+ 条中文社区蒸馏（帖1-200 + 可追溯索引 40 条 + 黑话辞典 28 条） | LingBot-VLA / UnifoLM / π0.6 真机 RL / Figure Helix / GR00T N2 + ACT 训练成本实测 + 国标发布 + 薪资 80-120 万 + 社区黑话辞典。 | 每 3 天自动增量 |
-| **[📘 英文社区（HF Blog / Discord）](deployment/community_field_notes_english.md)** | 165 篇可追溯条目（HF Blog · 厂商博客 · LeRobot Discord） | SmolVLA / DiffusionVLA / π0-FAST / GR00T N1.5 / OpenVLA-OFT / Figure Helix / Cosmos Policy / ACTSmooth 等前沿论文 + 真实部署经验。 | 每周五 11:00 |
-| **[🔧 GitHub Issues](deployment/community_field_notes_github.md)** | 6 大核心仓库 47 条高互动 Issues 蒸馏 | GPU 兼容矩阵（RTX 50 系列 / Jetson）、Pi0 微调陷阱、GR00T 显存优化、训练收敛失败根因、跨仓库收敛信号。 | 每周自动扫描 |
+| **[📕 中文社区（小红书）](deployment/community_field_notes_xiaohongshu.md)** | 中文社区经验、可追溯索引与黑话辞典 | LingBot-VLA / UnifoLM / π0.6 真机 RL / Figure Helix / GR00T N2 + ACT 训练成本案例 + 国标发布 + 薪资讨论 + 社区黑话辞典。 | 更新时间见条目 |
+| **[📘 英文社区（HF Blog / Discord）](deployment/community_field_notes_english.md)** | HF Blog · 厂商博客 · LeRobot Discord 可追溯条目 | SmolVLA / DiffusionVLA / π0-FAST / GR00T N1.5 / OpenVLA-OFT / Figure Helix / Cosmos Policy / ACTSmooth 等前沿论文 + 真实部署经验。 | 更新时间见条目 |
+| **[🔧 GitHub Issues](deployment/community_field_notes_github.md)** | 核心仓库的高互动 Issues 蒸馏 | GPU 兼容矩阵（RTX 50 系列 / Jetson）、Pi0 微调陷阱、GR00T 显存优化、训练收敛失败根因、跨仓库收敛信号。 | 更新时间见条目 |
 
 ## 📡 订阅（让新内容主动找到你）
 
@@ -81,17 +87,17 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 **刷 X/Twitter 跟踪 VLA 作者**：第一时间看到作者反应和社区讨论，实时感强。
 **刷小红书**：一线从业者的真实踩坑、复现参数、失败复盘——论文和公众号里绝对看不到的一手经验，评论区比正文更有料。
 
-**选 VLA Handbook**：需要工程级深度——论文怎么跑通、部署怎么踩坑、Sim2Real 断在哪，而且每天自动更新，永久可查。**小红书的社区经验也会被自动收集、蒸馏后写入 Handbook。**
+**选 VLA Handbook**：需要工程级深度——论文怎么跑通、部署怎么踩坑、Sim2Real 断在哪，而且每天自动更新，永久可查。中文社区笔记提供已整理的经验与出处。
 
 | 维度 | 公众号 ML 文章 | Awesome 列表 / 综述 | X/Twitter 速报 | 小红书社区 | **VLA Handbook** |
 |------|-------------|-------------------|--------------|-----------|-----------------|
 | **最擅长** | 可读中文综述，移动端友好 | 资源书签，快速入手 | 实时讨论，作者第一反应 | 一线踩坑、真实参数、失败复盘 | 工程实战 + 每日自动深度解析 |
 | **工程细节** | ❌ 媒体视角 | ❌ 链接汇总 | ❌ 碎片化 | ⚠️ 有但散落在评论区 | ✅ 入口脚本 · 关键超参 · shape 校验 |
 | **一手踩坑** | ❌ | ❌ | ⚠️ 偶尔 | ✅ 评论区大量真实经验 | ✅ [中文蒸馏](deployment/community_field_notes_xiaohongshu.md) · [英文蒸馏](deployment/community_field_notes_english.md) |
-| **更新频率** | 不定期 | 月 / 季度 | 实时 | 实时（但搜索困难） | 每日自动 + 中英文社区每周 + GitHub 每周扫描 |
+| **更新频率** | 不定期 | 月 / 季度 | 实时 | 实时（但搜索困难） | 固定排程采集；社区更新见条目日期 |
 | **历史可查** | ❌ 90 天后限流失效 | ✅ 静态存档 | ❌ 算法埋没 | ❌ 搜索质量差，帖子易沉 | ✅ Git 永久记录，全文 grep |
 | **生产踩坑** | ❌ | ❌ | ❌ | ✅ 但需要自己挖掘整理 | ✅ Sim2Real · 多模态同步 · 硬件选型 |
-| **趋势预测验证** | ❌ 无追踪 | ❌ | ❌ | ❌ | ✅ 双周 ✅/❌ 历史追踪（12 期） |
+| **趋势预测验证** | ❌ 无追踪 | ❌ | ❌ | ❌ | ✅ 双周报告与反思留档 |
 
 
 ---
@@ -106,12 +112,12 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 先建立全局图：输入（视觉 + 语言）→ Backbone → Action Head → 机器人动作。RT-1 → RT-2 → OpenVLA → π0 的演化逻辑，读完你知道每个模块的作用和它们怎么拼在一起。
 
 **② [动作生成三范式](theory/diffusion-flow/action_representations.md)** `10 min`
-①读完你会问：Action Head 到底怎么输出动作？这篇回答：离散 Token（快但粗）→ Diffusion（精但慢）→ Flow Matching（又快又精）。这是 VLA 领域最关键的分叉点，后面所有论文都在这三条路上选边。
+比较离散 Token、Diffusion 与 Flow Matching 的建模和执行取舍；速度、精度与控制频率需要结合具体实现和实验条件判断。
 
-**第二层：当前赢家为什么赢、整个领域怎么演化（~15 min）**
+**第二层：动作生成的取舍与研究演化（~15 min）**
 
 **③ [Flow Matching 原理拆解](theory/diffusion-flow/pi0_flow_matching.md)** `10 min`
-②告诉你 Flow Matching 胜出，这篇解释为什么：ODE 直线路径 vs Diffusion 的曲线去噪，5-20 步推理实现 50Hz 控制。π0 的工程实现细节。
+从概率路径、速度场与采样过程理解 Flow Matching，再对照 π0 的实现；不把某个模型的步数或频率推广为整类方法的保证。
 
 **④ [研究主线梳理](theory/vla-core/vla_research_mainline.md)** `5 min`
 拉远一步看全局：为什么 ACT/DP 仍是 baseline、数据规模化 → 感知增强 → RL 后训练三条改进主线怎么交汇。读完你有一张完整的领域地图。
@@ -119,10 +125,10 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 **第三层：对接现实（按需深入）**
 
 **⑤ [社区实战笔记（中文）](deployment/community_field_notes_xiaohongshu.md)** 🔥
-论文不会告诉你的事——300+ 条中文社区蒸馏的真实参数、真实失败、真实吐槽。ACT 50 episodes 就能 work、Sim2Real 八成是物理参数没校准。
+论文不会告诉你的事——中文社区整理的参数、失败和部署讨论。可用来定位训练数据规模、标定与部署故障的具体案例；参数需结合原实验条件阅读。
 
 **⑥ [社区实战笔记（英文）](deployment/community_field_notes_english.md)** 🔥
-165 条英文社区精选（HF Blog + 厂商博客 + LeRobot Discord）。前沿论文深度拆解 + 真实部署经验、训练配方、推理延迟实测。
+英文社区精选（HF Blog + 厂商博客 + LeRobot Discord）。前沿论文深度拆解 + 真实部署经验、训练配方、推理延迟实测。
 
 **⑦ [真机部署总入口](deployment/README.md)**
 硬件选型 · 多模态同步 · Sim-to-Real · 调参 checklist。准备上真机时再看。
@@ -140,17 +146,20 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 
 ---
 
-## 自动更新时刻表（北京时间）
+## 自动更新时刻表（北京时间；计划触发时间）
 
-| 内容 | 更新时间 | 去哪看 |
+| 内容 | 计划时间 | 去哪看 |
 |------|---------|--------|
-| ⚡ 论文评分（⚡/🔧/📖/❌） | 每日 09:15–10:00 | [theory/](theory/) |
-| 🛰️ VLA 社交情报 | 每日 09:30 | [vla-social-intel/ →](https://github.com/sou350121/VLA-Handbook/tree/main/memory/blog/archives/vla-social-intel)（30 期存档） |
-| 🔬 理论深度解析 | 周一 / 三 / 五 15:30 | [theory/](theory/) |
-| 📕 小红书社区经验收集 | 每 3 天自动增量 | [社区实战笔记（中文）](deployment/community_field_notes_xiaohongshu.md) |
-| 📘 英文社区经验收集 | 每周五 11:00 | [社区实战笔记（英文）](deployment/community_field_notes_english.md) |
-| 📋 周报 + 风向洞察 | 每周日 10:30 | [reports/weekly/](reports/weekly/README.md)（29 期存档） |
-| 📊 双周推理报告 | 每两周 | [reports/biweekly/](reports/biweekly/README.md)（12 期存档） |
+| 🛰️ VLA 社交情报 | 每日 09:30 | [社交归档](memory/blog/archives/vla-social-intel/) |
+| 📈 SOTA / 🔧 Release | 每日 09:50 / 10:00 | [Benchmark Tracker](theory/benchmark_tracker.md) · [Release Tracker](deployment/release_tracker.md) |
+| 📥 论文收集 / ⚡ 评分 | 每日 14:30 / 14:45 | [论文索引](theory/foundation/paper_index.md) |
+| 🔬 理论深度解析 | 非周五：12:30、13:15、14:00、15:30、16:30；周五：19:20、19:40、20:20、21:00、21:40 | [理论目录](theory/README.md) |
+| 📋 周度深度分析 | 每周五 16:30 | [周度归档](reports/weekly/README.md) |
+| 📊 双周报告 / 反思 | 每 14 天，独立排程 | [双周归档](reports/biweekly/README.md) |
+| 🧭 本地检索 / 网站同步 | 每日 17:15 / 18:00 | [GitHub 理论目录](theory/README.md) · [PULSAR](https://sou350121.github.io/pulsar-web/) |
+| 🏭 行业雷达 / 主线 | 每日 22:30 / 每周五 23:00 | [公司档案](companies/README.md) · [行业日档](memory/blog/archives/industry-radar/) |
+
+时间表示触发计划，不保证该时刻已完成或有新文章。来源不足、核查失败与部分覆盖会保留状态，不能当作完整成功；计划核对日期为 2026-10-18。
 
 ---
 
@@ -158,14 +167,14 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 
 | 目录 | 内容 |
 |------|------|
-| [`theory/`](theory/) | 688 篇理论文档：vla-core 156 · foundation 86 · world-model 93 · planning 67 · tactile 58 · frontier 75 · diffusion-flow 47 · deployment 43 · rl 39 · perception 24 |
+| [`theory/`](theory/) | 747 篇理论文档：vla-core 175 · foundation 88 · world-model 100 · planning 73 · tactile 66 · frontier 85 · diffusion-flow 48 · deployment 47 · rl 41 · perception 24 |
 | [`deployment/`](deployment/) | 真机部署：硬件选型 · 多模态同步 · Sim-to-Real + 三份社区实战笔记 |
-| [`reports/biweekly/`](reports/biweekly/) | 16 份前沿报告 + 14 份反思（含预测回顾 ✅/❌ 打分）|
-| [`reports/weekly/`](reports/weekly/) | 29 期周报 + 每日 digest + SOTA + 风向洞察 |
-| [`memory/blog/archives/`](memory/blog/archives/) | 30 期 VLA 社交情报 + 小红书原始数据 |
+| [`reports/biweekly/`](reports/biweekly/) | 18 份双周报告 + 15 份反思（按文件分别计数）|
+| [`reports/weekly/`](reports/weekly/) | 周度分析 + 每日 digest + SOTA + 风向洞察 |
+| [`memory/blog/archives/`](memory/blog/archives/) | VLA 社交情报 + 已归档社区数据 |
 | [`scripts/`](scripts/) | 自动化 pipeline（SCRIPTS.md 含完整 DAG）|
-| [`question-bank/`](question-bank/) | 15 份面试题库与代码实战 |
-| [`companies/`](companies/) | 12 份机器人公司分析与求职指南 |
+| [`question-bank/`](question-bank/) | 14 份面试题库与代码实战 |
+| [`companies/`](companies/) | 11 份公司与行业文档 |
 | [`cheat-sheet/`](cheat-sheet/) | 速查表（时间线 · 核心公式）|
 | [`book/`](book/) | 电子书版本 |
 
@@ -178,17 +187,17 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 | 补理论 / 刷面试 | [`theory/README.md`](theory/README.md) | 路线图 + 核心概念索引 |
 | 找论文 / 做综述 | [`theory/foundation/paper_index.md`](theory/foundation/paper_index.md) | 多维索引 + 发展史全景图 |
 | 真机落地 | [`deployment/README.md`](deployment/README.md) | 硬件选型 · 多模态同步 · Sim-to-Real |
-| 社区踩坑（中文） | [`deployment/community_field_notes_xiaohongshu.md`](deployment/community_field_notes_xiaohongshu.md) | 🔥 300+ 条中文社区蒸馏 · 帖1-200 + 索引 + 黑话辞典 |
-| 社区踩坑（英文） | [`deployment/community_field_notes_english.md`](deployment/community_field_notes_english.md) | 🔥 165 条可追溯条目 · HF Blog + Discord + 厂商博客 |
-| GitHub 工程经验 | [`deployment/community_field_notes_github.md`](deployment/community_field_notes_github.md) | 🔧 6 大仓库 47 条高互动 Issues · GPU 兼容矩阵 |
-| 公司 / 求职 | [`companies/README.md`](companies/README.md) | 12 份公司分析 + 产业报告 digest |
-| 双周前沿报告 | [`reports/biweekly/README.md`](reports/biweekly/README.md) | 12 期 · VLA / 触觉 / 人形 · 含预测回顾 |
-| 周报 + 风向洞察 | [`reports/weekly/README.md`](reports/weekly/README.md) | 29 期 · 每周论文精选 + SOTA + 趋势分析 |
+| 社区踩坑（中文） | [`deployment/community_field_notes_xiaohongshu.md`](deployment/community_field_notes_xiaohongshu.md) | 中文社区经验 · 来源索引 · 黑话辞典 |
+| 社区踩坑（英文） | [`deployment/community_field_notes_english.md`](deployment/community_field_notes_english.md) | HF Blog + Discord + 厂商博客可追溯条目 |
+| GitHub 工程经验 | [`deployment/community_field_notes_github.md`](deployment/community_field_notes_github.md) | 高互动 Issues · GPU 兼容矩阵 |
+| 公司 / 求职 | [`companies/README.md`](companies/README.md) | 公司档案 + 行业判断地图与日档 |
+| 双周前沿报告 | [`reports/biweekly/README.md`](reports/biweekly/README.md) | 18 份报告 / 15 份反思 · VLA / 触觉 / 人形 |
+| 周报 + 风向洞察 | [`reports/weekly/README.md`](reports/weekly/README.md) | 周度归档 · 论文精选 + SOTA + 趋势分析 |
 | 变更记录 | [`CHANGELOG.md`](CHANGELOG.md) | 从 git 历史提炼 |
 
 ---
 
-## 2026 前沿深度解析（30 篇 · 自动 pipeline 持续生成中）
+## 2026 前沿深度解析（专题选读）
 
 > ⚡ = 重要进展  🔧 = 工程可用  每日持续更新中
 
@@ -236,19 +245,15 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 
 ## 背后的系统：照见 Pulsar
 
-VLA Handbook 的每日内容由 [照见 Pulsar](https://github.com/sou350121/Pulsar-KenVersion) 自动驱动。Pulsar 不只是一组定时脚本——它是一个**自我进化的系统**。
+VLA Handbook 的自动采集、评分、深度解读与报告由 [照见 Pulsar](https://github.com/sou350121/Pulsar-KenVersion) 的固定管线运行，生成与搜索沿用现有 DeepSeek。先核来源、版本及主张，再决定是否发布；不能把自动生成等同于实验复现。
 
-**自我进化**，是指它真的会改变自己的判断：系统维护 19 条 VLA 领域假设，每条带置信度分数。每个月，它统计哪些假设被真实数据反复触发、哪些长期没有支撑，然后自动调整置信度。判断偏了的假设进入 watch-list，下一周期系统会主动注入更多相关信号去验证它——不是人工干预，是系统在自己给自己补课。双周报告的每一条预测，下一期必须打分（✅ 已验证 / ❌ 落空 / ⏳ 待观察），正确率有完整历史记录（已积累 12 期）。
-
-在这之上：
-
-- **自愈 Watchdog** — 23 项健康检查，RSS 中断 · 评分缺失 · LLM 超时，故障自动恢复，不会静默丢数据
-- **评分前置** — 每天 30+ 篇论文先经 ⚡/🔧/📖/❌ 评级，精选才进 LLM，节省 80%+ 推理成本
-- **全自动** — 33 个 cron job，每天 09:00 开始，无需人工触发
+- **固定排程与验收**：服务器检查实际收据与产物；故障沿用 GitHub Issues 通知，不依赖编辑器常开。
+- **可追溯内容**：论文与代码版本、来源日期、历史补录和未验证项分开标记；双周判断可回查报告及反思文件。
+- **保护既有正文**：受管目录由固定程序维护；人工正文与旧文替换遵循 [AGENTS.md](AGENTS.md) 及维护者的具体授权。
 
 ## 🤖 让 AI 编程助手变成 VLA 专家
 
-想让你的 AI 助手直接拥有本 Handbook 688 篇理论文档的知识？
+想让你的 AI 助手使用本 Handbook 的理论目录与可追溯资料？
 
 **[VLA Expert Skill](https://github.com/sou350121/VLA-expert-skill)** 把 Handbook 的知识压缩成一个即插即用的 AI Skill，支持多个平台：
 
@@ -258,7 +263,7 @@ VLA Handbook 的每日内容由 [照见 Pulsar](https://github.com/sou350121/Pul
 | **Cursor** | 复制到 `.cursor/rules/` |
 | **Codex / OpenCode** | 作为 system prompt 加载 |
 
-安装后你的 AI 助手能做到：对抗性三视角辩论（Bull/Bear/Arbiter）、论文价值评估、研究方向判断、产业分析、部署指南——每日自动同步最新知识。
+该 Skill 提供论文评估、研究方向判断、产业分析与部署指南等工作流；功能和同步范围以其说明为准，结论需要回到引用原文核对。
 
 👉 **[github.com/sou350121/VLA-expert-skill](https://github.com/sou350121/VLA-expert-skill)**
 

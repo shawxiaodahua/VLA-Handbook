@@ -1,6 +1,6 @@
 # Benchmark Tracker
 
-> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-10-16` · last_checked `2026-10-17` · 659 entries / 6 benchmarks
+> ⚙️ 自动生成 · 投影自 pulsar-web `vla-sota-tracker.json` · 数据日期 `2026-10-18` · last_checked `2026-10-18` · 661 entries / 6 benchmarks
 > 每日刷新（`maintenance/build-benchmark-tracker.py`）· 数据源 evosota + paper extraction。
 > 本文件为 JSON 的整体投影，非手工追加——勿手动编辑（改动会被下次重生覆盖）。
 
@@ -459,6 +459,7 @@
 | 2026-10-16 | Qwen-RobotManip | LIBERO Plus/standard-closed | 91.4 | CAC-VLA +1.90 | 2606.17846 |
 | 2026-10-16 | FabriMAE | LIBERO Plus/standard-opensource | 86.8 | ACoT-VLA +0.20 | 2608.16697 |
 | 2026-10-16 | CorridorVLA | LIBERO Plus/non-standard | 83.21 | NS-VLA +3.81 | 2604.21241 |
+| 2026-10-18 | Phoenix-MWA | LIBERO Plus/standard-opensource | 94.6 | FabriMAE +7.80 | Phoenix-pages |
 
 ## MetaWorld
 
@@ -629,6 +630,7 @@
 | 2026-10-04 | Light-O1 | RoboCasa-GR1-Tabletop/standard-opensource | 79.3 | WALA +4.10 | light-o1 |
 | 2026-10-16 | CF-WAM | RoboCasa-GR1-Tabletop/standard-closed | 82.5 | ACE-Ego-0 +9.70 | 2609.34414 |
 | 2026-10-16 | Light-O1 | RoboCasa-GR1-Tabletop/standard-opensource | 79.3 | WALA +4.10 | light-o1 |
+| 2026-10-18 | Phoenix-MWA | RoboCasa-GR1-Tabletop/standard-opensource | 82.7 | Light-O1 +3.40 | Phoenix-pages |
 
 ## RoboChallenge
 

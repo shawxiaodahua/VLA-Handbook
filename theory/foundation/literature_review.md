@@ -96,6 +96,12 @@
   - 手册解读：[`./frontier/touchguide_inference_time_steering_touch_guidance_2026.md`](../tactile/touchguide_inference_time_steering_touch_guidance_2026.md)  
   - 论文 HTML：`https://arxiv.org/html/2601.20239v3`
 
+
+- VLA-Touch（2025，v2）：以语义反馈重规划、以触觉控制器精炼冻结的RDT动作；控制器仍需训练，真机样本有限。
+  - [深度解读](../tactile/vla_touch_dual_level_tactile_feedback_2025.md) · [论文 v2](https://arxiv.org/html/2507.17294v2)
+- N0-VTLA（2026，v1）：预测动作区间内的触觉变化latent，条件化动作专家；区分论文与README的token数，预训练流水线未开放。
+  - [深度解读](../tactile/n0_vtla_latent_tactile_tokens_2026.md) · [论文 v1](https://arxiv.org/html/2607.23782v1)
+
 ### 0.2 多模态融合与策略共识（Policy Consensus）
 
 > 说明：当触觉是“稀疏但关键”的模态时，特征拼接会把它当噪声；策略共识让每个模态拥有独立专家策略，再在动作层面组合。

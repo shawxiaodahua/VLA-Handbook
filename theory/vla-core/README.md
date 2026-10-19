@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 174 份文档。**
+**共 177 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -162,6 +162,8 @@
 - [具身中间训练：用数据邻近度弥合 VLM 与 VLA 之间的鸿沟 (EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training)](./embodiedmidtrain_bridging_the_gap_between_vision_language_mo_dissection.md)
 - [Evo-World：用光流监督未来运动预测的轻量 VLA (Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision)](./evo_world_a_lightweight_vision_language_action_model_with_fu_dissection.md)
 - [FAST: 高效动作 Token 化](./fast.md)
+- [只思考一次的 VLA：Fast-VLA 的任务记忆与闭环解耦 (Fast-VLA: You Only Think Once for Robot Manipulation)](./fast_vla_you_only_think_once_for_robot_manipulation_dissection.md)
+- [FastVLA：任务条件化与时间自适应的 VLA 视觉 Token 压缩（FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models）](./fastvla_task_conditioned_and_temporally_adaptive_visual_toke_dissection.md)
 - [Figure Helix 02：全身端到端 VLA 的“运动-操作一体化”架构 (Helix 02: Full-Body Autonomy)](./figure_helix_02_full_body_autonomy_2026.md)
 - [单鱼眼解耦覆盖度与锐度：Fisheye-VLA (Fisheye-VLA: Decoupling Coverage and Acuity for Manipulation with a Single Fisheye Camera)](./fisheye_vla_decoupling_coverage_and_acuity_for_manipulation_dissection.md)
 - [FlashVLA：流式动作解码实现高速异步 VLA 推理 (Streaming Action Decoding for Fast and Asynchronous VLA Inference)](./flashvla_streaming_action_decoding_for_fast_and_asynchronous_dissection.md)
@@ -174,7 +176,7 @@
 - [Genie Sim PanoRecon：从单张全景图快速生成沉浸式 3D 场景 (Genie Sim PanoRecon: Fast Immersive Scene Generation from Single-View Panorama)](./genie_sim_panorecon_fast_immersive_scene_generation_from_sin_dissection.md)
 - [用去噪轨迹的几何自适应切分动作块 (GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies)](./geoaac_geometry_based_adaptive_action_chunking_from_denoisin_dissection.md)
 - [GeoPredict：利用预测运动学与 3D 高斯几何实现精确 VLA 操作 (GeoPredict: Leveraging Predictive Kinematics and 3D Gaussian Geometry for Precise VLA Manipulation)](./geopredict_leveraging_predictive_kinematics_and_3d_gaussian_dissection.md)
-- [GR00T-N1.6 模型解剖 (Dissecting GR00T-N1.6)](./gr00t_n1_6.md)
+- [GR00T-N1.6 手册篇 / GR00T-N1.6 Handbook Entry](./gr00t_n1_6.md)
 - [GR00T-N1.7：NVIDIA 的开源通用机器人基础模型——从人形到任意形态](./groot_n1_7_nvidia_open_foundation_model_2026.md)
 - [GS-VLA：即插即用视点规范化 (GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting)](./gs_vla_plug_and_play_viewpoint_canonicalization_for_frozen_v_dissection.md)
 - [HAMLET：将视觉 - 语言 - 动作模型转换为历史感知策略 (HAMLET: Switch your Vision-Language-Action Model into a History-Aware Policy)](./hamlet_switch_your_vision_language_action_model_into_a_histo_dissection.md)
@@ -200,6 +202,7 @@
 - [LingBot-VLA：20,000 小时真实数据预训练的实用主义 VLA](./lingbot_vla_pragmatic_foundation_model_2026.md)
 - [LingBot-VLA：实用主义 VLA 基座模型与高吞吐训练栈 (LingBot-VLA: A Pragmatic VLA Foundation Model)](./lingbot_vla_pragmatic_vla_foundation_model_2026.md)
 - [看哪里才重要：VLA 自适应视觉细化 (Look Where It Matters: Adaptive Visual Refinement for Vision-Language-Action Models)](./look_where_it_matters_adaptive_visual_refinement_for_vision_dissection.md)
+- [LTM：面向 VLA 的潜转移上下文记忆（Latent Transition Based In-Context Memory for Vision-Language-Action Models）](./ltm_latent_transition_based_in_context_memory_for_vision_lan_dissection.md)
 - [多臂协作的VLA：原子动作分配与组合泛化 (MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization)](./ma_vla_multi_arm_vision_language_action_model_for_collaborat_dissection.md)
 - [压碎、涂抹、切片！通过视觉空间进展学习物体状态操作 (Mash, Spread, Slice! Learning to Manipulate Object States via Visual Spatial Progress)](./mash_spread_slice_learning_to_manipulate_object_states_via_v_dissection.md)
 - [评估 VLA 的「记忆」：MIKASA-Robo-VLA 长时序操作基准 (MIKASA-Robo-VLA: Benchmarking Memory in VLA Models for Long-Horizon Manipulation)](./mikasa_robo_vla_benchmarking_memory_in_vla_models_for_long_h_dissection.md)
