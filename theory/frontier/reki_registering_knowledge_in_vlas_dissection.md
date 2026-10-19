@@ -10,7 +10,7 @@
 
 | 维度 | 判断 |
 |------|------|
-| 核心结论 | 论文主张：2.4B、纯公开数据预训练的 REKI，在多个 OOD benchmark 上只被约两倍大小的模型超过；关键是 action expert 内的 register 短时记忆。 |
+| 核心结论 | 论文主张：2.4B、纯公开数据预训练的 REKI 在三项基准上达到性能与规模的 Pareto 前沿；LIBERO-Plus 得分最高，RoboTwin Clean2Rand 和 RoboCasa365 仍有更大模型领先。关键机制是 action expert 内的 register 短时记忆。 |
 | 适合精读 | 做 VLA memory、公开数据预训练、低延迟部署的读者，重点看 §4.1–4.2、§6.2、§A.1。 |
 | 可以跳过 | 只关心通用 VLM 或不碰机器人控制，读摘要与 §1.2 即可。 |
 | 落地可行性 | 中高：论文声称开放全流程与权重，编译后 21.8 ms/chunk；但真实机器人只覆盖 5 个 UR5 任务，长时记忆未验证。 |
@@ -23,9 +23,9 @@ REKI 要解决的是：VLA 只看当前帧，遇到两个看起来都像“该�
 📍 **研究全景时间线**
 
 ```
-2024  π0 / OpenVLA / Octo：VLM + action expert 与开源全流程成为主线
+2024  π0：VLM + action expert 成为主线；OpenVLA 为 VLM 直接输出动作，Octo 为开源通用策略（非 VLM + action expert 架构）
 2025  π0.5 / SmolVLA / RDT-1B：开放权重继续推进；强 VLA 仍常依赖 in-house data（论文 Related work 主张）
-2026  Qwen-RobotManip / InternVLA-A1.5 / REKI：公开数据、记忆、效率同时竞争
+2026  Qwen-RobotManip（in-house data）/ InternVLA-A1.5（视频生成监督、更大 expert）/ REKI（公开数据 + register 记忆 + 效率）
                          ↑ 本文：register memory + 公开数据 Pareto
 ```
 
@@ -43,7 +43,7 @@ REKI 要解决的是：VLA 只看当前帧，遇到两个看起来都像“该�
 | Register memory | M_t 初始化 + E_t + 过去 M | M_t 的 K/V cache | 每帧；滚动保留 K-1 帧 | 训练：每个窗口独立；推理：cache 可跨窗口延续 |
 | Action chunk | vθ 积分 | H × d_a 的动作块 | 1 s chunk；真实机器人 15 Hz、30 steps = 2 s | 训练监督窗口内每帧；推理每 chunk 一次 |
 
-论文的模型拆分为：Qwen3.5-2B VLM + 10 个 block、宽度 768、12 heads、3072 MLP 的 action expert；每帧 32 个 register，记忆窗口 K=3 帧，帧间 stride 1 s。表 4 把规模拆为 VLM 2.2B + expert 0.2B，摘要统称 2.4B。
+论文的模型拆分为：Qwen3.5-2B VLM + 10 个 block、宽度 768、12 heads、3072 MLP 的 action expert；每帧 32 个 register；预训练/主基准窗口为 K=3 帧、1 s stride，真机实验（Table 11）为 K=3 帧、2 s apart。表 4 把规模拆为 VLM 2.2B + expert 0.2B，摘要统称 2.4B。
 
 ### 1.2 关键机制 (Key Mechanism)
 
@@ -109,7 +109,7 @@ A_t^τ ← Attn(A_t^τ; [M_1; ...; M_t; A_t^τ])
 | 符号 | 含义 | 本文取值/说明 |
 |------|------|----------------|
 | t | 决策步 / 帧索引 | 窗口内从 1 到 K |
-| K | 记忆窗口 | 3 帧，1 s stride；推理保留 K-1 个过去帧 |
+| K | 记忆窗口 | 预训练/主基准：3 帧、1 s stride；真机：3 帧、2 s apart；推理保留 K-1 个过去帧 |
 | n_r | 每帧 register 数 | 32 |
 | d_e | action expert 宽度 | 768 |
 | H | action chunk 长度 | 1 s × control freq；真实机器人 30 steps |
@@ -203,22 +203,22 @@ K=3 相对无 registers 的增量 = (22.8 - 22.1) / 22.1 ≈ 3.17%
 | RoboTwin Clean2Rand | 50 个双臂 ALOHA 任务 | 只在 clean 场景微调，测 Easy、Backgd、Light、Clutter、Height、Hard 六条件 | 每任务 20 rollouts；Clean2Rand 为六条件平均 |
 | RoboCasa365 | 50 个目标厨房任务：18 atomic、16 seen composite、16 unseen composite | 在 300 个预训练任务的人类演示上训练，测 50 个目标任务 | 每任务 50 rollouts |
 | RoboCasa-GR1 | 24 个 Fourier GR-1 桌面任务，每任务 1000 个演示 | 微调后评测 | 每任务 50 rollouts |
-| 真实机器人 | UR5 + WSG50，5 个任务（pick/place/stack/sweep） | 每任务 50 个训练 episodes，随机初始位置与 distractors | 每任务 10 个测试 episodes；15 Hz，chunk 30 steps |
+| 真实机器人 | UR5 + WSG50，5 个任务（pick/place/stack/sweep） | 每任务 50 个训练 episodes（Meta Quest controller 采集）；随机初始物体位置与 distractors 施加于每任务 10 个测试 episodes | 每任务 10 个测试 episodes；15 Hz，chunk 30 steps |
 
 ## 6. 能力与失败模式 (Capabilities & Failure Modes)
 
 | 能力 | 论文实测/作者主张 | 条件与边界 |
 |------|------------------|------------|
-| OOD 成功率 | LIBERO-Plus 90.4；RoboTwin Clean2Rand 65.8（RoboCasa365 38.4 为 in-distribution 总平均，非 OOD） | 论文称公开数据组第一；Clean2Rand 65.8 由“领先 ABot-M0 55.7 达 10.1 点”反推，并与表 5 六条件均值一致 |
+| 基准成功率 | LIBERO-Plus 90.4；RoboTwin Clean2Rand 65.8（RoboCasa365 38.4 是包含 16 个训练中未见 composite 任务在内的 Overall Avg；其 unseen composite 子分数为 14.1，不能概括为 in-distribution 总平均或非 OOD） | 论文称公开数据组第一；Clean2Rand 65.8 由“领先 ABot-M0 55.7 达 10.1 点”反推，并与表 5 六条件均值一致 |
 | 记忆收益 | 论文 §6.2 消融口径：3→3 为 90.4 / 73.4 / 38.4；1→1 为 88.9 / 67.9 / 33.0；3→2 为 90.1 / 73.6 / 39.3 | 大部分增益来自第一个过去帧；这组数字不等同于表 5 的 in-distribution RoboTwin 85.9/84.6 |
 | 抑制振荡 | 去掉过去帧，振荡 episode 从 4.1% 升到 14.8%；一个过去帧降到 4.6%；无记忆训练为 18.6%；记忆在无记忆振荡的 seeds 上救回 45% | RoboTwin Clean，50 任务、20 matched seeds；振荡判据在 16/50 任务上设定，另 34 任务确认效果 |
 | 真实机器人 | 长时程任务比无记忆版高 12–17.5 点；比 π0.5 高 7–37.5 点；短时程任务无记忆不降（65 vs 65；57.5 vs 57.5） | 5 个任务、每任务 10 次测试；样本有限 |
-| 推理速度 | 编译后 21.8 ms/chunk；比 X-VLA 25.5、π0.5 33.8、ABot-M0 46.1、InternVLA-A1.5 51.3 更快 | H100、2×256²、10 actions；ABot-M0.5 为 1.4 s/chunk（编译后） |
+| 推理速度 | 编译后 21.8 ms/chunk；比 X-VLA 25.5、π0.5 33.8、ABot-M0 46.1、InternVLA-A1.5 51.3 更快 | H100、2×256²、10 actions；ABot-M0.5 例外：用其 RoboCasa365 权重与自有 LIBERO 设置（输入 two 128×128 images），编译后 1.4 s/chunk |
 
 **失败模式与限制**：
 
 - **RoboTwin in-distribution 不强**：REKI 为 85.9/84.6，低于同规模的 InternVLA-A1.5 93.3/93.0；后者额外用视频生成模型监督、动作专家 24 层（REKI 10 层）且多阶段预训练。
-- **长时记忆未验证**：K=3、1 s stride 只覆盖约 2 秒过去；论文明确说“依赖很久以前事件的任务”仍待测试。
+- **长时记忆未验证**：主基准/预训练窗口为 K=3 帧、1 s stride，覆盖约 2 秒过去；真机实验（Table 11）为 K=3 帧、2 s apart，覆盖约 4 秒；论文明确说“依赖很久以前事件的任务”仍待测试。
 - **记忆不是万灵药**：无记忆会振荡的 seeds 中，记忆只救回 45%；短时程真实任务没有增益。
 - **训练/推理 cache 不一致**：训练窗口独立，推理时第一帧 registers 可能带更早记忆；论文承认这一差异，但未量化其影响。
 - **真实机器人覆盖窄**：只有 UR5、5 个桌面任务、每任务 10 次测试；未验证移动、双臂、人形真实平台。
@@ -259,7 +259,7 @@ K=3 相对无 registers 的增量 = (22.8 - 22.1) / 22.1 ≈ 3.17%
 
 **关键读法**：
 
-- REKI 在公开数据组内是 LIBERO-Plus 与 Clean2Rand 第一；但 in-house 的 Qwen-RobotManip 在 Clean2Rand 的六条件均值更高（68.5 vs 65.8），说明“公开数据 Pareto”不等于“所有模型第一”。
+- REKI 在公开数据组内是 LIBERO-Plus 与 Clean2Rand 第一；但 in-house 的 Qwen-RobotManip 的 Clean2Rand 行（joint-space variant）在其六条件均值上更高（68.5 vs 65.8），说明“公开数据 Pareto”不等于“所有模型第一”。
 - RoboCasa365 上 REKI 38.4，高于 RLDX-1 36.0 与 Qwen-RobotManip 35.9，但低于 Xiaomi-Robotics-1 57.4；后者是更大规模 in-house 数据。
 - RoboCasa-GR1 上 REKI 58.6，与 RLDX-1 58.7、ABot-M0 58.3 基本持平；LIBERO 97.5，处于多数模型 97.6–99.4 的附近。
 - 预训练收益：从 scratch 到预训练，Clean2Rand +13.8，LIBERO-Plus +4.3；在 clutter 与 Hard 条件下增益更大（30.3 / 22.4）。作者主张这体现公开数据预训练主要改善 OOD。
