@@ -24,7 +24,13 @@
 
 🏭 **[行业情报雷达](companies/industry_mainline.md)** · 🆕 每日扫描机器人/具身公司动态（融资 · 产品 · IPO · 合作）→ 现有 DeepSeek 原生搜索、来源审计与官方页面核验后追加到公司档案；周五出[行业判断地图](companies/industry_mainline.md)，原始记录见 [`memory/blog/archives/industry-radar/`](memory/blog/archives/industry-radar)。
 
-## 2026-10-18 内容更新
+## 2026-10-20 内容与检索更新
+
+- **新增深度解析**：[HexaShell](theory/frontier/hexashell_a_thin_harness_for_exploring_the_limits_of_vlm_age_dissection.md) 探查 VLM 编码 agent 控制机器人的能力边界；[VLDA](theory/frontier/vision_language_delta_action_learning_compact_deltas_as_acti_dissection.md) 讨论紧凑状态增量如何连接观测与动作。两篇均按已核查原文解读，实验设置与适用边界见正文。
+- **历史稿件补录**：[CFG-Policy](theory/diffusion-flow/cfg_policy_unified_diffusion_policy_learning_framework_via_c_dissection.md) 为 10 月 15 日生成、10 月 20 日重新核查后发布的稿件；[NativeMEM](theory/planning/nativemem_native_memory_compression_for_long_horizon_robotic_dissection.md) 保留已有发布版。补录日期不当作论文首发日期。
+- **永久正文检索上线**：维护服务器每 15 分钟核对 GitHub 已发布版本，更新 VLA 与 Spatial 的本地全文索引；原近 60 日情报索引继续保留。生成与核验沿用现有 DeepSeek，索引不调用模型 API、不使用 OpenRouter。
+
+### 2026-10-18 内容更新
 
 - **触觉 VLA**：[VLA-Touch](theory/tactile/vla_touch_dual_level_tactile_feedback_2025.md) 与 [N0-VTLA](theory/tactile/n0_vtla_latent_tactile_tokens_2026.md) 补入深度解读；训练范围、实验口径及论文／仓库版本差异分别说明。
 - **旧文校正与去重**：[StaMo](theory/frontier/stamo_unsupervised_learning_of_generalizable_robot_motion_fr_dissection.md)、[Embodied-R1.5](theory/foundation/embodied_r15_evolving_physical_intelligence_via_embodied_fou_dissection.md) 合并同论文重复稿；[GR00T-N1.6](theory/vla-core/gr00t_n1_6.md) 按固定官方模型卡重建，未获支持的频率和参数不再作为事实。
@@ -39,9 +45,9 @@
 VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue 和论文附录里。
 这个 Handbook 做一件事：**整理从论文到复现的入口、参数口径与部署经验，并标出来源、未验证项和适用边界。**
 
-> **747 篇理论文档**（10 个主题目录） · 中英文社区实战笔记 · GitHub Issues 工程经验 · **18 份双周前沿报告 + 15 份反思** · 行业情报雷达 · 固定排程采集、评分与深度解析
+> **754 篇理论文档**（10 个主题目录） · 中英文社区实战笔记 · GitHub Issues 工程经验 · **18 份双周前沿报告 + 15 份反思** · 行业情报雷达 · 固定排程采集、评分与深度解析
 >
-> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-18；双周报告与反思按各自文件计数，不表示每期均已配对。
+> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-20；双周报告与反思按各自文件计数，不表示每期均已配对。
 
 ---
 
@@ -156,10 +162,12 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 | 🔬 理论深度解析 | 非周五：12:30、13:15、14:00、15:30、16:30；周五：19:20、19:40、20:20、21:00、21:40 | [理论目录](theory/README.md) |
 | 📋 周度深度分析 | 每周五 16:30 | [周度归档](reports/weekly/README.md) |
 | 📊 双周报告 / 反思 | 每 14 天，独立排程 | [双周归档](reports/biweekly/README.md) |
-| 🧭 本地检索 / 网站同步 | 每日 17:15 / 18:00 | [GitHub 理论目录](theory/README.md) · [PULSAR](https://sou350121.github.io/pulsar-web/) |
+| 🧭 近况索引 / 网站同步 | 每日 17:15 / 18:00 | [GitHub 理论目录](theory/README.md) · [PULSAR](https://sou350121.github.io/pulsar-web/) |
+| 🔎 已发布版本与全文索引 | 每小时 07、22、37、52 分 | 维护服务器本地检索；覆盖两本 Handbook 的已发布正文 |
+| 🛠️ 服务器巡检 / 运维快照 | 巡检每小时 07、22、37、52 分及每日 18:45；快照每周日 06:05 | GitHub Issues 故障通知；快照后立即隔离还原核验 |
 | 🏭 行业雷达 / 主线 | 每日 22:30 / 每周五 23:00 | [公司档案](companies/README.md) · [行业日档](memory/blog/archives/industry-radar/) |
 
-时间表示触发计划，不保证该时刻已完成或有新文章。来源不足、核查失败与部分覆盖会保留状态，不能当作完整成功；计划核对日期为 2026-10-18。
+时间表示触发计划，不保证该时刻已完成或有新文章。来源不足、核查失败与部分覆盖会保留状态，不能当作完整成功；计划核对日期为 2026-10-20。
 
 ---
 
@@ -167,7 +175,7 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 
 | 目录 | 内容 |
 |------|------|
-| [`theory/`](theory/) | 747 篇理论文档：vla-core 175 · foundation 88 · world-model 100 · planning 73 · tactile 66 · frontier 85 · diffusion-flow 48 · deployment 47 · rl 41 · perception 24 |
+| [`theory/`](theory/) | 754 篇理论文档：vla-core 177 · foundation 88 · world-model 100 · planning 74 · tactile 66 · frontier 88 · diffusion-flow 49 · deployment 47 · rl 41 · perception 24 |
 | [`deployment/`](deployment/) | 真机部署：硬件选型 · 多模态同步 · Sim-to-Real + 三份社区实战笔记 |
 | [`reports/biweekly/`](reports/biweekly/) | 18 份双周报告 + 15 份反思（按文件分别计数）|
 | [`reports/weekly/`](reports/weekly/) | 周度分析 + 每日 digest + SOTA + 风向洞察 |
@@ -247,7 +255,11 @@ VLA 论文每天几十篇，真正能用的工程细节零散在 GitHub Issue �
 
 VLA Handbook 的自动采集、评分、深度解读与报告由 [照见 Pulsar](https://github.com/sou350121/Pulsar-KenVersion) 的固定管线运行，生成与搜索沿用现有 DeepSeek。先核来源、版本及主张，再决定是否发布；不能把自动生成等同于实验复现。
 
-- **固定排程与验收**：服务器检查实际收据与产物；故障沿用 GitHub Issues 通知，不依赖编辑器常开。
+- **固定排程与验收**：服务器检查实际收据与产物，漏跑沿用现有有界补救；故障通过 GitHub Issues 通知，不需要电脑或 Codex 常开，不使用 Telegram。
+- **三种阅读入口**：GitHub 提供目录与仓库搜索；PULSAR 网站每日 18:00 同步；维护服务器提供独立永久正文检索和原有近 60 日情报检索。晚间新稿先随定期刷新进入本地全文索引，网站在下一次同步更新。
+- **已发布版本才入库**：永久全文索引跟踪已发布 Git 版本，保留文件路径和版本引用，不把草稿当成已发布资料。网站验收同时核对来源清单、逐篇 Git blob 与公开 RSS。
+- **来源缺口保持可见**：截至 2026-10-20 最近完整行业实跑覆盖 28/33 家、RSS 7/7；Robot Era、Tesla Optimus、Astribot、Sanctuary AI、Covariant 仍保留来源核验告警，不降低核验标准。
+- **备份范围**：每周保存运维程序与排程快照并做隔离还原；备份保留在同一台服务器，尚不属于异地备份。
 - **可追溯内容**：论文与代码版本、来源日期、历史补录和未验证项分开标记；双周判断可回查报告及反思文件。
 - **保护既有正文**：受管目录由固定程序维护；人工正文与旧文替换遵循 [AGENTS.md](AGENTS.md) 及维护者的具体授权。
 
