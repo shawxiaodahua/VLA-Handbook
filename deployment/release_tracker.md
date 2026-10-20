@@ -266,3 +266,4 @@
 | 2026-10-13 | Physical Intelligence | product | Physical Intelligence 于 2026 年 10 月 13 日发布 Pi API 测试版，开发者可上传数据、微调其机器人基础模型，并通过托管网关在自有机器人上运行云端推理。 | ⚡ | news | https://www.pi.website/blog/api-beta |
 | 2026-10-19 | Xpeng Robotics | product | 小鹏在巴黎车展期间披露，其机器人生产线已正式启用，计划2026年底实现量产，并在2027年上半年开启交付。 | ⚡ | news | https://www.xiaopeng.com/news/company_news/5602.html |
 | 2026-10-08 | NVIDIA Robotics | product | NVIDIA技术博客发布五步工作流，借助Omniverse库、SimReady Foundation规范和agentic NVIDIA skills，将CAD资产转换为可用于机器人仿真的OpenUSD资产，并以ABB YuMi机器人为例演示。 | 🔧 | news | https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/ |
+| 2026-10-09 | Robot Era | product | 星动纪元宣布，其世界动作模型VPP2在RoboDojo仿真评测中以平均成功率32.26%、平均得分39.26分位列榜首，并称在泛化、精细操作、记忆三项居首；公司同时提供代码与项目主页开源入口。上述结果均为公司自述。 | 🔧 | news | https://mp.weixin.qq.com/s/O7lLsBYDxrHsVhrLk0n67g |
