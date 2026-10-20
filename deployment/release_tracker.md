@@ -263,3 +263,6 @@
 | 2026-10-07 | OmniGibson | sim | v3.9.3-post2 released |  | github_release | https://github.com/StanfordVL/BEHAVIOR-1K/releases/tag/v3.9.3-post2 |
 | 2026-10-11 | Genesis | sim | v1.4.4 released |  | github_release | https://github.com/Genesis-Embodied-AI/genesis-world/releases/tag/v1.4.4 |
 | 2026-10-14 | MuJoCo | sim | 3.16.0 released |  | github_release | https://github.com/google-deepmind/mujoco/releases/tag/3.16.0 |
+| 2026-10-13 | Physical Intelligence | product | Physical Intelligence 于 2026 年 10 月 13 日发布 Pi API 测试版，开发者可上传数据、微调其机器人基础模型，并通过托管网关在自有机器人上运行云端推理。 | ⚡ | news | https://www.pi.website/blog/api-beta |
+| 2026-10-19 | Xpeng Robotics | product | 小鹏在巴黎车展期间披露，其机器人生产线已正式启用，计划2026年底实现量产，并在2027年上半年开启交付。 | ⚡ | news | https://www.xiaopeng.com/news/company_news/5602.html |
+| 2026-10-08 | NVIDIA Robotics | product | NVIDIA技术博客发布五步工作流，借助Omniverse库、SimReady Foundation规范和agentic NVIDIA skills，将CAD资产转换为可用于机器人仿真的OpenUSD资产，并以ABB YuMi机器人为例演示。 | 🔧 | news | https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/ |

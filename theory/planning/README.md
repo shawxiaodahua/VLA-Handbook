@@ -94,7 +94,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 73 份文档。**
+**共 74 份文档。**
 
 - [分层时空动作分词器：上下文模仿学习的新范式 (HiST-AT: A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning)](./a_hierarchical_spatiotemporal_action_tokenizer_for_in_contex_dissection.md)
 - [弹性视觉智能体的架构模式语言 (A Pattern Language for Resilient Visual Agents)](./a_pattern_language_for_resilient_visual_agents_dissection.md)
@@ -141,6 +141,7 @@
 - [MolmoAct2：面向真实世界部署的动作推理模型 (MolmoAct2: Action Reasoning Models for Real-world Deployment)](./molmoact2_action_reasoning_models_for_real_world_deployment_dissection.md)
 - [运动规划 (Motion Planning)](./motion_planning.md)
 - [MotionForge：动态物体长时程操作的域偏移评测基准与数据生成管线 (MotionForge: A Data Generation Pipeline and Large-Scale Benchmark for Long-Horizon Manipulation of Dynamic Objects with Domain Shifts)](./motionforge_a_data_generation_pipeline_and_large_scale_bench_dissection.md)
+- [NativeMEM：把长程视觉历史压进 VLA 原生 Token 空间 (Native Memory Compression for Long-Horizon Robotic Manipulation)](./nativemem_native_memory_compression_for_long_horizon_robotic_dissection.md)
 - [开环规划，闭环验证：VLA 的推测验证框架 (Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA)](./open_loop_planning_closed_loop_verification_speculative_veri_dissection.md)
 - [Orion-Lite：将 LLM 推理能力蒸馏至高效纯视觉驾驶模型 (Orion-Lite: Distilling LLM Reasoning into Efficient Vision-Only Driving Models)](./orion_lite_distilling_llm_reasoning_into_efficient_vision_on_dissection.md)
 - [PRTS：基于对比表示的基元推理与任务系统 (PRTS: A Primitive Reasoning and Tasking System via Contrastive Representations)](./prts_a_primitive_reasoning_and_tasking_system_via_contrastiv_dissection.md)

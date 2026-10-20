@@ -376,3 +376,6 @@ FastUMI Pro 是从学术界 FastUMI 升级而来的工业级、无本体数据�
 | 2026-08-25 | ⚡ | Astribot | 天眼查及财经信源确认星尘智能已于2026年7月完成股份制改造，并于8月25日前完成B轮融资，金额超10亿元人民币。 | 为后续IPO铺平制度路径，显著增强资本实力以支撑T1量产、AOS生态建设及商业场景扩张。 | [来源](http://www.cb.com.cn/index/show/jr/cv/cv135268782428) |
 | 2026-09-09 | 🔧 | Unitree | 宇树科技（Unitree）股价自 IPO 后下跌 53%，市值回调。 | 反映资本市场对高估值机器人初创公司的重新评估，或受宏观/行业情绪影响。 | [来源](https://www.therobotreport.com/unitree-shares-down-53-from-ipo-debut/) |
 | 2026-09-09 | 🔧 | Agibot | 智元机器人（AGIBOT）将在 RoboBusiness 分享人形机器人从实验室到现实世界的规模化方案。 | 展示中国头部人形机器人公司在商业化落地和开发者生态建设方面的进展。 | [来源](https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/) |
+| 2026-10-09 | ⚡ | Agibot | 智元机器人于2026年10月9日在香港铜锣湾时代广场开设香港办公室，用于支持商业合作、机器人实际应用以及与高校和研究机构的合作。 | 公司称该办公室将使其更贴近海外市场的企业和研究伙伴，帮助在更多真实场景部署机器人，并加强国际研究、人才培养与产业合作；香港政府官员出席开业仪式。 | [来源](https://www.agibot.com/article/231/detail/127.html) |
+| 2026-10-16 | 🔧 | Deep Robotics | 2026世界人工智能开源大赛总决赛于9月22日至23日在杭州收官，云深处科技作为“具身未来”赛道“产业园区全地形巡逻挑战赛”赛题承办方，提供山猫S10轮足机器人硬件设备与全套核心技术支撑。 | 赛事成果验证了山猫S10在复杂户外、园区全地形巡逻场景的适配性与应用潜力，并为具身智能算法迭代与生态交流搭建平台。 | [来源](https://www.deeprobotics.cn/robot/index/article/id/299.html) |
+| 2026-10-19 | ⚡ | Xpeng Robotics | 小鹏在巴黎车展期间披露，其机器人生产线已正式启用，计划2026年底实现量产，并在2027年上半年开启交付。 | 这是公司对人形机器人量产与交付节奏的公开计划，若按期推进，将标志其具身智能产品从产线走向商业化交付；具体进度仍取决于后续执行。 | [来源](https://www.xiaopeng.com/news/company_news/5602.html) |
