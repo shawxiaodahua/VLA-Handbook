@@ -635,6 +635,8 @@
 | Human Demonstrations as Post-Training Data for Any Robot Body: Retargeting the Object, Not the Hand | [link](https://tldr.takara.ai/p/2610.20351) | [VLA后训] 🔧 daily 2026-10-16 |
 | EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training | [link](https://arxiv.org/abs/2604.20012) | 🔧 daily 2026-10-17 |
 | MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.22951) | 🔧 daily 2026-10-19 |
+| Relational Spatial Alignment for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.24705) | 🔧 daily 2026-10-20 |
+| AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.23880) | [VLA后训] 🔧 daily 2026-10-20 |
 
 ### 動作生成
 
@@ -679,6 +681,8 @@
 | ACCRUE: Continual Off-Policy Reinforcement Learning for Robot Foundation Models | [link](https://tldr.takara.ai/p/2610.18596) | [RL] 🔧 daily 2026-10-15 |
 | Fast-VLA: You Only Think Once for Robot Manipulation | [link](https://arxiv.org/abs/2610.21389) | 🔧 daily 2026-10-16 |
 | Embodiment-Classifier Guidance: Transferring Frozen VLAs Across Robot Dynamics without Demonstrations | [link](https://arxiv.org/abs/2610.22576) | 🔧 daily 2026-10-19 |
+| Dream What I Can: Sparse Visual Planning for Long-Horizon Robot Manipulation | [link](https://arxiv.org/abs/2610.24981) | 🔧 daily 2026-10-20 |
+| Retrieval-triggered Action Projection Adjustment for Frozen VLA Policies: An Empirical Study and Failure Analysis | [link](https://arxiv.org/abs/2610.24573) | 🔧 daily 2026-10-20 |
 
 ### 數據
 
@@ -730,6 +734,7 @@
 | Spark-0: Scaling Spatially Aligned Tactile Pretraining for Robot Dexterous Manipulation | [link](https://arxiv.org/abs/2610.22342) | 🎯 tactile \| 🔧 daily 2026-10-16 |
 | N0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens | [论文 v1](https://arxiv.org/abs/2607.23782v1) | 🎯 tactile \| 🔧 补录 2026-10-18 \| [深度解读](../tactile/n0_vtla_latent_tactile_tokens_2026.md) |
 | Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation | [link](https://arxiv.org/abs/2610.22932) | 🎯 tactile \| 🔧 daily 2026-10-19 |
+| Touch Where It Matters: Learning Local Tactile Policies for Fine-Grained Gripper Control | [link](https://arxiv.org/abs/2610.24485) | 🎯 tactile \| 🔧 daily 2026-10-20 |
 
 ### 其他
 
