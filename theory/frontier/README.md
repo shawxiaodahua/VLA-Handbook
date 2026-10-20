@@ -51,7 +51,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 86 份文档。**
+**共 88 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -95,6 +95,7 @@
 - [GuidedAttention：可解释可纠正的视觉注意力，提升 OOD 鲁棒的模仿学习 (GuidedAttention: Interpretable and Correctable Visual Attention for OOD-Robust Robot Manipulation via Imitation Learning)](./guidedattention_interpretable_and_correctable_visual_attenti_dissection.md)
 - [手物交互多视角联合生成：HarmoHOI (Harmonizing Appearance and 3D Motion for Multi-view Hand-Object Interaction Synthesis)](./harmohoi_harmonizing_appearance_and_3d_motion_for_multi_view_dissection.md)
 - [基于轨迹分割的人类高效大规模机器人后训练框架 (HELP: Human-Efficient Large-Scale Robot Post-Training with Rollout Segmentation)](./help_human_efficient_large_scale_robot_post_training_with_ro_dissection.md)
+- [HexaShell：用薄封装探测 VLM 编码 Agent 作为机器人编码 Agent 的上限 (HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents)](./hexashell_a_thin_harness_for_exploring_the_limits_of_vlm_age_dissection.md)
 - [人即人形：从主客体人类视频中零样本学习人形机器人控制 (Human-as-Humanoid: Enabling Zero-Shot Humanoid Learning from Ego-Exo Human Videos with Human-Aligned Embodiments)](./human_as_humanoid_enabling_zero_shot_humanoid_learning_from_dissection.md)
 - [HumanEgo：用几分钟人类第一视角视频零样本学出机器人操作策略 (HumanEgo: Zero-Shot Robot Learning from Minutes of Human Egocentric Videos)](./humanego_zero_shot_robot_learning_from_minutes_of_human_egoc_dissection.md)
 - [IGen: 从开放世界图像可扩展生成机器人学习数据 (IGen: Scalable Data Generation for Robot Learning from Open-World Images)](./igen_scalable_data_generation_for_robot_learning_from_open_w_dissection.md)
@@ -131,6 +132,7 @@
 - [用「可实现转移」打通预测、记忆与动作：UniMPA 深度拆解 (UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling)](./unimpa_a_unified_memory_prediction_action_model_via_action_g_dissection.md)
 - [USER：面向真实世界在线策略学习的统一可扩展系统 (USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI)](./user_a_unified_and_extensible_system_for_real_world_online_p_dissection.md)
 - [从视频到形式化规范：Video2STL 如何把「看会的动作」变成可训练的信号 (Video2STL: Grounding VLM-Generated Temporal Specifications for Robot Learning)](./video2stl_grounding_vlm_generated_temporal_specifications_fo_dissection.md)
+- [Vision-Language-Delta-Action：把紧凑 Delta 作为可操作的状态转移接口 (Vision-Language-Delta-Action: Learning Compact Deltas as Actionable Transition Interfaces for Robotic Manipulation)](./vision_language_delta_action_learning_compact_deltas_as_acti_dissection.md)
 - [显式动作空间接地：让预训练 VLM 原生成为机械臂动作模型 (VLMs are Native Action Models: Unleashing the Manipulation Capabilities of VLMs with Explicit Action-Space Grounding)](./vlms_are_native_action_models_unleashing_the_manipulation_ca_dissection.md)
 - [什么在何时重要？诊断与改进视觉运动模仿策略中的条件视觉定位 (What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies)](./what_matters_when_diagnosing_and_improving_conditional_visua_dissection.md)
 - [为什么动作分块能提升行为克隆的性能？(Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?)](./why_does_action_chunking_improve_behavioral_cloning_performa_dissection.md)
