@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 47 份文档。**
+**共 48 份文档。**
 
 - [AEGIS：物理 AI 的備份反射機制 (A Backup Reflex for Physical AI)](./aegis_a_backup_reflex_for_physical_ai_dissection.md)
 - [AnyViewDex：純 RGB 觀測下的視角不變靈巧操作 (AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations)](./anyviewdex_view_invariant_dexterous_manipulation_from_rgb_ob_dissection.md)
@@ -118,6 +118,7 @@
 - [机械臂运动学、动力学与控制 (Robot Arm Kinematics, Dynamics &amp; Control)](./robot_control.md)
 - [机器人动力学系统分类 (Classification of Robot Dynamical Systems)](./robot_dynamics_classification.md)
 - [机器人“开源基建”三分法：成果展示 / 生态绑定 / 基础设施（以 RoboParty Roboto\_Origin 为例）](./robotics_open_source_infrastructure.md)
+- [T(R,O) Grasp++：杂乱场景下的跨本体灵巧抓取规模化 (T(R,O) Grasp++: Cross-Embodiment Dexterous Grasping in Cluttered Environments at Scale)](./t_grasp_cross_embodiment_dexterous_grasping_in_cluttered_env_dissection.md)
 - [无需微调部署 VLA：即插即用推理时策略引导 (Towards Deploying VLA without Fine-Tuning: Plug-and-Play Inference-Time VLA Policy Steering via Embodied Evolutionary Diffusion)](./towards_deploying_vla_without_fine_tuning_plug_and_play_infe_dissection.md)
 - [高自由度灵巧手的 VLA 后训练四段式流程 (Towards High-DoF Dexterous Manipulation through VLA Post-Training)](./towards_high_dof_dexterous_manipulation_through_vla_post_tra_dissection.md)
 - [VisForce：以視覺接地當前與期望力，實現目標條件式靈巧操作 (VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation)](./visforce_visual_grounding_of_current_and_desired_forces_for_dissection.md)
