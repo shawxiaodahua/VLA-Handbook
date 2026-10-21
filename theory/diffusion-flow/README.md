@@ -64,7 +64,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 48 份文档。**
+**共 49 份文档。**
 
 - [动作生成范式详解 (Action Representations &amp; Generation)](./action_representations.md)
 - [动作到动作流匹配 (Action-to-Action Flow Matching)](./action_to_action_flow_matching_dissection.md)
@@ -73,6 +73,7 @@
 - [AsyncVLA：异步流匹配视觉-语言-动作模型 (AsyncVLA: Asynchronous Flow Matching for Vision-Language-Action Models)](./asyncvla_asynchronous_flow_matching_for_vision_language_acti_dissection.md)
 - [分块自适应缓存加速扩散策略 (Block-wise Adaptive Caching for Accelerating Diffusion Policy)](./block_wise_adaptive_caching_for_accelerating_diffusion_polic_dissection.md)
 - [CF-VLA：高效粗到细动作生成 (CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies)](./cf_vla_efficient_coarse_to_fine_action_generation_for_vision_dissection.md)
+- [CFG-Policy：用 Classifier-free Guidance 统一扩散策略的采样、探索与 RL 微调 (CFG-Policy: Unified Diffusion Policy Learning Framework via Classifier-free Guidance)](./cfg_policy_unified_diffusion_policy_learning_framework_via_c_dissection.md)
 - [瓶颈定位：VLA 模型动作生成的边缘架构困境 (Characterizing VLA Models: Identifying the Action Generation Bottleneck for Edge AI Architectures)](./characterizing_vla_models_identifying_the_action_generation_dissection.md)
 - [闭环动作块动态校正：训练-free 扩散策略实时适应 (Closed-Loop Action Chunks with Dynamic Corrections for Training-Free Diffusion Policy)](./closed_loop_action_chunks_with_dynamic_corrections_for_train_dissection.md)
 - [CoMo：从互联网视频学习连续潜在运动 (CoMo: Learning Continuous Latent Motion from Internet Videos for Scalable Robot Learning)](./como_learning_continuous_latent_motion_from_internet_videos_dissection.md)
