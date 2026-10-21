@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 177 份文档。**
+**共 178 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -120,6 +120,7 @@
 - [ACT: 动作分块变换器 (Action Chunking with Transformers)](./act.md)
 - [ActionGround：冻结 VLA 策略的免训练运行时精炼 (ActionGround: Training-Free Runtime Refinement of Frozen VLA Policies)](./actionground_training_free_runtime_refinement_of_frozen_vla_dissection.md)
 - [ActionPiece：重新思考自回归 VLA 的动作分词 (ActionPiece: Rethinking Action Tokenization for Autoregressive Vision-Language-Action Models)](./actionpiece_rethinking_action_tokenization_for_autoregressiv_dissection.md)
+- [异步 VLA 如何让无人机在推理延迟中继续飞：AeroDASH 精读 (AeroDASH: Asynchronous Vision-Language-Action Control for Continuous UAV Flight)](./aerodash_asynchronous_vision_language_action_control_for_con_dissection.md)
 - [ALAM: 代数一致潜在动作模型 (Algebraically Consistent Latent Action Model for Vision-Language-Action Models)](./alam_algebraically_consistent_latent_action_model_for_vision_dissection.md)
 - [闭环崩塌解剖学：一次压缩 VLA 策略的因果个案研究 (Anatomy of a Closed-Loop Collapse: A Causal Case Study of a Compressed VLA Policy)](./anatomy_of_a_closed_loop_collapse_a_causal_case_study_of_a_c_dissection.md)
 - [AnySlot：零样本槽位级放置的目标条件 VLA (Goal-Conditioned Vision-Language-Action Policies for Zero-Shot Slot-Level Placement)](./anyslot_goal_conditioned_vision_language_action_policies_for_dissection.md)
