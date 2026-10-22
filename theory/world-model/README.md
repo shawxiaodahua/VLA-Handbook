@@ -88,7 +88,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 102 份文档。**
+**共 103 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -143,6 +143,7 @@
 - [MIND-V：分层世界模型与RL物理对齐的长程机械操作 (MIND-V: Hierarchical World Model for Long-Horizon Robotic Manipulation with RL-based Physical Alignment)](./mind_v_hierarchical_world_model_for_long_horizon_robotic_man_dissection.md)
 - [MotionWAM：迈向实时人形机器人世界动作模型 (MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation)](./motionwam_towards_foundation_world_action_models_for_real_ti_dissection.md)
 - [MotuBrain：面向机器人控制的世界-动作统一生成模型 (MotuBrain: An Advanced World Action Model for Robot Control)](./motubrain_an_advanced_world_action_model_for_robot_control_dissection.md)
+- [μ0：可扩展的 3D 交互痕迹世界模型（$\\mu\_0$: A Scalable 3D Interaction-Trace World Model）](./mu0_a_scalable_3d_interaction_trace_world_model_dissection.md)
 - [Olaf-World：面向视频世界建模的潜在动作定向 (Olaf-World: Orienting Latent Actions for Video World Modeling)](./olaf_world_orienting_latent_actions_for_video_world_modeling_dissection.md)
 - [1X World Model（1XWM）：把“视频世界模型”用在人形 NEO 上](./one_x_world_model.md)
 - [基于本体 grounding 的世界模型：物理 AI 系统的故障诊断与闭环修复 (Ontology-Grounded World Models for Failure Diagnosis and Closed-Loop Repair in Physical AI Systems)](./ontology_grounded_world_models_for_failure_diagnosis_and_clo_dissection.md)
