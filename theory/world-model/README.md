@@ -88,7 +88,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 101 份文档。**
+**共 103 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -143,6 +143,7 @@
 - [MIND-V：分层世界模型与RL物理对齐的长程机械操作 (MIND-V: Hierarchical World Model for Long-Horizon Robotic Manipulation with RL-based Physical Alignment)](./mind_v_hierarchical_world_model_for_long_horizon_robotic_man_dissection.md)
 - [MotionWAM：迈向实时人形机器人世界动作模型 (MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation)](./motionwam_towards_foundation_world_action_models_for_real_ti_dissection.md)
 - [MotuBrain：面向机器人控制的世界-动作统一生成模型 (MotuBrain: An Advanced World Action Model for Robot Control)](./motubrain_an_advanced_world_action_model_for_robot_control_dissection.md)
+- [μ0：可扩展的 3D 交互痕迹世界模型（$\\mu\_0$: A Scalable 3D Interaction-Trace World Model）](./mu0_a_scalable_3d_interaction_trace_world_model_dissection.md)
 - [Olaf-World：面向视频世界建模的潜在动作定向 (Olaf-World: Orienting Latent Actions for Video World Modeling)](./olaf_world_orienting_latent_actions_for_video_world_modeling_dissection.md)
 - [1X World Model（1XWM）：把“视频世界模型”用在人形 NEO 上](./one_x_world_model.md)
 - [基于本体 grounding 的世界模型：物理 AI 系统的故障诊断与闭环修复 (Ontology-Grounded World Models for Failure Diagnosis and Closed-Loop Repair in Physical AI Systems)](./ontology_grounded_world_models_for_failure_diagnosis_and_clo_dissection.md)
@@ -170,6 +171,7 @@
 - [潛在世界模型的規劃極限 (The Planning Limits of Latent World Models)](./the_planning_limits_of_latent_world_models_dissection.md)
 - [迈向统一机器人学习：桥接表示、VLA 与世界模型 (Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models)](./toward_unified_robot_learning_bridging_representation_vision_dissection.md)
 - [TS-WAM：时间潜在动作与世界-动作耦合的视觉语言机器人控制 (TS-WAM: Temporal Latent Actions and World-Action Coupling for Vision-Language Robot Control)](./ts_wam_temporal_latent_actions_and_world_action_coupling_for_dissection.md)
+- [UniWALM：把语言变成世界-动作模型的工作记忆 (UniWALM: Unified World Action Language Model for Embodied Robot Control)](./uniwalm_unified_world_action_language_model_for_embodied_rob_dissection.md)
 - [统一世界-动作模型：把「懂物理」和「会推理」焊进同一条 Transformer (UniWAM: Unified World-Action Model)](./uniwam_unified_world_action_model_dissection.md)
 - [Vector-Quantized World Model：用控制器可达性做离散 latent 规划的机器人操作框架 (Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation)](./vector_quantized_world_model_latent_feedback_motion_planning_dissection.md)
 - [VeriVLA：基于潜世界模型的自适应测试时验证，用于流式 VLA (VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models)](./verivla_adaptive_test_time_verification_for_flow_based_vlas_dissection.md)

@@ -683,6 +683,8 @@
 | Embodiment-Classifier Guidance: Transferring Frozen VLAs Across Robot Dynamics without Demonstrations | [link](https://arxiv.org/abs/2610.22576) | 🔧 daily 2026-10-19 |
 | Dream What I Can: Sparse Visual Planning for Long-Horizon Robot Manipulation | [link](https://arxiv.org/abs/2610.24981) | 🔧 daily 2026-10-20 |
 | Retrieval-triggered Action Projection Adjustment for Frozen VLA Policies: An Empirical Study and Failure Analysis | [link](https://arxiv.org/abs/2610.24573) | 🔧 daily 2026-10-20 |
+| Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos | [link](https://arxiv.org/abs/2610.29716) | 🔧 daily 2026-10-22 |
+| SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training | [link](https://arxiv.org/abs/2610.29161) | [VLA后训] 🔧 daily 2026-10-22 |
 
 ### 數據
 
@@ -735,6 +737,9 @@
 | N0-VTLA: Scaling Vision-Tactile-Language-Action Model with Latent Tactile Tokens | [论文 v1](https://arxiv.org/abs/2607.23782v1) | 🎯 tactile \| 🔧 补录 2026-10-18 \| [深度解读](../tactile/n0_vtla_latent_tactile_tokens_2026.md) |
 | Ego2Contact: Predicting Touch from Egocentric Human Video for Contact-Rich Robot Manipulation | [link](https://arxiv.org/abs/2610.22932) | 🎯 tactile \| 🔧 daily 2026-10-19 |
 | Touch Where It Matters: Learning Local Tactile Policies for Fine-Grained Gripper Control | [link](https://arxiv.org/abs/2610.24485) | 🎯 tactile \| 🔧 daily 2026-10-20 |
+| Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation | [link](https://arxiv.org/abs/2606.06281) | 🎯 tactile \| 🔧 daily 2026-10-22 |
+| Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation | [link](https://arxiv.org/abs/2610.29264) | 🎯 tactile \| 🔧 daily 2026-10-22 |
+| T-WLA: Bridging Slow Vision and Fast Touch | [link](https://arxiv.org/abs/2610.28814) | 🎯 tactile \| 🔧 daily 2026-10-22 |
 
 ### 其他
 

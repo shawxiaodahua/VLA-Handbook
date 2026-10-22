@@ -51,7 +51,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 88 份文档。**
+**共 89 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -71,6 +71,7 @@
 - [CoRDE：概念先验路由扩散专家 (Concept-Prior Routed Diffusion Experts for Structural Generalization in Robot Manipulation)](./corde_concept_prior_routed_diffusion_experts_for_structural_dissection.md)
 - [反事实行为克隆：从不完美人类演示中进行离线模仿学习 (Counterfactual Behavior Cloning: Offline Imitation Learning from Imperfect Human Demonstrations)](./counterfactual_behavior_cloning_offline_imitation_learning_f_dissection.md)
 - [cuRoboV2：高自由度机器人的动力学感知运动生成 (cuRoboV2: Dynamics-Aware Motion Generation with Depth-Fused Distance Fields for High-DoF Robots)](./curobov2_dynamics_aware_motion_generation_with_depth_fused_d_dissection.md)
+- [DEFLECT：用时间反事实偏好学习训练抗延迟的异步 VLA](./deflect_temporal_counterfactual_preference_learning_for_dela_dissection.md)
 - [Déjà Vu：具身智能的经验反馈学习框架 (Dejavu: Towards Experience Feedback Learning for Embodied Intelligence)](./dejavu_towards_experience_feedback_learning_for_embodied_int_dissection.md)
 - [DeltaWAM：以 Delta Token 為單位的變更中心世界動作模型 (DeltaWAM: Change-Centric Visual Foresight via Delta Tokens for an Efficient World-Action Model)](./deltawam_change_centric_visual_foresight_via_delta_tokens_fo_dissection.md)
 - [DetAug：面向零样本避障的「障碍盲」轨迹增强 (Obstacle-Blind Trajectory Augmentation for Zero-shot Obstacle Avoidance)](./detaug_obstacle_blind_trajectory_augmentation_for_zero_shot_dissection.md)
