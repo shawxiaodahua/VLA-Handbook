@@ -637,6 +637,8 @@
 | MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.22951) | 🔧 daily 2026-10-19 |
 | Relational Spatial Alignment for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.24705) | 🔧 daily 2026-10-20 |
 | AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.23880) | [VLA后训] 🔧 daily 2026-10-20 |
+| Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models | [link](https://arxiv.org/abs/2602.12628) | [RL] 🔧 daily 2026-10-23 |
+| Progress Probes $P^2$: Lightweight Runtime Monitoring for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.31613) | 🔧 daily 2026-10-23 |
 
 ### 動作生成
 
@@ -685,6 +687,8 @@
 | Retrieval-triggered Action Projection Adjustment for Frozen VLA Policies: An Empirical Study and Failure Analysis | [link](https://arxiv.org/abs/2610.24573) | 🔧 daily 2026-10-20 |
 | Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos | [link](https://arxiv.org/abs/2610.29716) | 🔧 daily 2026-10-22 |
 | SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training | [link](https://arxiv.org/abs/2610.29161) | [VLA后训] 🔧 daily 2026-10-22 |
+| FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.31427) | 🔧 daily 2026-10-23 |
+| When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies | [link](https://arxiv.org/abs/2610.30735) | 🔧 daily 2026-10-23 |
 
 ### 數據
 
