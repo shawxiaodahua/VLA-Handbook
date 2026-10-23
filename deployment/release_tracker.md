@@ -267,3 +267,6 @@
 | 2026-10-19 | Xpeng Robotics | product | 小鹏在巴黎车展期间披露，其机器人生产线已正式启用，计划2026年底实现量产，并在2027年上半年开启交付。 | ⚡ | news | https://www.xiaopeng.com/news/company_news/5602.html |
 | 2026-10-08 | NVIDIA Robotics | product | NVIDIA技术博客发布五步工作流，借助Omniverse库、SimReady Foundation规范和agentic NVIDIA skills，将CAD资产转换为可用于机器人仿真的OpenUSD资产，并以ABB YuMi机器人为例演示。 | 🔧 | news | https://developer.nvidia.com/blog/5-steps-to-create-simready-assets-for-robotics-with-frontier-ai-models/ |
 | 2026-10-09 | Robot Era | product | 星动纪元宣布，其世界动作模型VPP2在RoboDojo仿真评测中以平均成功率32.26%、平均得分39.26分位列榜首，并称在泛化、精细操作、记忆三项居首；公司同时提供代码与项目主页开源入口。上述结果均为公司自述。 | 🔧 | news | https://mp.weixin.qq.com/s/O7lLsBYDxrHsVhrLk0n67g |
+| 2026-10-21 | NVIDIA Robotics | product | NVIDIA在GTC Berlin 2026主题演讲中公布机器人领域最新进展，包括Agile Robots基于Isaac GR00T、搭载Jetson Thor的参考人形机器人Agile ONE SN，以及扩展的Isaac平台（Isaac OS运行时、Isaac Lab 3.0、新数据集与仿真资产）。 | 🔧 | news | https://forums.developer.nvidia.com/t/nvidia-robotics-announcements-nvidia-gtc-berlin-2026/386456 |
+| 2026-10-22 | Genesis | sim | v1.4.5 released |  | github_release | https://github.com/Genesis-Embodied-AI/genesis-world/releases/tag/v1.4.5 |
+| 2026-10-22 | MuJoCo | sim | 3.17.0 released |  | github_release | https://github.com/google-deepmind/mujoco/releases/tag/3.17.0 |

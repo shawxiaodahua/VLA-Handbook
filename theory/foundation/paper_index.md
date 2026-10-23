@@ -637,6 +637,8 @@
 | MambaAct: Efficient Mamba Action Experts for Flow-Matching Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.22951) | 🔧 daily 2026-10-19 |
 | Relational Spatial Alignment for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.24705) | 🔧 daily 2026-10-20 |
 | AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.23880) | [VLA后训] 🔧 daily 2026-10-20 |
+| Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models | [link](https://arxiv.org/abs/2602.12628) | [RL] 🔧 daily 2026-10-23 |
+| Progress Probes $P^2$: Lightweight Runtime Monitoring for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.31613) | 🔧 daily 2026-10-23 |
 
 ### 動作生成
 
@@ -685,6 +687,9 @@
 | Retrieval-triggered Action Projection Adjustment for Frozen VLA Policies: An Empirical Study and Failure Analysis | [link](https://arxiv.org/abs/2610.24573) | 🔧 daily 2026-10-20 |
 | Reconstruction-Augmented Visuomotor Pre-Training of 3D-Grounded Bimanual Dexterity from RGB-Only Human Videos | [link](https://arxiv.org/abs/2610.29716) | 🔧 daily 2026-10-22 |
 | SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training | [link](https://arxiv.org/abs/2610.29161) | [VLA后训] 🔧 daily 2026-10-22 |
+| FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.31427) | 🔧 daily 2026-10-23 |
+| When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies | [link](https://arxiv.org/abs/2610.30735) | 🔧 daily 2026-10-23 |
+| Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos | [link](https://arxiv.org/abs/2610.27794) | 🔧 daily 2026-10-21 |
 
 ### 數據
 
@@ -740,6 +745,9 @@
 | Multi-Resolution Tactile Imitation Learning for Contact-Rich Robotic Manipulation | [link](https://arxiv.org/abs/2606.06281) | 🎯 tactile \| 🔧 daily 2026-10-22 |
 | Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation | [link](https://arxiv.org/abs/2610.29264) | 🎯 tactile \| 🔧 daily 2026-10-22 |
 | T-WLA: Bridging Slow Vision and Fast Touch | [link](https://arxiv.org/abs/2610.28814) | 🎯 tactile \| 🔧 daily 2026-10-22 |
+| ForeTac: Predictive Contact Guidance for Generative Robot Policies | [link](https://arxiv.org/abs/2610.18118) | 🎯 tactile \| 🔧 daily 2026-10-21 |
+| Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning | [link](https://arxiv.org/abs/2610.28613) | 🎯 tactile \| 🔧 daily 2026-10-21 |
+| Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.28166) | 🎯 tactile \| 🔧 daily 2026-10-21 |
 
 ### 其他
 
@@ -762,3 +770,4 @@
 | One Agent to Guide Them All: Empowering MLLMs for Vision-and-Language Navigation via Explicit World Representation | [link](https://arxiv.org/abs/2602.15400) | 📖 daily 2026-02-19 |
 | Continual uncertainty learning | [link](https://tldr.takara.ai/p/2602.17174) | 🔧 daily 2026-02-21 |
 | USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI | [link](https://arxiv.org/abs/2602.07837) | [世界模型] 📖 daily 2026-10-13 |
+| UniWALM: Unified World Action Language Model for Embodied Robot Control | [link](https://arxiv.org/abs/2610.28626) | 🔧 daily 2026-10-21 |
