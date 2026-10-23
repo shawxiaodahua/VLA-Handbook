@@ -72,7 +72,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 66 份文档。**
+**共 67 份文档。**
 
 - [主动触觉探索用于刚体姿态与形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_for_rigid_body_pose_and_shape_est_dissection.md)
 - [Active Tactile Exploration：仅触觉的刚体位姿+形状估计 (Active Tactile Exploration for Rigid Body Pose and Shape Estimation)](./active_tactile_exploration_rigid_body_pose_shape_eig_2026.md)
@@ -99,6 +99,7 @@
 - [OmniUMI: 面向物理具身机器人学习的多模态交互接口 (Towards Physically Grounded Robot Learning via Human-Aligned Multimodal Interaction)](./omniumi_towards_physically_grounded_robot_learning_via_human_dissection.md)
 - [OmniVTA: 大规模视触世界模型用于接触丰富操作 (OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation)](./omnivta_visuo_tactile_world_modeling_for_contact_rich_roboti_dissection.md)
 - [OpenViTac：统一仿真-真实框架下的视触觉策略学习与基准评测 (OpenViTac: Learning and Benchmarking Visuo-Tactile Policies in a Unified Sim-and-Real Framework)](./openvitac_learning_and_benchmarking_visuo_tactile_policies_i_dissection.md)
+- [物理画布：面向机器人策略评估与学习的视觉-触觉世界模型（Physical Canvas: A Vision Tactile World Model for Robot Policy Evaluation and Learning）](./physical_canvas_a_vision_tactile_world_model_for_robot_polic_dissection.md)
 - [多模态操控的策略共识：让“触觉不再拖后腿” (Multi-Modal Manipulation via Policy Consensus)](./policy_consensus_multimodal_manipulation_2025.md)
 - [势场即动作：接触密集操作中 RL 的策略—运动解耦 (Potential-Field Action Representation for Reinforcement Learning in Contact-Rich Manipulation)](./potential_field_action_representation_for_reinforcement_lear_dissection.md)
 - [ReTouch: 在线精炼触觉预测赋能接触密集型灵巧操作 (Empowering Contact-Rich Dexterous Manipulation with Online-Refined Tactile Prediction)](./retouch_empowering_contact_rich_dexterous_manipulation_with_dissection.md)
