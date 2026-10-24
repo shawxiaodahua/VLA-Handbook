@@ -690,6 +690,7 @@
 | FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies | [link](https://arxiv.org/abs/2610.31427) | 🔧 daily 2026-10-23 |
 | When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies | [link](https://arxiv.org/abs/2610.30735) | 🔧 daily 2026-10-23 |
 | Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos | [link](https://arxiv.org/abs/2610.27794) | 🔧 daily 2026-10-21 |
+| DRILL: Training World Models to Improve Policies, Not Predict Pixels | [link](https://tldr.takara.ai/p/2610.30814) | [RL] 🔧 daily 2026-10-24 |
 
 ### 數據
 
