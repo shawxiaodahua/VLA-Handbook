@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 180 份文档。**
+**共 181 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -158,6 +158,7 @@
 - [双流记忆：把 VLA 的“执行状态”和“视觉证据”拆开 (Dual-Stream Memory for Vision-Language-Action Policies)](./dual_stream_memory_for_vision_language_action_policies_dissection.md)
 - [VLA 动态执行承诺：A3 自适应动作接受机制 (Dynamic Execution Commitment of Vision-Language-Action Models)](./dynamic_execution_commitment_of_vision_language_action_model_dissection.md)
 - [动态混合渐进式参数高效专家库用于终身机器人学习 (Dynamic Mixture of Progressive Parameter-Efficient Expert Library for Lifelong Robot Learning)](./dynamic_mixture_of_progressive_parameter_efficient_expert_li_dissection.md)
+- [Echo：VLA 动作与任务状态信号的耦合去噪 (Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models)](./echo_coupled_action_and_task_status_signal_denoising_for_vis_dissection.md)
 - [动静解耦高效长视界 VLA (Static-Dynamic Disentanglement for Efficient Multi-Frame Vision-Language-Action Models)](./efficient_long_horizon_vision_language_action_models_via_sta_dissection.md)
 - [具身可解释性：因果理解驱动 VLA 泛化 (Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models)](./embodied_interpretability_linking_causal_understanding_to_ge_dissection.md)
 - [具身中间训练：用数据邻近度弥合 VLM 与 VLA 之间的鸿沟 (EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training)](./embodiedmidtrain_bridging_the_gap_between_vision_language_mo_dissection.md)
