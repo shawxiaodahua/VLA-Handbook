@@ -3,7 +3,7 @@
 > **来源**：500+ 条小红书社区蒸馏（帖1-365 + 可追溯索引 59 条 + 黑话辞典 93 条），2026-03-14 起持续收集
 > **原始数据**：[memory/blog/archives/xiaohongshu-community/](../memory/blog/archives/xiaohongshu-community/)
 > **定位**：论文不会告诉你的东西——社区实战者的真实参数、真实失败和真实吐槽。每条结论附「帖N」编号，可在原始数据中回溯验证。
-> **更新频率**：每 3 天自动增量收集（最近一次：2026-07-25 Round 8，50 篇有效帖，详见 §12.13；历轮方法论见 §12.16）
+> **更新记录**：最近一次为 **2026-10-25 GPT 手动轮：新增 3 篇、回访补证帖304**，见 §12.5 / §12.9 / §12.10 与 [本轮档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md)；历史定时轮次见 §12.16。本轮新增采用 XHS-日期-序号，避免与历史帖号缺口混淆。
 > **结构说明（2026-07-25 重排）**：原先按日期分仓的 §12 / §14 / §15 已合并为一个按主题组织的档案 **§12（12.1-12.16）**；内容与证据逐字保留，每块标题后以 `〔原 §x.y〕`/`〔Round N〕` 标注来源。
 > **快速上手**：先看 **[图表速览](#图表速览visual-index)**（文档地图 / 故障诊断树 / 模型谱系 + 关键数字表 + 参数速查表）；黑话部分另有 6 张图（全景导图 · 解码器 · 心态曲线 · 四象限 · 演化时间线 · 主题饼图），见 §13 开头。
 >
@@ -22,6 +22,8 @@
 > - **帖359-365**（§13.4 Round 9）：2026-07-25 吐槽/劝退/玄学关键词专项采集，用于扩充黑话辞典，全部带直链 + 赞数 + 评论数。**高可靠**。
 
 ---
+
+> **本轮证据边界（2026-10-25）**：新增来源有正文/首图和首屏评论可回查，但社区自述不等于独立复现；数值、假说与本轮验证建议分别标注。原站只显示月日的发布日期不补推年份；互动数仅是采集时快照。裸原帖链接可能受访问限制，同时提供标题＋作者检索。
 
 ## 速查：你现在卡在哪？
 
@@ -1669,10 +1671,22 @@ Kivy 的分析（帖17）：Diffusion Policy 有效的核心不是"多模态分�
 <sub>来源：Round 7</sub>
 
 正文是学校资源有限求少踩坑的征集帖，**价值全在评论**：
+
+> **2026-10-25 回访补证**：本轮通过标题与评论语义识别为既有帖304，不计新增。原站显示 06-17；当次 162 赞 / 42 条评论。以下精度、JAX/PyTorch 差异和 3 Hz 说法来自不同评论者，**未核对当前转换脚本及 commit，也不是受控比较**，不能据此确认因果或框架优劣。[原帖](https://www.xiaohongshu.com/explore/6a3177ba000000002201a2e1) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E6%83%B3%E5%90%AC%E5%90%ACpi0.5%E8%AE%AD%E7%BB%83%E9%83%A8%E7%BD%B2%20%E5%A4%A7%E5%AE%B6%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91%20momo) · [回访记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md#帖304语义去重与回访补证)。
+
 - **openpi 的 pytorch 框架有个 convert jax→pytorch 脚本，默认把初始 checkpoint 所有精度设成 bf16**：也就是说后续哪怕用 pytorch fp32 训练，也是**从一个 bf16 版 ckpt 开始训**（隐藏精度隐患）。
 - **jax 与 torch 训练出的 OOD 性能差别很大**；`伍佰幺18`：pytorch 版无论收敛速度还是成功率都比 jax 差很多，"相对 pos 比速度好训"。
 - 建议：**用 openpi 别用 lerobot 版**；**用原版 AdamW，不要改成 sgd**。
 - 推理卡：有人 4090 跑 lerobot 的 pi0.5 **只有 3hz**；有人问是否靠调大 action chunk 缓解。
+
+#### XHS-20261025-02：SO101 的 EEF / joint 动作表示对照（Alex，一手失败记录）
+
+<sub>来源：2026-10-25 GPT 手动轮；原站显示 03-27；12 赞 / 4 条评论。</sub>
+
+- **作者报告**：用 SO101 遥操作收集约 **50–100 条数据**，在其 pick-and-place 实验中，EEF 表示的效果不如 joint；尝试 xVLA、ACT、SmolVLA 和动作转换后，问题仍在。原帖没有明确这些“条”是否等于完整 episode。
+- **工程用法**：先检查动作语义、坐标系、单位和归一化，再在同一评测下比较 joint / EEF、delta / absolute；**不能据此推出 joint 或 delta 普遍更好**。
+- **证据边界**：正文主要是标签，具体实验描述来自本轮核对的首图；没有成功次数、转换代码、版本或训练步数。评论提到的动作空间论文未在本轮核验，Mac 慢推理的问题也未获实测解答。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/69c5f7b1000000001d01e152) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E5%85%B3%E4%BA%8Elerobot%2Bso101%20pick%26place%E4%BB%BB%E5%8A%A1%E8%AE%AD%E7%BB%83%E7%9A%84%E4%B8%80%20Alex) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md#xhs-20261025-02)。
 
 #### 🧠 帖278：上交 CVPR'26 灾难性遗忘解法（驾驶 → VLA 通用）
 
@@ -2117,6 +2131,17 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 
 ---
 
+#### XHS-20261025-03：加触觉仍未解决高速动作漂移（社区一手评论）
+
+<sub>来源：2026-10-25 GPT 手动轮；作者“我要当富婆”；原站显示编辑于 09-06；439 赞 / 30 条评论。</sub>
+
+- **作者在评论中报告**：其跟进的项目加入触觉后改善有限，一加速就出现动作漂移，示教提速也未解决。作者归因为模型问题，但没有排除同步、延迟等其他因素。
+- **可验证的下一步**：把低速/高速与视觉/视觉＋触觉组成对照，固定成功判据并记录时间戳和端到端延迟。**这是本轮建议的验证计划，不是原帖已经完成的实验或已确定的根因**。
+- **适用边界**：未给任务、机器人、控制频率、传感器、样本数或成功次数；只能提醒“多一个模态不保证闭环表现改善”，不能推导触觉或某类传感器无效。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a8e8dde0000000020033e76) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E5%85%B3%E4%BA%8E%E6%9C%80%E8%BF%91%E5%85%B7%E8%BA%AB%E5%BC%80%E5%A7%8B%E5%85%B3%E6%B3%A8%E8%A7%A6%E8%A7%89%E5%92%8C%E8%A7%A6%E8%A7%89%E5%A4%A7%E7%B1%BB%20%E6%88%91%E8%A6%81%E5%BD%93%E5%AF%8C%E5%A9%86) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md#xhs-20261025-03)。
+
+---
+
 ### 12.10 RL 后训练（DAgger 真相 / RLT 介入式）
 
 #### DAgger 是真机 RL 的真相 🔺
@@ -2162,6 +2187,17 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 - 加 **RLT（RL Token）后训练 → ~90%**
 - 结构：**resnet 小网络判 RLT 介入时机**；RLT 用 **TD3**，输入 z_rl+state 输出介入动作；只在精细阶段介入
 - **代价**："有点费人"（需准确的人工介入数据）——补上 §14 力控/装配数据成本盲区的一个正向案例
+
+---
+
+#### XHS-20261025-01：π0.6 RECAP 的价值模型过拟合线索（阿疯Okk）
+
+<sub>来源：2026-10-25 GPT 手动轮；原站显示 08-02；277 赞 / 13 条评论。</sub>
+
+- **作者报告**：首图介绍其复现 RECAP 时遇到价值模型过拟合；DOM 正文仅含标题。本轮只核对首图，没有读取完整轮播实验。
+- **评论补充**：“小新而已”报告过类似问题，提出冻结 VLM、减少训练 epoch，并提及 Robo-ValueRL。**这是评论者的排查建议，不是本帖已证明的修复方案**；所提实现未在本轮核验。
+- **工程用法**：复现日志中分开记录价值模型训练/验证误差、冻结范围和训练轮数。任务、样本配比、代码版本和数值消融均缺失，不能据此认定 RECAP 普遍失效。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a6edae20000000027020eeb) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=pi06recap%E5%A4%8D%E7%8E%B0%E8%B8%A9%E5%9D%91%20%E9%98%BF%E7%96%AFOkk) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md#xhs-20261025-01)。
 
 ---
 
@@ -3046,6 +3082,12 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 
 ---
 
+#### GPT 手动轮（2026-10-25，新增 3 篇、回访 1 篇）
+
+> 关键词：`VLA 复现 踩坑` / `LeRobot 训练 经验` / `触觉 力觉 具身`，每组取 5 条可识别候选，共 15 条。2 条历史 ID 和 1 条招聘帖直接排除；读取 12 篇详情后，经语义去重识别出既有帖304，另 8 条不达入库门槛，新增 3 篇。本轮在 Ken 登录的 Chrome 以 GPT 只读 DOM JavaScript 执行；提取方式经用户明确授权，不读 Cookie、不用隐藏 API、不做社交操作。未在本轮配置自动排程。评分、覆盖范围与排除记录见 [2026-10-25 档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md)。
+
+---
+
 ## 13. VLA 社区黑话辞典 🗣️
 
 > 在小红书 VLA 社区摸爬滚打几百篇帖子，你会发现一套独特的"黑话"体系。
@@ -3696,5 +3738,7 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 ---
 
 *本文件由定时收集器自动更新（v2.9，帖 1-365 + 可追溯索引 59 条 + 黑话辞典 93 条 + 9 张图表，共 500+ 条）。最近更新：2026-07-25 Round 9（黑话专项扩充：新增 §13.4 共 37 条新梗 + 帖359-365 吐槽专项采集；黑话辞典 28→93 条；黑话可视化 2→6 张图：心态曲线/四象限/演化时间线/主题饼图）。上一轮 Round 8（15 关键词 / 50 篇有效帖，均附赞/评论/链接：面试题库 + 逆共识 + 工程 cheat-sheet + 一手复现，详见 §12.13（原 §15.14））。上一轮 Round 7（5 关键词 / 6 篇新帖：robotwin 评测 setting 被错用 + openpi pytorch/jax 训练差异 trap + pi0.5 双臂长程任务 + NVIDIA sim2real 失效综述 + TACO 触觉后训练 38%→82% + 李飞飞 T-Rex 触觉隔离范式 17%→65%，详见 §12.16（原 §15.13））。原始数据和方法论详见 [收集流程复盘](../memory/blog/archives/xiaohongshu-community/workflow-and-automation.md)。*
+
+> **2026-10-25 增量**：上方 v2.9 为历史版本说明；本轮在既有主题下新增 3 条社区观察，并为帖304补齐来源与限定，未重算历史总量、未修改信念网络。详见 [本轮档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md)。
 
 [← Back to Deployment](./README.md)

@@ -125,10 +125,14 @@
     "https://www.xiaohongshu.com/explore/6a1d204000000000350262f5",
     "https://www.xiaohongshu.com/explore/69fddd2c000000002301d21d",
     "https://www.xiaohongshu.com/explore/6a1bc476000000000603230b",
-    "https://www.xiaohongshu.com/explore/6a18f8670000000035025916"
+    "https://www.xiaohongshu.com/explore/6a18f8670000000035025916",
+    "https://www.xiaohongshu.com/explore/6a6edae20000000027020eeb",
+    "https://www.xiaohongshu.com/explore/69c5f7b1000000001d01e152",
+    "https://www.xiaohongshu.com/explore/6a8e8dde0000000020033e76",
+    "https://www.xiaohongshu.com/explore/6a3177ba000000002201a2e1"
   ],
-  "count": 126,
-  "last_updated": "2026-06-01",
+  "count": 130,
+  "last_updated": "2026-10-25",
   "runs": [
     {
       "date": "2026-04-17",
@@ -250,6 +254,32 @@
       "title_only": 0,
       "skipped": 0,
       "report": "2026-06-01-round4-manual.md"
+    },
+    {
+      "date": "2026-10-25",
+      "kind": "GPT manual; user-authorized read-only Chrome DOM extraction",
+      "keywords": [
+        "VLA 复现 踩坑",
+        "LeRobot 训练 经验",
+        "触觉 力觉 具身"
+      ],
+      "search_candidates": 15,
+      "historical_id_duplicates": 2,
+      "recruitment_excluded": 1,
+      "details_read": 12,
+      "semantic_duplicate_revisited": 1,
+      "new_added": 3,
+      "detail_kept": 3,
+      "title_only": 8,
+      "revisited_note_ids": [
+        "6a3177ba000000002201a2e1"
+      ],
+      "new_note_ids": [
+        "6a6edae20000000027020eeb",
+        "69c5f7b1000000001d01e152",
+        "6a8e8dde0000000020033e76"
+      ],
+      "report": "2026-10-25-codex-manual.md"
     }
   ]
 }
