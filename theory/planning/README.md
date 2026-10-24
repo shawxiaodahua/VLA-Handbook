@@ -94,7 +94,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 75 份文档。**
+**共 76 份文档。**
 
 - [分层时空动作分词器：上下文模仿学习的新范式 (HiST-AT: A Hierarchical Spatiotemporal Action Tokenizer for In-Context Imitation Learning)](./a_hierarchical_spatiotemporal_action_tokenizer_for_in_contex_dissection.md)
 - [弹性视觉智能体的架构模式语言 (A Pattern Language for Resilient Visual Agents)](./a_pattern_language_for_resilient_visual_agents_dissection.md)
@@ -153,6 +153,7 @@
 - [RoboStream：在视觉语言模型中编织时空推理与记忆 (RoboStream: Weaving Spatio-Temporal Reasoning with Memory in Vision-Language Models for Robotics)](./robostream_weaving_spatio_temporal_reasoning_with_memory_in_dissection.md)
 - [Safe-Night VLA：给 VLA 加一路热成像，再用 CBF-QP 保住执行安全 (Safe-Night VLA: Seeing the Unseen via Thermal-Perceptive Vision-Language-Action Models for Safety-Critical Manipulation)](./safe_night_vla_seeing_the_unseen_via_thermal_perceptive_visi_dissection.md)
 - [SeFA-Policy：选择性流对齐视觉运动策略 (SeFA-Policy: Fast and Accurate Visuomotor Policy Learning with Selective Flow Alignment)](./sefa_policy_fast_and_accurate_visuomotor_policy_learning_wit_dissection.md)
+- [感知运动对齐：具身策略成功的柏拉图式代理 (Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success)](./sensorimotor_alignment_a_platonic_proxy_for_embodied_policy_dissection.md)
 - [通过锚定机器人关键点的序列规划 (Sequential Planning via Anchored Robotic Keypoints — SPARK)](./sequential_planning_via_anchored_robotic_keypoints_dissection.md)
 - [SOMA：通过记忆增强与策略编排实现 VLA 鲁棒性 (SOMA: Strategic Orchestration and Memory-Augmented System for VLA Robustness via In-Context Adaptation)](./soma_strategic_orchestration_and_memory_augmented_system_for_dissection.md)
 - [TAIL-Safe：面向模仿学习策略的任务无关安全监控框架](./tail_safe_task_agnostic_safety_monitoring_for_imitation_lear_dissection.md)

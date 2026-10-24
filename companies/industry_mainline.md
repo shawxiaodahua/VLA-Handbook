@@ -1,33 +1,33 @@
 # 🏭 行业判断地图
-> ⚙️ 本文由 industry-radar 自动生成 | 2026-10-18 | 本次为有界官方来源补录与更正，非完整每日覆盖。
 
-**口径**：只依据公开官方来源；事件日期与补录日期分开标注。官方自报不等于独立验证；原文没有的数字不补，不把媒体转述当官方事实。
+> ⚙️ 本文由 industry-radar 每周自动生成 | 2026-10-23 | archive_dates: 2026-10-23, 2026-10-22, 2026-10-21, 2026-10-18 | 历史回填：已提供截取上下文
+> 来源链接限本次资料上下文或上一版；历史判断与待核验说法不代表已独立核验。
+
+# 🏭 行业判断地图
+> ⚙️ 本文由 industry-radar 自动生成 | 2026-10-23 | 依据本周日档；历史补录仅作背景，不写成本周事件。
 
 ## 融资格局
-- Agility Robotics / Churchill Capital Corp XI（2026-10-13）：公司公告称 SEC 已宣布拟议合并的 S-4 生效，股东会定于11月2日；交割仍须股东批准及其他条件。**S-4生效不是完成上市或完成交割**，公司预计11月完成也不是已完成。本批不展开融资额、估值或订单金额，避免把合同里程碑写成收入。来源：https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination
-- 其余6项不是融资事件；本批无新增可核融资数据。
+- 来源陈述：据Agility Robotics官方2026-10-13公告（周档2026-10-18补录），拟议合并的S-4已生效，股东会定于11月2日，交割仍须股东批准及其他条件。判断/待核问题：这只是资本程序节点，不能写成完成上市或完成交割；11月股东会与最终交割条件待核。[来源](https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination)
+- 来源陈述：据Agility Robotics 2026-10-21公告，公司称已获得超过3亿美元Digit 5多年期订单，且须满足特定合同里程碑，同时新增汽车、消费品和农业领域四家客户。判断/待核问题：应归为有条件订单/部署管线，不是融资、已确认收入或已出货；里程碑满足情况与客户转化待核。[来源](https://www.agilityrobotics.com/content/agility-robotics-expands-pittsburgh-presence-to-support-growing-customer-deployments)
+- 来源陈述：据Noetix Robotics 2026-10-22、NVIDIA 2026-10-21和Robot Era 2026-10-22的消息，均披露合作、平台或展会计划，未披露融资轮次、金额或估值。判断/待核问题：不能把战略合作或产品发布外推为融资活跃；本批无新增可核融资交易，融资格局暂无法扩展。[来源](https://www.noetixrobotics.com/news/114) [来源](https://forums.developer.nvidia.com/t/nvidia-robotics-announcements-nvidia-gtc-berlin-2026/386456) [来源](https://mp.weixin.qq.com/s/QYQHs8x9UtS1JjC5pLjJ1A)
 
 ## 产品节奏
-**近期查核窗口（2026-10-07—10-17）**
-- AWS / NVIDIA（2026-10-07）：公布 Physical AI Toolchain，公开参考架构、基础设施代码和部署自动化，整合 NVIDIA 机器人软件栈。它是工程入口，不是成品机器人行为；27个UR3示教为workshop样例，不是通用能力证明；本次未部署、未独立验证成本/速度/生产可靠性。https://aws.amazon.com/blogs/physical-ai/introducing-aws-physical-ai-toolchain/
-- Google DeepMind / Apptronik（2026-10-13）：开放 Gemini 4 Argon，并披露 Video-to-Sim-to-Real 内部研究示例。ERQA 87%为官方自报，与真机成功率不同；Apollo 七次连续投中是内部单项演示，不等于广泛可靠性；4500回合、56→75%等本批未核，不纳入。https://blog.google/intl/en-in/products/introducing-gemini-4-argon/
-- Agility Robotics / Nyobolt（2026-10-15）：宣布 Nyobolt 为 Digit 5 超快充电电池技术供应方；装配该电池的早期使用预计2027上半年，后续6至9个月逐步扩展，**不是10月已供货**。90分钟运行/9分钟充电/每日20小时以上为公司宣称或设计，未独立测试。https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5
-
-**历史补录（补录日期2026-10-18，不作为本周趋势）**
-- Hugging Face / Pollen Robotics（2025-07-09）：发布面向人机交互与AI实验的 Reachy Mini，提供 Python SDK 与仿真开发路径。可作桌面多模态交互原型，不视为具备抓取操作能力的VLA机械臂。https://huggingface.co/blog/reachy-mini
-- Google DeepMind（2025-09-25）：公布 Gemini Robotics 1.5 与 Robotics-ER 1.5；发布时ER经Gemini API开放，VLA仅向选定合作伙伴提供。选型须区分空间推理API与直接机器人控制模型，不能把ER可访问等同VLA可部署。https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/
-- Figure AI（2026-08-25）：公布 Figure 专用 Index 人类行为数据采集管线，披露过滤、反作弊审查、去重、重平衡与标注五阶段。公司专用管线不等于可下载公开数据集；未独立验证规模或泛化收益。https://www.figure.ai/news/introducing-index
+- 来源陈述：据NVIDIA 2026-10-21 GTC Berlin 2026公告，NVIDIA公布机器人领域进展，包括Agile Robots基于Isaac GR00T、搭载Jetson Thor的参考人形机器人Agile ONE SN，以及NVIDIA扩展的Isaac平台（Isaac OS运行时、Isaac Lab 3.0、新数据集与仿真资产）。判断/待核问题：这是开发与验证工具链及参考设计信号，不是量产或真实场景可靠性证明；性能、成本和交付数据待核。[来源](https://forums.developer.nvidia.com/t/nvidia-robotics-announcements-nvidia-gtc-berlin-2026/386456)
+- 来源陈述：据Agility Robotics 2026-10-21公告，匹兹堡5万平方英尺设施将作为软件与AI卓越中心及客户部署服务枢纽，预计年底前首批员工入驻。判断/待核问题：这可支撑部署服务扩张的前提，但来源未给出出货量或现场运行指标，不能推出已规模交付。[来源](https://www.agilityrobotics.com/content/agility-robotics-expands-pittsburgh-presence-to-support-growing-customer-deployments)
+- 来源陈述：据Noetix Robotics 2026-10-22消息，松延动力与一龄集团达成战略合作，“小月”将作为康养业务终端切入用户识别、健康提醒，并逐步探索医疗知识库融合。判断/待核问题：当前是流程融合与场景探索，未披露规模、交付和效果；不能当作康养规模化商用。[来源](https://www.noetixrobotics.com/news/114)
+- 来源陈述：据Robot Era 2026-10-22消息，星动纪元将参加2026年11月3-6日CeMAT ASIA 2026，展示物流供包、打包、拣选应用，未披露具体产品型号或交付信息。判断/待核问题：这是未来展会预告与场景定位，不是已落地的物流全链路能力；现场演示和后续交付待核。[来源](https://mp.weixin.qq.com/s/QYQHs8x9UtS1JjC5pLjJ1A)
+- 来源陈述：据Agility Robotics/Nyobolt 2026-10-15官方消息（周档2026-10-18补录），Nyobolt为Digit 5超快充电电池技术供应方，搭载该电池的早期可用预计2027年上半年。判断/待核问题：这是供应方宣布与未来可用计划，不是2026年10月已供货；续航/充电指标为公司自报，需独立测试。[来源](https://www.agilityrobotics.com/content/agility-robotics-selects-nyobolt-as-its-ultra-fast-charging-battery-technology-partner-for-digit-5)
 
 ## 玩家动态
-- Google DeepMind：近期窗口释放通用模型到仿真/现实工具链信号；Argon 公告列出付费 API 与指定订阅入口，历史补录中的 Gemini Robotics 1.5 则区分 ER API 与 VLA 合作伙伴访问。
-- AWS/NVIDIA：以参考架构和基础设施代码切入VLA训练、仿真验证、边缘部署，偏工程底座。
-- Agility Robotics：资本程序与供应链并行推进；S-4生效只是程序节点，Nyobolt合作处于宣布与早期使用规划阶段。
-- Figure AI：补录重点是数据治理管线，而非公开数据集或已验证规模。
-- Hugging Face/Pollen：Reachy Mini面向桌面HRI与AI实验，不承担抓取操作VLA叙事。
+- 来源陈述：据Agility Robotics周档多条官方消息，公司同时推进S-4合并程序、匹兹堡部署设施和Nyobolt电池供应合作。判断/待核问题：三条线都带条件或未来时点；当前可观察到资本程序与部署基础设施的并行动作，股东投票、订单里程碑和电池量产仍待核。[来源](https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination) [来源](https://www.agilityrobotics.com/content/agility-robotics-expands-pittsburgh-presence-to-support-growing-customer-deployments)
+- 来源陈述：据NVIDIA 2026-10-21公告，其以Isaac GR00T、Jetson Thor和Isaac平台扩展支持Agile Robots参考人形及开发者工具链。判断/待核问题：NVIDIA对外提供的是训练、仿真与部署底座，不是直接交付人形整机；开发者采用率和伙伴出货待核。[来源](https://forums.developer.nvidia.com/t/nvidia-robotics-announcements-nvidia-gtc-berlin-2026/386456)
+- 来源陈述：据Google 2026-10-13消息（周档2026-10-18补录），Gemini4 Argon开放并披露Video-to-Sim-to-Real内部研究示例；API入口不等于Apollo控制策略或机器人权重开放。判断/待核问题：这是模型/工具链信号，不是可直接部署的VLA机器人控制能力；与Apptronik的集成边界待核。[来源](https://blog.google/intl/en-in/products/introducing-gemini-4-argon/)
+- 来源陈述：据Noetix Robotics 2026-10-22消息，松延动力将康养服务机构作为“小月”的业务终端落地场景。判断/待核问题：这是垂直场景共创，成败取决于服务流程和医疗知识库融合；没有规模与效果数据前不能外推。[来源](https://www.noetixrobotics.com/news/114)
+- 来源陈述：据Robot Era 2026-10-22消息，星动纪元以物流供包、打包、拣选作为CeMAT ASIA 2026展示重点。判断/待核问题：其对外定位在物流多环节适配，但当前只是展会计划；产品型号、客户和交付待核。[来源](https://mp.weixin.qq.com/s/QYQHs8x9UtS1JjC5pLjJ1A)
 
 ## 张力记录
-- **上市口径**：Agility S-4生效 ≠ 完成上市；既有“8月已上市”强断言应按本批官方公告追加更正，不写成已完成交割。
-- **自报与独立验证**：Argon的ERQA 87%、Apollo七连投、Nyobolt续航/充电指标、Figure Index规模与泛化收益均为官方自报或设计宣称，本批未独立验证。
-- **撤回确定事实**：LeRobot 2.0、通用94%成功率、低于300美元在本批没有官方支持，撤回其作为确定行业事实；同时不断言其不存在。Optimus量产旧行未获本批Tesla官方确认，不能当既成事实。
-- **边界**：AWS工具链是参考基础设施，不是成品行为；Reachy Mini不是抓取VLA臂；ER API可访问不等于VLA可部署；Nyobolt不是10月已供货。
-- **未纳入**：本批不补原文没有的数字，不把媒体日期包装为新官方事件；融资额、估值、订单金额不展开。
+- · 旧判断「S-4生效接近完成上市」→ 周档信号：公告仍称拟议合并，交割须股东批准与条件。来源陈述：据Agility Robotics 2026-10-13官方公告（周档2026-10-18补录），股东会定于11月2日。判断/待核问题：不能把S-4生效写成完成上市；最终交割待核。[来源](https://www.agilityrobotics.com/content/agility-robotics-and-churchill-capital-corp-xi-s-4-registration-statement-declared-effective-by-sec-in-connection-with-proposed-business-combination)
+- · 旧判断「3亿美元订单等于收入或出货」→ 周档信号：来源明确为Digit 5多年期订单且须满足合同里程碑。来源陈述：据Agility Robotics 2026-10-21公告。判断/待核问题：不能当作已确认收入或已交付；里程碑与客户转化待核。[来源](https://www.agilityrobotics.com/content/agility-robotics-expands-pittsburgh-presence-to-support-growing-customer-deployments)
+- · 旧判断「平台/参考架构发布等于可部署机器人能力」→ 周档信号：Isaac/GR00T扩展提供参考人形与开发工具链，未给性能或交付数据。来源陈述：据NVIDIA 2026-10-21公告。判断/待核问题：需实际部署与独立验证，不能外推为全行业量产。[来源](https://forums.developer.nvidia.com/t/nvidia-robotics-announcements-nvidia-gtc-berlin-2026/386456)
+- · 旧判断「战略合作/展会预告等于规模化商用」→ 周档信号：康养合作与物流展均未披露规模、型号或交付。来源陈述：据Noetix 2026-10-22和Robot Era 2026-10-22消息。判断/待核问题：当前只能算场景探索或展示计划；合同、部署数量和效果数据待核。[来源](https://www.noetixrobotics.com/news/114) [来源](https://mp.weixin.qq.com/s/QYQHs8x9UtS1JjC5pLjJ1A)
+- · 旧判断 [] → 周档信号：本周证据不足，无法更新。来源陈述：本周周档未提供与该题头对应的可核来源，且本批覆盖状态为partial。判断/待核问题：仅作为历史假设或待核验问题保留，引用题头不表示认可。

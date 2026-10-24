@@ -389,19 +389,19 @@ New articles added daily. Explore with sparklines and trends at [VLA Deep Dive](
 
 > 本节由固定程序生成。统计 Git 已追踪的十个主题目录内 Markdown 文件，包含综述与索引，不含各目录 README；数量不代表内容质量。
 
-**共 763 份文档，10 个主题。**
+**共 770 份文档，10 个主题。**
 
 | 主题 | 文档数 | 完整目录 |
 |---|---:|---|
-| vla-core | 179 | [浏览全部](./vla-core/README.md#theory-complete-index) |
+| vla-core | 181 | [浏览全部](./vla-core/README.md#theory-complete-index) |
 | foundation | 88 | [浏览全部](./foundation/README.md#theory-complete-index) |
-| planning | 75 | [浏览全部](./planning/README.md#theory-complete-index) |
+| planning | 76 | [浏览全部](./planning/README.md#theory-complete-index) |
 | world-model | 103 | [浏览全部](./world-model/README.md#theory-complete-index) |
 | tactile | 67 | [浏览全部](./tactile/README.md#theory-complete-index) |
 | deployment | 48 | [浏览全部](./deployment/README.md#theory-complete-index) |
-| rl | 41 | [浏览全部](./rl/README.md#theory-complete-index) |
+| rl | 42 | [浏览全部](./rl/README.md#theory-complete-index) |
 | perception | 24 | [浏览全部](./perception/README.md#theory-complete-index) |
 | diffusion-flow | 49 | [浏览全部](./diffusion-flow/README.md#theory-complete-index) |
-| frontier | 89 | [浏览全部](./frontier/README.md#theory-complete-index) |
+| frontier | 92 | [浏览全部](./frontier/README.md#theory-complete-index) |
 
 <!-- VLA:THEORY-NAV:END -->
