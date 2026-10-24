@@ -112,7 +112,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 179 份文档。**
+**共 180 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -226,6 +226,7 @@
 - [π0 模型代码深度解析](./pi0_code_analysis.md)
 - [PriorVLA：保留先验的 VLA 微调框架 (Prior-Preserving Adaptation for Vision-Language-Action Models)](./priorvla_prior_preserving_adaptation_for_vision_language_act_dissection.md)
 - [精密強迫：讓通用 VLA 策略跨過亞毫米容差門檻 (PRISM: Precision Forcing for Generalist Vision-Language-Action Policies)](./prism_precision_forcing_for_generalist_vision_language_actio_dissection.md)
+- [Progress Probes P²：用 VLA 内部激活做轻量运行时监控 (Progress Probes P²: Lightweight Runtime Monitoring for Vision-Language-Action Models)](./progress_probes_p2_lightweight_runtime_monitoring_for_vision_dissection.md)
 - [RDT: 机器人扩散变换器 (Robotics Diffusion Transformer)](./rdt.md)
 - [REACT：滚动去噪与双重解耦的 VLA 反应式机器人控制（REACT: Rolling Denoising and Dual Decoupling for Reactive Robot Control with VLA Models）](./react_rolling_denoising_and_dual_decoupling_for_reactive_rob_dissection.md)
 - [ReconVLA：用“重建式监督”做隐式视觉接地（让 VLA 注意力不跑偏）](./reconvla_implicit_grounding_by_reconstruction.md)
