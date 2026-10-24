@@ -3,7 +3,7 @@
 > **来源**：500+ 条小红书社区蒸馏（帖1-365 + 可追溯索引 59 条 + 黑话辞典 93 条），2026-03-14 起持续收集
 > **原始数据**：[memory/blog/archives/xiaohongshu-community/](../memory/blog/archives/xiaohongshu-community/)
 > **定位**：论文不会告诉你的东西——社区实战者的真实参数、真实失败和真实吐槽。每条结论附「帖N」编号，可在原始数据中回溯验证。
-> **更新记录**：最近为 **2026-10-25 GPT 手动收集：首轮新增 3 篇＋补采 17 篇，合计 20 篇；另回访补证帖304**。按主题归入 §12.5 / §12.6 / §12.9 / §12.10；见 [首轮档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md) 与 [补采 17 篇档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus17.md)。历史轮次见 §12.16。新增采用 XHS-日期-序号，避免与历史帖号缺口混淆。
+> **更新记录**：最近为 **2026-10-25 GPT 手动系列：3＋17＋20，合计新增 40 篇；另回访补证帖304**。按主题归入 §12.2 / §12.4–§12.7 / §12.9 / §12.10；见 [首轮](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-manual.md)、[补采17篇](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus17.md) 与 [再补20篇](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md)。历史轮次见 §12.16；新增采用 XHS-日期-序号，不重算历史总量。
 > **结构说明（2026-07-25 重排）**：原先按日期分仓的 §12 / §14 / §15 已合并为一个按主题组织的档案 **§12（12.1-12.16）**；内容与证据逐字保留，每块标题后以 `〔原 §x.y〕`/`〔Round N〕` 标注来源。
 > **快速上手**：先看 **[图表速览](#图表速览visual-index)**（文档地图 / 故障诊断树 / 模型谱系 + 关键数字表 + 参数速查表）；黑话部分另有 6 张图（全景导图 · 解码器 · 心态曲线 · 四象限 · 演化时间线 · 主题饼图），见 §13 开头。
 >
@@ -1357,6 +1357,29 @@ Kivy 的分析（帖17）：Diffusion Policy 有效的核心不是"多模态分�
 
 ---
 
+#### XHS-20261025-24：RTC 前缀与 FastWAM：作者在评论中修正实现理解
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；Mento；原站显示 10-01 江苏；324 赞 / 9 条评论；评分 4。</sub>
+
+- **一手记录 / 已看内容**：作者说近期在做基座模型真机评测，并借停顿、块切换跳变讨论 RTC。评论中将前缀解释为上一段 chunk 对应延迟期间的动作。
+- **讨论线索**：针对读者质疑，作者修正对 FastWAM 的说法：训练 RTC 可只改动作专家的 token 时间、干净前缀与 loss mask，并区分它与 KI 管理的梯度回传。
+- **限制**：本轮只读正文与评论，未翻阅图片主体、检查 FastWAM 代码或复现实验；这是技术讨论与自我修正记录，不是已核验的实现指南或性能结果。
+- **建议核验（未执行）**：对照具体仓库 commit，检查动作前缀可见性、attention mask、时间条件与 loss mask，再用最小样例测试前缀约束。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6abe5aad000000000b005030) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E6%9C%BA%E6%A2%B0%E8%87%82%E4%B8%80%E9%A1%BF%E4%B8%80%E9%A1%BF%E7%9A%84%EF%BC%9F%E8%AF%B4%E8%AF%B4RTC%F0%9F%A4%96%20Mento) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-24)。
+
+
+#### XHS-20261025-40：π0.5 推理优化：4090 上 80→50ms 的作者自报
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；蒋哈哈；原站显示 编辑于 2025-11-06；15 赞 / 10 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者自称在 4090 上使用 torch.compile 与 Triton 优化后，π0.5 延迟从 80 ms 降至 50 ms；另讨论 ONNX / TensorRT 与 JAX 路线，在评论说有实现但不便开源。
+- **讨论线索**：作者提到 TensorRT10.13；另一评论者称自己在 Orin 跑过 TensorRT 版本，但未提供硬件细分和测量结果。
+- **限制**：无代码、模型版本、输入尺寸、去噪步数、精度或计时边界，不能独立确认加速。原帖的 FP8/4、性能翻倍和“极限”表述未核验，不列为可用配置；该帖不是硬件量化能力依据。
+- **建议核验（未执行）**：采用同权重、精度与输入，区分首次编译、热身和稳态时延，报告 p50/p95、显存及动作/任务精度后再选优化路径。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/690b739d000000000301ef1a) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%F0%9F%9A%80%20Pi05%20VLA%E6%8E%A8%E7%90%86%E5%AE%9E%E6%88%98%EF%BC%9A%E5%AE%9E%E7%8E%B0%E6%9E%81%E8%87%B4%E8%AE%A1%E7%AE%97%E6%80%A7%E8%83%BD%20%E8%92%8B%E5%93%88%E5%93%88) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-40)。
+
+---
+
 ### 12.3 泛化失败与根因（shortcut / spurious features / VAG gap / 几何鸿沟 / OOD）
 
 #### VLA 泛化失败 + OXE shortcut learning 量化（"小数据微调到泛化"置信度 -10%）
@@ -1509,6 +1532,18 @@ Kivy 的分析（帖17）：Diffusion Policy 有效的核心不是"多模态分�
 - **数据泄漏质疑**：**paper 用 20k hour 数据预训练，而比赛机器人本身就在预训练数据里**，对 pi 已有巨大优势
 - **技术疑点**：Lingbot 用 **L1 loss 训 flow matching**，而 pi 等更常见 **L2 loss**，paper 没解释为何
 - **⭐ 4/11 更新**：**厂商团队第一时间联系作者一起复现，跑出 55/100**（仍不如 pi0.5，但比作者测的好不少）；差异疑在 batch size 等 param。**这是一次难得的"公开复现对质"案例**
+
+---
+
+#### XHS-20261025-27：X-VLA 项目作者自报：仿真分数与长时间叠衣服
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；fb；原站显示 2025-10-20；170 赞 / 29 条评论；评分 5。</sub>
+
+- **一手记录 / 已看内容**：项目作者以“我们”报告 X-VLA 的 Simple-widowx 96%、LIBERO-long 97%、RoboTwin2.0 70%，并称使用 1500 条数据可连续叠衣服数小时，附项目主页。
+- **讨论线索**：作者回复模型支持双臂并称已开源；适配 G1、动作表示和 benchmark checkpoint 的具体提问在所读评论中没有明确解答。
+- **限制**：这是第一方项目发布，自报结果不是第三方复现。本轮未打开项目主页、核对论文评测协议或连续录像，不将标题超 2H 视为独立计时结果；评论中招人不作为本文实验内容。
+- **建议核验（未执行）**：后续回到论文与代码核对分母、任务设置、重置/干预定义及开放权重，再设计独立复现。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/68f510db0000000004023deb) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=X-VLA%E5%88%B7%E5%88%86%E7%8E%8B%EF%BC%8C%E4%B9%9F%E5%8F%AF%E4%BB%A5%E8%BF%9E%E7%BB%AD%E5%8F%A0%E7%83%82%E5%A4%A7%E8%A1%97%E7%9A%84%E8%A1%A3%E6%9C%8D%E8%B6%852H%20fb) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-27)。
 
 ---
 
@@ -1814,6 +1849,95 @@ Kivy 的分析（帖17）：Diffusion Policy 有效的核心不是"多模态分�
 
 ---
 
+#### XHS-20261025-21：π0.5 的 VLM 单独探测与微调后语言能力疑问
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；Ivory Seagull；原站显示 编辑于 09-03；118 赞 / 14 条评论；评分 4。</sub>
+
+- **一手记录 / 已看内容**：作者把 π0.5 中的 PaliGemma 部分单独作为 VLM 做 next-token prediction，提供使用未微调权重与 LIBERO 数据的探测思路，并在回复中说明还测试了 LeRobot 的 LIBERO 微调版本 VLM 权重。
+- **讨论线索**：作者澄清此探测无需动作专家；评论质疑部分 subtask 本身不合理，提醒先验证原始权重的输出基线。
+- **限制**：未读取轮播输出图、运行脚本或核对训练 loss；微调版本仅使用 flow-matching loss 是作者猜测。不能据此确认语言能力退化程度或冻结策略优劣。
+- **建议核验（未执行）**：固定图像、指令、解码与权重版本，分别测原始和微调后 VLM 的输出，再独立测闭环动作；勿把 VLM 探测等同完整策略表现。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a9959950000000028035249) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E6%B2%A1%E6%9C%89%E8%AF%B4VLA%E6%98%AF%E5%A5%BD%E4%B8%9C%E8%A5%BF%E7%9A%84%E6%84%8F%E6%80%9D%E6%8D%8F%20Ivory%20Seagull) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-21)。
+
+
+#### XHS-20261025-23：SO101 多任务：约 40% 成功率与任务混淆
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；Service；原站显示 08-21；27 赞 / 38 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：正文为标签；作者在评论说明使用 SO101、batch size 64，成功率约 40%，容易混淆任务；采集时随机放置并覆盖不同位置。
+- **讨论线索**：评论者提出按指令切换独立 checkpoint 的对照思路，也有人报告指令不敏感、视觉信息可能占主导；均未见作者完成该消融。
+- **限制**：作者所读回复未明确模型型号、任务集合、测试分母和指令分布，不能根据评论者谈 SmolVLA 就认定作者模型。未查看视频细节。
+- **建议核验（未执行）**：固定图像和物体布局，仅切换任务指令测试；再与单任务策略比较，记录逐任务成功数与混淆矩阵。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a886a3f000000003300ee8c) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=vla%E6%95%88%E6%9E%9C%E4%B8%8D%E8%A1%8C%20Service) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-23)。
+
+
+#### XHS-20261025-25：ACT 离线实验：夹爪提前闭合与时间聚合
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；茫海多鱼；原站显示 编辑于 10-16 广东；44 赞 / 6 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者用他人提供的 100 条 SO101 抓橘子示教，按 80/10/10 划分训练、验证、测试。1000 到 3000 步，验证 MAE 从 4.260 降至 2.995；发现夹爪比示教约提前 15 帧闭合。选 8 帧等权因果时间聚合后，自报测试六维动作 MAE 降 5.27%、夹爪 6.03%、切换阶段 15.95%。
+- **讨论线索**：作者回复比较过不聚合及 2/4/8 帧，8 帧最好，更多历史长度未测；这不表示每八个控制步才推理一次。
+- **限制**：作者明确仅完成离线实验，未做仿真或真机闭环；MAE 不是成功率，未公开轨迹划分、单位和代码，不能视为通用聚合配方。
+- **建议核验（未执行）**：核实按独立 episode 划分及切换事件定义；补测因果后处理引入的延迟，并在闭环中统计提前闭合与抓取成功。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6ad1f422000000000b0077b8) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%AE%AD%E7%BB%83ACT%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%20%E8%8C%AB%E6%B5%B7%E5%A4%9A%E9%B1%BC) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-25)。
+
+
+#### XHS-20261025-34：SmolVLA：20 组数据与 RTX4070 笔记本训练
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；Robert；原站显示 2025-09-22；40 赞 / 12 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者使用腕部、侧面双相机，20 组数据，在 4070 笔记本上训练与推理，训练一万次约三小时。夹爪原行程 0–1000，映射到 0–1；报告接近目标尚可，但抓取放下较慢。
+- **讨论线索**：作者回复用键盘控制脚本采集，机械臂六自由度；自由度与 SO100 不同如何适配的问题在所读评论中未明确回答。
+- **限制**：“一万次”保留作者原表述，不能确定是 steps 还是其他计数。未报告速度、成功率或泛化协议，也未看演示视频，不能仅凭结论认定任务已稳定。
+- **建议核验（未执行）**：补齐动作维度、单位与归一化定义，量测接近、闭爪和放置各阶段时长及成功率，再比较示教节奏。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/68d0fbfe0000000013036569) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E7%9D%BF%E5%B0%94%E6%9B%BC%E8%87%82%E5%A4%8D%E7%8E%B0SmolVLA%E6%8A%93%E5%8F%96%20Robert) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-34)。
+
+
+#### XHS-20261025-35：SmolVLA 螺丝抓取：40 条数据与场景覆盖疑问
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；MJNH；原站显示 编辑于 2025-12-11；31 赞 / 22 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者以 40 条数据训练 SmolVLA 抓螺丝，仍不理想，主观认为 ACT 更稳定平滑；回复说采集也包含随机多物体场景，平台有些晃动。
+- **讨论线索**：评论者提出只在单物体训练、多物体测试时可能抓向两者中心的自身经历；作者说明自己的采集包含多物体，因此未确认该解释。
+- **限制**：没有训练配置、螺丝尺寸、测试分母或受控 ACT 对照；不能确认数据不足、过拟合、场景差异或结构不稳中的任一项是原因。未看视频细节。
+- **建议核验（未执行）**：固定底座和物体布局，分开评测单/多物体与不同位置，检查相机清晰度、夹爪开合和失败阶段。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/693a4422000000001e02e81b) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E7%AC%A8%E7%AC%A8%E6%9C%BA%E6%A2%B0%E8%87%82%EF%BC%8C%E4%BE%9D%E7%84%B6%E5%AD%A6%E4%B8%8D%E4%BC%9A%E5%A4%B9%E8%9E%BA%E4%B8%9D%EF%BC%8Csmolvla%20MJNH) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-35)。
+
+
+#### XHS-20261025-37：π0.5 LoRA：48GB 版 4090、200 条数据
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；dli1988；原站显示 2025-10-01；97 赞 / 48 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者确认原版 JAX π0.5，48GB 版 4090 做 LoRA，batch size 32、20000 步，不到 25 小时；采集 200 条数据。侧面相机背景变化大，当前训练只用了顶部相机，主观不如双相机；另报告松灵臂双相机下单物体抓取接近全成功。
+- **讨论线索**：作者说执行约 25 步推理一次，但记不清实际帧率。
+- **限制**：48GB 必须保留，不能套到常见 24GB 4090。接近 100% 没有测试分母，两个臂/相机设置也不是同条件消融；未核对改装显卡规格或录像。与旧库同作者抽屉帖不是同一来源，也不视为独立复现者。
+- **建议核验（未执行）**：记录实际显存、精度、LoRA 配方及相机输入，固定任务和布局评测相机数量变化；测真实循环延迟。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/68dc77ef000000000402351c) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E5%A4%8D%E7%8E%B0pi0.5%E5%AE%9E%E7%8E%B0%E6%8A%93%E5%8F%96%E4%BB%BB%E5%8A%A1%20dli1988) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-37)。
+
+
+#### XHS-20261025-38：π0.5 辅助监督：FAST token、box 与 depth 的初步实现
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；momo；原站显示 编辑于 08-16；38 赞 / 8 条评论；评分 5。</sub>
+
+- **一手记录 / 已看内容**：作者初步实现 VLM 上的 FAST token 自回归预测、box xywh 回归和 16×16 可学习 token 的深度预测，称目前仅辅助监督、尚未注入 flow action head。加入后出现较大的 grad_norm、CE loss 及 loss 不均衡，但仍收敛。单本体单抓取任务，没有子任务语言监督。
+- **讨论线索**：评论建议参考其他工作，没有给出能验证作者方案的实验结果。
+- **限制**：未查看 attention mask 图、代码、loss 数值或任务成功率；不能据此确认架构正确、有效或与 π0.5 官方预训练一致。“全参”按作者自报，未核对可训练参数。
+- **建议核验（未执行）**：逐项加入辅助目标，记录梯度规模、损失权重与固定任务成功率；先测试 attention mask 是否泄漏未来动作，再讨论注入动作头。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a79ef630000000025013f26) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=Pi0.5%E5%85%A8%E5%8F%82%E5%BE%AE%E8%B0%83%20momo) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-38)。
+
+
+#### XHS-20261025-39：π0 微调耗时：34 小时为预估，实际 5000 步停止
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；no；原站显示 05-21；46 赞 / 31 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：首图写 4090、LIBERO 数据、计划 30000 steps、batch size 32，界面预计 34 小时。作者评论确认可同时 batch32，但最终约 5000 steps 认为收敛便停止。
+- **讨论线索**：评论区给出其他硬件/卡数的耗时，配置不一致，只能作为需要统一计时协议的提醒，不能直接排名。
+- **限制**：没有实际总耗时、模型/精度、LoRA 或全量说明、热身与 I/O 分解。预估 34 小时不能写成实测完成时间；训练收敛也不是任务成功。
+- **建议核验（未执行）**：固定完整训练 recipe，测热身后的秒/步、GPU利用率和数据等待，再按实际步数估算预算并报告评测结果。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a0ed8d30000000038021b1c) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=pi0%E5%BE%AE%E8%B0%83%E8%A6%8134%E4%B8%AA%E5%B0%8F%E6%97%B6%EF%BC%8C%E8%BF%99%E6%AD%A3%E5%B8%B8%E5%90%97%3F%20no) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-39)。
+
+---
+
 ### 12.6 真机部署、硬件与 Sim2Real
 
 #### 硬件生态与选型更新
@@ -2078,6 +2202,84 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 
 ---
 
+#### XHS-20261025-22：G1 GR00T + SONIC：影像积压使 chunk 陈旧
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；momo；原站显示 编辑于 08-26；199 赞 / 63 条评论；评分 10。</sub>
+
+- **一手记录 / 已看内容**：作者用约 100 条数据微调 GR00T1.7，单头部视角、关节状态输入，输出 64D latent token 与 14 维手部控制量交给 SONIC。串行部署 chunk 40、执行前 20 步，推理约 0.4 秒；限幅和平滑尝试未解决。正文更新称原有系统未改模型，清理局域网影像传输积压后解决晃动。
+- **讨论线索**：作者还回复 psi0 实测不抖；评论讨论 latent 与实际 state 偏移及 RTC，但不能将所有建议视为最终采用方案。
+- **限制**：根因项依据作者更新与排查过程计分，未独立检验网络队列、修复代码或视频。psi0 的改进和原系统影像积压是两条记录，不合并成同一次受控比较。
+- **建议核验（未执行）**：记录相机采集、接收、模型输入及执行时刻，监测帧龄与队列长度，固定权重复测队列处理前后表现。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a7317fd0000000028001ed9) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=GR00T%2Bsonic%E5%AE%87%E6%A0%91g1%E5%85%A8%E8%BA%ABvla%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%20momo) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-22)。
+
+
+#### XHS-20261025-26：双臂 π0.5：异步 + RTC 后仍在物块上方闭爪
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；Soyeon的sonini；原站显示 09-18；31 赞 / 25 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者采集约 100 条双臂夹取数据，OpenPI PyTorch、云端 A800 80GB 推理、action chunk 50。同步时左臂接近但夹不上，右臂未接近；异步加 RTC 后双臂都能接近并闭爪，但常在物块上方提前闭合。回复称总帧数约四万多。
+- **讨论线索**：评论建议轨迹回放、单臂对照、检查重力补偿与控制参数；作者说未加重力补偿，并计划改 JAX、加到 10k 步。
+- **限制**：评论提出原来是否仅 3k 步，作者未明确确认，本轮不把它当确定配置。未报告改框架/步数后的结果；不能归因于 PyTorch、小数据或 RTC。
+- **建议核验（未执行）**：先回放采集轨迹，分别检查单臂坐标、末端高度及夹爪时序；固定权重比较通信和执行配置，再做训练改动。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6aad11a20000000011034090) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E6%B1%82%E5%A4%A7%E4%BD%AC%E7%9C%8B%E4%B8%80%E4%B8%8Bpi0.5%E5%A4%8D%E7%8E%B0%E9%97%AE%E9%A2%98%20Soyeon%E7%9A%84sonini) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-26)。
+
+
+#### XHS-20261025-28：STS3215 校准超时：作者自报 EEPROM 重新锁定
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；UNNAMED；原站显示 编辑于 07-06；10 赞 / 15 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者称线路、编号与厂商工具识别正常，但标定时报 COMM_RX_TIMEOUT。更新将原因归于 STS3215 写 EEPROM 后重新锁定，修改 FeetechMotorsBus 的 reset_calibration / write_calibration，在写入前解锁并增加重试和延时后解决。
+- **讨论线索**：另有评论者报告同类现象最终是控制板损坏，说明超时症状不唯一对应固件锁定。
+- **限制**：未核对舵机固件、寄存器手册、仓库 commit 或修改 diff。根因分来自作者自报的排查与修复，不是通用固件事实。
+- **建议核验（未执行）**：先记录固件、舵机 ID、供电与通信错误，按官方手册核对读写顺序；保留最小复现和修改前后日志，再决定是否改驱动。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a490540000000000f004fcc) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E6%9C%89%E4%BA%BA%E6%87%82lerobot%E5%90%97%20UNNAMED) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-28)。
+
+
+#### XHS-20261025-29：SO101 首图排查：舵机 ID 重复与校准问题
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；Jerry Zero；原站显示 编辑于 05-21；35 赞 / 9 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：已看首图：作者列举第五关节默认 0–4095 范围影响校准、夹爪驱动力限制，以及 3/6 号舵机误都编成 6 号导致识别异常。
+- **讨论线索**：评论者报告第五关节不校准也能采集；这是另一人经验，不能直接当推荐流程。作者称项目开源，但所读评论未见可核对的代码地址。
+- **限制**：首图末段被截断，未补写。夹爪把限制从 50% 改至 100% 是原帖做法，未经负载、供电和温升验证，本轮不作为操作建议。未核对 LeRobot 版本及驱动语义。
+- **建议核验（未执行）**：逐个核验舵机 ID 与关节映射，记录校准范围；按硬件规格验证限制设置，避免把编号故障误判成模型问题。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/69e62c06000000001a02e422) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=so101%20lerobot%20%E8%B8%A9%E5%9D%911%20Jerry%20Zero) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-29)。
+
+
+#### XHS-20261025-30：Piper X：50 个观测后的手眼误差仍未定位
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；momo；原站显示 编辑于 2天前 上海；9 赞 / 16 条评论；评分 7。</sub>
+
+- **一手记录 / 已看内容**：作者称腕部与第三视角相机均为 d435if（保留原写法），采约 50 条不同角度数据，使用自打印连接件与粘贴标定纸的板；报告验证误差约 10 像素、位置 RMS 5 mm、方向 RMS 1.29。更换标定内参后误差仍相近。
+- **讨论线索**：评论建议改善补光、换标定板、单独验证 FK。多个同名 momo 回复无法可靠区分，不把“买板解决”归给作者。
+- **限制**：方向 RMS 的单位、误差定义和坐标未明确；尚无修复结果，不能认定 FK 不准或标定纸必然是根因。
+- **建议核验（未执行）**：分开量测角点重投影、机器人 FK 和手眼闭环误差，固定采样位姿比较板平整度、尺寸及光照。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6ad87b5400000000250211bd) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=piper%20x%E6%89%8B%E7%9C%BC%E6%A0%87%E5%AE%9A%E7%B2%BE%E5%BA%A6%E6%B1%82%E5%8A%A9%20momo) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-30)。
+
+
+#### XHS-20261025-31：MuJoCo 到真机失败：传感器模型与控制映射线索
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；马了顶大；原站显示 编辑于 08-26；228 赞 / 67 条评论；评分 4。</sub>
+
+- **一手记录 / 已看内容**：作者称 MuJoCo 中表现正常，真机异常；在评论中表示使用与官方策略相同的 PD 参数，网络部署存在延迟。
+- **讨论线索**：一位评论者报告给 IMU 加 noise、bias、random walk 建模后自己的策略更鲁棒；其他人建议对照官方策略的输入输出、关节顺序及正负号。
+- **限制**：未观看视频细节，正文未明确机器人型号、策略架构或是否 VLA；作为相关 Sim2Real 控制排查案例收录，不当作 VLA 模型失败证据。IMU 改善是评论者另一套系统的经验。
+- **建议核验（未执行）**：先比较同状态下官方与自训策略输入输出，核对单位、映射和延迟，再对传感器及动力学做有边界的随机化测试。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a8eab0d000000002903d20c) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=sim2real%E6%B1%82%E5%8A%A9%20%E9%A9%AC%E4%BA%86%E9%A1%B6%E5%A4%A7) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-31)。
+
+
+#### XHS-20261025-36：SO101 循环测试：随机摆放与固定位置对照
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；Jerry Zero；原站显示 编辑于 07-22；29 赞 / 15 条评论；评分 4。</sub>
+
+- **一手记录 / 已看内容**：作者称基于 LeRobot0.6 开发；回复说明训练时方块、盘子都随机摆放，格子纸只为测试摆放定位、控制变量，并非模型必要输入。
+- **讨论线索**：同步/异步推理和 episode 数的提问未在所读评论中得到回答。此帖与同作者校准帖记录不同环节，不作为两个独立复现者。
+- **限制**：未看循环视频或代码，不能确认自动复位、循环次数、实际成功率和抗背景变化能力；版本号是作者自报。
+- **建议核验（未执行）**：固定位置做重复测试，再分层抽样不同布局；记录人工复位、干预与失败次数，避免只展示成功循环。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a609b27000000001302cfa5) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=so101%20%E6%9C%BA%E6%A2%B0%E8%87%82%20smolvla%20%E6%8E%A8%E7%90%86%E5%A4%8D%E4%BD%8D%E6%B5%8B%E6%B5%81%E7%A8%8B%E5%BE%AA%E7%8E%AF%20Jerry%20Zero) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-36)。
+
+---
+
 ### 12.7 数据采集与数据集
 
 #### 数据集与基准
@@ -2136,6 +2338,29 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 > - **开源工具已经足够支撑真实机器人系统**"
 >
 > — Hugging Face（法国官方账号，194 赞 / 1435 评论），[帖206](https://www.xiaohongshu.com/explore/69d55e62000000001a0237b4) 2026-04-08
+
+---
+
+#### XHS-20261025-32：UMI 数据有效性：作者强调对齐与机器人回放
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；丁琰；原站显示 01-04；435 赞 / 40 条评论；评分 4。</sub>
+
+- **一手记录 / 已看内容**：阅读正文、首屏评论及第 1–3/11 张图。作者自述自家 UMI pipeline 已稳定运行，并曾帮朋友排查购入设备的训练失败；提出视觉/空间位姿逐帧对齐、多模态毫秒级同步及可回放的交互轨迹要求。
+- **讨论线索**：评论讨论回放是把采集轨迹交给机器人重复执行，并指出不同步的多模态信息会污染训练。
+- **限制**：只看前三图，未看其余八图、设备日志或训练结果。毫秒级是作者提出的要求，本轮没有证明适用于所有任务的统一误差阈值；不能从该帖估计全行业设备有效率。
+- **建议核验（未执行）**：记录图像、位姿与夹爪时间戳，先做离线对齐和目标机器人轨迹可达性检查，再验证回放及策略闭环表现。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/695a49f7000000001e014c64) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%A0%E7%9A%84UMI%E8%AE%AD%E4%B8%8D%E5%87%BA%E6%A8%A1%E5%9E%8B%EF%BC%9F%20%E4%B8%81%E7%90%B0) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-32)。
+
+
+#### XHS-20261025-33：T265 / FastUMI 路线：单轴偏差尚未解决
+
+<sub>来源：2026-10-25 GPT 再补 20 篇；一朵风中飘渺的罗子君；原站显示 07-07；21 赞 / 14 条评论；评分 5。</sub>
+
+- **一手记录 / 已看内容**：作者沿 FastUMI 路线，用 T265 采集并改过结构；回复说近期一百多条数据，之前两百多条时有一定成功率，目前效果变差。Y/Z 跟踪较好，X 轴偏差较大。
+- **讨论线索**：评论提出视觉 SLAM 可能有问题，但没有实验对照或已验证解决方法。
+- **限制**：未给误差数值、姿态变换、动作表示和成功率分母；不能据此推断 UMI 整体精度不够，也不能把“越优化越差”当数据量的因果结果。
+- **建议核验（未执行）**：固定目标对比原始跟踪、坐标变换、轨迹回放与策略输出，分轴统计误差，核对结构改动后的外参和尺度。
+- **追溯**：[原帖](https://www.xiaohongshu.com/explore/6a4cf3e10000000006032fef) · [标题＋作者检索](https://www.xiaohongshu.com/search_result?keyword=Umi%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%95%B0%E6%8D%AE%20%E4%B8%80%E6%9C%B5%E9%A3%8E%E4%B8%AD%E9%A3%98%E6%B8%BA%E7%9A%84%E7%BD%97%E5%AD%90%E5%90%9B) · [采集记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md#xhs-20261025-33)。
 
 ---
 
@@ -3281,6 +3506,10 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 
 > 本次按用户要求补足 17 篇；10 组关键词、50 个结果位，读取 23 篇详情后保留 17 篇，排除 6 篇。新增 ID 与历史 358 个来源 ID 无交集，并检查标题及实验内容去重。沿用用户授权的只读 Chrome DOM 提取；未使用隐藏 API、社交操作或未登录会话。评分、作者自述与待验假说分开记录；未修改信念网络或配置自动排程。编号 XHS-20261025-04 至 20，见 [补采档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus17.md)。本日累计 20 是本次手动新增数，不代表本周发表数。
 
+#### GPT 再补轮（2026-10-25，再增 20 篇，本次系列合计 40 篇）
+
+> 用户要求再加 20。16 组搜索、80 个结果位，读 37 篇详情后新增 20 篇、排除 17 篇；与初始 381 个历史 ID 无交集，并核对标题及内容。编号 XHS-20261025-21 至 40，覆盖推理、训练、评测、校准和 UMI 数据。只读 DOM 与有限图片阅览，不做社交操作；未配置排程或修改信念网络。详见 [本轮评分与排除记录](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md)。本次 3＋17＋20＝40，不代表本周发帖数或 40 位独立作者。
+
 ## 13. VLA 社区黑话辞典 🗣️
 
 > 在小红书 VLA 社区摸爬滚打几百篇帖子，你会发现一套独特的"黑话"体系。
@@ -3937,3 +4166,5 @@ NVIDIA × 苏黎世大学 RPG 合作综述《The Reality Gap in Robotics: Challe
 [← Back to Deployment](./README.md)
 
 > **2026-10-25 补采增量**：本次再增 17 篇，连同首轮 3 篇共 20 篇；未重算历史总量。见 [补采档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus17.md)。
+
+> **2026-10-25 再补增量**：本轮 +20，本次 GPT 手动系列合计新增 40 篇；证据限制见 [本轮档案](../memory/blog/archives/xiaohongshu-community/2026-10-25-codex-plus20.md)。
