@@ -129,9 +129,26 @@
     "https://www.xiaohongshu.com/explore/6a6edae20000000027020eeb",
     "https://www.xiaohongshu.com/explore/69c5f7b1000000001d01e152",
     "https://www.xiaohongshu.com/explore/6a8e8dde0000000020033e76",
-    "https://www.xiaohongshu.com/explore/6a3177ba000000002201a2e1"
+    "https://www.xiaohongshu.com/explore/6a3177ba000000002201a2e1",
+    "https://www.xiaohongshu.com/explore/6a7d63c60000000022032117",
+    "https://www.xiaohongshu.com/explore/69489160000000001e00acc3",
+    "https://www.xiaohongshu.com/explore/682ca7960000000022037dd7",
+    "https://www.xiaohongshu.com/explore/69dd37a6000000001d01a8d3",
+    "https://www.xiaohongshu.com/explore/67d440b8000000001c003555",
+    "https://www.xiaohongshu.com/explore/6ac4d136000000001a03052d",
+    "https://www.xiaohongshu.com/explore/6a1ea356000000003502dfb6",
+    "https://www.xiaohongshu.com/explore/6a0d958800000000350206e4",
+    "https://www.xiaohongshu.com/explore/6a07428e0000000038035c28",
+    "https://www.xiaohongshu.com/explore/69afa66f000000002203308f",
+    "https://www.xiaohongshu.com/explore/6975f9dd000000000c037aba",
+    "https://www.xiaohongshu.com/explore/6a10049d0000000037035b50",
+    "https://www.xiaohongshu.com/explore/6806fdcd000000001c00c362",
+    "https://www.xiaohongshu.com/explore/69e62b72000000002103abab",
+    "https://www.xiaohongshu.com/explore/6ad3074e000000000a02461c",
+    "https://www.xiaohongshu.com/explore/6a76f1df000000002202cfd7",
+    "https://www.xiaohongshu.com/explore/6a57a636000000001c02701c"
   ],
-  "count": 130,
+  "count": 147,
   "last_updated": "2026-10-25",
   "runs": [
     {
@@ -280,6 +297,48 @@
         "6a8e8dde0000000020033e76"
       ],
       "report": "2026-10-25-codex-manual.md"
+    },
+    {
+      "date": "2026-10-25",
+      "kind": "GPT manual continuation; user requested +17 to reach 20",
+      "keywords": [
+        "SmolVLA 复现 失败",
+        "pi0 训练 踩坑",
+        "ACT 模型 机械臂 训练",
+        "数据采集 遥操作 踩坑",
+        "OpenVLA 部署 复现",
+        "SmolVLA 微调",
+        "机械臂 标定 踩坑",
+        "VLA 推理 卡顿 优化",
+        "LeRobot 训练 失败",
+        "pi0.5 微调 失败"
+      ],
+      "search_result_slots": 50,
+      "details_read": 23,
+      "new_added": 17,
+      "detail_kept": 17,
+      "title_only": 6,
+      "day_total_new": 20,
+      "new_note_ids": [
+        "6a7d63c60000000022032117",
+        "69489160000000001e00acc3",
+        "682ca7960000000022037dd7",
+        "69dd37a6000000001d01a8d3",
+        "67d440b8000000001c003555",
+        "6ac4d136000000001a03052d",
+        "6a1ea356000000003502dfb6",
+        "6a0d958800000000350206e4",
+        "6a07428e0000000038035c28",
+        "69afa66f000000002203308f",
+        "6975f9dd000000000c037aba",
+        "6a10049d0000000037035b50",
+        "6806fdcd000000001c00c362",
+        "69e62b72000000002103abab",
+        "6ad3074e000000000a02461c",
+        "6a76f1df000000002202cfd7",
+        "6a57a636000000001c02701c"
+      ],
+      "report": "2026-10-25-codex-plus17.md"
     }
   ]
 }
