@@ -8,3 +8,9 @@
 - **北京人形机器人整机14家全景（两家已股改）**：[`beijing_humanoid_robot_oem_14_ipo_signals_2026.md`](./beijing_humanoid_robot_oem_14_ipo_signals_2026.md)
 - **国金证券：为什么机器人需要力控？**：[`guojin_force_control_torque_sensors_2026.md`](./guojin_force_control_torque_sensors_2026.md)
 
+
+## 阅读方式
+
+先看报告的日期、原始出处与覆盖对象，再把产业观点连接到[硬件选型](../../deployment/robot_hardware_selection_pricing.md)或[触觉研究](../../theory/tactile/README.md)。报告中的预测、估算与产品实测应分别阅读。
+
+[← 公司与行业](../README.md) · [Handbook 首页](../../README.md)

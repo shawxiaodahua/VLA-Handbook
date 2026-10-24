@@ -4,20 +4,22 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先读[感知基础](./perception_techniques.md)与[研究主线](./perception_mainline.md)。相机、标定和时间同步的工程问题见[感知部署索引](../../deployment/perception/README.md)；空间表示可对照[Spatial Handbook](https://github.com/sou350121/Spatial-Intelligence-Handbook)。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [Perception Techniques](./perception_techniques.md) | VLA 的眼睛怎么工作 |
 | 🔬 研究者 | [Perception Mainline](./perception_mainline.md) | 感知研究完整地图 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Perception Mainline**](./perception_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### 感知主线 <code>1</code>
 

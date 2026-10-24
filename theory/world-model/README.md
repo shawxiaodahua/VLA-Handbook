@@ -4,21 +4,23 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先看[世界模型主线](./world_model_mainline.md)，区分用于预测、评估、规划和动作生成的不同角色，再选择具体模型；真机迁移问题可接着读 [Sim-to-Real](../../deployment/sim_to_real_transfer_strategies.md)。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [World Model Mainline](./world_model_mainline.md) | 从 evaluator 到 World-Action Model 演进 |
 | 🛠️ 工程师 | [Lda 1B](./lda_1b_dissection.md) | DINO 隐空间 WAM scaling — 实战代表 |
 | 🔬 研究者 | [Lyra2](./lyra2_dissection.md) | NVIDIA 长轨迹生成 + Isaac Sim 直连 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**World Model Mainline**](./world_model_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### ⭐ World-Action Model (WAM) <code>9</code>
 

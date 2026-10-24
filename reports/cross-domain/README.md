@@ -1,5 +1,9 @@
-# Cross-Domain Reports
+# 跨域研究报告
 
 本目录发布跨域战略洞察报告，交叉分析 VLA + AI App 两个领域的底层信号，识别跨域技术收敛点。
 
 > 当前暂无正式报告。跨域分析需双域数据积累到一定密度后启动。
+
+阅读现有研究可先看[VLA 理论](../../theory/README.md)、[双周报告](../biweekly/README.md)与[系统设计](../../system-design/README.md)。后续跨域报告需分别链接各领域原始材料，不能把类比直接当作迁移效果。
+
+[← Handbook 首页](../../README.md)

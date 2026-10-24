@@ -2,6 +2,13 @@
 
 这里汇集了 VLA 算法岗的面试真题和考官视角。
 
+## 按目标选择
+
+- **补基础**：[理论目录](../theory/README.md) + [概念真题](./questions.md)。
+- **练代码**：[代码题](./code_questions.md)与[参考解答](./code_answers.md)，再用[训练日记](./leetcode_beginner_diary.md)复盘。
+- **做项目与面试复述**：[OpenVLA 微调](./openvla_finetuning.md)、[6D 姿态工作流](./sixd_pose_estimation_practical_workflows.md)与[姿态面试手册](./sixd_pose_estimation_interview_playbook.md)。
+- **模拟追问**：[考官视角](./interviewer_guide.md)；具体面经是历史场景记录，不表示当前公司的统一题库。
+
 ## 目录
 1. **[LeetCode 小白训练日记 (Beginner Diary)](./leetcode_beginner_diary.md)** 🔥 [New]
     - **零基础友好**：超级口语化讲解，外行人也能看懂
@@ -48,3 +55,7 @@
 - **不要死记硬背**: 机器人面试更看重**工程直觉 (Engineering Intuition)**。
 - **多讲 "为什么"**: 为什么选这个模型？为什么用这个 Loss？
 - **结合项目**: 把问题往你做过的项目上引，展示你在真机上遇到的坑和填坑过程。
+
+---
+
+[← Handbook 首页](../README.md) · [理论目录](../theory/README.md) · [系统设计](../system-design/README.md)

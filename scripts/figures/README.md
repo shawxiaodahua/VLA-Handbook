@@ -12,4 +12,8 @@ python3 gen4.py   # 图8 演化时间线, 图9 主题饼图
 
 为什么用 SVG 而不是 Mermaid：GitHub 的 Mermaid 走客户端 viewscreen iframe 渲染，
 在本文件上 9 张图全部显示 `Unable to render rich display`（连基础 flowchart 也失败）。
-静态 SVG 不依赖 JS，必然渲染。
+静态 SVG 可直接嵌入 Markdown；实际显示仍需检查图片路径与文件内容。
+
+阅读配图对应的正文：[中文社区实战笔记](../../deployment/community_field_notes_xiaohongshu.md)。本目录用于维护配图，不是 Handbook 的阅读起点。
+
+[← Handbook 首页](../../README.md)

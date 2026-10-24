@@ -5,6 +5,8 @@
 >
 > 不知道从哪开始？先选你的角色 ↓
 
+**找文章的顺序**：先看下方阅读路线，选定主题后进入各子目录；文末[完整目录](#theory-complete-index)用于查漏补缺。真机问题见[部署指南](../deployment/README.md)，复习见[速查表](../cheat-sheet/README.md)，准备面试见[题库](../question-bank/README.md)。
+
 &nbsp;
 
 ## 🎭 你是谁？
@@ -321,7 +323,7 @@ VLA 数学 → Loss Functions → World Model 总纲 → 思维链 → VLA 十�
 
 ### 🧬 "我从其他领域来"
 
-**NLP / LLM →** [VLA 架构](vla-core/vla_arch.md)（VLA 就是 LLM + 手）→ [Compression Gap](diffusion-flow/the_compression_gap_why_discrete_tokenization_limits_vision_dissection.md)（为什么不能用 token 做动作）
+**NLP / LLM →** [VLA 架构](vla-core/vla_arch.md)（VLA 就是 LLM + 手）→ [Compression Gap](diffusion-flow/the_compression_gap_why_discrete_tokenization_limits_vision_dissection.md)（对照离散动作表示的适用边界）
 
 **CV →** [视觉感知](perception/perception_techniques.md) → [World Model](world-model/world_model_mainline.md)（视频生成 → 世界模型）
 

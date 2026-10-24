@@ -4,22 +4,24 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先读 [VLA 架构](./vla_arch.md)，再比较[动作表示](../diffusion-flow/action_representations.md)；选具体模型时，回到[开源 VLA 指南](./open_source_vla_guide.md)核对代码、权重与训练条件。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [VLA Arch](./vla_arch.md) | 一篇看完所有 VLA 的共同设计模式 |
 | 🛠️ 工程师 | [Open Source VLA Guide](./open_source_vla_guide.md) | 10 个真开源 vs 假开源拆解 + 按场景选型 |
 | 🔬 研究者 | [VLA Research Mainline](./vla_research_mainline.md) | VLA 研究主线 — 该赌哪条路 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Open Source VLA Guide**](./open_source_vla_guide.md)
 - [**VLA Research Mainline**](./vla_research_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### ⭐ π / Physical Intelligence 系列 <code>5</code>
 

@@ -4,21 +4,23 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先用 [VLA 挑战](./vla_challenges.md)定位问题，再读记忆、规划与失败恢复的专题。长程记忆可从 [NativeMEM](./nativemem_native_memory_compression_for_long_horizon_robotic_dissection.md)开始，并对照各文的观测范围与任务设置。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [VLA Challenges](./vla_challenges.md) | VLA 还没解决的 10 个难题 |
 | 🛠️ 工程师 | [Ram](./ram_dissection.md) | ⚡ Science Robotics 2026 — RAG meets manipulation |
 | 🔬 研究者 | [Codegraphvlp](./codegraphvlp_dissection.md) | 持久语义图 + Code-as-Planner |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Benchmark Mainline**](./benchmark_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### ⭐ Benchmark 与评测 <code>2</code>
 

@@ -2,6 +2,8 @@
 
 本模块关注 VLA 算法在真实物理世界中的落地与应用，涵盖从硬件选型、感知对齐到大规模数据采集的完整工程链路。
 
+**推荐顺序**：[硬件选型](./robot_hardware_selection_pricing.md) → [标定](./camera_calibration_eye_in_hand.md) → [同步](./multimodal_data_synchronization.md) → [仿真与训练](./simulation_benchmarks_and_tools.md) → [Sim-to-Real](./sim_to_real_transfer_strategies.md)。已有系统故障可直接查下方社区笔记。
+
 ---
 
 ## ⚡ 卡住了？先看这个
@@ -10,18 +12,18 @@
 
 > 带着问题来的话，直接看笔记顶部的「你现在卡在哪？」速查表。
 > 需要深入理解的话，每个 section 末尾有对应专题文件链接。
-> **每周五 10:00 自动增量更新。**
+> 按条目日期与原始链接阅读，复用参数前先核对机器人、数据和软件版本。
 
 **[📘 社区实战笔记・英文 (HF Blog / Discord / 厂商博客)](./community_field_notes_english.md)** — 300 条英文社区精选（Blog 165 + Discord 135）：SmolVLA / π0-FAST / GR00T N1.5 / ACT / DiffusionVLA / RD-VLA / SeedPolicy / EasyMimic 等最新论文拆解 + LeRobot Discord 真实部署经验、训练配方、推理延迟实测、数据迭代踩坑。
 
 > 165 条 Blog 深度拆解（arXiv 前沿论文 + HuggingFace、NVIDIA、Phospho、ML6 等厂商博客）+ 135 条 LeRobot Discord 一手情报（#show-us-what-you-built / #robotics-papers）。
 > 每条 Discord 原文保留英文全量展示，方便直接参考。
-> **每周五 11:00 自动增量更新。**
+> 厂商说明、论文结果与个人经验分别标注，比较时保留各自实验条件。
 
 **[🔧 GitHub 社区实战笔记 (GitHub Issues)](./community_field_notes_github.md)** — 200+ 条高互动 Issues 蒸馏。硬件兼容矩阵、训练收敛失败根因、官方 checkpoint 复现问题、跨仓库收敛信号。
 
 > 21 个仓库（lerobot/openpi/GR00T/ManiSkill/IsaacLab/Genesis...），每条结论附 Issue 链接。
-> **Pulsar GitHub Issues Sensor 每周自动扫描更新。**
+> 处理具体故障时，优先回到对应 Issue 核对讨论版本与解决条件。
 
 ---
 
@@ -58,7 +60,7 @@
 - **[具身智能数据采集概览 (Embodied Data Collection)](./embodied_data_collection_overview.md)**: POV 第一视角 (EgoScale)、Sim2Real 规模化与真机 RL。📕 [社区数据量门槛](./community_field_notes_xiaohongshu.md#41-数据量门槛)
 - **[Evo-RL 仓库部署审计 (Evo-RL Repo Analysis)](./evo_rl_repo_analysis.md)**: 可运行性、稳定性、隐含假设与真机复现门槛。📕 [社区 RECAP 复现](./community_field_notes_xiaohongshu.md#16-rl-后训练-post-training)
 - **[灵巧手数据采集方案 (DexHand Data Collection)](./dexterous_hand_data_collection.md)**: 结构化 Episode 定义、Retargeting 算法与数据回放验证。
-- **[仿真环境详解 (Simulation Environments)](./simulation_environments.md)**: Isaac Sim vs MuJoCo vs PyBullet 选型指南。📕 [社区 MuJoCo 踩坑](./community_field_notes_xiaohongshu.md#33-mujoco-环境搭建)
+- **[仿真环境详解 (Simulation Environments)](./simulation_environments.md)**: Isaac Sim vs MuJoCo vs PyBullet 选型指南。📕 [社区 MuJoCo 踩坑](./community_field_notes_xiaohongshu.md#33-仿真平台选型)
 - **[仿真基准与训练工具 (Sim Benchmarks & Tooling)](./simulation_benchmarks_and_tools.md)**: LIBERO / RLinf / SimpleVLA-RL 的分工与落地路径。
 - **[Sim-to-Real 迁移策略 (Sim-to-Real Transfer)](./sim_to_real_transfer_strategies.md)**: Domain Randomization 与 Reality Gap 应对策略。📕 [社区 Sim2Real 真实根因](./community_field_notes_xiaohongshu.md#31-sim2real-gap-的真实根因)
 - **[末端执行器控制系统 (End-Effector Control)](./end_effector_control.md)**: 数据驱动与触觉闭环控制软件架构设计。
@@ -72,3 +74,7 @@
 - **工程党**: **[VLA 边缘部署](./vla_model_edge_deployment.md)** + **[📕 社区推理加速实测](./community_field_notes_xiaohongshu.md#93-边缘部署与模型压缩)** + **[📘 英文社区推理延迟全景](./community_field_notes_english.md)**。
 - **算法党**: **[Sim-to-Real 策略](./sim_to_real_transfer_strategies.md)** + **[📕 社区 Sim2Real 失败根因](./community_field_notes_xiaohongshu.md#31-sim2real-gap-的真实根因)**。
 - **英文读者**: 直接看 **[📘 English Community Field Notes](./community_field_notes_english.md)** — Blog 深度拆解 + Discord 原文，不需要翻译。
+
+---
+
+[← Handbook 首页](../README.md) · [理论目录](../theory/README.md) · [产品与硬件](../product/README.md)

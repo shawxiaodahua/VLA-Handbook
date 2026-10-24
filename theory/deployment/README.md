@@ -4,21 +4,23 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：本目录偏重论文与方法解读。准备动手时，先到[真机部署目录](../../deployment/README.md)查硬件、标定、数据与调试，再回来对照[部署研究主线](./deployment_mainline.md)。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [Robot Hardware Selection Pricing](../../deployment/robot_hardware_selection_pricing.md) | 硬件选型 + 成本 |
-| 🛠️ 工程师 | [Rviz For VL../../deployment/rviz_for_vla_engineering.md_engineering.md) | 🆕 RViz 真机调试显微镜 |
-| 🔬 研究者 | [Agent A../../deployment/agent_architecture_deployment_guide.mdchitecture_deployment_guide.md) | 完整部署指南 |
+| 🛠️ 工程师 | [RViz 调试指南](../../deployment/rviz_for_vla_engineering.md) | 观察坐标系、感知与执行状态 |
+| 🔬 研究者 | [Agent 架构部署指南](../../deployment/agent_architecture_deployment_guide.md) | 对照规划、策略与控制的职责边界 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Deployment Mainline**](./deployment_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### 跨本体 / 边缘部署 <code>1</code>
 

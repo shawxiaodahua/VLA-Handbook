@@ -4,13 +4,15 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 📚 主線 / 工具文章
+**阅读建议**：先看[前沿研究主线](./frontier_mainline.md)，再按 Agent、跨域方法或物理建模选读。跨领域启发应与 VLA 实验结果分开判断；研究趋势可回查[双周报告](../../reports/biweekly/README.md)。
+
+## 📚 主线 / 工具文章
 
 - [**Frontier Mainline**](./frontier_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### Agent / Autoresearch <code>1</code>
 

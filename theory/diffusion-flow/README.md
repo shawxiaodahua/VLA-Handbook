@@ -4,19 +4,21 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先用[动作表示总览](./action_representations.md)比较离散、扩散与 Flow 路线，再读 [Diffusion Policy](./diffusion_policy.md) 和 [Flow Matching](./pi0_flow_matching.md)。[CFG-Policy](./cfg_policy_unified_diffusion_policy_learning_framework_via_c_dissection.md)可作为进一步选读。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [Diffusion Flow Mainline](./diffusion_flow_mainline.md) | 动作生成的完整研究地图 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Diffusion Flow Mainline**](./diffusion_flow_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### Diffusion / Flow 主线 <code>2</code>
 
