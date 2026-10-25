@@ -4,22 +4,24 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先补[强化学习基础](./reinforcement_learning.md)，再读 [VLA+RL 实战指南](./vla_rl_practical_guide.md)和[研究主线](./rl_mainline.md)。比较后训练结果时，同时看奖励来源、交互预算与仿真／真机条件。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [Reinforcement Learning](./reinforcement_learning.md) | RL 基础 + VLA 特有挑战 |
 | 🛠️ 工程师 | [VLA Rl Practical Guide](./vla_rl_practical_guide.md) | 实战教程：架构选型 + 算法 + 工具链 |
 | 🔬 研究者 | [Rl Mainline](./rl_mainline.md) | VLA+RL 完整研究地图 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Rl Mainline**](./rl_mainline.md)
 - [**VLA Rl Practical Guide**](./vla_rl_practical_guide.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### RL 主线与基础 <code>2</code>
 

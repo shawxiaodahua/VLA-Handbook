@@ -4,21 +4,23 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先读[触觉 VLA 总览](./tactile_vla.md)与[研究主线](./tactile_mainline.md)，再看 [VLA-Touch](./vla_touch_dual_level_tactile_feedback_2025.md) 和 [N0-VTLA](./n0_vtla_latent_tactile_tokens_2026.md)，视觉—触觉世界模型可接着看 [PhysCanvas](./physical_canvas_a_vision_tactile_world_model_for_robot_polic_dissection.md)；传感器接入与同步转到[触觉集成](../../deployment/tactile_sensor_integration_challenges.md)。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [Tactile VLA](./tactile_vla.md) | 为什么触觉是 VLA 的「最后一公里」 |
 | 🔬 研究者 | [Tactile Mainline](./tactile_mainline.md) | 触觉研究完整地图 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Tactile Mainline**](./tactile_mainline.md)
 - [**Touchguide Inference Time Steering Touch Guidance 2026**](./touchguide_inference_time_steering_touch_guidance_2026.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### 触觉主线 <code>1</code>
 

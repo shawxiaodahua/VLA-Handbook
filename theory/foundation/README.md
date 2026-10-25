@@ -4,22 +4,24 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：按需要补工具：[数学与坐标](./math_for_vla.md) → [损失函数](./vla_loss_functions_handbook.md) → [数据工程](./vla_data_engineering_guide.md)。查文献时使用[论文索引](./paper_index.md)。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [Math For VLA](./math_for_vla.md) | VLA 的数学语言：张量 / 旋转 / SE(3) |
 | 🛠️ 工程师 | [VLA Loss Functions Handbook](./vla_loss_functions_handbook.md) | 每种训练目标的直觉解释 |
 | 🔬 研究者 | [Foundation Mainline](./foundation_mainline.md) | 基础技术工具箱地图 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Foundation Mainline**](./foundation_mainline.md)
 - [**VLA Data Engineering Guide**](./vla_data_engineering_guide.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### Foundation 主线 <code>1</code>
 

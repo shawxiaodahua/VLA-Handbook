@@ -55,14 +55,12 @@
 
 ---
 
-## workflow：你给我论文/资料时，我会怎么落地
+## 按问题阅读
 
-你只要把论文链接/笔记丢给我，我会按以下步骤做增量更新：
-
-- **归类**：判断它属于“选型/标定/同步/质量/监控”等哪个子主题，并决定落在 `deployment/perception/` 或复用现有 `deployment/*.md`。
-- **落文档**：按 `AGENTS.md` 的部署文档结构写（环境/硬件 → 步骤 → 配置/参数 → 常见坑 → 参考），不确定的数据用 `TODO/待证` 标记，绝不编造指标。
-- **同步索引**：更新本文件（`deployment/perception/README.md`）以及必要时更新 `deployment/README.md` 的入口链接。
-- **链接自检**：确保新增/修改的内部链接都可点击且目标存在。
+- **观测不稳定**：先查传感器与拓扑，再定位噪声、遮挡和退化场景。
+- **坐标或动作对不上**：核对[标定](../camera_calibration_eye_in_hand.md)与[同步](../multimodal_data_synchronization.md)，再排查策略模型。
+- **接触任务失败**：结合[触觉集成](../tactile_sensor_integration_challenges.md)及上方验收点复盘。
+- **想了解模型原理**：转到[感知理论目录](../../theory/perception/README.md)，工程设置与模型结论分开阅读。
 
 ---
 [← Back to Deployment](../README.md)

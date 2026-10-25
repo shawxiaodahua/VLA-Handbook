@@ -1,6 +1,8 @@
 # 📚 VLA Handbook - 电子书版本
 
-将 `theory/` 目录下的所有 Markdown 文件合并成一本完整的电子书，支持 PDF 和 HTML 格式输出。
+本目录保存按指定章节合并 Markdown、导出 PDF / HTML 的工具，不是全部理论文章的自动镜像。
+
+**直接阅读**：使用 [GitHub 理论目录](../theory/README.md)。当前 `build_book.py` 仍按 `theory/` 顶层旧路径查找 `CHAPTERS`，而正文已移到主题子目录；导出前需要先对齐章节路径，否则会跳过缺失章节。下列命令是完成路径对齐后的导出流程。
 
 ## 快速开始
 
@@ -41,11 +43,13 @@ python build_book.py --html
 | **第一部分** | 1-4 | 基础架构 (Transformer, Flash Attention, 多模态, VLA) |
 | **第二部分** | 5-9 | 策略生成与动作表示 (Diffusion Policy, ACT, Flow Matching) |
 | **第三部分** | 10-15 | 训练技术与优化 (LoRA, RLHF, 蒸馏, SSL, 量化) |
-| **第四部分** | 16-20 | 感知与空间智能 (空间数学, 控制, 感知, SLAM) |
-| **第五部分** | 21-23 | 抓取与运动规划 |
-| **第六部分** | 24-28 | 前沿模型解析 (RDT, π0, Galaxea, WALL-OSS) |
-| **第七部分** | 29-31 | 评估与推理 |
-| **附录** | A-C | 数据格式, 文献综述, ASCII 速查 |
+| **第四部分** | 16-21 | 感知、空间智能、状态估计与导航 |
+| **第五部分** | 22-24 | 抓取、运动规划与触觉 |
+| **第六部分** | 25-29 | RDT、π0.5、π0.6、Galaxea、WALL-OSS |
+| **第七部分** | 30-32 | 推理、评估与知识隔离 |
+| **附录** | A-C | 数据格式、文献综述与 ASCII 速查 |
+
+章节范围对应脚本中的选编清单，含第14章的 Co-training 补充；实际正文以理论目录为准。
 
 ## 自定义
 
@@ -129,7 +133,6 @@ PDF 默认使用 `tango` 主题，可在 `build_book.py` 中修改：
 "--highlight-style=tango",  # 可选: pygments, kate, monochrome, etc.
 ```
 
+---
 
-
-
-
+[← Handbook 首页](../README.md) · [在线理论目录](../theory/README.md)

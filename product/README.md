@@ -2,6 +2,8 @@
 
 本章节以**产品形态**为维度，深度解析全球主流具身智能硬件。
 
+**按任务选入口**：先确定本体与工作空间，再选末端执行器和传感器。控制接口、标定与部署问题见[真机目录](../deployment/README.md)；[硬件选型与成本](../deployment/robot_hardware_selection_pricing.md)用于交叉比较，具体规格与价格回到各文来源核对。
+
 ## 📂 产品分类
 
 ### 1. **[具身智能本体 (Humanoid Robots)](./humanoids.md)**

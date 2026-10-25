@@ -4,19 +4,21 @@
 
 📚 下方为导读选编；[完整目录与当前文档数](#theory-complete-index)见文末。
 
-## 🚀 從哪裡開始？
+**阅读建议**：先用[动作表示总览](./action_representations.md)比较离散、扩散与 Flow 路线，再读 [Diffusion Policy](./diffusion_policy.md) 和 [Flow Matching](./pi0_flow_matching.md)。[CFG-Policy](./cfg_policy_unified_diffusion_policy_learning_framework_via_c_dissection.md)可作为进一步选读。
 
-| 你是誰 | 推薦 | 為什麼 |
+## 🚀 从哪里开始？
+
+| 你是谁 | 推荐 | 为什么 |
 |--------|------|--------|
 | 🆕 新手 | [Diffusion Flow Mainline](./diffusion_flow_mainline.md) | 动作生成的完整研究地图 |
 
-## 📚 主線 / 工具文章
+## 📚 主线 / 工具文章
 
 - [**Diffusion Flow Mainline**](./diffusion_flow_mainline.md)
 
 ---
 
-## 🗂️ 深度文章（按主題分組）
+## 🗂️ 深度文章（按主题分组）
 
 ### Diffusion / Flow 主线 <code>2</code>
 
@@ -64,7 +66,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 49 份文档。**
+**共 50 份文档。**
 
 - [动作生成范式详解 (Action Representations &amp; Generation)](./action_representations.md)
 - [动作到动作流匹配 (Action-to-Action Flow Matching)](./action_to_action_flow_matching_dissection.md)
@@ -113,6 +115,7 @@
 - [传统动作生成方法 (Traditional Action Generation)](./traditional_action_generation.md)
 - [统一对象中心世界模型与扩散策略：多阶段机器人任务的分层框架 (Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks)](./unifying_object_centric_world_models_and_diffusion_policy_a_dissection.md)
 - [全模态共享 Token 空间：以 MM-ACT 为例的 VLA 进化论](./vla_unified_token_space.md)
+- [一步 Euler 够不够？Flow-Matching VLA 的步数等价性实证 (When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies)](./when_one_step_is_enough_an_empirical_study_of_euler_integrat_dissection.md)
 - [X-Diffusion: 跨具身人类演示训练扩散策略 (X-Diffusion: Training Diffusion Policies on Cross-Embodiment Human Demonstrations)](./x_diffusion_training_diffusion_policies_on_cross_embodiment_dissection.md)
 - [XS-VLA: 粗粒度空间蒸馏 + 潜在流匹配的轻量级 VLA 控制 (XS-VLA: Coupling Coarse-grained Spatial Distillation with Latent Flow Matching for Lightweight Robotic Control)](./xs_vla_coupling_coarse_grained_spatial_distillation_with_lat_dissection.md)
 

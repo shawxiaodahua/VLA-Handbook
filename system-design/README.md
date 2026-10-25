@@ -2,6 +2,8 @@
 
 本模块关注 VLA 系统的宏观架构设计，这是 Tech Lead 和 Staff Engineer 面试的核心考点。
 
+**阅读路线**：[数据闭环](./data_pipeline.md) → [训练架构](./large_scale_training.md) → [评测](./evaluation.md)。从已有项目出发，先写清输入输出、延迟预算与失败处理，再选择具体模块；真机接入见[部署目录](../deployment/README.md)。
+
 ## 目录
 
 1.  **[数据闭环设计 (Data Pipeline Design)](./data_pipeline.md)**

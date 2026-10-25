@@ -2,6 +2,12 @@
 
 > 本目录整理了全球领先的机器人公司信息，帮助算法工程师了解行业格局、选择职业方向。
 
+## 先从哪里看
+
+- **看行业脉络**：[行业判断地图](./industry_mainline.md)，再到[事件日档](../memory/blog/archives/industry-radar/)查来源与日期。
+- **了解具体团队**：按下方地区与技术方向进入公司档案；融资、产品和岗位信息以所引原始页面为准。
+- **准备面试或做选型**：结合[题库](../question-bank/README.md)、[产品分类](../product/README.md)与[硬件部署](../deployment/README.md)。
+
 ## 📂 目录结构
 
 - **[中国头部机器人公司](./china.md)**: Unitree, Agibot, Fourier 等 15+ 家公司
