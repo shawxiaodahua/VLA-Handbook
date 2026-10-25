@@ -714,6 +714,11 @@
 | Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data | [link](https://arxiv.org/abs/2608.02580v1) | 📖 数据采集专题补录 2026-10-25；首发 08-03；合成／转化量不当作真机实采量 |
 | Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation | [link](https://arxiv.org/abs/2609.22829v2) | 📖 数据采集专题补录 2026-10-25；首发 09-19、v2 09-22；摘要／元数据核对 |
 | PolyUMI: Accessible Visual-Tactile-Audio Data Collection for Object Inference and Manipulation | [link](https://arxiv.org/abs/2609.29760v2) | 🎯 tactile \| 📖 数据采集专题补录 2026-10-25；首发 09-24、v2 10-20；摘要与官方硬件入口核对 |
+| Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning | [论文](https://arxiv.org/abs/2607.14183) | 🔧 数据采集专题补录 2026-10-25；首发 2026-07-15；公开代码入口已读，未复现 \| repo: https://github.com/ant-research/Open-AoE |
+| EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ | [论文](https://arxiv.org/abs/2610.18872) | 🔧 数据采集专题补录 2026-10-25；首发 2026-10-13；公开代码入口已读，未复现 \| repo: https://github.com/InternRobotics/EgoExplorer |
+| ModPack: Extensible Teleoperation Interface for Bimanual Mobile Manipulation | [论文](https://arxiv.org/abs/2607.19479) | 🔧 数据采集专题补录 2026-10-25；首发 2026-07-21；公开代码入口已读，未复现 \| repo: https://github.com/real-stanford/modpack |
+| HumanNet: Scaling Human-centric Video Learning to One Million Hours | [论文](https://arxiv.org/abs/2605.06747) | 🔧 数据采集专题补录 2026-10-25；首发 2026-05-07；公开代码入口已读，未复现 \| repo: https://github.com/DAGroup-PKU/HumanNet |
+| RCT: A Robot-Collected Touch-Vision-Language Dataset for Tactile Generalization | [论文](https://arxiv.org/abs/2606.31694) | 🔧 数据采集专题补录 2026-10-25；首发 2026-06-30；公开代码入口已读，未复现 \| repo: https://github.com/faerber-lab/RCT |
 
 ### 部署
 

@@ -13,6 +13,7 @@
 
 | 读者问题 | 入口 |
 |---|---|
+| 想扩展为更完整的资料库？ | [86 项研究目录与八个专题](./robot_data_collection_research_catalog_2026.md) |
 | 最近有什么值得跟进？ | 本页 §3；[数据论文索引](../theory/foundation/paper_index.md#數據) |
 | 我要自己采，或者验收供应商数据 | [采集验收与有效成本](./robot_data_collection_acceptance.md) |
 | 坐标、动作、格式、归一化怎么接训练 | [VLA 数据工程指南](../theory/foundation/vla_data_engineering_guide.md) |

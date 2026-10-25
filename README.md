@@ -42,9 +42,9 @@
 VLA 论文、模型与工具更新很快，工程细节分散在 GitHub Issues 和论文附录里。
 这个 Handbook 做一件事：**整理从论文到复现的入口、参数口径与部署经验，并标出来源、未验证项和适用边界。**
 
-> **770 份理论文档**（10 个主题目录） · 中英文社区实战笔记 · GitHub Issues 工程经验 · **19 份双周前沿报告 + 16 份反思** · 行业情报雷达 · 论文解读与工程经验
+> **775 份理论文档**（10 个主题目录） · 中英文社区实战笔记 · GitHub Issues 工程经验 · **19 份双周前沿报告 + 16 份反思** · 行业情报雷达 · 论文解读与工程经验
 >
-> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-24；双周报告与反思按各自文件计数，不表示每期均已配对。后续新增以[完整目录](theory/README.md#theory-complete-index)为准。
+> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-26；双周报告与反思按各自文件计数，不表示每期均已配对。后续新增以[完整目录](theory/README.md#theory-complete-index)为准。
 
 ---
 
@@ -153,7 +153,7 @@ VLA 论文、模型与工具更新很快，工程细节分散在 GitHub Issues �
 
 | 目录 | 内容 |
 |------|------|
-| [`theory/`](theory/) | 770 份理论文档：vla-core 181 · foundation 88 · world-model 103 · planning 76 · tactile 67 · frontier 92 · diffusion-flow 49 · deployment 48 · rl 42 · perception 24 |
+| [`theory/`](theory/) | 775 份理论文档：vla-core 183 · foundation 88 · world-model 104 · planning 76 · tactile 68 · frontier 92 · diffusion-flow 50 · deployment 48 · rl 42 · perception 24 |
 | [`deployment/`](deployment/) | 真机部署：硬件选型 · 多模态同步 · Sim-to-Real + 三份社区实战笔记 |
 | [`reports/biweekly/`](reports/biweekly/) | 19 份双周报告 + 16 份反思（按文件分别计数）|
 | [`reports/weekly/`](reports/weekly/) | 周度分析 + 每日 digest + SOTA + 风向洞察 |
@@ -177,6 +177,7 @@ VLA 论文、模型与工具更新很快，工程细节分散在 GitHub Issues �
 | 社区踩坑（中文） | [`deployment/community_field_notes_xiaohongshu.md`](deployment/community_field_notes_xiaohongshu.md) | 中文社区经验 · 来源索引 · 黑话辞典 |
 | 社区踩坑（英文） | [`deployment/community_field_notes_english.md`](deployment/community_field_notes_english.md) | HF Blog + Discord + 厂商博客可追溯条目 |
 | GitHub 工程经验 | [`deployment/community_field_notes_github.md`](deployment/community_field_notes_github.md) | 高互动 Issues · GPU 兼容矩阵 |
+| 机器人数据采集 | [86 项研究目录](deployment/robot_data_collection_research_catalog_2026.md) | 八个专题 · 原文、监督信号与访问边界 |
 | 公司 / 求职 | [`companies/README.md`](companies/README.md) | 公司档案 + 行业判断地图与日档 |
 | 双周前沿报告 | [`reports/biweekly/README.md`](reports/biweekly/README.md) | 19 份报告 / 16 份反思 · VLA / 触觉 / 人形 |
 | 周报 + 风向洞察 | [`reports/weekly/README.md`](reports/weekly/README.md) | 周度归档 · 论文精选 + SOTA + 趋势分析 |
