@@ -114,7 +114,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 181 份文档。**
+**共 182 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -167,6 +167,7 @@
 - [Evo-World：用光流监督未来运动预测的轻量 VLA (Evo-World: A Lightweight Vision-Language-Action Model with Future Motion Prediction via Optical-Flow Supervision)](./evo_world_a_lightweight_vision_language_action_model_with_fu_dissection.md)
 - [FAST: 高效动作 Token 化](./fast.md)
 - [只思考一次的 VLA：Fast-VLA 的任务记忆与闭环解耦 (Fast-VLA: You Only Think Once for Robot Manipulation)](./fast_vla_you_only_think_once_for_robot_manipulation_dissection.md)
+- [FastHarness：用经验调度 GPT-6 复核，降低 VLA 执行监控成本](./fastharness_experience_driven_review_scheduling_for_vision_l_dissection.md)
 - [FastVLA：任务条件化与时间自适应的 VLA 视觉 Token 压缩（FastVLA: Task-Conditioned and Temporally Adaptive Visual Token Compression for Efficient Vision-Language-Action Models）](./fastvla_task_conditioned_and_temporally_adaptive_visual_toke_dissection.md)
 - [Figure Helix 02：全身端到端 VLA 的“运动-操作一体化”架构 (Helix 02: Full-Body Autonomy)](./figure_helix_02_full_body_autonomy_2026.md)
 - [单鱼眼解耦覆盖度与锐度：Fisheye-VLA (Fisheye-VLA: Decoupling Coverage and Acuity for Manipulation with a Single Fisheye Camera)](./fisheye_vla_decoupling_coverage_and_acuity_for_manipulation_dissection.md)
