@@ -90,7 +90,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 103 份文档。**
+**共 104 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -109,6 +109,7 @@
 - [DreamX-Phi 1.0：动作条件视频世界模型用于机器人操作 (DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation)](./dreamx_phi_10_action_conditioned_video_world_model_for_robot_dissection.md)
 - [DreamZero：世界动作模型即零样本策略 (World Action Models are Zero-shot Policies)](./dreamzero_world_action_models_zero_shot_policies_2026.md)
 - [DriftWorld：通过漂移实现快速世界模型 (DriftWorld: Fast World Modeling through Drifting)](./driftworld_fast_world_modeling_through_drifting_dissection.md)
+- [DRILL：训练世界模型以改进策略，而非预测像素 (DRILL: Training World Models to Improve Policies, Not Predict Pixels)](./drill_training_world_models_to_improve_policies_not_predict_dissection.md)
 - [DriveDreamer-Policy：几何落地的世界 - 动作统一模型 (DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning)](./drivedreamer_policy_a_geometry_grounded_world_action_model_f_dissection.md)
 - [双流扩散世界模型增强 VLA (Dual-Stream Diffusion for World-Model Augmented VLA)](./dual_stream_diffusion_for_world_model_augmented_vision_langu_dissection.md)
 - [解耦视频生成世界模型 (DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation)](./dvg_wm_disentangled_video_generation_enables_efficient_embod_dissection.md)
