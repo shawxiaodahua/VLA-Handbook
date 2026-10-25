@@ -166,9 +166,29 @@
     "https://www.xiaohongshu.com/explore/68dc77ef000000000402351c",
     "https://www.xiaohongshu.com/explore/6a79ef630000000025013f26",
     "https://www.xiaohongshu.com/explore/6a0ed8d30000000038021b1c",
-    "https://www.xiaohongshu.com/explore/690b739d000000000301ef1a"
+    "https://www.xiaohongshu.com/explore/690b739d000000000301ef1a",
+    "https://www.xiaohongshu.com/explore/6a584203000000001302fa7d",
+    "https://www.xiaohongshu.com/explore/69064df70000000005012d22",
+    "https://www.xiaohongshu.com/explore/69d5da600000000023016548",
+    "https://www.xiaohongshu.com/explore/6a7c2cc400000000250179bb",
+    "https://www.xiaohongshu.com/explore/6adc2350000000002c023269",
+    "https://www.xiaohongshu.com/explore/6a9ef55c000000002b026599",
+    "https://www.xiaohongshu.com/explore/6a084e4e000000003700fd7c",
+    "https://www.xiaohongshu.com/explore/6a3030610000000008033a40",
+    "https://www.xiaohongshu.com/explore/6a423b5f000000000f032338",
+    "https://www.xiaohongshu.com/explore/67cfc300000000002802aa92",
+    "https://www.xiaohongshu.com/explore/6a87cd5f00000000350153ab",
+    "https://www.xiaohongshu.com/explore/6a63786e0000000011019568",
+    "https://www.xiaohongshu.com/explore/6a372d1e000000000f031400",
+    "https://www.xiaohongshu.com/explore/67ffcdc2000000001c01299d",
+    "https://www.xiaohongshu.com/explore/6711f60a0000000024019711",
+    "https://www.xiaohongshu.com/explore/6a053438000000003502a5e7",
+    "https://www.xiaohongshu.com/explore/6a10fafc00000000080000f4",
+    "https://www.xiaohongshu.com/explore/6adcca6a0000000033037ed3",
+    "https://www.xiaohongshu.com/explore/69043c63000000000300d4dd",
+    "https://www.xiaohongshu.com/explore/6a40e855000000001102f624"
   ],
-  "count": 167,
+  "count": 187,
   "last_updated": "2026-10-25",
   "runs": [
     {
@@ -410,6 +430,56 @@
         "690b739d000000000301ef1a"
       ],
       "report": "2026-10-25-codex-plus20.md"
+    },
+    {
+      "date": "2026-10-25",
+      "kind": "GPT manual round4; user prioritized critical community commentary",
+      "keywords": [
+        "OpenVLA 微调 失败",
+        "VLA 水论文",
+        "VLA 复现 质疑",
+        "VLA benchmark 刷分",
+        "VLA 已死",
+        "具身智能 demo 摆拍",
+        "RDT 复现 训练",
+        "VLA 工程 问题",
+        "pi0.5 训练 loss",
+        "具身智能 论文 缝合",
+        "VLA 过拟合"
+      ],
+      "search_result_slots": 55,
+      "details_read": 25,
+      "new_added": 20,
+      "experiment_or_project": 7,
+      "critique_or_discussion": 13,
+      "excluded": 5,
+      "prior_excluded_now_selected": [
+        "6a584203000000001302fa7d"
+      ],
+      "series_total_new": 60,
+      "new_note_ids": [
+        "6a584203000000001302fa7d",
+        "69064df70000000005012d22",
+        "69d5da600000000023016548",
+        "6a7c2cc400000000250179bb",
+        "6adc2350000000002c023269",
+        "6a9ef55c000000002b026599",
+        "6a084e4e000000003700fd7c",
+        "6a3030610000000008033a40",
+        "6a423b5f000000000f032338",
+        "67cfc300000000002802aa92",
+        "6a87cd5f00000000350153ab",
+        "6a63786e0000000011019568",
+        "6a372d1e000000000f031400",
+        "67ffcdc2000000001c01299d",
+        "6711f60a0000000024019711",
+        "6a053438000000003502a5e7",
+        "6a10fafc00000000080000f4",
+        "6adcca6a0000000033037ed3",
+        "69043c63000000000300d4dd",
+        "6a40e855000000001102f624"
+      ],
+      "report": "2026-10-25-codex-round4-20.md"
     }
   ]
 }
