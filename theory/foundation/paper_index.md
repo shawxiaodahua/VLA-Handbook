@@ -706,6 +706,14 @@
 | Test-Time Compute for Humanoid Behavior Foundation Models | [link](https://arxiv.org/abs/2610.14896v1) | 历史补收；公开日期未核定 \| 🔧 daily 2026-10-17 |
 | Design and Evaluation of a Collaborative Teleoperation Interface for Multi-Operator Multi-Robot Systems in Challenging Environments | [link](https://arxiv.org/abs/2610.15001v1) | 历史补收；公开日期未核定 \| 📖 daily 2026-10-17 |
 | Remembering What Matters for Long-Horizon Robotic World Models | [link](https://arxiv.org/abs/2610.14583v1) | 历史补收；公开日期未核定 \| 🔧 daily 2026-10-17 |
+| EgoLive: A Large-Scale Egocentric Dataset from Real-World Human Tasks | [link](https://arxiv.org/abs/2604.23570v1) | 📖 数据采集专题补录 2026-10-25；首发 04-26；摘要／元数据核对 |
+| AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection | [link](https://arxiv.org/abs/2606.23689v1) | 📖 数据采集专题补录 2026-10-25；首发 06-22；公开代码／数据尚未在本批验收 |
+| Scalable Behavior Cloning with Open Data, Training, and Evaluation (ABC) | [link](https://arxiv.org/abs/2606.27375v1) | 📖 数据采集专题补录 2026-10-25；首发 06-25；论文与当前数据卡规模分别记录 |
+| EgoVerse: An Egocentric Human Dataset for Robot Learning from Around the World | [link](https://arxiv.org/abs/2604.07607v2) | 📖 数据采集专题补录 2026-10-25；首发 04-08、v2 07-07；不计为窗口内新首发 |
+| HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone | [link](https://arxiv.org/abs/2607.25895v1) | 📖 数据采集专题补录 2026-10-25；首发 07-28；公开子集与内部总库不混算 |
+| Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data | [link](https://arxiv.org/abs/2608.02580v1) | 📖 数据采集专题补录 2026-10-25；首发 08-03；合成／转化量不当作真机实采量 |
+| Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation | [link](https://arxiv.org/abs/2609.22829v2) | 📖 数据采集专题补录 2026-10-25；首发 09-19、v2 09-22；摘要／元数据核对 |
+| PolyUMI: Accessible Visual-Tactile-Audio Data Collection for Object Inference and Manipulation | [link](https://arxiv.org/abs/2609.29760v2) | 🎯 tactile \| 📖 数据采集专题补录 2026-10-25；首发 09-24、v2 10-20；摘要与官方硬件入口核对 |
 
 ### 部署
 

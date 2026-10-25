@@ -26,6 +26,7 @@
 
 ## 近期内容选读
 
+- **数据采集专题**：[近半年进展与选型地图](deployment/robot_data_collection_landscape_2026.md)补齐手持采集、人类第一视角、自动真机与触觉多模态路线；[采集验收与有效成本](deployment/robot_data_collection_acceptance.md)说明如何核对同步、动作、去重、公开规模和实际训练收益。
 - **新增深度解析**：[HexaShell](theory/frontier/hexashell_a_thin_harness_for_exploring_the_limits_of_vlm_age_dissection.md) 探查 VLM 编码 agent 控制机器人的能力边界；[VLDA](theory/frontier/vision_language_delta_action_learning_compact_deltas_as_acti_dissection.md) 讨论紧凑状态增量如何连接观测与动作。两篇均按已核查原文解读，实验设置与适用边界见正文。
 - **历史稿件补录**：[CFG-Policy](theory/diffusion-flow/cfg_policy_unified_diffusion_policy_learning_framework_via_c_dissection.md) 为 10 月 15 日生成、10 月 20 日重新核查后发布的稿件；[NativeMEM](theory/planning/nativemem_native_memory_compression_for_long_horizon_robotic_dissection.md) 保留已有发布版。补录日期不当作论文首发日期。
 - **查找文章**：先用[理论地图](theory/README.md)按主题定位，再用 GitHub 仓库搜索查论文或模型名；想看研究方向的变化，可对照 [Daily Pulse](PULSE.md) 与[双周报告](reports/biweekly/README.md)。

@@ -242,6 +242,20 @@ TaF-Dataset（预训）+ Hoi!（力铰接）+ 自采目标任务 demos
 
 ## 📚 延伸阅读
 
+### 2026-10-25 补充：公开规模与访问状态
+
+本表记录此次读取的一手页面口径，未下载全量或验收训练效果。许可栏是数据卡标识，**不是对训练权重条款或全部使用权的法律结论**；代码许可、数据许可、访问条件分别核对。
+
+| 数据／入口 | 一手页面描述的规模 | 格式／信号 | 访问与许可核对 | 本次边界 |
+|---|---|---|---|---|
+| [ABC-130K](https://huggingface.co/datasets/XDOF/ABC-130k) | 当前卡片：130,703 episodes、3,590.7 小时；论文约数另记 | MCAP；双 YAM 臂、多相机、状态／动作和部分子任务标注 | 卡片标 Apache-2.0；下载有访问条件 | 卡片列 42,980 条带标注 episodes，不把总量都算成已有子任务标注 |
+| [HiFi-UMI-2K](https://huggingface.co/datasets/simple-world-lab/HiFi-UMI-2K) | 公开子集 2,000 小时；20,000+ 小时为源总库口径 | LeRobot v3-style；多视角、双手轨迹、夹爪、语言与有效性标记 | 卡片标 CC BY 4.0 | 未把内部总库全部视为已公开数据 |
+| [EgoSuite-Open100K / EgoDemo](https://huggingface.co/datasets/LightwheelAI/EgoDemo) | 08-26 公告：首批 10,000 小时上线，总量 100,000 小时分批发布；当前 [EgoStandard](https://huggingface.co/datasets/LightwheelAI/EgoStandard)／[EgoPro](https://huggingface.co/datasets/LightwheelAI/EgoPro)仍列 planned 时长；Demo 为 50 小时样本 | 人类头部／部分手腕视角与不同标注层；LeRobot／MCAP | 当前卡片标 commercial-training-no-resale-v1.0，页面要求访问登记 | 全量可下载未核；不同格式及 Demo 不作为额外独立实采量 |
+| [EgoVerse v2](https://arxiv.org/abs/2604.07607v2) | v2 摘要：1,362 小时、约 80K episodes | 人类第一视角与操作相关标注；工具见[官方仓库](https://github.com/GaTech-RL2/EgoVerse) | 本批未逐数据源核对许可／下载 | 人类示范数量不能直接等同机器人 action 轨迹数 |
+| [EgoLive](https://arxiv.org/abs/2604.23570v1) | 本批只核论文摘要，不填未验证总量 | 真实人类任务场景与多模态标注 | 下载清单／许可未在本批核定 | 列为补充研究入口，不标“已验收可训练” |
+
+对[数据采集近半年进展地图](../deployment/robot_data_collection_landscape_2026.md)中的合成数据、厂商样本和采集设备，另按各自口径阅读，不与上表相加形成“总小时数”。
+
 - [VLA 数据工程指南](../theory/foundation/vla_data_engineering_guide.md) · 完整 §6 开放数据集地图 + 3 层防御
 - [Danfei Xu 访谈](../theory/foundation/human_data_sensorimotor_ghost_danfei_xu_interview_2026.md) · 人类数据的哲学视角
 - [Benchmark 地图](./benchmarks.md) · 对应的评测基准

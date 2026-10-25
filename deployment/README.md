@@ -57,6 +57,8 @@
 - **[Optimus Hand V2 解析](./optimus_hand_v2.md)**: Tesla Optimus 灵巧手技术特点分析。
 
 ### 5. 仿真、数据采集与 Sim2Real (Data, Sim & Training)
+- **[数据采集近半年进展地图](./robot_data_collection_landscape_2026.md)**：2026-04-25 至 10-25 的便携采集、人类视频、双臂、全身与触觉路线；分清论文、公开数据与厂商声明。
+- **[采集验收与有效成本](./robot_data_collection_acceptance.md)**：Episode 清单、时钟／动作约定、触觉验收、去重划分与合格数据成本算例。
 - **[具身智能数据采集概览 (Embodied Data Collection)](./embodied_data_collection_overview.md)**: POV 第一视角 (EgoScale)、Sim2Real 规模化与真机 RL。📕 [社区数据量门槛](./community_field_notes_xiaohongshu.md#41-数据量门槛)
 - **[Evo-RL 仓库部署审计 (Evo-RL Repo Analysis)](./evo_rl_repo_analysis.md)**: 可运行性、稳定性、隐含假设与真机复现门槛。📕 [社区 RECAP 复现](./community_field_notes_xiaohongshu.md#16-rl-后训练-post-training)
 - **[灵巧手数据采集方案 (DexHand Data Collection)](./dexterous_hand_data_collection.md)**: 结构化 Episode 定义、Retargeting 算法与数据回放验证。
