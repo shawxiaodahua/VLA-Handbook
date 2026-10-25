@@ -2,8 +2,8 @@
 <title>故障诊断树</title>
 <rect width="1080" height="650" fill="#ffffff"/>
 <defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8b949e"/></marker></defs>
-<text x="24.0" y="34.0" font-size="19" fill="#1f2328" text-anchor="start" font-weight="700" opacity="1">图 2 · 真机效果不对 → 根因 → 帖号</text>
-<text x="24.0" y="56.0" font-size="12" fill="#57606a" text-anchor="start" font-weight="400" opacity="1">左列是你看到的症状，右列是社区验证过的根因与出处</text>
+<text x="24.0" y="34.0" font-size="19" fill="#1f2328" text-anchor="start" font-weight="700" opacity="1">图 2 · 真机效果不对 → 排查线索 → 帖号</text>
+<text x="24.0" y="56.0" font-size="12" fill="#57606a" text-anchor="start" font-weight="400" opacity="1">症状不是根因；右列是待核对的线索，改动后再测闭环结果</text>
 <rect x="24.0" y="78.0" width="120.0" height="552.0" rx="12" fill="#1f6feb" stroke="#1f6feb" stroke-width="1.5"/>
 <text x="84.0" y="337.5" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700" opacity="1">真机</text>
 <text x="84.0" y="359.2" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="700" opacity="1">效果</text>
@@ -13,13 +13,13 @@
 <text x="306.0" y="139.7" font-size="13" fill="#1f2328" text-anchor="middle" font-weight="600" opacity="1">动作抖动 / 不平滑</text>
 <path d="M416.0,135.0 L458.0,99.0" stroke="#8b949e" stroke-width="1.8" fill="none" marker-end="url(#ah)"/>
 <rect x="458.0" y="87.0" width="598.0" height="26.0" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-<text x="757.0" y="104.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">chunk 交接处导数突变 → RTC 三段式 · 帖315</text>
+<text x="757.0" y="104.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">先测 chunk 边界与推理等待 → 对照 RTC · 帖315 新15/26</text>
 <path d="M416.0,135.0 L458.0,131.0" stroke="#8b949e" stroke-width="1.8" fill="none" marker-end="url(#ah)"/>
 <rect x="458.0" y="119.0" width="598.0" height="26.0" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-<text x="757.0" y="136.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">lerobot 版 pi 隐藏 bug → 改用 openpi · 帖279 帖304</text>
+<text x="757.0" y="136.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">训推 / 权重转换差异 → 按 commit 对照 · 帖279/304 新08</text>
 <path d="M416.0,135.0 L458.0,163.0" stroke="#8b949e" stroke-width="1.8" fill="none" marker-end="url(#ah)"/>
 <rect x="458.0" y="151.0" width="598.0" height="26.0" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-<text x="757.0" y="168.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">位置控制太硬 → 力矩/柔顺控制 · 帖350</text>
+<text x="757.0" y="168.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">控制模式 / 跟踪误差 / 陈旧观测 → 分开测 · 帖350 新22</text>
 <path d="M144.0,245.0 C170.0,245.0 170.0,245.0 196.0,245.0" stroke="#8b949e" stroke-width="1.8" fill="none" marker-end="url(#ah)"/>
 <rect x="196.0" y="204.0" width="220.0" height="82.0" rx="10" fill="#fff3bf" stroke="#f59f00" stroke-width="1.5"/>
 <text x="306.0" y="249.7" font-size="13" fill="#1f2328" text-anchor="middle" font-weight="600" opacity="1">抓取偏移 / 不准</text>
@@ -55,11 +55,11 @@
 <text x="757.0" y="512.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">单卡策略：lora / fsdp2 / bs 调小 · 帖348</text>
 <path d="M416.0,527.0 L458.0,539.0" stroke="#8b949e" stroke-width="1.8" fill="none" marker-end="url(#ah)"/>
 <rect x="458.0" y="527.0" width="598.0" height="26.0" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-<text x="757.0" y="544.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">量化漂移是闭环累积 → 按漂移风险混合精度 · 帖296</text>
+<text x="757.0" y="544.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">量化后测闭环漂移与任务成功，再比精度方案 · 帖296</text>
 <path d="M144.0,609.0 C170.0,609.0 170.0,609.0 196.0,609.0" stroke="#8b949e" stroke-width="1.8" fill="none" marker-end="url(#ah)"/>
 <rect x="196.0" y="580.0" width="220.0" height="58.0" rx="10" fill="#fff3bf" stroke="#f59f00" stroke-width="1.5"/>
 <text x="306.0" y="613.7" font-size="13" fill="#1f2328" text-anchor="middle" font-weight="600" opacity="1">长任务中途忘记做到哪</text>
 <path d="M416.0,609.0 L458.0,601.0" stroke="#8b949e" stroke-width="1.8" fill="none" marker-end="url(#ah)"/>
 <rect x="458.0" y="589.0" width="598.0" height="26.0" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-<text x="757.0" y="606.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">历史当状态建模：SSM + 二阶动作桥 · 帖327</text>
+<text x="757.0" y="606.2" font-size="12" fill="#1f2328" text-anchor="middle" font-weight="400" opacity="1">先查阶段切换与目标可见性，再试历史状态 · 新09 帖327</text>
 </svg>
