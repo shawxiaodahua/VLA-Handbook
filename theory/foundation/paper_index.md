@@ -691,6 +691,10 @@
 | When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies | [link](https://arxiv.org/abs/2610.30735) | 🔧 daily 2026-10-23 |
 | Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos | [link](https://arxiv.org/abs/2610.27794) | 🔧 daily 2026-10-21 |
 | DRILL: Training World Models to Improve Policies, Not Predict Pixels | [link](https://tldr.takara.ai/p/2610.30814) | [RL] 🔧 daily 2026-10-24 |
+| WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time | [link](https://arxiv.org/abs/2607.06988) | [VLA后训] 🔧 daily 2026-10-26 |
+| When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning | [link](https://arxiv.org/abs/2610.32431) | [RL] 🔧 daily 2026-10-26 |
+| Semantic Anchoring for Robotic Action Representations | [link](https://arxiv.org/abs/2607.13597) | [VLA后训] 🔧 daily 2026-10-26 |
+| Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates | [link](https://arxiv.org/abs/2610.31859) | [VLA后训] 🔧 daily 2026-10-26 |
 
 ### 數據
 
@@ -762,6 +766,7 @@
 | ForeTac: Predictive Contact Guidance for Generative Robot Policies | [link](https://arxiv.org/abs/2610.18118) | 🎯 tactile \| 🔧 daily 2026-10-21 |
 | Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning | [link](https://arxiv.org/abs/2610.28613) | 🎯 tactile \| 🔧 daily 2026-10-21 |
 | Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.28166) | 🎯 tactile \| 🔧 daily 2026-10-21 |
+| FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation | [link](https://arxiv.org/abs/2610.31841) | 🎯 tactile \| 🔧 daily 2026-10-26 |
 
 ### 其他
 
