@@ -90,7 +90,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 104 份文档。**
+**共 105 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -182,6 +182,7 @@
 - [VLAW：世界模型 × VLA 协同进化 (Iterative Co-Improvement of VLA Policy and World Model)](./vlaw_iterative_co_improvement_vla_world_model_2026.md)
 - [VLOA 具身世界模型：用 3D 点云轨迹打开物理认知的黑箱](./vloa_embodied_world_model_3d_point_cloud_trajectory_2026.md)
 - [VLA 将死，WAM 当立？2026 三路线综述 (Will WAM Replace VLA? A 2026 Three-Route Overview)](./wam_three_routes_video_pretraining_vs_vla_2026.md)
+- [用人类玩耍视频在测试时转向世界-动作模型（WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time）](./wam_ttt_steering_world_action_models_by_watching_human_play_dissection.md)
 - [Wanderland：开放世界具身 AI 的几何 grounding 仿真平台 (Wanderland: Geometrically Grounded Simulation for Open-World Embodied AI)](./wanderland_geometrically_grounded_simulation_for_open_world_dissection.md)
 - [Wh0: 用生成式世界模型合成第一人称手部操作数据 (Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data)](./wh0_generative_world_models_as_scalable_sources_of_egocentri_dissection.md)
 - [WISE：世界模型引导的想象调度，用于高效 VLA 后训练 (World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models)](./wise_world_model_guided_imagination_scheduling_for_efficient_dissection.md)

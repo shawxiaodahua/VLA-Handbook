@@ -778,6 +778,14 @@
 
 ## 📚 相关资源
 
+### 数据采集扩展研究（2026-10-25）
+
+新增[86 项研究目录与八个专题](../../deployment/robot_data_collection_research_catalog_2026.md)，并加入[PolyUMI / VisTA 全文分析](../tactile/polyumi_vista_collection_2026.md)。已有 TouchScale、OmniUMI、TAMEn 等文章沿用原入口；新目录不是 86 篇新首发论文，也不重复计算同一数据的格式和子集。
+
+### 数据采集专题补充（2026-10-25）
+
+新增[近半年进展地图](../../deployment/robot_data_collection_landscape_2026.md)与[采集验收指南](../../deployment/robot_data_collection_acceptance.md)，把遥操作、手持接口、人类第一视角、自动试验与接触数据放到同一工程框架下比较。EgoLive、AutoDex、ABC、EgoVerse、HiFi-UMI、Ego2Robot、Whole-Body UMI、PolyUMI 的版本入口已补入[论文索引的数据分类](./paper_index.md#數據)。这是导航与来源核对补充，不代表本页旧文已全部重新审核，也不替代论文全文解读或真机复现。
+
 - [📊 论文索引](./paper_index.md) - 多维度快速查找
 - [🔬 模型深度解析](./README.md#-part-5-模型详解-model-zoo) - 独立深度解析文档
 - [📖 理论总览](./README.md) - 返回理论目录

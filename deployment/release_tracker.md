@@ -270,3 +270,4 @@
 | 2026-10-21 | NVIDIA Robotics | product | NVIDIA在GTC Berlin 2026主题演讲中公布机器人领域最新进展，包括Agile Robots基于Isaac GR00T、搭载Jetson Thor的参考人形机器人Agile ONE SN，以及扩展的Isaac平台（Isaac OS运行时、Isaac Lab 3.0、新数据集与仿真资产）。 | 🔧 | news | https://forums.developer.nvidia.com/t/nvidia-robotics-announcements-nvidia-gtc-berlin-2026/386456 |
 | 2026-10-22 | Genesis | sim | v1.4.5 released |  | github_release | https://github.com/Genesis-Embodied-AI/genesis-world/releases/tag/v1.4.5 |
 | 2026-10-22 | MuJoCo | sim | 3.17.0 released |  | github_release | https://github.com/google-deepmind/mujoco/releases/tag/3.17.0 |
+| 2026-10-22 | Tesla Optimus | product | 特斯拉在2026年第三季度10-Q中披露，研发费用同比增长主要源于SI及Optimus等项目成本增加，并表示正为Optimus的大规模生产做筹备和投资。 | 🔧 | news | https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm |

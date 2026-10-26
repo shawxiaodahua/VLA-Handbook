@@ -26,6 +26,7 @@
 
 ## 近期内容选读
 
+- **数据采集专题**：[近半年进展与选型地图](deployment/robot_data_collection_landscape_2026.md)补齐手持采集、人类第一视角、自动真机与触觉多模态路线；[采集验收与有效成本](deployment/robot_data_collection_acceptance.md)说明如何核对同步、动作、去重、公开规模和实际训练收益。
 - **新增深度解析**：[HexaShell](theory/frontier/hexashell_a_thin_harness_for_exploring_the_limits_of_vlm_age_dissection.md) 探查 VLM 编码 agent 控制机器人的能力边界；[VLDA](theory/frontier/vision_language_delta_action_learning_compact_deltas_as_acti_dissection.md) 讨论紧凑状态增量如何连接观测与动作。两篇均按已核查原文解读，实验设置与适用边界见正文。
 - **历史稿件补录**：[CFG-Policy](theory/diffusion-flow/cfg_policy_unified_diffusion_policy_learning_framework_via_c_dissection.md) 为 10 月 15 日生成、10 月 20 日重新核查后发布的稿件；[NativeMEM](theory/planning/nativemem_native_memory_compression_for_long_horizon_robotic_dissection.md) 保留已有发布版。补录日期不当作论文首发日期。
 - **查找文章**：先用[理论地图](theory/README.md)按主题定位，再用 GitHub 仓库搜索查论文或模型名；想看研究方向的变化，可对照 [Daily Pulse](PULSE.md) 与[双周报告](reports/biweekly/README.md)。
@@ -41,9 +42,9 @@
 VLA 论文、模型与工具更新很快，工程细节分散在 GitHub Issues 和论文附录里。
 这个 Handbook 做一件事：**整理从论文到复现的入口、参数口径与部署经验，并标出来源、未验证项和适用边界。**
 
-> **770 份理论文档**（10 个主题目录） · 中英文社区实战笔记 · GitHub Issues 工程经验 · **19 份双周前沿报告 + 16 份反思** · 行业情报雷达 · 论文解读与工程经验
+> **775 份理论文档**（10 个主题目录） · 中英文社区实战笔记 · GitHub Issues 工程经验 · **19 份双周前沿报告 + 16 份反思** · 行业情报雷达 · 论文解读与工程经验
 >
-> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-24；双周报告与反思按各自文件计数，不表示每期均已配对。后续新增以[完整目录](theory/README.md#theory-complete-index)为准。
+> 理论文档计数口径：10 个主题目录内的 Markdown 文件，含综述与索引，不含各目录 README；统计日期：2026-10-26；双周报告与反思按各自文件计数，不表示每期均已配对。后续新增以[完整目录](theory/README.md#theory-complete-index)为准。
 
 ---
 
@@ -152,7 +153,7 @@ VLA 论文、模型与工具更新很快，工程细节分散在 GitHub Issues �
 
 | 目录 | 内容 |
 |------|------|
-| [`theory/`](theory/) | 770 份理论文档：vla-core 181 · foundation 88 · world-model 103 · planning 76 · tactile 67 · frontier 92 · diffusion-flow 49 · deployment 48 · rl 42 · perception 24 |
+| [`theory/`](theory/) | 775 份理论文档：vla-core 183 · foundation 88 · world-model 104 · planning 76 · tactile 68 · frontier 92 · diffusion-flow 50 · deployment 48 · rl 42 · perception 24 |
 | [`deployment/`](deployment/) | 真机部署：硬件选型 · 多模态同步 · Sim-to-Real + 三份社区实战笔记 |
 | [`reports/biweekly/`](reports/biweekly/) | 19 份双周报告 + 16 份反思（按文件分别计数）|
 | [`reports/weekly/`](reports/weekly/) | 周度分析 + 每日 digest + SOTA + 风向洞察 |
@@ -176,6 +177,7 @@ VLA 论文、模型与工具更新很快，工程细节分散在 GitHub Issues �
 | 社区踩坑（中文） | [`deployment/community_field_notes_xiaohongshu.md`](deployment/community_field_notes_xiaohongshu.md) | 中文社区经验 · 来源索引 · 黑话辞典 |
 | 社区踩坑（英文） | [`deployment/community_field_notes_english.md`](deployment/community_field_notes_english.md) | HF Blog + Discord + 厂商博客可追溯条目 |
 | GitHub 工程经验 | [`deployment/community_field_notes_github.md`](deployment/community_field_notes_github.md) | 高互动 Issues · GPU 兼容矩阵 |
+| 机器人数据采集 | [86 项研究目录](deployment/robot_data_collection_research_catalog_2026.md) | 八个专题 · 原文、监督信号与访问边界 |
 | 公司 / 求职 | [`companies/README.md`](companies/README.md) | 公司档案 + 行业判断地图与日档 |
 | 双周前沿报告 | [`reports/biweekly/README.md`](reports/biweekly/README.md) | 19 份报告 / 16 份反思 · VLA / 触觉 / 人形 |
 | 周报 + 风向洞察 | [`reports/weekly/README.md`](reports/weekly/README.md) | 周度归档 · 论文精选 + SOTA + 趋势分析 |

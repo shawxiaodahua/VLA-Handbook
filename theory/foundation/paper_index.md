@@ -691,6 +691,10 @@
 | When One Step Is Enough: An Empirical Study of Euler Integration in Flow-Matching Policies | [link](https://arxiv.org/abs/2610.30735) | 🔧 daily 2026-10-23 |
 | Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos | [link](https://arxiv.org/abs/2610.27794) | 🔧 daily 2026-10-21 |
 | DRILL: Training World Models to Improve Policies, Not Predict Pixels | [link](https://tldr.takara.ai/p/2610.30814) | [RL] 🔧 daily 2026-10-24 |
+| WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time | [link](https://arxiv.org/abs/2607.06988) | [VLA后训] 🔧 daily 2026-10-26 |
+| When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning | [link](https://arxiv.org/abs/2610.32431) | [RL] 🔧 daily 2026-10-26 |
+| Semantic Anchoring for Robotic Action Representations | [link](https://arxiv.org/abs/2607.13597) | [VLA后训] 🔧 daily 2026-10-26 |
+| Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates | [link](https://arxiv.org/abs/2610.31859) | [VLA后训] 🔧 daily 2026-10-26 |
 
 ### 數據
 
@@ -706,6 +710,19 @@
 | Test-Time Compute for Humanoid Behavior Foundation Models | [link](https://arxiv.org/abs/2610.14896v1) | 历史补收；公开日期未核定 \| 🔧 daily 2026-10-17 |
 | Design and Evaluation of a Collaborative Teleoperation Interface for Multi-Operator Multi-Robot Systems in Challenging Environments | [link](https://arxiv.org/abs/2610.15001v1) | 历史补收；公开日期未核定 \| 📖 daily 2026-10-17 |
 | Remembering What Matters for Long-Horizon Robotic World Models | [link](https://arxiv.org/abs/2610.14583v1) | 历史补收；公开日期未核定 \| 🔧 daily 2026-10-17 |
+| EgoLive: A Large-Scale Egocentric Dataset from Real-World Human Tasks | [link](https://arxiv.org/abs/2604.23570v1) | 📖 数据采集专题补录 2026-10-25；首发 04-26；摘要／元数据核对 |
+| AutoDex: An Automated Real-World System for Dexterous Grasping Data Collection | [link](https://arxiv.org/abs/2606.23689v1) | 📖 数据采集专题补录 2026-10-25；首发 06-22；公开代码／数据尚未在本批验收 |
+| Scalable Behavior Cloning with Open Data, Training, and Evaluation (ABC) | [link](https://arxiv.org/abs/2606.27375v1) | 📖 数据采集专题补录 2026-10-25；首发 06-25；论文与当前数据卡规模分别记录 |
+| EgoVerse: An Egocentric Human Dataset for Robot Learning from Around the World | [link](https://arxiv.org/abs/2604.07607v2) | 📖 数据采集专题补录 2026-10-25；首发 04-08、v2 07-07；不计为窗口内新首发 |
+| HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone | [link](https://arxiv.org/abs/2607.25895v1) | 📖 数据采集专题补录 2026-10-25；首发 07-28；公开子集与内部总库不混算 |
+| Ego2Robot: Scalable Robot Data Synthesis from Egocentric Human Data | [link](https://arxiv.org/abs/2608.02580v1) | 📖 数据采集专题补录 2026-10-25；首发 08-03；合成／转化量不当作真机实采量 |
+| Whole-Body UMI: Transferring UMI Manipulation Skills to Humanoid Whole-Body Manipulation via Real-Time Motion Generation | [link](https://arxiv.org/abs/2609.22829v2) | 📖 数据采集专题补录 2026-10-25；首发 09-19、v2 09-22；摘要／元数据核对 |
+| PolyUMI: Accessible Visual-Tactile-Audio Data Collection for Object Inference and Manipulation | [link](https://arxiv.org/abs/2609.29760v2) | 🎯 tactile \| 📖 数据采集专题补录 2026-10-25；首发 09-24、v2 10-20；摘要与官方硬件入口核对 |
+| Open-AoE: An Open Egocentric Manipulation Dataset and Toolchain for Embodied Learning | [论文](https://arxiv.org/abs/2607.14183) | 🔧 数据采集专题补录 2026-10-25；首发 2026-07-15；公开代码入口已读，未复现 \| repo: https://github.com/ant-research/Open-AoE |
+| EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ | [论文](https://arxiv.org/abs/2610.18872) | 🔧 数据采集专题补录 2026-10-25；首发 2026-10-13；公开代码入口已读，未复现 \| repo: https://github.com/InternRobotics/EgoExplorer |
+| ModPack: Extensible Teleoperation Interface for Bimanual Mobile Manipulation | [论文](https://arxiv.org/abs/2607.19479) | 🔧 数据采集专题补录 2026-10-25；首发 2026-07-21；公开代码入口已读，未复现 \| repo: https://github.com/real-stanford/modpack |
+| HumanNet: Scaling Human-centric Video Learning to One Million Hours | [论文](https://arxiv.org/abs/2605.06747) | 🔧 数据采集专题补录 2026-10-25；首发 2026-05-07；公开代码入口已读，未复现 \| repo: https://github.com/DAGroup-PKU/HumanNet |
+| RCT: A Robot-Collected Touch-Vision-Language Dataset for Tactile Generalization | [论文](https://arxiv.org/abs/2606.31694) | 🔧 数据采集专题补录 2026-10-25；首发 2026-06-30；公开代码入口已读，未复现 \| repo: https://github.com/faerber-lab/RCT |
 
 ### 部署
 
@@ -749,6 +766,7 @@
 | ForeTac: Predictive Contact Guidance for Generative Robot Policies | [link](https://arxiv.org/abs/2610.18118) | 🎯 tactile \| 🔧 daily 2026-10-21 |
 | Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning | [link](https://arxiv.org/abs/2610.28613) | 🎯 tactile \| 🔧 daily 2026-10-21 |
 | Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.28166) | 🎯 tactile \| 🔧 daily 2026-10-21 |
+| FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation | [link](https://arxiv.org/abs/2610.31841) | 🎯 tactile \| 🔧 daily 2026-10-26 |
 
 ### 其他
 
