@@ -66,7 +66,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 50 份文档。**
+**共 51 份文档。**
 
 - [动作生成范式详解 (Action Representations &amp; Generation)](./action_representations.md)
 - [动作到动作流匹配 (Action-to-Action Flow Matching)](./action_to_action_flow_matching_dissection.md)
@@ -106,6 +106,7 @@
 - [VLA 的 RL 精调突破：Flow Policy Optimization (FPO)](./reinforcement_fine_tuning_of_flow_matching_policies_for_visi_dissection.md)
 - [通过屏障增强流匹配实现安全的视觉语言动作模型 (Safe Vision Language Action Models via Barrier Enhanced Flow Matching)](./safe_vision_language_action_models_via_barrier_enhanced_flow_dissection.md)
 - [SCRIPT：面向语言驱动仿真人形控制的可扩展扩散策略 (Scalable Diffusion Policy with Multi-stage Training for Language-driven Physics-Based Humanoid Control)](./script_scalable_diffusion_policy_with_multi_stage_training_f_dissection.md)
+- [语义锚定：把 VLA 的 action 表示拉回语义流形 (Semantic Anchoring for Robotic Action Representations)](./semantic_anchoring_for_robotic_action_representations_dissection.md)
 - [集合监督扩散策略：通过修正学习动作分块扩散 (Set-Supervised Diffusion Policy: Learning Action-Chunking Diffusion through Corrections)](./set_supervised_diffusion_policy_learning_action_chunking_dif_dissection.md)
 - [SnapFlow：流匹配 VLA 的单步动作生成 (SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation)](./snapflow_one_step_action_generation_for_flow_matching_vlas_v_dissection.md)
 - [STEP：时空一致性预测的热启动视觉运动策略 (Warm-Started Visuomotor Policies with Spatiotemporal Consistency Prediction)](./step_warm_started_visuomotor_policies_with_spatiotemporal_co_dissection.md)
