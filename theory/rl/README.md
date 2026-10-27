@@ -71,7 +71,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 42 份文档。**
+**共 43 份文档。**
 
 - [AlphaNIST：从二值任务奖励中涌现的装配技能 (AlphaNIST: Emergent Assembly Skills from Binary Task Rewards)](./alphanist_emergent_assembly_skills_from_binary_task_rewards_dissection.md)
 - [超越示教：面向 VLA 的强化学习仿真—真实协同训练 (Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models)](./beyond_imitation_reinforcement_learning_based_sim_real_co_tr_dissection.md)
@@ -115,5 +115,6 @@
 - [VLA+RL 实战教程：架构、算法与工具链 (Practical VLA+RL Guide)](./vla_rl_practical_guide.md)
 - [VLGOR：视觉 - 语言知识引导的离线强化学习用于通用智能体 (VLGOR: Visual-Language Knowledge Guided Offline Reinforcement Learning for Generalizable Agents)](./vlgor_visual_language_knowledge_guided_offline_reinforcement_dissection.md)
 - [世界评论家模型：用世界建模赋能 VLA 强化学习 (WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning)](./wcm_a_world_critic_model_for_vision_language_action_reinforc_dissection.md)
+- [什么时候停止惩罚动作？面向 VLA 强化学习的 Martingale GRPO 拆解 (When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning)](./when_to_stop_penalizing_actions_martingale_grpo_for_vla_rein_dissection.md)
 
 <!-- VLA:THEORY-NAV:END -->

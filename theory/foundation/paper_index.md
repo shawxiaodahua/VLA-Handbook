@@ -639,6 +639,9 @@
 | AutoPruner: Agentic Depth Pruning for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.23880) | [VLA后训] 🔧 daily 2026-10-20 |
 | Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models | [link](https://arxiv.org/abs/2602.12628) | [RL] 🔧 daily 2026-10-23 |
 | Progress Probes $P^2$: Lightweight Runtime Monitoring for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.31613) | 🔧 daily 2026-10-23 |
+| HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience | [link](https://arxiv.org/abs/2610.34186) | 🔧 daily 2026-10-27 |
+| RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.34108) | 🔧 daily 2026-10-27 |
+| EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models | [link](https://arxiv.org/abs/2610.33685) | 🔧 daily 2026-10-27 |
 
 ### 動作生成
 
@@ -695,6 +698,8 @@
 | When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning | [link](https://arxiv.org/abs/2610.32431) | [RL] 🔧 daily 2026-10-26 |
 | Semantic Anchoring for Robotic Action Representations | [link](https://arxiv.org/abs/2607.13597) | [VLA后训] 🔧 daily 2026-10-26 |
 | Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates | [link](https://arxiv.org/abs/2610.31859) | [VLA后训] 🔧 daily 2026-10-26 |
+| TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning | [link](https://arxiv.org/abs/2610.34519) | [VLA后训] 🔧 daily 2026-10-27 |
+| RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions | [link](https://arxiv.org/abs/2610.34356) | 🔧 daily 2026-10-27 |
 
 ### 數據
 
