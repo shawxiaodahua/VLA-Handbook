@@ -96,7 +96,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 88 份文档。**
+**共 89 份文档。**
 
 - [动作-效应记忆预训练用于机器人操作 (Action-Effect Memory Pretraining for Robot Manipulation)](./action_effect_memory_pretraining_for_robot_manipulation_dissection.md)
 - [动作 QFormer：动作监督下的结构化表征塑造 (Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models)](./action_qformer_structured_representation_shaping_under_actio_dissection.md)
@@ -155,6 +155,7 @@
 - [先学会玩，再学会装配：灵巧手 Play Pretraining 的关键设计因素 (Play2Perfect: What Matters in Dexterous Play Pretraining for Precise Assembly?)](./play2perfect_what_matters_in_dexterous_play_pretraining_for_dissection.md)
 - [Point Bridge：基于 3D 点表征的跨域策略学习 (Point Bridge: 3D Representations for Cross Domain Policy Learning)](./point_bridge_3d_representations_for_cross_domain_policy_lear_dissection.md)
 - [通过保守 SFT 保护流匹配 VLA 的基础能力 (Preserving Foundational Capabilities in Flow-Matching VLAs through Conservative SFT)](./preserving_foundational_capabilities_in_flow_matching_vlas_t_dissection.md)
+- [预训练懂“要什么”，仿真教“怎么动”：ZAP 的组合泛化拆解 (Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent)](./pretraining_knows_what_simulation_teaches_how_compositional_dissection.md)
 - [量化理论 (Quantization Theory)](./quantization_theory.md)
 - [动作空间敏感量化：QVLA (QVLA: Not All Channels Are Equal in VLA Quantization)](./qvla_action_centric_quantization_2026.md)
 - [RDT2：UMI 数据规模化与跨本体零样本部署 (RDT2: Exploring the Scaling Limit of UMI Data Towards Zero-Shot Cross-Embodiment Generalization)](./rdt2_umi_zero_shot_cross_embodiment_2026.md)
