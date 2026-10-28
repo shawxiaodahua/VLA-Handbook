@@ -74,7 +74,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 48 份文档。**
+**共 49 份文档。**
 
 - [AEGIS：物理 AI 的備份反射機制 (A Backup Reflex for Physical AI)](./aegis_a_backup_reflex_for_physical_ai_dissection.md)
 - [AnyViewDex：純 RGB 觀測下的視角不變靈巧操作 (AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations)](./anyviewdex_view_invariant_dexterous_manipulation_from_rgb_ob_dissection.md)
@@ -124,5 +124,6 @@
 - [无需微调部署 VLA：即插即用推理时策略引导 (Towards Deploying VLA without Fine-Tuning: Plug-and-Play Inference-Time VLA Policy Steering via Embodied Evolutionary Diffusion)](./towards_deploying_vla_without_fine_tuning_plug_and_play_infe_dissection.md)
 - [高自由度灵巧手的 VLA 后训练四段式流程 (Towards High-DoF Dexterous Manipulation through VLA Post-Training)](./towards_high_dof_dexterous_manipulation_through_vla_post_tra_dissection.md)
 - [VisForce：以視覺接地當前與期望力，實現目標條件式靈巧操作 (VisForce: Visual Grounding of Current and Desired Forces for Goal-Conditioned Dexterous Manipulation)](./visforce_visual_grounding_of_current_and_desired_forces_for_dissection.md)
+- [边缘 VLA 的时间去哪了：VLA-HWBench 七阶段延迟解剖 (VLA-HWBench: Where the Time Goes When VLA Models Run on Edge Hardware)](./vla_hwbench_where_the_time_goes_when_vla_models_run_on_edge_dissection.md)
 
 <!-- VLA:THEORY-NAV:END -->
