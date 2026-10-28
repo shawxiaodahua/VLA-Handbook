@@ -700,6 +700,7 @@
 | Full-Weight VLA Fine-Tuning Without an fp32 Master Copy Silently Erases Most Updates | [link](https://arxiv.org/abs/2610.31859) | [VLA后训] 🔧 daily 2026-10-26 |
 | TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning | [link](https://arxiv.org/abs/2610.34519) | [VLA后训] 🔧 daily 2026-10-27 |
 | RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions | [link](https://arxiv.org/abs/2610.34356) | 🔧 daily 2026-10-27 |
+| Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution | [link](https://arxiv.org/abs/2610.37215) | 🔧 daily 2026-10-28 |
 
 ### 數據
 
@@ -728,6 +729,7 @@
 | ModPack: Extensible Teleoperation Interface for Bimanual Mobile Manipulation | [论文](https://arxiv.org/abs/2607.19479) | 🔧 数据采集专题补录 2026-10-25；首发 2026-07-21；公开代码入口已读，未复现 \| repo: https://github.com/real-stanford/modpack |
 | HumanNet: Scaling Human-centric Video Learning to One Million Hours | [论文](https://arxiv.org/abs/2605.06747) | 🔧 数据采集专题补录 2026-10-25；首发 2026-05-07；公开代码入口已读，未复现 \| repo: https://github.com/DAGroup-PKU/HumanNet |
 | RCT: A Robot-Collected Touch-Vision-Language Dataset for Tactile Generalization | [论文](https://arxiv.org/abs/2606.31694) | 🔧 数据采集专题补录 2026-10-25；首发 2026-06-30；公开代码入口已读，未复现 \| repo: https://github.com/faerber-lab/RCT |
+| RoboSTD: Zero-Shot Single-to-Dual Transfer via Sagittal Mirroring for Bimanual Learning | [link](https://arxiv.org/abs/2610.36685) | 🔧 daily 2026-10-28 |
 
 ### 部署
 
@@ -772,6 +774,8 @@
 | Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning | [link](https://arxiv.org/abs/2610.28613) | 🎯 tactile \| 🔧 daily 2026-10-21 |
 | Reasoning as a Distribution: Generative Plan Latents for Vision-Language-Action Models | [link](https://arxiv.org/abs/2610.28166) | 🎯 tactile \| 🔧 daily 2026-10-21 |
 | FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation | [link](https://arxiv.org/abs/2610.31841) | 🎯 tactile \| 🔧 daily 2026-10-26 |
+| RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models | [link](https://arxiv.org/abs/2605.09410) | 🎯 tactile \| 🔧 daily 2026-10-28 |
+| Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation | [link](https://arxiv.org/abs/2512.23864) | 🎯 tactile \| 🔧 daily 2026-10-28 |
 
 ### 其他
 
@@ -795,3 +799,4 @@
 | Continual uncertainty learning | [link](https://tldr.takara.ai/p/2602.17174) | 🔧 daily 2026-02-21 |
 | USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI | [link](https://arxiv.org/abs/2602.07837) | [世界模型] 📖 daily 2026-10-13 |
 | UniWALM: Unified World Action Language Model for Embodied Robot Control | [link](https://arxiv.org/abs/2610.28626) | 🔧 daily 2026-10-21 |
+| TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation | [link](https://arxiv.org/abs/2610.36694) | 🔧 daily 2026-10-28 |
