@@ -74,8 +74,9 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 49 份文档。**
+**共 50 份文档。**
 
+- [MoGAP：用运动引导的非对称预测把视频扩散模型适配成机器人策略（Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction）](./adapting_video_models_for_robot_control_via_motion_guided_as_dissection.md)
 - [AEGIS：物理 AI 的備份反射機制 (A Backup Reflex for Physical AI)](./aegis_a_backup_reflex_for_physical_ai_dissection.md)
 - [AnyViewDex：純 RGB 觀測下的視角不變靈巧操作 (AnyViewDex: View-Invariant Dexterous Manipulation from RGB Observations)](./anyviewdex_view_invariant_dexterous_manipulation_from_rgb_ob_dissection.md)
 - [AutoBio+：真实生物实验室中动态实验现象的灵巧操作基准 (AutoBio+: Benchmarking Dexterous Manipulation with Dynamic Experimental Phenomena in Realistic Laboratories)](./autobio_benchmarking_dexterous_manipulation_with_dynamic_exp_dissection.md)
