@@ -701,6 +701,7 @@
 | TRIAGE: Efficient Vision-Language-Action Inference Needs Both Reuse and Pruning | [link](https://arxiv.org/abs/2610.34519) | [VLA后训] 🔧 daily 2026-10-27 |
 | RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions | [link](https://arxiv.org/abs/2610.34356) | 🔧 daily 2026-10-27 |
 | Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution | [link](https://arxiv.org/abs/2610.37215) | 🔧 daily 2026-10-28 |
+| Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction | [link](https://arxiv.org/abs/2610.36624) | 🔧 daily 2026-10-29 |
 
 ### 數據
 
@@ -800,3 +801,4 @@
 | USER: A Unified and Extensible System for Real-World Online Policy Learning in Embodied AI | [link](https://arxiv.org/abs/2602.07837) | [世界模型] 📖 daily 2026-10-13 |
 | UniWALM: Unified World Action Language Model for Embodied Robot Control | [link](https://arxiv.org/abs/2610.28626) | 🔧 daily 2026-10-21 |
 | TOPS: Reshaping Flow Source and Transport for Multi-Task Robot Manipulation | [link](https://arxiv.org/abs/2610.36694) | 🔧 daily 2026-10-28 |
+| DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models | [link](https://arxiv.org/abs/2606.05758) | [VLA后训] 🔧 daily 2026-10-29 |
