@@ -53,7 +53,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 93 份文档。**
+**共 94 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -78,6 +78,7 @@
 - [DeltaWAM：以 Delta Token 為單位的變更中心世界動作模型 (DeltaWAM: Change-Centric Visual Foresight via Delta Tokens for an Efficient World-Action Model)](./deltawam_change_centric_visual_foresight_via_delta_tokens_fo_dissection.md)
 - [DetAug：面向零样本避障的「障碍盲」轨迹增强 (Obstacle-Blind Trajectory Augmentation for Zero-shot Obstacle Avoidance)](./detaug_obstacle_blind_trajectory_augmentation_for_zero_shot_dissection.md)
 - [第一人称视频语言模型能否同时捕捉手部和物体中心线索？(Do Egocentric Video-Language Models Capture Both Hand- and Object-Centric Cues?)](./do_egocentric_video_language_models_capture_both_hand_and_ob_dissection.md)
+- [DRIFT：用残差流适配器解码 VLM 的连续输出 (DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models)](./drift_a_residual_flow_adapter_for_decoding_continuous_output_dissection.md)
 - [DuoMind：以語義通訊實現分散式多機器人協調 (DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication)](./duomind_enabling_distributed_multi_robot_coordination_with_s_dissection.md)
 - [自我中心人类演示直迁人形全身协调技能 (EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation)](./egohumanoid_v2_human_to_humanoid_transfer_of_coordinated_who_dissection.md)
 - [EgoSpeedUp：把人类操作节奏迁移给机器人策略 (EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies)](./egospeedup_transferring_human_manipulation_tempo_to_robot_po_dissection.md)
