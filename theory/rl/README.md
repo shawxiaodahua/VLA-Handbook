@@ -71,7 +71,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 43 份文档。**
+**共 44 份文档。**
 
 - [AlphaNIST：从二值任务奖励中涌现的装配技能 (AlphaNIST: Emergent Assembly Skills from Binary Task Rewards)](./alphanist_emergent_assembly_skills_from_binary_task_rewards_dissection.md)
 - [超越示教：面向 VLA 的强化学习仿真—真实协同训练 (Beyond Imitation: Reinforcement Learning-Based Sim-Real Co-Training for VLA Models)](./beyond_imitation_reinforcement_learning_based_sim_real_co_tr_dissection.md)
@@ -113,6 +113,7 @@
 - [U2O RL：用无监督离线技能预训练替代“任务奖励离线预训练” (Unsupervised-to-Online Reinforcement Learning, 2024)](./unsupervised_to_online_reinforcement_learning_u2o_2024.md)
 - [VLA-OPD：用反向 KL 桥接 SFT 与 RL 的 VLA 后训练范式 (VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation)](./vla_opd_bridging_offline_sft_and_online_rl_for_vision_langua_dissection.md)
 - [VLA+RL 实战教程：架构、算法与工具链 (Practical VLA+RL Guide)](./vla_rl_practical_guide.md)
+- [VLA-Stem：用强化学习给 VLA 加轻量安全机制（VLA-Stem: A Lightweight Safety Mechanism for Vision-Language-Action Models via Reinforcement Learning）](./vla_stem_a_lightweight_safety_mechanism_for_vision_language_dissection.md)
 - [VLGOR：视觉 - 语言知识引导的离线强化学习用于通用智能体 (VLGOR: Visual-Language Knowledge Guided Offline Reinforcement Learning for Generalizable Agents)](./vlgor_visual_language_knowledge_guided_offline_reinforcement_dissection.md)
 - [世界评论家模型：用世界建模赋能 VLA 强化学习 (WCM: A World Critic Model for Vision-Language-Action Reinforcement Learning)](./wcm_a_world_critic_model_for_vision_language_action_reinforc_dissection.md)
 - [什么时候停止惩罚动作？面向 VLA 强化学习的 Martingale GRPO 拆解 (When to Stop Penalizing Actions? Martingale GRPO for VLA Reinforcement Learning)](./when_to_stop_penalizing_actions_martingale_grpo_for_vla_rein_dissection.md)
