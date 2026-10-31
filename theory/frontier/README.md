@@ -53,7 +53,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 94 份文档。**
+**共 95 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -135,6 +135,7 @@
 - [测试时计算重塑人形行为基座模型 (Test-Time Compute for Humanoid Behavior Foundation Models)](./test_time_compute_for_humanoid_behavior_foundation_models_dissection.md)
 - [离散时间高斯过程混合物在机器人策略学习中的不合理有效性 (The Unreasonable Effectiveness of Discrete-Time Gaussian Process Mixtures for Robot Policy Learning)](./the_unreasonable_effectiveness_of_discrete_time_gaussian_pro_dissection.md)
 - [時頻幾何交叉注意力：把動作塊當多變量軌跡建模 (Time–Frequency Geometric Cross-Attention for Chunked Vision–Language–Action Models)](./time_frequency_geometric_cross_attention_for_chunked_vision_dissection.md)
+- [运动基元 Token：从人类视频到人形技能迁移（Tokens of Motion: Primitive Motion Learning for Human-Humanoid Skill Transfer）](./tokens_of_motion_primitive_motion_learning_for_human_humanoi_dissection.md)
 - [轨迹优先：发现多样化策略的课程学习 (Trajectory First: A Curriculum for Discovering Diverse Policies)](./trajectory_first_a_curriculum_for_discovering_diverse_polici_dissection.md)
 - [UniMem：把视觉与文本记忆统一进 VLA 的非马尔可夫任务框架 (UniMem: Unifying Visual and Textual Memory in VLAs for Non-Markovian Tasks)](./unimem_unifying_visual_and_textual_memory_in_vlas_for_non_ma_dissection.md)
 - [用「可实现转移」打通预测、记忆与动作：UniMPA 深度拆解 (UniMPA: A Unified Memory-Prediction-Action Model via Action-Grounded Transition Modeling)](./unimpa_a_unified_memory_prediction_action_model_via_action_g_dissection.md)
