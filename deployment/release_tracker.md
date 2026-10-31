@@ -272,3 +272,4 @@
 | 2026-10-22 | MuJoCo | sim | 3.17.0 released |  | github_release | https://github.com/google-deepmind/mujoco/releases/tag/3.17.0 |
 | 2026-10-22 | Tesla Optimus | product | 特斯拉在2026年第三季度10-Q中披露，研发费用同比增长主要源于SI及Optimus等项目成本增加，并表示正为Optimus的大规模生产做筹备和投资。 | 🔧 | news | https://www.sec.gov/Archives/edgar/data/1318605/000162828026066775/tsla-20260930.htm |
 | 2026-10-29 | OmniGibson | sim | v3.9.4 released |  | github_release | https://github.com/StanfordVL/BEHAVIOR-1K/releases/tag/v3.9.4 |
+| 2026-10-29 | NVIDIA Robotics | product | NVIDIA 发布 Isaac Lab 3.0，这是一个轻量、模块化的机器人策略训练与部署框架，新增 Newton 物理、可切换后端、渲染选项、集群级并行训练、实验性 RL 后训练及 LEAPP 部署导出。 | 🔧 | news | https://forums.developer.nvidia.com/t/nvidia-isaac-lab-3-0-now-available/387360 |

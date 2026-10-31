@@ -114,7 +114,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 186 份文档。**
+**共 187 份文档。**
 
 - [2D 还是 3D：谁主导 VLA 模型中的显著性？—— 三阶段 Token 剪枝框架与模态显著性感知 (2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness)](./2d_or_3d_who_governs_salience_in_vla_models_tri_stage_token_dissection.md)
 - [3DThinkVLA：通过3D思维引导协同训练赋予VLA模型隐式3D空间推理能力 (3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training)](./3dthinkvla_endowing_vision_language_action_models_with_laten_dissection.md)
@@ -247,6 +247,7 @@
 - [通过免训练注意力重校准恢复 VLA 模型的语言 grounding (Restoring Linguistic Grounding in VLA Models via Train-Free Attention Recalibration)](./restoring_linguistic_grounding_in_vla_models_via_train_free_dissection.md)
 - [检索替代微调：测试时扩展 VLA 至新任务 (Retrieve, Don't Retrain: Extending Vision Language Action Models to New Tasks at Test Time)](./retrieve_dont_retrain_extending_vision_language_action_model_dissection.md)
 - [按时检索，频域校正：冻结 VLA 的免训练测试时修正框架 (Retrieve in Time, Correct in Frequency)](./retrieve_in_time_correct_in_frequency_dissection.md)
+- [检索即行动：运动基元图检索提升 VLA 鲁棒执行 (Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution)](./retrieve_to_act_motion_primitive_graph_retrieval_for_robust_dissection.md)
 - [RhinoVLA 技术报告：面向端侧实时部署的跨本体 VLA 系统 (RhinoVLA Technical Report)](./rhinovla_technical_report_dissection.md)
 - [RoboNeuron：连接 Agent 工具调用与 ROS2 执行的中间件架构 (RoboNeuron: A Middle-Layer Infrastructure for Agent-Driven Orchestration in Embodied AI)](./roboneuron_a_middle_layer_infrastructure_for_agent_driven_or_dissection.md)
 - [RoboTwin-Phys：WAM 与 VLA 真的理解物理世界吗？ (RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World?)](./robotwin_phys_do_wams_and_vlas_understand_the_physical_world_dissection.md)

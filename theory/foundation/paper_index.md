@@ -702,6 +702,8 @@
 | RynnVLA-Latent: Scaling Robotic Manipulation Foundation Models with 3D-Grounded Latent Actions | [link](https://arxiv.org/abs/2610.34356) | 🔧 daily 2026-10-27 |
 | Retrieve to Act: Motion Primitive Graph Retrieval for Robust VLA Execution | [link](https://arxiv.org/abs/2610.37215) | 🔧 daily 2026-10-28 |
 | Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction | [link](https://arxiv.org/abs/2610.36624) | 🔧 daily 2026-10-29 |
+| Learning Safe Flow Matching Robot Policies from Binary Feasibility Oracles | [link](https://arxiv.org/abs/2610.40075) | 🔧 daily 2026-10-31 |
+| What Actually Matters? A Paired Evaluation of Inference Settings for $\pi_{0.5}$ on BEHAVIOR-1K | [link](https://arxiv.org/abs/2610.37917) | 🔧 daily 2026-10-31 |
 
 ### 數據
 
@@ -731,6 +733,7 @@
 | HumanNet: Scaling Human-centric Video Learning to One Million Hours | [论文](https://arxiv.org/abs/2605.06747) | 🔧 数据采集专题补录 2026-10-25；首发 2026-05-07；公开代码入口已读，未复现 \| repo: https://github.com/DAGroup-PKU/HumanNet |
 | RCT: A Robot-Collected Touch-Vision-Language Dataset for Tactile Generalization | [论文](https://arxiv.org/abs/2606.31694) | 🔧 数据采集专题补录 2026-10-25；首发 2026-06-30；公开代码入口已读，未复现 \| repo: https://github.com/faerber-lab/RCT |
 | RoboSTD: Zero-Shot Single-to-Dual Transfer via Sagittal Mirroring for Bimanual Learning | [link](https://arxiv.org/abs/2610.36685) | 🔧 daily 2026-10-28 |
+| UMI-Live for In-The-Wild Bimanual Robotics Data Collection | [link](https://arxiv.org/abs/2610.39385) | 🔧 daily 2026-10-31 |
 
 ### 部署
 
@@ -777,6 +780,7 @@
 | FORCA: A Force-Aware Coding Agent for Contact-Rich Robot Manipulation | [link](https://arxiv.org/abs/2610.31841) | 🎯 tactile \| 🔧 daily 2026-10-26 |
 | RePO-VLA: Recovery-Driven Policy Optimization for Vision-Language-Action Models | [link](https://arxiv.org/abs/2605.09410) | 🎯 tactile \| 🔧 daily 2026-10-28 |
 | Learning to Feel the Future: DreamTacVLA for Contact-Rich Manipulation | [link](https://arxiv.org/abs/2512.23864) | 🎯 tactile \| 🔧 daily 2026-10-28 |
+| Tactus: Tactile & Pose Sensing Glove for Natural Dexterity Data Collection | [link](https://arxiv.org/abs/2610.39076) | 🎯 tactile \| 🔧 daily 2026-10-31 |
 
 ### 其他
 

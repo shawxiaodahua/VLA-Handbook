@@ -90,7 +90,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 105 份文档。**
+**共 106 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -179,6 +179,7 @@
 - [Vector-Quantized World Model：用控制器可达性做离散 latent 规划的机器人操作框架 (Vector-Quantized World Model: Latent Feedback Motion Planning for Robot Manipulation)](./vector_quantized_world_model_latent_feedback_motion_planning_dissection.md)
 - [VeriVLA：基于潜世界模型的自适应测试时验证，用于流式 VLA (VeriVLA: Adaptive Test-Time Verification for Flow-Based VLAs with Latent World Models)](./verivla_adaptive_test_time_verification_for_flow_based_vlas_dissection.md)
 - [视频生成模型在机器人中的应用：近 300 篇体系化综述提炼（2026）(Video Generation Models in Robotics, 2026 Survey)](./video_generation_models_in_robotics_survey_2026.md)
+- [视觉-语言-动作还是世界-动作？其实只需动作模型 (Vision-Language-Action or World-Action? Just Action Models)](./vision_language_action_or_world_action_just_action_models_dissection.md)
 - [VLAW：世界模型 × VLA 协同进化 (Iterative Co-Improvement of VLA Policy and World Model)](./vlaw_iterative_co_improvement_vla_world_model_2026.md)
 - [VLOA 具身世界模型：用 3D 点云轨迹打开物理认知的黑箱](./vloa_embodied_world_model_3d_point_cloud_trajectory_2026.md)
 - [VLA 将死，WAM 当立？2026 三路线综述 (Will WAM Replace VLA? A 2026 Three-Route Overview)](./wam_three_routes_video_pretraining_vs_vla_2026.md)
