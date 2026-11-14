@@ -53,7 +53,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 107 份文档。**
+**共 110 份文档。**
 
 - [3DROID：可渲染 3D Gaussian 機器人數據集與逐場景可靠性度量 (3DROID: A Renderable 3D Gaussian Dataset with Measured Per-Scene Reliability)](./3droid_a_renderable_3d_gaussian_dataset_with_measured_per_sc_dissection.md)
 - [生物物理線蟲神經環路作為視覺魯棒機器人操作的「任務無關動力學核心」 (A Biophysically Detailed C. elegans Circuit as a Task-Agnostic Dynamical Core for Visually Robust Robot Manipulation)](./a_biophysically_detailed_c_elegans_circuit_as_a_task_agnosti_dissection.md)
@@ -84,8 +84,10 @@
 - [第一人称视频语言模型能否同时捕捉手部和物体中心线索？(Do Egocentric Video-Language Models Capture Both Hand- and Object-Centric Cues?)](./do_egocentric_video_language_models_capture_both_hand_and_ob_dissection.md)
 - [DRIFT：用残差流适配器解码 VLM 的连续输出 (DRIFT: A Residual Flow Adapter for Decoding Continuous Outputs in Vision-Language Models)](./drift_a_residual_flow_adapter_for_decoding_continuous_output_dissection.md)
 - [DuoMind：以語義通訊實現分散式多機器人協調 (DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication)](./duomind_enabling_distributed_multi_robot_coordination_with_s_dissection.md)
+- [Ego Guidance：用无动作人类 egocentric 视频增强机器人策略学习 (Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos)](./ego_guidance_enhancing_robot_policy_learning_with_action_fre_dissection.md)
 - [自我中心人类演示直迁人形全身协调技能 (EgoHumanoid-V2: Human-to-Humanoid Transfer of Coordinated Whole-Body Skills for Loco-Manipulation)](./egohumanoid_v2_human_to_humanoid_transfer_of_coordinated_who_dissection.md)
 - [EgoSpeedUp：把人类操作节奏迁移给机器人策略 (EgoSpeedUp: Transferring Human Manipulation Tempo to Robot Policies)](./egospeedup_transferring_human_manipulation_tempo_to_robot_po_dissection.md)
+- [Embodied First Exam：把 coding agent 放进物理约束下的机器人考场 (Embodied First Exam)](./embodied_first_exam_dissection.md)
 - [从视觉运动轨迹中涌现符号结构：ENAP 论文精读 (Emergent Neural Automaton Policies)](./emergent_neural_automaton_policies_learning_symbolic_structu_dissection.md)
 - [人工三元智能：生物启发的物理 AI 传感器优先架构 (Artificial Tripartite Intelligence: A Bio-Inspired, Sensor-First Architecture for Physical AI)](./emerging_ideas_artificial_tripartite_intelligence_a_bio_insp_dissection.md)
 - [ENPIRE：真实世界中的具身智能体策略自进化 (ENPIRE: Agentic Robot Policy Self-Improvement in the Real World)](./enpire_agentic_robot_policy_self_improvement_in_the_real_wor_dissection.md)
@@ -133,6 +135,7 @@
 - [Recova：代理引導的自主機器人操作失敗恢復 (Recova: Agent-Guided Failure Recovery for Autonomous Robotic Manipulation)](./recova_agent_guided_failure_recovery_for_autonomous_robotic_dissection.md)
 - [以预言强化动作策略 (Reinforcing Action Policies by Prophesying)](./reinforcing_action_policies_by_prophesying_dissection.md)
 - [REKI：把记忆注册进 VLA（REKI: Registering Knowledge in VLAs）](./reki_registering_knowledge_in_vlas_dissection.md)
+- [RoboACE：机器人自改进的对抗式协同进化 (RoboACE: Adversarial Co-Evolution for Robot Self-Improvement)](./roboace_adversarial_co_evolution_for_robot_self_improvement_dissection.md)
 - [RoboArchitect：自动设计带持久记忆的机器人 Agent Harness（RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory）](./roboarchitect_automating_the_design_of_robotic_agents_with_p_dissection.md)
 - [RoboCousin：构建你自己的双臂操作仿真游乐场 (RoboCousin: Build Your Own Simulation Playground for Robust Bimanual Robotic Manipulation)](./robocousin_build_your_own_simulation_playground_for_robust_b_dissection.md)
 - [RoSHI: 野外便携式全身动捕套装 (RoSHI: A Versatile Robot-oriented Suit for Human Data In-the-Wild)](./roshi_a_versatile_robot_oriented_suit_for_human_data_in_the_dissection.md)
