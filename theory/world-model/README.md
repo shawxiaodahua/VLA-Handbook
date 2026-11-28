@@ -90,7 +90,7 @@
 
 > 上方保留人工导读与主题分组。本节列出本目录内全部 Git 已追踪 Markdown 文件，包含综述与索引，不含 README。按文件路径排序。
 
-**共 111 份文档。**
+**共 113 份文档。**
 
 - [AcceRL：面向 VLA 的分布式异步强化学习与世界模型框架 (AcceRL: A Distributed Asynchronous Reinforcement Learning and World Model Framework for Vision-Language-Action Models)](./accerl_a_distributed_asynchronous_reinforcement_learning_and_dissection.md)
 - [AeroAct: 动作中心世界-动作模型用于语言条件四旋翼飞行 (AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight)](./aeroact_action_centered_world_action_models_for_language_con_dissection.md)
@@ -115,6 +115,7 @@
 - [解耦视频生成世界模型 (DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation)](./dvg_wm_disentangled_video_generation_enables_efficient_embod_dissection.md)
 - [EgoSim: 第一人称闭环世界模拟器 (EgoSim: Egocentric World Simulator for Embodied Interaction Generation)](./egosim_egocentric_world_simulator_for_embodied_interaction_g_dissection.md)
 - [推理期仿真在环精修：让真实布料操作可以「现场纠错」 (Enabling Robust Cloth Manipulation via Inference-Time Simulator-in-the-Loop Refinement)](./enabling_robust_cloth_manipulation_via_inference_time_simula_dissection.md)
+- [用一段人类视频当 prompt：Entangle 如何把 world-action model 推过未见任务 (Entangle: Scaling Human-Video In-Context World-Action Models across Unseen Tasks and Contexts)](./entangle_scaling_human_video_in_context_world_action_models_dissection.md)
 - [冻结世界模型的内部预测状态里，已经写好了失败信号 (FARM: Reading Failure Signals from the Internal Predictive States of a Frozen Robotic World Model)](./farm_reading_failure_signals_from_the_internal_predictive_st_dissection.md)
 - [ForgeWM：渐进因果训练实现少步动作条件视频世界模型 (ForgeWM: Progressive Causal Training for Few-Step Action-Conditioned Video World Models)](./forgewm_progressive_causal_training_for_few_step_action_cond_dissection.md)
 - [从想象未来到可执行动作：混合潜在动作机器人操作 (From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation)](./from_imagined_futures_to_executable_actions_mixture_of_laten_dissection.md)
@@ -189,6 +190,7 @@
 - [用人类玩耍视频在测试时转向世界-动作模型（WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time）](./wam_ttt_steering_world_action_models_by_watching_human_play_dissection.md)
 - [Wanderland：开放世界具身 AI 的几何 grounding 仿真平台 (Wanderland: Geometrically Grounded Simulation for Open-World Embodied AI)](./wanderland_geometrically_grounded_simulation_for_open_world_dissection.md)
 - [Wh0: 用生成式世界模型合成第一人称手部操作数据 (Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data)](./wh0_generative_world_models_as_scalable_sources_of_egocentri_dissection.md)
+- [基于动作锚定因果图的反事实世界模型（WhatIf: Counterfactual World Models over Action-Grounded Causal Graphs for Robotic Manipulation）](./whatif_counterfactual_world_models_over_action_grounded_caus_dissection.md)
 - [当仿真器而非策略失败：审计仿真机器人基准中的接触伪影 (When the Simulator Fails, Not the Policy: Auditing Contact Artifacts in Simulated Robot Benchmarks)](./when_the_simulator_fails_not_the_policy_auditing_contact_art_dissection.md)
 - [WISE：世界模型引导的想象调度，用于高效 VLA 后训练 (World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models)](./wise_world_model_guided_imagination_scheduling_for_efficient_dissection.md)
 - [将世界模型想象力蒸馏进 VLM：面向动态空间推理的训练框架 (World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning)](./world2vlm_distilling_world_model_imagination_into_vlms_for_d_dissection.md)
